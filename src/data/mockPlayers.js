@@ -96,7 +96,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.5
     },
     "nbaId": 1641708,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png",
+    "salary": "$12,258,609",
+    "salaryShort": "$12.3M",
+    "salaryNum": 12258609
   },
   {
     "id": "duranke01",
@@ -141,7 +144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 201142,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png",
+    "salary": "$43,902,439",
+    "salaryShort": "$43.9M",
+    "salaryNum": 43902439
   },
   {
     "id": "banede01",
@@ -186,7 +192,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630217,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png",
+    "salary": "$39,446,090",
+    "salaryShort": "$39.4M",
+    "salaryNum": 39446090
   },
   {
     "id": "camarto01",
@@ -231,7 +240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1641739,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641739.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641739.png",
+    "salary": "$18,080,358",
+    "salaryShort": "$18.1M",
+    "salaryNum": 18080358
   },
   {
     "id": "smithja05",
@@ -247,7 +259,7 @@ export const PLAYERS = [
     "g": 77,
     "stats": {
       "pts": 16.2,
-      "trb": 7.0,
+      "trb": 7,
       "ast": 1.9,
       "stl": 0.7,
       "blk": 0.9,
@@ -272,11 +284,14 @@ export const PLAYERS = [
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.412,
       "stocks": 1.6,
-      "fga_per_36_min": 13.0,
-      "trb_per_36_min": 7.0
+      "fga_per_36_min": 13,
+      "trb_per_36_min": 7
     },
     "nbaId": 1631095,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631095.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631095.png",
+    "salary": "$23,643,411",
+    "salaryShort": "$23.6M",
+    "salaryNum": 23643411
   },
   {
     "id": "bridgmi01",
@@ -321,7 +336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1628969,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628969.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628969.png",
+    "salary": "$33,482,145",
+    "salaryShort": "$33.5M",
+    "salaryNum": 33482145
   },
   {
     "id": "barnesc01",
@@ -343,7 +361,7 @@ export const PLAYERS = [
       "blk": 1.6,
       "fg_pct": 0.507,
       "x3p_pct": 0.304,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.815
     },
     "radar": {
@@ -366,7 +384,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1630567,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png",
+    "salary": "$41,754,690",
+    "salaryShort": "$41.8M",
+    "salaryNum": 41754690
   },
   {
     "id": "maxeyty01",
@@ -411,7 +432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1630178,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png",
+    "salary": "$40,770,520",
+    "salaryShort": "$40.8M",
+    "salaryNum": 40770520
   },
   {
     "id": "murraja01",
@@ -456,7 +480,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1627750,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png",
+    "salary": "$50,105,628",
+    "salaryShort": "$50.1M",
+    "salaryNum": 50105628
   },
   {
     "id": "whitede01",
@@ -501,7 +528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1628401,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png",
+    "salary": "$30,348,000",
+    "salaryShort": "$30.3M",
+    "salaryNum": 30348000
   },
   {
     "id": "edgecvj01",
@@ -541,12 +571,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.263,
       "orb_share": 0.293,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 14.1,
       "trb_per_36_min": 5.8
     },
     "nbaId": 1642845,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png",
+    "salary": "$11,663,880",
+    "salaryShort": "$11.7M",
+    "salaryNum": 11663880
   },
   {
     "id": "randlju01",
@@ -561,7 +594,7 @@ export const PLAYERS = [
     "mp": 2610,
     "g": 79,
     "stats": {
-      "pts": 23.0,
+      "pts": 23,
       "trb": 7.3,
       "ast": 5.5,
       "stl": 1.2,
@@ -591,7 +624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 203944,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png",
+    "salary": "$33,333,334",
+    "salaryShort": "$33.3M",
+    "salaryNum": 33333334
   },
   {
     "id": "ingrabr01",
@@ -636,7 +672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1627742,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627742.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627742.png",
+    "salary": "$40,000,000",
+    "salaryShort": "$40.0M",
+    "salaryNum": 40000000
   },
   {
     "id": "alexani01",
@@ -653,7 +692,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 22.5,
       "trb": 3.7,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 1.4,
       "blk": 0.6,
       "fg_pct": 0.459,
@@ -676,12 +715,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.818,
       "orb_share": 0.189,
       "perimeter_def_ratio": 0.667,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 16.5,
       "trb_per_36_min": 3.7
     },
     "nbaId": 1629638,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png",
+    "salary": "$14,403,710",
+    "salaryShort": "$14.4M",
+    "salaryNum": 14403710
   },
   {
     "id": "brunsja01",
@@ -698,7 +740,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 26.8,
       "trb": 3.4,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 0.8,
       "blk": 0.1,
       "fg_pct": 0.467,
@@ -726,7 +768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1628973,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png",
+    "salary": "$37,739,521",
+    "salaryShort": "$37.7M",
+    "salaryNum": 37739521
   },
   {
     "id": "pritcpa01",
@@ -771,7 +816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630202,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png",
+    "salary": "$7,767,857",
+    "salaryShort": "$7.8M",
+    "salaryNum": 7767857
   },
   {
     "id": "knuepko01",
@@ -816,7 +864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1642851,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png",
+    "salary": "$10,516,560",
+    "salaryShort": "$10.5M",
+    "salaryNum": 10516560
   },
   {
     "id": "johnsja05",
@@ -831,9 +882,9 @@ export const PLAYERS = [
     "mp": 2532,
     "g": 72,
     "stats": {
-      "pts": 23.0,
+      "pts": 23,
       "trb": 10.5,
-      "ast": 8.0,
+      "ast": 8,
       "stl": 1.3,
       "blk": 0.4,
       "fg_pct": 0.489,
@@ -861,7 +912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.5
     },
     "nbaId": 1630552,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630552.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630552.png",
+    "salary": "$30,000,000",
+    "salaryShort": "$30.0M",
+    "salaryNum": 30000000
   },
   {
     "id": "daniedy01",
@@ -906,7 +960,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.4
     },
     "nbaId": 1630700,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630700.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630700.png",
+    "salary": "$25,000,000",
+    "salaryShort": "$25.0M",
+    "salaryNum": 25000000
   },
   {
     "id": "banchpa01",
@@ -921,14 +978,14 @@ export const PLAYERS = [
     "mp": 2502,
     "g": 72,
     "stats": {
-      "pts": 23.0,
+      "pts": 23,
       "trb": 8.7,
       "ast": 5.4,
       "stl": 0.7,
       "blk": 0.6,
       "fg_pct": 0.459,
       "x3p_pct": 0.305,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.775
     },
     "radar": {
@@ -951,7 +1008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.7
     },
     "nbaId": 1631094,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631094.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631094.png",
+    "salary": "$41,500,000",
+    "salaryShort": "$41.5M",
+    "salaryNum": 41500000
   },
   {
     "id": "divindo01",
@@ -991,12 +1051,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.647,
       "orb_share": 0.204,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.1,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1628978,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628978.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628978.png",
+    "salary": "$12,535,000",
+    "salaryShort": "$12.5M",
+    "salaryNum": 12535000
   },
   {
     "id": "brownja02",
@@ -1011,14 +1074,14 @@ export const PLAYERS = [
     "mp": 2443,
     "g": 71,
     "stats": {
-      "pts": 30.0,
+      "pts": 30,
       "trb": 7.3,
       "ast": 5.4,
       "stl": 1.1,
       "blk": 0.4,
       "fg_pct": 0.477,
       "x3p_pct": 0.347,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.795
     },
     "radar": {
@@ -1041,7 +1104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 1627759,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png",
+    "salary": "$57,078,728",
+    "salaryShort": "$57.1M",
+    "salaryNum": 57078728
   },
   {
     "id": "hardeja01",
@@ -1057,7 +1123,7 @@ export const PLAYERS = [
     "g": 70,
     "stats": {
       "pts": 24.4,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 8.2,
       "stl": 1.2,
       "blk": 0.4,
@@ -1083,10 +1149,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.706,
       "stocks": 1.6,
       "fga_per_36_min": 16.6,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 201935,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png",
+    "salary": "$30,647,619",
+    "salaryShort": "$30.6M",
+    "salaryNum": 30647619
   },
   {
     "id": "derozde01",
@@ -1127,11 +1196,14 @@ export const PLAYERS = [
       "orb_share": 0.147,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.5,
-      "fga_per_36_min": 15.0,
+      "fga_per_36_min": 15,
       "trb_per_36_min": 3.4
     },
     "nbaId": 201942,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201942.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201942.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "sengual01",
@@ -1146,14 +1218,14 @@ export const PLAYERS = [
     "mp": 2398,
     "g": 72,
     "stats": {
-      "pts": 22.0,
+      "pts": 22,
       "trb": 9.6,
       "ast": 6.7,
       "stl": 1.3,
       "blk": 1.2,
       "fg_pct": 0.519,
       "x3p_pct": 0.305,
-      "x3pa": 2.0,
+      "x3pa": 2,
       "ft_pct": 0.691
     },
     "radar": {
@@ -1176,7 +1248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.6
     },
     "nbaId": 1630578,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png",
+    "salary": "$35,642,202",
+    "salaryShort": "$35.6M",
+    "salaryNum": 35642202
   },
   {
     "id": "bridgmi02",
@@ -1221,7 +1296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1628970,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png",
+    "salary": "$22,826,087",
+    "salaryShort": "$22.8M",
+    "salaryNum": 22826087
   },
   {
     "id": "goberru01",
@@ -1242,7 +1320,7 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 1.9,
       "fg_pct": 0.682,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.526
     },
@@ -1266,7 +1344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.2
     },
     "nbaId": 203497,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png",
+    "salary": "$36,500,000",
+    "salaryShort": "$36.5M",
+    "salaryNum": 36500000
   },
   {
     "id": "rolliry01",
@@ -1311,7 +1392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1631157,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631157.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631157.png",
+    "salary": "$4,000,000",
+    "salaryShort": "$4.0M",
+    "salaryNum": 4000000
   },
   {
     "id": "adebaba01",
@@ -1351,12 +1435,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.944,
       "orb_share": 0.207,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 17.4,
       "trb_per_36_min": 11.1
     },
     "nbaId": 1628389,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png",
+    "salary": "$49,800,000",
+    "salaryShort": "$49.8M",
+    "salaryNum": 49800000
   },
   {
     "id": "flaggco01",
@@ -1375,7 +1462,7 @@ export const PLAYERS = [
       "trb": 7.2,
       "ast": 4.9,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.468,
       "x3p_pct": 0.295,
       "x3pa": 3.7,
@@ -1401,7 +1488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1642843,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png",
+    "salary": "$14,517,480",
+    "salaryShort": "$14.5M",
+    "salaryNum": 14517480
   },
   {
     "id": "mitchdo01",
@@ -1416,7 +1506,7 @@ export const PLAYERS = [
     "mp": 2342,
     "g": 70,
     "stats": {
-      "pts": 30.0,
+      "pts": 30,
       "trb": 4.9,
       "ast": 6.1,
       "stl": 1.6,
@@ -1446,7 +1536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1628378,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png",
+    "salary": "$50,105,628",
+    "salaryShort": "$50.1M",
+    "salaryNum": 50105628
   },
   {
     "id": "murphtr02",
@@ -1491,7 +1584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1630530,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630530.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630530.png",
+    "salary": "$27,000,000",
+    "salaryShort": "$27.0M",
+    "salaryNum": 27000000
   },
   {
     "id": "podzibr01",
@@ -1536,7 +1632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1641764,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png",
+    "salary": "$5,679,459",
+    "salaryShort": "$5.7M",
+    "salaryNum": 5679459
   },
   {
     "id": "townska01",
@@ -1554,7 +1653,7 @@ export const PLAYERS = [
       "pts": 23.3,
       "trb": 13.8,
       "ast": 3.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.501,
       "x3p_pct": 0.368,
@@ -1577,11 +1676,14 @@ export const PLAYERS = [
       "orb_share": 0.261,
       "perimeter_def_ratio": 0.588,
       "stocks": 1.6,
-      "fga_per_36_min": 16.0,
+      "fga_per_36_min": 16,
       "trb_per_36_min": 13.8
     },
     "nbaId": 1626157,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png",
+    "salary": "$57,078,728",
+    "salaryShort": "$57.1M",
+    "salaryNum": 57078728
   },
   {
     "id": "mcdanja02",
@@ -1626,7 +1728,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1630183,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png",
+    "salary": "$26,200,001",
+    "salaryShort": "$26.2M",
+    "salaryNum": 26200001
   },
   {
     "id": "okongon01",
@@ -1648,7 +1753,7 @@ export const PLAYERS = [
       "blk": 1.2,
       "fg_pct": 0.48,
       "x3p_pct": 0.376,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.757
     },
     "radar": {
@@ -1671,7 +1776,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 1630168,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png",
+    "salary": "$16,120,000",
+    "salaryShort": "$16.1M",
+    "salaryNum": 16120000
   },
   {
     "id": "doncilu01",
@@ -1716,7 +1824,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 1629029,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png",
+    "salary": "$49,800,000",
+    "salaryShort": "$49.8M",
+    "salaryNum": 49800000
   },
   {
     "id": "cartewe01",
@@ -1757,11 +1868,14 @@ export const PLAYERS = [
       "orb_share": 0.275,
       "perimeter_def_ratio": 0.5,
       "stocks": 1.7,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 9.1
     },
     "nbaId": 1628976,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png",
+    "salary": "$18,102,000",
+    "salaryShort": "$18.1M",
+    "salaryNum": 18102000
   },
   {
     "id": "gilleco01",
@@ -1776,7 +1890,7 @@ export const PLAYERS = [
     "mp": 2282,
     "g": 80,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 5.2,
       "ast": 5.9,
       "stl": 1.6,
@@ -1806,7 +1920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1631221,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631221.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631221.png",
+    "salary": "$10,714,286",
+    "salaryShort": "$10.7M",
+    "salaryNum": 10714286
   },
   {
     "id": "carrica01",
@@ -1823,7 +1940,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.9,
       "trb": 4.4,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 0.8,
       "blk": 0.3,
       "fg_pct": 0.424,
@@ -1843,7 +1960,7 @@ export const PLAYERS = [
       "three_point_share": 0.564,
       "ft_rate": 0.154,
       "pass_vs_shoot": 0.513,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.114,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.1,
@@ -1851,7 +1968,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1642267,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642267.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642267.png",
+    "salary": "$4,900,560",
+    "salaryShort": "$4.9M",
+    "salaryNum": 4900560
   },
   {
     "id": "greenaj01",
@@ -1888,7 +2008,7 @@ export const PLAYERS = [
       "three_point_share": 0.898,
       "ft_rate": 0.102,
       "pass_vs_shoot": 0.245,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.147,
       "perimeter_def_ratio": 0.75,
       "stocks": 0.7,
@@ -1896,7 +2016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1631260,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631260.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631260.png",
+    "salary": "$10,044,644",
+    "salaryShort": "$10.0M",
+    "salaryNum": 10044644
   },
   {
     "id": "champju02",
@@ -1913,8 +2036,8 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.5,
       "trb": 7.5,
-      "ast": 2.0,
-      "stl": 1.0,
+      "ast": 2,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.437,
       "x3p_pct": 0.381,
@@ -1941,7 +2064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.5
     },
     "nbaId": 1630577,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630577.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630577.png",
+    "salary": "$13,888,889",
+    "salaryShort": "$13.9M",
+    "salaryNum": 13888889
   },
   {
     "id": "jokicni01",
@@ -1982,11 +2108,14 @@ export const PLAYERS = [
       "orb_share": 0.233,
       "perimeter_def_ratio": 0.625,
       "stocks": 2.3,
-      "fga_per_36_min": 18.0,
+      "fga_per_36_min": 18,
       "trb_per_36_min": 13.3
     },
     "nbaId": 203999,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png",
+    "salary": "$59,033,114",
+    "salaryShort": "$59.0M",
+    "salaryNum": 59033114
   },
   {
     "id": "mccolcj01",
@@ -2002,9 +2131,9 @@ export const PLAYERS = [
     "g": 76,
     "stats": {
       "pts": 22.6,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 4.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.455,
       "x3p_pct": 0.375,
@@ -2028,10 +2157,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.588,
       "stocks": 1.6,
       "fga_per_36_min": 18.3,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 203468,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png",
+    "salary": "$21,000,000",
+    "salaryShort": "$21.0M",
+    "salaryNum": 21000000
   },
   {
     "id": "gilgesh01",
@@ -2076,7 +2208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1628983,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png",
+    "salary": "$40,806,150",
+    "salaryShort": "$40.8M",
+    "salaryNum": 40806150
   },
   {
     "id": "buzelma01",
@@ -2091,7 +2226,7 @@ export const PLAYERS = [
     "mp": 2248,
     "g": 77,
     "stats": {
-      "pts": 20.0,
+      "pts": 20,
       "trb": 7.2,
       "ast": 2.5,
       "stl": 0.9,
@@ -2113,7 +2248,7 @@ export const PLAYERS = [
       "three_point_share": 0.513,
       "ft_rate": 0.247,
       "pass_vs_shoot": 0.162,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.167,
       "perimeter_def_ratio": 0.31,
       "stocks": 2.8,
@@ -2121,7 +2256,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1641824,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png",
+    "salary": "$5,715,360",
+    "salaryShort": "$5.7M",
+    "salaryNum": 5715360
   },
   {
     "id": "beysa01",
@@ -2166,7 +2304,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1630180,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630180.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630180.png",
+    "salary": "$6,440,678",
+    "salaryShort": "$6.4M",
+    "salaryNum": 6440678
   },
   {
     "id": "chrisma02",
@@ -2182,7 +2323,7 @@ export const PLAYERS = [
     "g": 77,
     "stats": {
       "pts": 15.2,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 2.4,
       "stl": 0.8,
       "blk": 0.4,
@@ -2208,10 +2349,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.615,
       "stocks": 1.2,
       "fga_per_36_min": 11.6,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 1631108,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631108.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631108.png",
+    "salary": "$8,285,714",
+    "salaryShort": "$8.3M",
+    "salaryNum": 8285714
   },
   {
     "id": "foxde01",
@@ -2256,7 +2400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1628368,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png",
+    "salary": "$49,800,000",
+    "salaryShort": "$49.8M",
+    "salaryNum": 49800000
   },
   {
     "id": "quickim01",
@@ -2301,7 +2448,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1630193,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630193.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630193.png",
+    "salary": "$32,500,000",
+    "salaryShort": "$32.5M",
+    "salaryNum": 32500000
   },
   {
     "id": "dunnkr01",
@@ -2346,7 +2496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1627739,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png",
+    "salary": "$5,684,800",
+    "salaryShort": "$5.7M",
+    "salaryNum": 5684800
   },
   {
     "id": "anunoog01",
@@ -2387,11 +2540,14 @@ export const PLAYERS = [
       "orb_share": 0.246,
       "perimeter_def_ratio": 0.654,
       "stocks": 2.5,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 5.7
     },
     "nbaId": 1628384,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png",
+    "salary": "$42,500,000",
+    "salaryShort": "$42.5M",
+    "salaryNum": 42500000
   },
   {
     "id": "onealro01",
@@ -2428,7 +2584,7 @@ export const PLAYERS = [
       "three_point_share": 0.833,
       "ft_rate": 0.059,
       "pass_vs_shoot": 0.333,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.164,
       "perimeter_def_ratio": 0.7,
       "stocks": 1.9,
@@ -2436,7 +2592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1626220,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png",
+    "salary": "$10,875,000",
+    "salaryShort": "$10.9M",
+    "salaryNum": 10875000
   },
   {
     "id": "grimequ01",
@@ -2453,8 +2612,8 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.4,
       "trb": 4.5,
-      "ast": 4.0,
-      "stl": 1.0,
+      "ast": 4,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.45,
       "x3p_pct": 0.334,
@@ -2481,7 +2640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629656,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629656.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629656.png",
+    "salary": "$13,953,489",
+    "salaryShort": "$14.0M",
+    "salaryNum": 13953489
   },
   {
     "id": "avdijde01",
@@ -2526,7 +2688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.4
     },
     "nbaId": 1630166,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png",
+    "salary": "$13,125,000",
+    "salaryShort": "$13.1M",
+    "salaryNum": 13125000
   },
   {
     "id": "marshna01",
@@ -2543,7 +2708,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.6,
       "trb": 5.7,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 1.4,
       "blk": 0.1,
       "fg_pct": 0.51,
@@ -2563,7 +2728,7 @@ export const PLAYERS = [
       "three_point_share": 0.259,
       "ft_rate": 0.363,
       "pass_vs_shoot": 0.296,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.193,
       "perimeter_def_ratio": 0.875,
       "stocks": 1.5,
@@ -2571,7 +2736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1630230,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png",
+    "salary": "$9,428,571",
+    "salaryShort": "$9.4M",
+    "salaryNum": 9428571
   },
   {
     "id": "cunnica01",
@@ -2616,7 +2784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1630595,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630595.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630595.png",
+    "salary": "$50,105,628",
+    "salaryShort": "$50.1M",
+    "salaryNum": 50105628
   },
   {
     "id": "sheppre01",
@@ -2632,9 +2803,9 @@ export const PLAYERS = [
     "g": 82,
     "stats": {
       "pts": 18.6,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 4.6,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.9,
       "fg_pct": 0.43,
       "x3p_pct": 0.394,
@@ -2658,10 +2829,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.667,
       "stocks": 2.9,
       "fga_per_36_min": 15.9,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 1642263,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642263.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642263.png",
+    "salary": "$11,108,880",
+    "salaryShort": "$11.1M",
+    "salaryNum": 11108880
   },
   {
     "id": "bookede01",
@@ -2676,7 +2850,7 @@ export const PLAYERS = [
     "mp": 2146,
     "g": 64,
     "stats": {
-      "pts": 28.0,
+      "pts": 28,
       "trb": 4.2,
       "ast": 6.5,
       "stl": 0.9,
@@ -2706,7 +2880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1626164,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png",
+    "salary": "$57,078,728",
+    "salaryShort": "$57.1M",
+    "salaryNum": 57078728
   },
   {
     "id": "edwaran01",
@@ -2751,7 +2928,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1630162,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png",
+    "salary": "$48,924,624",
+    "salaryShort": "$48.9M",
+    "salaryNum": 48924624
   },
   {
     "id": "hardati02",
@@ -2796,7 +2976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 203501,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203501.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203501.png",
+    "salary": "$6,500,000",
+    "salaryShort": "$6.5M",
+    "salaryNum": 6500000
   },
   {
     "id": "jaqueja01",
@@ -2813,7 +2996,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 19.6,
       "trb": 6.4,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 0.9,
       "blk": 0.4,
       "fg_pct": 0.507,
@@ -2841,7 +3024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1631170,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631170.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631170.png",
+    "salary": "$5,939,141",
+    "salaryShort": "$5.9M",
+    "salaryNum": 5939141
   },
   {
     "id": "robindu01",
@@ -2856,7 +3042,7 @@ export const PLAYERS = [
     "mp": 2113,
     "g": 77,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 3.5,
       "ast": 2.7,
       "stl": 0.7,
@@ -2878,7 +3064,7 @@ export const PLAYERS = [
       "three_point_share": 0.765,
       "ft_rate": 0.16,
       "pass_vs_shoot": 0.227,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.143,
       "perimeter_def_ratio": 0.583,
       "stocks": 1.1,
@@ -2886,7 +3072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629130,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629130.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629130.png",
+    "salary": "$15,992,957",
+    "salaryShort": "$16.0M",
+    "salaryNum": 15992957
   },
   {
     "id": "fearsje01",
@@ -2931,7 +3120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1642847,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642847.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642847.png",
+    "salary": "$7,896,240",
+    "salaryShort": "$7.9M",
+    "salaryNum": 7896240
   },
   {
     "id": "clingdo01",
@@ -2971,12 +3163,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.75,
       "orb_share": 0.392,
       "perimeter_def_ratio": 0.258,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 11.8,
       "trb_per_36_min": 15.3
     },
     "nbaId": 1642270,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642270.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642270.png",
+    "salary": "$7,519,920",
+    "salaryShort": "$7.5M",
+    "salaryNum": 7519920
   },
   {
     "id": "leonaka01",
@@ -2993,7 +3188,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 31.3,
       "trb": 7.1,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 2.1,
       "blk": 0.5,
       "fg_pct": 0.505,
@@ -3021,7 +3216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 202695,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png",
+    "salary": "$50,300,000",
+    "salaryShort": "$50.3M",
+    "salaryNum": 50300000
   },
   {
     "id": "mobleev01",
@@ -3040,7 +3238,7 @@ export const PLAYERS = [
       "trb": 10.2,
       "ast": 4.1,
       "stl": 0.8,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.546,
       "x3p_pct": 0.297,
       "x3pa": 3.6,
@@ -3066,7 +3264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1630596,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630596.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630596.png",
+    "salary": "$50,105,628",
+    "salaryShort": "$50.1M",
+    "salaryNum": 50105628
   },
   {
     "id": "wiggian01",
@@ -3111,7 +3312,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 203952,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png",
+    "salary": "$30,169,644",
+    "salaryShort": "$30.2M",
+    "salaryNum": 30169644
   },
   {
     "id": "laravja01",
@@ -3156,7 +3360,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1631222,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631222.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631222.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "siakapa01",
@@ -3171,7 +3378,7 @@ export const PLAYERS = [
     "mp": 2057,
     "g": 62,
     "stats": {
-      "pts": 26.0,
+      "pts": 26,
       "trb": 7.2,
       "ast": 4.1,
       "stl": 1.2,
@@ -3201,7 +3408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1627783,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png",
+    "salary": "$48,924,624",
+    "salaryShort": "$48.9M",
+    "salaryNum": 48924624
   },
   {
     "id": "wallaca01",
@@ -3246,7 +3456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1641717,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641717.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641717.png",
+    "salary": "$7,420,806",
+    "salaryShort": "$7.4M",
+    "salaryNum": 7420806
   },
   {
     "id": "vassede01",
@@ -3264,7 +3477,7 @@ export const PLAYERS = [
       "pts": 16.4,
       "trb": 4.7,
       "ast": 2.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.437,
       "x3p_pct": 0.384,
@@ -3291,7 +3504,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1630170,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png",
+    "salary": "$27,000,000",
+    "salaryShort": "$27.0M",
+    "salaryNum": 27000000
   },
   {
     "id": "castlst01",
@@ -3306,7 +3522,7 @@ export const PLAYERS = [
     "mp": 2038,
     "g": 68,
     "stats": {
-      "pts": 20.0,
+      "pts": 20,
       "trb": 6.4,
       "ast": 8.9,
       "stl": 1.4,
@@ -3336,7 +3552,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1642264,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642264.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642264.png",
+    "salary": "$10,015,920",
+    "salaryShort": "$10.0M",
+    "salaryNum": 10015920
   },
   {
     "id": "queende01",
@@ -3347,7 +3566,7 @@ export const PLAYERS = [
     "season": 2026,
     "clusterId": 2,
     "pcaX": 1.94,
-    "pcaY": 1.0,
+    "pcaY": 1,
     "mp": 2023,
     "g": 81,
     "stats": {
@@ -3381,7 +3600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1642852,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642852.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642852.png",
+    "salary": "$5,416,080",
+    "salaryShort": "$5.4M",
+    "salaryNum": 5416080
   },
   {
     "id": "ballla01",
@@ -3426,7 +3648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1630163,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png",
+    "salary": "$40,770,520",
+    "salaryShort": "$40.8M",
+    "salaryNum": 40770520
   },
   {
     "id": "reidna01",
@@ -3443,12 +3668,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.8,
       "trb": 8.6,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.4,
       "blk": 1.4,
       "fg_pct": 0.456,
       "x3p_pct": 0.362,
-      "x3pa": 8.0,
+      "x3pa": 8,
       "ft_pct": 0.732
     },
     "radar": {
@@ -3471,7 +3696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 1629675,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629675.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629675.png",
+    "salary": "$23,275,862",
+    "salaryShort": "$23.3M",
+    "salaryNum": 23275862
   },
   {
     "id": "mitchda01",
@@ -3516,7 +3744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1630558,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630558.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630558.png",
+    "salary": "$12,400,000",
+    "salaryShort": "$12.4M",
+    "salaryNum": 12400000
   },
   {
     "id": "brownbr01",
@@ -3561,7 +3792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1628971,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "holmgch01",
@@ -3602,11 +3836,14 @@ export const PLAYERS = [
       "orb_share": 0.207,
       "perimeter_def_ratio": 0.242,
       "stocks": 3.2,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 11.1
     },
     "nbaId": 1631096,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png",
+    "salary": "$41,500,000",
+    "salaryShort": "$41.5M",
+    "salaryNum": 41500000
   },
   {
     "id": "hartjo01",
@@ -3651,7 +3888,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 1628404,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628404.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628404.png",
+    "salary": "$20,923,760",
+    "salaryShort": "$20.9M",
+    "salaryNum": 20923760
   },
   {
     "id": "jamesle01",
@@ -3696,7 +3936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 2544,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png",
+    "salary": "$3,876,529",
+    "salaryShort": "$3.9M",
+    "salaryNum": 3876529
   },
   {
     "id": "baileac01",
@@ -3711,7 +3954,7 @@ export const PLAYERS = [
     "mp": 1988,
     "g": 72,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 5.5,
       "ast": 2.4,
       "stl": 1.1,
@@ -3736,12 +3979,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.263,
       "orb_share": 0.345,
       "perimeter_def_ratio": 0.524,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 16.2,
       "trb_per_36_min": 5.5
     },
     "nbaId": 1642846,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642846.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642846.png",
+    "salary": "$9,523,080",
+    "salaryShort": "$9.5M",
+    "salaryNum": 9523080
   },
   {
     "id": "barneha02",
@@ -3786,7 +4032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 203084,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203084.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203084.png",
+    "salary": "$8,000,000",
+    "salaryShort": "$8.0M",
+    "salaryNum": 8000000
   },
   {
     "id": "durenja01",
@@ -3804,11 +4053,11 @@ export const PLAYERS = [
       "pts": 24.9,
       "trb": 13.4,
       "ast": 2.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.1,
       "fg_pct": 0.65,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.747
     },
     "radar": {
@@ -3820,7 +4069,7 @@ export const PLAYERS = [
       "perimeterDefense": 38
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.534,
       "pass_vs_shoot": 0.171,
       "ast_to_tov": 1.042,
@@ -3831,7 +4080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.4
     },
     "nbaId": 1631105,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png",
+    "salary": "$40,160,643",
+    "salaryShort": "$40.2M",
+    "salaryNum": 40160643
   },
   {
     "id": "millebr02",
@@ -3846,9 +4098,9 @@ export const PLAYERS = [
     "mp": 1968,
     "g": 65,
     "stats": {
-      "pts": 24.0,
+      "pts": 24,
       "trb": 5.8,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 1.2,
       "blk": 0.8,
       "fg_pct": 0.435,
@@ -3871,12 +4123,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.333,
       "orb_share": 0.224,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 19.1,
       "trb_per_36_min": 5.8
     },
     "nbaId": 1641706,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png",
+    "salary": "$15,104,626",
+    "salaryShort": "$15.1M",
+    "salaryNum": 15104626
   },
   {
     "id": "raynama01",
@@ -3921,7 +4176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1642875,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642875.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642875.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "aytonde01",
@@ -3942,8 +4200,8 @@ export const PLAYERS = [
       "stl": 0.8,
       "blk": 1.3,
       "fg_pct": 0.671,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.645
     },
     "radar": {
@@ -3955,7 +4213,7 @@ export const PLAYERS = [
       "perimeterDefense": 29
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.234,
       "pass_vs_shoot": 0.099,
       "ast_to_tov": 0.733,
@@ -3966,7 +4224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.6
     },
     "nbaId": 1629028,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png",
+    "salary": "$8,104,000",
+    "salaryShort": "$8.1M",
+    "salaryNum": 8104000
   },
   {
     "id": "walkeja02",
@@ -4011,7 +4272,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1641716,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641716.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641716.png",
+    "salary": "$8,478,542",
+    "salaryShort": "$8.5M",
+    "salaryNum": 8478542
   },
   {
     "id": "hausesa01",
@@ -4048,7 +4312,7 @@ export const PLAYERS = [
       "three_point_share": 0.839,
       "ft_rate": 0.036,
       "pass_vs_shoot": 0.188,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.179,
       "perimeter_def_ratio": 0.583,
       "stocks": 1.1,
@@ -4056,7 +4320,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1630573,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630573.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630573.png",
+    "salary": "$10,848,215",
+    "salaryShort": "$10.8M",
+    "salaryNum": 10848215
   },
   {
     "id": "hachiru01",
@@ -4101,7 +4368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1629060,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png",
+    "salary": "$14,000,000",
+    "salaryShort": "$14.0M",
+    "salaryNum": 14000000
   },
   {
     "id": "quetane01",
@@ -4141,12 +4411,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.714,
       "orb_share": 0.361,
       "perimeter_def_ratio": 0.355,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.3,
       "trb_per_36_min": 11.9
     },
     "nbaId": 1629674,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629674.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629674.png",
+    "salary": "$2,667,944",
+    "salaryShort": "$2.7M",
+    "salaryNum": 2667944
   },
   {
     "id": "claxtni01",
@@ -4162,7 +4435,7 @@ export const PLAYERS = [
     "g": 69,
     "stats": {
       "pts": 15.2,
-      "trb": 9.0,
+      "trb": 9,
       "ast": 4.7,
       "stl": 0.8,
       "blk": 1.4,
@@ -4188,10 +4461,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.348,
       "stocks": 2.2,
       "fga_per_36_min": 10.9,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1629651,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png",
+    "salary": "$23,147,727",
+    "salaryShort": "$23.1M",
+    "salaryNum": 23147727
   },
   {
     "id": "turnemy01",
@@ -4236,7 +4512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1626167,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626167.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626167.png",
+    "salary": "$26,584,164",
+    "salaryShort": "$26.6M",
+    "salaryNum": 26584164
   },
   {
     "id": "johnske04",
@@ -4277,11 +4556,14 @@ export const PLAYERS = [
       "orb_share": 0.313,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 15.0,
+      "fga_per_36_min": 15,
       "trb_per_36_min": 8.3
     },
     "nbaId": 1629640,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png",
+    "salary": "$17,500,000",
+    "salaryShort": "$17.5M",
+    "salaryNum": 17500000
   },
   {
     "id": "blackan01",
@@ -4326,7 +4608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1641710,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641710.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641710.png",
+    "salary": "$10,106,316",
+    "salaryShort": "$10.1M",
+    "salaryNum": 10106316
   },
   {
     "id": "dasiltr01",
@@ -4371,7 +4656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1641783,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641783.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641783.png",
+    "salary": "$3,991,200",
+    "salaryShort": "$4.0M",
+    "salaryNum": 3991200
   },
   {
     "id": "diabamo01",
@@ -4387,13 +4675,13 @@ export const PLAYERS = [
     "g": 73,
     "stats": {
       "pts": 10.9,
-      "trb": 12.0,
+      "trb": 12,
       "ast": 2.7,
       "stl": 1.1,
       "blk": 1.4,
       "fg_pct": 0.631,
       "x3p_pct": 0.5,
-      "x3pa": 0.0,
+      "x3pa": 0,
       "ft_pct": 0.659
     },
     "radar": {
@@ -4405,7 +4693,7 @@ export const PLAYERS = [
       "perimeterDefense": 40
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.478,
       "pass_vs_shoot": 0.391,
       "ast_to_tov": 1.929,
@@ -4413,10 +4701,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.423,
       "stocks": 2.5,
       "fga_per_36_min": 6.9,
-      "trb_per_36_min": 12.0
+      "trb_per_36_min": 12
     },
     "nbaId": 1631217,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631217.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631217.png",
+    "salary": "$2,461,462",
+    "salaryShort": "$2.5M",
+    "salaryNum": 2461462
   },
   {
     "id": "thompau01",
@@ -4457,11 +4748,14 @@ export const PLAYERS = [
       "orb_share": 0.354,
       "perimeter_def_ratio": 0.667,
       "stocks": 4.1,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 7.9
     },
     "nbaId": 1641709,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png",
+    "salary": "$11,117,925",
+    "salaryShort": "$11.1M",
+    "salaryNum": 11117925
   },
   {
     "id": "cliffni01",
@@ -4506,7 +4800,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1642363,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642363.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642363.png",
+    "salary": "$3,263,400",
+    "salaryShort": "$3.3M",
+    "salaryNum": 3263400
   },
   {
     "id": "dosunay01",
@@ -4551,7 +4848,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1630245,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630245.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630245.png",
+    "salary": "$19,310,345",
+    "salaryShort": "$19.3M",
+    "salaryNum": 19310345
   },
   {
     "id": "collijo01",
@@ -4566,11 +4866,11 @@ export const PLAYERS = [
     "mp": 1872,
     "g": 69,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 7.1,
       "ast": 1.3,
       "stl": 1.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.552,
       "x3p_pct": 0.406,
       "x3pa": 4.2,
@@ -4596,7 +4896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1628381,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628381.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628381.png",
+    "salary": "$17,000,000",
+    "salaryShort": "$17.0M",
+    "salaryNum": 17000000
   },
   {
     "id": "greendr01",
@@ -4611,14 +4914,14 @@ export const PLAYERS = [
     "mp": 1869,
     "g": 68,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 7.2,
       "ast": 7.2,
       "stl": 1.2,
       "blk": 0.8,
       "fg_pct": 0.418,
       "x3p_pct": 0.326,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.702
     },
     "radar": {
@@ -4636,12 +4939,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.057,
       "orb_share": 0.153,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 9.5,
       "trb_per_36_min": 7.2
     },
     "nbaId": 203110,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203110.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203110.png",
+    "salary": "$27,678,571",
+    "salaryShort": "$27.7M",
+    "salaryNum": 27678571
   },
   {
     "id": "wembavi01",
@@ -4686,7 +4992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.2
     },
     "nbaId": 1641705,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png",
+    "salary": "$16,868,246",
+    "salaryShort": "$16.9M",
+    "salaryNum": 16868246
   },
   {
     "id": "westbru01",
@@ -4731,7 +5040,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 201566,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201566.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201566.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sheadja01",
@@ -4776,7 +5088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.8
     },
     "nbaId": 1642347,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642347.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642347.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "dortlu01",
@@ -4821,7 +5136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1629652,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png",
+    "salary": "$18,222,222",
+    "salaryShort": "$18.2M",
+    "salaryNum": 18222222
   },
   {
     "id": "larsspe01",
@@ -4839,7 +5157,7 @@ export const PLAYERS = [
       "pts": 15.6,
       "trb": 4.8,
       "ast": 4.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.496,
       "x3p_pct": 0.323,
@@ -4866,7 +5184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1641796,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641796.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641796.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "jamessi01",
@@ -4884,7 +5205,7 @@ export const PLAYERS = [
       "pts": 8.6,
       "trb": 5.6,
       "ast": 3.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.371,
       "x3p_pct": 0.352,
@@ -4911,7 +5232,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1642883,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642883.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642883.png",
+    "salary": "$2,411,090",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2411090
   },
   {
     "id": "willizi01",
@@ -4956,7 +5280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1629627,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629627.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629627.png",
+    "salary": "$42,166,510",
+    "salaryShort": "$42.2M",
+    "salaryNum": 42166510
   },
   {
     "id": "wellsja01",
@@ -5001,7 +5328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1642377,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642377.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642377.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "vucevni01",
@@ -5046,7 +5376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.6
     },
     "nbaId": 202696,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202696.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202696.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "ighodos01",
@@ -5067,8 +5400,8 @@ export const PLAYERS = [
       "stl": 1.5,
       "blk": 1.1,
       "fg_pct": 0.653,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.453
     },
     "radar": {
@@ -5080,7 +5413,7 @@ export const PLAYERS = [
       "perimeterDefense": 69
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.315,
       "pass_vs_shoot": 0.507,
       "ast_to_tov": 1.85,
@@ -5091,7 +5424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.3
     },
     "nbaId": 1642345,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642345.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642345.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "kuzmaky01",
@@ -5136,7 +5472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1628398,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png",
+    "salary": "$20,345,152",
+    "salaryShort": "$20.3M",
+    "salaryNum": 20345152
   },
   {
     "id": "filipky01",
@@ -5152,8 +5491,8 @@ export const PLAYERS = [
     "g": 77,
     "stats": {
       "pts": 17.6,
-      "trb": 11.0,
-      "ast": 4.0,
+      "trb": 11,
+      "ast": 4,
       "stl": 1.5,
       "blk": 0.8,
       "fg_pct": 0.492,
@@ -5178,10 +5517,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.625,
       "stocks": 2.3,
       "fga_per_36_min": 13.1,
-      "trb_per_36_min": 11.0
+      "trb_per_36_min": 11
     },
     "nbaId": 1642271,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642271.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642271.png",
+    "salary": "$3,000,000",
+    "salaryShort": "$3.0M",
+    "salaryNum": 3000000
   },
   {
     "id": "georgke01",
@@ -5197,7 +5539,7 @@ export const PLAYERS = [
     "g": 54,
     "stats": {
       "pts": 25.7,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 6.7,
       "stl": 1.2,
       "blk": 0.3,
@@ -5223,10 +5565,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.75,
       "stocks": 1.5,
       "fga_per_36_min": 17.8,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 1641718,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641718.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641718.png",
+    "salary": "$6,563,925",
+    "salaryShort": "$6.6M",
+    "salaryNum": 6563925
   },
   {
     "id": "nembhan01",
@@ -5244,11 +5589,11 @@ export const PLAYERS = [
       "pts": 19.5,
       "trb": 3.2,
       "ast": 8.8,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.2,
       "fg_pct": 0.442,
       "x3p_pct": 0.361,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.825
     },
     "radar": {
@@ -5271,7 +5616,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.2
     },
     "nbaId": 1629614,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629614.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629614.png",
+    "salary": "$19,550,160",
+    "salaryShort": "$19.6M",
+    "salaryNum": 19550160
   },
   {
     "id": "clownno01",
@@ -5289,7 +5637,7 @@ export const PLAYERS = [
       "pts": 16.4,
       "trb": 5.5,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.9,
       "fg_pct": 0.396,
       "x3p_pct": 0.329,
@@ -5316,7 +5664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1641730,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641730.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641730.png",
+    "salary": "$5,414,034",
+    "salaryShort": "$5.4M",
+    "salaryNum": 5414034
   },
   {
     "id": "tysonja01",
@@ -5333,12 +5684,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 17.7,
       "trb": 6.8,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.1,
       "blk": 0.6,
       "fg_pct": 0.493,
       "x3p_pct": 0.446,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.738
     },
     "radar": {
@@ -5361,7 +5712,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1642281,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642281.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642281.png",
+    "salary": "$3,658,560",
+    "salaryShort": "$3.7M",
+    "salaryNum": 3658560
   },
   {
     "id": "smartma01",
@@ -5383,7 +5737,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.395,
       "x3p_pct": 0.331,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.822
     },
     "radar": {
@@ -5398,7 +5752,7 @@ export const PLAYERS = [
       "three_point_share": 0.619,
       "ft_rate": 0.268,
       "pass_vs_shoot": 0.392,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.75,
       "stocks": 2.3,
@@ -5406,7 +5760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 203935,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203935.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203935.png",
+    "salary": "$6,064,000",
+    "salaryShort": "$6.1M",
+    "salaryNum": 6064000
   },
   {
     "id": "reaveau01",
@@ -5451,7 +5808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1630559,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png",
+    "salary": "$41,240,250",
+    "salaryShort": "$41.2M",
+    "salaryNum": 41240250
   },
   {
     "id": "sensabr01",
@@ -5473,7 +5833,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.46,
       "x3p_pct": 0.367,
-      "x3pa": 9.0,
+      "x3pa": 9,
       "ft_pct": 0.826
     },
     "radar": {
@@ -5496,7 +5856,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1641729,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641729.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641729.png",
+    "salary": "$4,862,237",
+    "salaryShort": "$4.9M",
+    "salaryNum": 4862237
   },
   {
     "id": "jonestr01",
@@ -5541,7 +5904,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1630200,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png",
+    "salary": "$8,000,000",
+    "salaryShort": "$8.0M",
+    "salaryNum": 8000000
   },
   {
     "id": "mamuksa01",
@@ -5582,11 +5948,14 @@ export const PLAYERS = [
       "orb_share": 0.272,
       "perimeter_def_ratio": 0.591,
       "stocks": 2.1,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 8.1
     },
     "nbaId": 1630572,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630572.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630572.png",
+    "salary": "$13,000,000",
+    "salaryShort": "$13.0M",
+    "salaryNum": 13000000
   },
   {
     "id": "harrito02",
@@ -5631,7 +6000,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 202699,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202699.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202699.png",
+    "salary": "$15,044,000",
+    "salaryShort": "$15.0M",
+    "salaryNum": 15044000
   },
   {
     "id": "achiupr01",
@@ -5641,7 +6013,7 @@ export const PLAYERS = [
     "age": 26,
     "season": 2026,
     "clusterId": 2,
-    "pcaX": 2.0,
+    "pcaX": 2,
     "pcaY": 0.03,
     "mp": 1745,
     "g": 73,
@@ -5650,10 +6022,10 @@ export const PLAYERS = [
       "trb": 10.2,
       "ast": 2.1,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.528,
       "x3p_pct": 0.278,
-      "x3pa": 2.0,
+      "x3pa": 2,
       "ft_pct": 0.554
     },
     "radar": {
@@ -5676,7 +6048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1630173,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png",
+    "salary": "$5,477,000",
+    "salaryShort": "$5.5M",
+    "salaryNum": 5477000
   },
   {
     "id": "washipj01",
@@ -5693,7 +6068,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.4,
       "trb": 8.2,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.1,
       "blk": 1.2,
       "fg_pct": 0.45,
@@ -5721,7 +6096,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1629023,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629023.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629023.png",
+    "salary": "$19,813,044",
+    "salaryShort": "$19.8M",
+    "salaryNum": 19813044
   },
   {
     "id": "giddejo01",
@@ -5766,7 +6144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 1630581,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png",
+    "salary": "$25,000,000",
+    "salaryShort": "$25.0M",
+    "salaryNum": 25000000
   },
   {
     "id": "barrerj01",
@@ -5807,11 +6188,14 @@ export const PLAYERS = [
       "orb_share": 0.175,
       "perimeter_def_ratio": 0.643,
       "stocks": 1.3,
-      "fga_per_36_min": 17.0,
+      "fga_per_36_min": 17,
       "trb_per_36_min": 6.3
     },
     "nbaId": 1629628,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629628.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629628.png",
+    "salary": "$29,616,071",
+    "salaryShort": "$29.6M",
+    "salaryNum": 29616071
   },
   {
     "id": "huffja01",
@@ -5856,7 +6240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1630643,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630643.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630643.png",
+    "salary": "$2,667,944",
+    "salaryShort": "$2.7M",
+    "salaryNum": 2667944
   },
   {
     "id": "powelno01",
@@ -5873,7 +6260,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 26.4,
       "trb": 4.3,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.3,
       "blk": 0.3,
       "fg_pct": 0.47,
@@ -5901,7 +6288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1626181,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png",
+    "salary": "$21,500,000",
+    "salaryShort": "$21.5M",
+    "salaryNum": 21500000
   },
   {
     "id": "spencca01",
@@ -5946,7 +6336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1642285,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642285.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642285.png",
+    "salary": "$2,411,090",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2411090
   },
   {
     "id": "wareke01",
@@ -5961,7 +6354,7 @@ export const PLAYERS = [
     "mp": 1704,
     "g": 77,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 14.7,
       "ast": 1.2,
       "stl": 1.2,
@@ -5986,12 +6379,15 @@ export const PLAYERS = [
       "ast_to_tov": 0.923,
       "orb_share": 0.313,
       "perimeter_def_ratio": 0.387,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 13.7,
       "trb_per_36_min": 14.7
     },
     "nbaId": 1642276,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642276.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642276.png",
+    "salary": "$4,654,920",
+    "salaryShort": "$4.7M",
+    "salaryNum": 4654920
   },
   {
     "id": "brookdi01",
@@ -6028,7 +6424,7 @@ export const PLAYERS = [
       "three_point_share": 0.384,
       "ft_rate": 0.212,
       "pass_vs_shoot": 0.103,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.209,
       "perimeter_def_ratio": 0.8,
       "stocks": 1.4,
@@ -6036,7 +6432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1628415,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png",
+    "salary": "$19,992,727",
+    "salaryShort": "$20.0M",
+    "salaryNum": 19992727
   },
   {
     "id": "schrode01",
@@ -6051,8 +6450,8 @@ export const PLAYERS = [
     "mp": 1697,
     "g": 70,
     "stats": {
-      "pts": 16.0,
-      "trb": 4.0,
+      "pts": 16,
+      "trb": 4,
       "ast": 7.2,
       "stl": 1.2,
       "blk": 0.2,
@@ -6078,10 +6477,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.8,
       "stocks": 1.4,
       "fga_per_36_min": 13.3,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 203471,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203471.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203471.png",
+    "salary": "$14,809,200",
+    "salaryShort": "$14.8M",
+    "salaryNum": 14809200
   },
   {
     "id": "grantje01",
@@ -6126,7 +6528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 203924,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png",
+    "salary": "$34,206,898",
+    "salaryShort": "$34.2M",
+    "salaryNum": 34206898
   },
   {
     "id": "okorois01",
@@ -6144,7 +6549,7 @@ export const PLAYERS = [
       "pts": 12.4,
       "trb": 3.7,
       "ast": 2.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.46,
       "x3p_pct": 0.33,
@@ -6171,7 +6576,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1630171,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png",
+    "salary": "$11,814,814",
+    "salaryShort": "$11.8M",
+    "salaryNum": 11814814
   },
   {
     "id": "barlodo01",
@@ -6216,7 +6624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1631230,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631230.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631230.png",
+    "salary": "$3,415,000",
+    "salaryShort": "$3.4M",
+    "salaryNum": 3415000
   },
   {
     "id": "portemi01",
@@ -6261,7 +6672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 1629008,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png",
+    "salary": "$40,806,150",
+    "salaryShort": "$40.8M",
+    "salaryNum": 40806150
   },
   {
     "id": "kennalu01",
@@ -6276,7 +6690,7 @@ export const PLAYERS = [
     "mp": 1681,
     "g": 78,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 3.9,
       "ast": 3.7,
       "stl": 1.2,
@@ -6306,7 +6720,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1628379,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628379.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628379.png",
+    "salary": "$6,064,000",
+    "salaryShort": "$6.1M",
+    "salaryNum": 6064000
   },
   {
     "id": "johnsca02",
@@ -6351,7 +6768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629661,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629661.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629661.png",
+    "salary": "$23,062,500",
+    "salaryShort": "$23.1M",
+    "salaryNum": 23062500
   },
   {
     "id": "lopezbr01",
@@ -6366,14 +6786,14 @@ export const PLAYERS = [
     "mp": 1635,
     "g": 75,
     "stats": {
-      "pts": 14.0,
-      "trb": 6.0,
+      "pts": 14,
+      "trb": 6,
       "ast": 2.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.9,
       "fg_pct": 0.428,
       "x3p_pct": 0.36,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.757
     },
     "radar": {
@@ -6393,10 +6813,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.333,
       "stocks": 2.9,
       "fga_per_36_min": 11.9,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 201572,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201572.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201572.png",
+    "salary": "$9,187,500",
+    "salaryShort": "$9.2M",
+    "salaryNum": 9187500
   },
   {
     "id": "rileywi01",
@@ -6441,7 +6864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1642860,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642860.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642860.png",
+    "salary": "$3,688,320",
+    "salaryShort": "$3.7M",
+    "salaryNum": 3688320
   },
   {
     "id": "willico04",
@@ -6456,9 +6882,9 @@ export const PLAYERS = [
     "mp": 1631,
     "g": 67,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 4.4,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.1,
       "blk": 0.6,
       "fg_pct": 0.468,
@@ -6486,7 +6912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1642262,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642262.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642262.png",
+    "salary": "$6,015,600",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6015600
   },
   {
     "id": "mathube01",
@@ -6504,7 +6933,7 @@ export const PLAYERS = [
       "pts": 21.1,
       "trb": 6.5,
       "ast": 2.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.43,
       "x3p_pct": 0.315,
@@ -6527,11 +6956,14 @@ export const PLAYERS = [
       "orb_share": 0.185,
       "perimeter_def_ratio": 0.714,
       "stocks": 1.3,
-      "fga_per_36_min": 15.0,
+      "fga_per_36_min": 15,
       "trb_per_36_min": 6.5
     },
     "nbaId": 1631097,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631097.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631097.png",
+    "salary": "$7,804,878",
+    "salaryShort": "$7.8M",
+    "salaryNum": 7804878
   },
   {
     "id": "portibo01",
@@ -6576,7 +7008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.5
     },
     "nbaId": 1626171,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626171.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626171.png",
+    "salary": "$14,521,414",
+    "salaryShort": "$14.5M",
+    "salaryNum": 14521414
   },
   {
     "id": "sextoco01",
@@ -6593,7 +7028,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 23.4,
       "trb": 3.5,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.7,
       "blk": 0.2,
       "fg_pct": 0.485,
@@ -6621,7 +7056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629012,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629012.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629012.png",
+    "salary": "$9,366,000",
+    "salaryShort": "$9.4M",
+    "salaryNum": 9366000
   },
   {
     "id": "cowarce01",
@@ -6636,7 +7074,7 @@ export const PLAYERS = [
     "mp": 1598,
     "g": 62,
     "stats": {
-      "pts": 19.0,
+      "pts": 19,
       "trb": 8.2,
       "ast": 3.9,
       "stl": 0.9,
@@ -6666,7 +7104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1642907,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642907.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642907.png",
+    "salary": "$6,001,080",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6001080
   },
   {
     "id": "watsope01",
@@ -6711,7 +7152,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1631212,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631212.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631212.png",
+    "salary": "$20,465,116",
+    "salaryShort": "$20.5M",
+    "salaryNum": 20465116
   },
   {
     "id": "joneshe01",
@@ -6729,7 +7173,7 @@ export const PLAYERS = [
       "pts": 11.2,
       "trb": 4.3,
       "ast": 3.5,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.6,
       "fg_pct": 0.383,
       "x3p_pct": 0.309,
@@ -6756,7 +7200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1630529,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630529.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630529.png",
+    "salary": "$14,898,786",
+    "salaryShort": "$14.9M",
+    "salaryNum": 14898786
   },
   {
     "id": "oubreke01",
@@ -6801,7 +7248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1626162,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png",
+    "salary": "$8,050,000",
+    "salaryShort": "$8.1M",
+    "salaryNum": 8050000
   },
   {
     "id": "suggsja01",
@@ -6816,8 +7266,8 @@ export const PLAYERS = [
     "mp": 1574,
     "g": 57,
     "stats": {
-      "pts": 18.0,
-      "trb": 5.0,
+      "pts": 18,
+      "trb": 5,
       "ast": 7.1,
       "stl": 2.4,
       "blk": 0.9,
@@ -6843,10 +7293,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.706,
       "stocks": 3.3,
       "fga_per_36_min": 14.8,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1630591,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630591.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630591.png",
+    "salary": "$32,400,000",
+    "salaryShort": "$32.4M",
+    "salaryNum": 32400000
   },
   {
     "id": "goodwjo01",
@@ -6891,7 +7344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 1630692,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630692.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630692.png",
+    "salary": "$5,864,198",
+    "salaryShort": "$5.9M",
+    "salaryNum": 5864198
   },
   {
     "id": "holidjr01",
@@ -6906,7 +7362,7 @@ export const PLAYERS = [
     "mp": 1560,
     "g": 53,
     "stats": {
-      "pts": 20.0,
+      "pts": 20,
       "trb": 5.7,
       "ast": 7.4,
       "stl": 1.2,
@@ -6936,7 +7392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 201950,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201950.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201950.png",
+    "salary": "$34,800,000",
+    "salaryShort": "$34.8M",
+    "salaryNum": 34800000
   },
   {
     "id": "harpedy01",
@@ -6981,7 +7440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1642844,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642844.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642844.png",
+    "salary": "$12,989,040",
+    "salaryShort": "$13.0M",
+    "salaryNum": 12989040
   },
   {
     "id": "hollaro01",
@@ -7018,7 +7480,7 @@ export const PLAYERS = [
       "three_point_share": 0.365,
       "ft_rate": 0.278,
       "pass_vs_shoot": 0.175,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.26,
       "perimeter_def_ratio": 0.75,
       "stocks": 2.7,
@@ -7026,7 +7488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 1641842,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641842.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641842.png",
+    "salary": "$9,069,600",
+    "salaryShort": "$9.1M",
+    "salaryNum": 9069600
   },
   {
     "id": "easonta01",
@@ -7048,7 +7513,7 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.416,
       "x3p_pct": 0.358,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.776
     },
     "radar": {
@@ -7071,7 +7536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.7
     },
     "nbaId": 1631106,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631106.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631106.png",
+    "salary": "$14,051,724",
+    "salaryShort": "$14.1M",
+    "salaryNum": 14051724
   },
   {
     "id": "huertke01",
@@ -7116,7 +7584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1628989,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png",
+    "salary": "$8,333,333",
+    "salaryShort": "$8.3M",
+    "salaryNum": 8333333
   },
   {
     "id": "moodymo01",
@@ -7131,7 +7602,7 @@ export const PLAYERS = [
     "mp": 1540,
     "g": 60,
     "stats": {
-      "pts": 17.0,
+      "pts": 17,
       "trb": 4.7,
       "ast": 2.3,
       "stl": 1.4,
@@ -7157,11 +7628,14 @@ export const PLAYERS = [
       "orb_share": 0.255,
       "perimeter_def_ratio": 0.609,
       "stocks": 2.2,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 4.7
     },
     "nbaId": 1630541,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630541.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630541.png",
+    "salary": "$12,500,000",
+    "salaryShort": "$12.5M",
+    "salaryNum": 12500000
   },
   {
     "id": "mannte01",
@@ -7179,7 +7653,7 @@ export const PLAYERS = [
       "pts": 10.7,
       "trb": 4.7,
       "ast": 4.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.457,
       "x3p_pct": 0.364,
@@ -7206,7 +7680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1629611,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png",
+    "salary": "$15,500,000",
+    "salaryShort": "$15.5M",
+    "salaryNum": 15500000
   },
   {
     "id": "allenja01",
@@ -7251,7 +7728,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.3
     },
     "nbaId": 1628386,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628386.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628386.png",
+    "salary": "$28,000,000",
+    "salaryShort": "$28.0M",
+    "salaryNum": 28000000
   },
   {
     "id": "colliis01",
@@ -7268,7 +7748,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.3,
       "trb": 3.6,
-      "ast": 10.0,
+      "ast": 10,
       "stl": 1.6,
       "blk": 0.5,
       "fg_pct": 0.495,
@@ -7296,7 +7776,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1642268,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642268.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642268.png",
+    "salary": "$2,763,960",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2763960
   },
   {
     "id": "joeis01",
@@ -7333,15 +7816,18 @@ export const PLAYERS = [
       "three_point_share": 0.785,
       "ft_rate": 0.223,
       "pass_vs_shoot": 0.169,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.186,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.5,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 4.3
     },
     "nbaId": 1630198,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png",
+    "salary": "$11,323,006",
+    "salaryShort": "$11.3M",
+    "salaryNum": 11323006
   },
   {
     "id": "landajo01",
@@ -7386,7 +7872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 1629111,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png",
+    "salary": "$14,100,000",
+    "salaryShort": "$14.1M",
+    "salaryNum": 14100000
   },
   {
     "id": "risacza01",
@@ -7431,7 +7920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1642258,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png",
+    "salary": "$13,826,040",
+    "salaryShort": "$13.8M",
+    "salaryNum": 13826040
   },
   {
     "id": "thompkl01",
@@ -7476,7 +7968,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 202691,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png",
+    "salary": "$23,060,317",
+    "salaryShort": "$23.1M",
+    "salaryNum": 23060317
   },
   {
     "id": "kalkbry01",
@@ -7497,7 +7992,7 @@ export const PLAYERS = [
       "stl": 0.8,
       "blk": 2.5,
       "fg_pct": 0.753,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.716
     },
@@ -7521,7 +8016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.2
     },
     "nbaId": 1641750,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641750.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641750.png",
+    "salary": "$2,411,090",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2411090
   },
   {
     "id": "elliske01",
@@ -7539,7 +8037,7 @@ export const PLAYERS = [
       "pts": 11.7,
       "trb": 3.3,
       "ast": 1.8,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 1.1,
       "fg_pct": 0.44,
       "x3p_pct": 0.363,
@@ -7566,7 +8064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1631165,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631165.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631165.png",
+    "salary": "$8,780,488",
+    "salaryShort": "$8.8M",
+    "salaryNum": 8780488
   },
   {
     "id": "walteja01",
@@ -7611,7 +8112,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1642266,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642266.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642266.png",
+    "salary": "$3,811,800",
+    "salaryShort": "$3.8M",
+    "salaryNum": 3811800
   },
   {
     "id": "willipa01",
@@ -7656,7 +8160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1630172,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png",
+    "salary": "$18,000,000",
+    "salaryShort": "$18.0M",
+    "salaryNum": 18000000
   },
   {
     "id": "mitchaj01",
@@ -7673,7 +8180,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.9,
       "trb": 4.6,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.7,
       "blk": 0.4,
       "fg_pct": 0.485,
@@ -7701,7 +8208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1642349,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642349.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642349.png",
+    "salary": "$2,850,000",
+    "salaryShort": "$2.9M",
+    "salaryNum": 2850000
   },
   {
     "id": "sharpsh01",
@@ -7746,7 +8256,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1631101,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631101.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631101.png",
+    "salary": "$20,089,287",
+    "salaryShort": "$20.1M",
+    "salaryNum": 20089287
   },
   {
     "id": "coulibi01",
@@ -7762,13 +8275,13 @@ export const PLAYERS = [
     "g": 56,
     "stats": {
       "pts": 16.1,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 3.6,
       "stl": 1.8,
       "blk": 1.3,
       "fg_pct": 0.425,
       "x3p_pct": 0.319,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.746
     },
     "radar": {
@@ -7788,10 +8301,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.562,
       "stocks": 3.1,
       "fga_per_36_min": 13.3,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1641731,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641731.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641731.png",
+    "salary": "$9,240,012",
+    "salaryShort": "$9.2M",
+    "salaryNum": 9240012
   },
   {
     "id": "allengr01",
@@ -7831,12 +8347,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.4,
       "orb_share": 0.237,
       "perimeter_def_ratio": 0.81,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 16.4,
       "trb_per_36_min": 3.8
     },
     "nbaId": 1628960,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png",
+    "salary": "$18,125,000",
+    "salaryShort": "$18.1M",
+    "salaryNum": 18125000
   },
   {
     "id": "willibr03",
@@ -7876,12 +8395,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.032,
       "orb_share": 0.149,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 15.2,
       "trb_per_36_min": 4.7
     },
     "nbaId": 1630314,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630314.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630314.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "jenkida01",
@@ -7921,12 +8443,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.464,
       "orb_share": 0.317,
       "perimeter_def_ratio": 0.762,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 14.1,
       "trb_per_36_min": 4.1
     },
     "nbaId": 1642450,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642450.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642450.png",
+    "salary": "$4,000,000",
+    "salaryShort": "$4.0M",
+    "salaryNum": 4000000
   },
   {
     "id": "jacksja02",
@@ -7966,12 +8491,15 @@ export const PLAYERS = [
       "ast_to_tov": 0.885,
       "orb_share": 0.149,
       "perimeter_def_ratio": 0.419,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 17.8,
       "trb_per_36_min": 6.7
     },
     "nbaId": 1628991,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png",
+    "salary": "$49,000,000",
+    "salaryShort": "$49.0M",
+    "salaryNum": 49000000
   },
   {
     "id": "greenja02",
@@ -8016,7 +8544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1629750,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png",
+    "salary": "$3,943,679",
+    "salaryShort": "$3.9M",
+    "salaryNum": 3943679
   },
   {
     "id": "zubaciv01",
@@ -8035,10 +8566,10 @@ export const PLAYERS = [
       "trb": 12.7,
       "ast": 2.6,
       "stl": 0.4,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.598,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.711
     },
     "radar": {
@@ -8050,18 +8581,21 @@ export const PLAYERS = [
       "perimeterDefense": 22
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.292,
       "pass_vs_shoot": 0.217,
       "ast_to_tov": 1.238,
       "orb_share": 0.315,
       "perimeter_def_ratio": 0.267,
       "stocks": 1.4,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 12.7
     },
     "nbaId": 1627826,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png",
+    "salary": "$20,342,140",
+    "salaryShort": "$20.3M",
+    "salaryNum": 20342140
   },
   {
     "id": "johnstr03",
@@ -8078,12 +8612,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.3,
       "trb": 4.2,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.8,
       "blk": 0.4,
       "fg_pct": 0.419,
       "x3p_pct": 0.358,
-      "x3pa": 8.0,
+      "x3pa": 8,
       "ft_pct": 0.874
     },
     "radar": {
@@ -8106,7 +8640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1642848,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642848.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642848.png",
+    "salary": "$8,649,600",
+    "salaryShort": "$8.6M",
+    "salaryNum": 8649600
   },
   {
     "id": "markkla01",
@@ -8121,10 +8658,10 @@ export const PLAYERS = [
     "mp": 1443,
     "g": 42,
     "stats": {
-      "pts": 28.0,
+      "pts": 28,
       "trb": 7.2,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.477,
       "x3p_pct": 0.355,
@@ -8151,7 +8688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1628374,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628374.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628374.png",
+    "salary": "$46,113,154",
+    "salaryShort": "$46.1M",
+    "salaryNum": 46113154
   },
   {
     "id": "middlkh01",
@@ -8166,10 +8706,10 @@ export const PLAYERS = [
     "mp": 1439,
     "g": 63,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 5.8,
       "ast": 4.4,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.2,
       "fg_pct": 0.42,
       "x3p_pct": 0.36,
@@ -8196,7 +8736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 203114,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203114.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203114.png",
+    "salary": "$5,591,122",
+    "salaryShort": "$5.6M",
+    "salaryNum": 5591122
   },
   {
     "id": "cissosi01",
@@ -8218,7 +8761,7 @@ export const PLAYERS = [
       "blk": 0.6,
       "fg_pct": 0.398,
       "x3p_pct": 0.298,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.659
     },
     "radar": {
@@ -8241,7 +8784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1631321,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631321.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631321.png",
+    "salary": "$2,497,812",
+    "salaryShort": "$2.5M",
+    "salaryNum": 2497812
   },
   {
     "id": "kornelu01",
@@ -8262,8 +8808,8 @@ export const PLAYERS = [
       "stl": 0.8,
       "blk": 1.6,
       "fg_pct": 0.643,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.825
     },
     "radar": {
@@ -8275,7 +8821,7 @@ export const PLAYERS = [
       "perimeterDefense": 27
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.426,
       "pass_vs_shoot": 0.471,
       "ast_to_tov": 4.571,
@@ -8286,7 +8832,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.4
     },
     "nbaId": 1628436,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png",
+    "salary": "$10,450,000",
+    "salaryShort": "$10.4M",
+    "salaryNum": 10450000
   },
   {
     "id": "scheiba01",
@@ -8331,7 +8880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1631248,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631248.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631248.png",
+    "salary": "$2,744,040",
+    "salaryShort": "$2.7M",
+    "salaryNum": 2744040
   },
   {
     "id": "jonessp01",
@@ -8371,12 +8923,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.625,
       "orb_share": 0.358,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 6.7,
       "trb_per_36_min": 5.3
     },
     "nbaId": 1642461,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642461.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642461.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "willima07",
@@ -8397,8 +8952,8 @@ export const PLAYERS = [
       "stl": 1.4,
       "blk": 1.4,
       "fg_pct": 0.644,
-      "x3p_pct": 1.0,
-      "x3pa": 0.0,
+      "x3p_pct": 1,
+      "x3pa": 0,
       "ft_pct": 0.771
     },
     "radar": {
@@ -8410,7 +8965,7 @@ export const PLAYERS = [
       "perimeterDefense": 59
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.396,
       "pass_vs_shoot": 0.135,
       "ast_to_tov": 0.882,
@@ -8421,7 +8976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.1
     },
     "nbaId": 1631109,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631109.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631109.png",
+    "salary": "$11,728,395",
+    "salaryShort": "$11.7M",
+    "salaryNum": 11728395
   },
   {
     "id": "wiggiaa01",
@@ -8466,7 +9024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1630598,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630598.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630598.png",
+    "salary": "$9,224,300",
+    "salaryShort": "$9.2M",
+    "salaryNum": 9224300
   },
   {
     "id": "claytwa01",
@@ -8511,7 +9072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1642383,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642383.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642383.png",
+    "salary": "$4,190,520",
+    "salaryShort": "$4.2M",
+    "salaryNum": 4190520
   },
   {
     "id": "braunch01",
@@ -8552,11 +9116,14 @@ export const PLAYERS = [
       "orb_share": 0.296,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.1,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 5.4
     },
     "nbaId": 1631128,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631128.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631128.png",
+    "salary": "$21,551,726",
+    "salaryShort": "$21.6M",
+    "salaryNum": 21551726
   },
   {
     "id": "santogu01",
@@ -8601,7 +9168,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1630611,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630611.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630611.png",
+    "salary": "$4,629,630",
+    "salaryShort": "$4.6M",
+    "salaryNum": 4629630
   },
   {
     "id": "krejcvi01",
@@ -8646,7 +9216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630249,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630249.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630249.png",
+    "salary": "$2,667,944",
+    "salaryShort": "$2.7M",
+    "salaryNum": 2667944
   },
   {
     "id": "georgky01",
@@ -8691,7 +9264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1642273,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642273.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642273.png",
+    "salary": "$3,108,000",
+    "salaryShort": "$3.1M",
+    "salaryNum": 3108000
   },
   {
     "id": "sheppbe01",
@@ -8708,12 +9284,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 11.9,
       "trb": 5.1,
-      "ast": 3.0,
-      "stl": 1.0,
+      "ast": 3,
+      "stl": 1,
       "blk": 0.2,
       "fg_pct": 0.434,
       "x3p_pct": 0.362,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.765
     },
     "radar": {
@@ -8732,11 +9308,14 @@ export const PLAYERS = [
       "orb_share": 0.216,
       "perimeter_def_ratio": 0.769,
       "stocks": 1.2,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 5.1
     },
     "nbaId": 1641767,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641767.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641767.png",
+    "salary": "$5,031,669",
+    "salaryShort": "$5.0M",
+    "salaryNum": 5031669
   },
   {
     "id": "champju01",
@@ -8752,7 +9331,7 @@ export const PLAYERS = [
     "g": 69,
     "stats": {
       "pts": 15.6,
-      "trb": 10.0,
+      "trb": 10,
       "ast": 2.2,
       "stl": 1.5,
       "blk": 1.1,
@@ -8778,10 +9357,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.556,
       "stocks": 2.6,
       "fga_per_36_min": 12.1,
-      "trb_per_36_min": 10.0
+      "trb_per_36_min": 10
     },
     "nbaId": 1630551,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630551.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630551.png",
+    "salary": "$2,667,944",
+    "salaryShort": "$2.7M",
+    "salaryNum": 2667944
   },
   {
     "id": "merrisa01",
@@ -8818,7 +9400,7 @@ export const PLAYERS = [
       "three_point_share": 0.772,
       "ft_rate": 0.142,
       "pass_vs_shoot": 0.26,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
@@ -8826,7 +9408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1630241,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png",
+    "salary": "$9,160,715",
+    "salaryShort": "$9.2M",
+    "salaryNum": 9160715
   },
   {
     "id": "richawi02",
@@ -8867,11 +9452,14 @@ export const PLAYERS = [
       "orb_share": 0.4,
       "perimeter_def_ratio": 0.875,
       "stocks": 2.3,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 4.5
     },
     "nbaId": 1642954,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642954.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642954.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "trentga02",
@@ -8911,12 +9499,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.909,
       "orb_share": 0.111,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 12.4,
       "trb_per_36_min": 1.8
     },
     "nbaId": 1629018,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629018.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629018.png",
+    "salary": "$15,200,000",
+    "salaryShort": "$15.2M",
+    "salaryNum": 15200000
   },
   {
     "id": "simonan01",
@@ -8957,11 +9548,14 @@ export const PLAYERS = [
       "orb_share": 0.229,
       "perimeter_def_ratio": 0.7,
       "stocks": 0.9,
-      "fga_per_36_min": 17.0,
+      "fga_per_36_min": 17,
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629014,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "alvarjo01",
@@ -9006,7 +9600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1630631,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630631.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630631.png",
+    "salary": "$4,500,000",
+    "salaryShort": "$4.5M",
+    "salaryNum": 4500000
   },
   {
     "id": "monkma01",
@@ -9024,7 +9621,7 @@ export const PLAYERS = [
       "pts": 20.4,
       "trb": 3.1,
       "ast": 4.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.438,
       "x3p_pct": 0.395,
@@ -9051,7 +9648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.1
     },
     "nbaId": 1628370,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628370.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628370.png",
+    "salary": "$20,190,035",
+    "salaryShort": "$20.2M",
+    "salaryNum": 20190035
   },
   {
     "id": "dunnry01",
@@ -9096,7 +9696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1642346,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642346.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642346.png",
+    "salary": "$2,784,240",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2784240
   },
   {
     "id": "okogijo01",
@@ -9141,7 +9744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1629006,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "sandeko01",
@@ -9186,7 +9792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1642920,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642920.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642920.png",
+    "salary": "$2,622,139",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2622139
   },
   {
     "id": "jonesde02",
@@ -9231,7 +9840,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1627884,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png",
+    "salary": "$10,476,190",
+    "salaryShort": "$10.5M",
+    "salaryNum": 10476190
   },
   {
     "id": "garlada01",
@@ -9272,11 +9884,14 @@ export const PLAYERS = [
       "orb_share": 0.172,
       "perimeter_def_ratio": 0.8,
       "stocks": 1.4,
-      "fga_per_36_min": 18.0,
+      "fga_per_36_min": 18,
       "trb_per_36_min": 2.9
     },
     "nbaId": 1629636,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png",
+    "salary": "$42,166,510",
+    "salaryShort": "$42.2M",
+    "salaryNum": 42166510
   },
   {
     "id": "nesmiaa01",
@@ -9292,7 +9907,7 @@ export const PLAYERS = [
     "g": 45,
     "stats": {
       "pts": 16.7,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 2.3,
       "stl": 0.7,
       "blk": 0.6,
@@ -9318,10 +9933,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.5,
       "stocks": 1.3,
       "fga_per_36_min": 13.8,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1630174,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png",
+    "salary": "$11,000,000",
+    "salaryShort": "$11.0M",
+    "salaryNum": 11000000
   },
   {
     "id": "murrakr01",
@@ -9361,12 +9979,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.692,
       "orb_share": 0.429,
       "perimeter_def_ratio": 0.667,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 7.5,
       "trb_per_36_min": 5.6
     },
     "nbaId": 1631200,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631200.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631200.png",
+    "salary": "$5,315,004",
+    "salaryShort": "$5.3M",
+    "salaryNum": 5315004
   },
   {
     "id": "curryst01",
@@ -9411,7 +10032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 201939,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png",
+    "salary": "$62,587,158",
+    "salaryShort": "$62.6M",
+    "salaryNum": 62587158
   },
   {
     "id": "millejo02",
@@ -9433,7 +10057,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.531,
       "x3p_pct": 0.345,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.777
     },
     "radar": {
@@ -9456,7 +10080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1641757,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641757.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641757.png",
+    "salary": "$5,300,000",
+    "salaryShort": "$5.3M",
+    "salaryNum": 5300000
   },
   {
     "id": "poweldr01",
@@ -9472,13 +10099,13 @@ export const PLAYERS = [
     "g": 63,
     "stats": {
       "pts": 11.1,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 2.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.402,
       "x3p_pct": 0.28,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.896
     },
     "radar": {
@@ -9498,10 +10125,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.667,
       "stocks": 1.4,
       "fga_per_36_min": 9.8,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 1642962,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642962.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642962.png",
+    "salary": "$3,540,600",
+    "salaryShort": "$3.5M",
+    "salaryNum": 3540600
   },
   {
     "id": "simsje01",
@@ -9512,7 +10142,7 @@ export const PLAYERS = [
     "season": 2026,
     "clusterId": 2,
     "pcaX": 2.26,
-    "pcaY": 2.0,
+    "pcaY": 2,
     "mp": 1318,
     "g": 67,
     "stats": {
@@ -9522,8 +10152,8 @@ export const PLAYERS = [
       "stl": 0.5,
       "blk": 0.5,
       "fg_pct": 0.784,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.62
     },
     "radar": {
@@ -9535,18 +10165,21 @@ export const PLAYERS = [
       "perimeterDefense": 26
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.373,
       "pass_vs_shoot": 0.549,
       "ast_to_tov": 1.4,
       "orb_share": 0.396,
       "perimeter_def_ratio": 0.455,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 5.1,
       "trb_per_36_min": 10.1
     },
     "nbaId": 1630579,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630579.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630579.png",
+    "salary": "$2,801,346",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2801346
   },
   {
     "id": "wadede01",
@@ -9583,7 +10216,7 @@ export const PLAYERS = [
       "three_point_share": 0.711,
       "ft_rate": 0.132,
       "pass_vs_shoot": 0.316,
-      "ast_to_tov": 6.0,
+      "ast_to_tov": 6,
       "orb_share": 0.209,
       "perimeter_def_ratio": 0.632,
       "stocks": 1.8,
@@ -9591,7 +10224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 1629731,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png",
+    "salary": "$9,000,000",
+    "salaryShort": "$9.0M",
+    "salaryNum": 9000000
   },
   {
     "id": "stewais01",
@@ -9628,15 +10264,18 @@ export const PLAYERS = [
       "three_point_share": 0.3,
       "ft_rate": 0.327,
       "pass_vs_shoot": 0.164,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.329,
       "perimeter_def_ratio": 0.133,
       "stocks": 2.9,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 7.9
     },
     "nbaId": 1630191,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630191.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630191.png",
+    "salary": "$15,000,000",
+    "salaryShort": "$15.0M",
+    "salaryNum": 15000000
   },
   {
     "id": "demineg01",
@@ -9673,7 +10312,7 @@ export const PLAYERS = [
       "three_point_share": 0.718,
       "ft_rate": 0.145,
       "pass_vs_shoot": 0.387,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.133,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.7,
@@ -9681,7 +10320,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": null,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png",
+    "salary": "$7,233,720",
+    "salaryShort": "$7.2M",
+    "salaryNum": 7233720
   },
   {
     "id": "sarral01",
@@ -9726,7 +10368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.8
     },
     "nbaId": 1642259,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642259.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642259.png",
+    "salary": "$12,370,680",
+    "salaryShort": "$12.4M",
+    "salaryNum": 12370680
   },
   {
     "id": "missiyv01",
@@ -9747,8 +10392,8 @@ export const PLAYERS = [
       "stl": 0.6,
       "blk": 2.8,
       "fg_pct": 0.544,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.559
     },
     "radar": {
@@ -9760,7 +10405,7 @@ export const PLAYERS = [
       "perimeterDefense": 23
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.341,
       "pass_vs_shoot": 0.28,
       "ast_to_tov": 1.533,
@@ -9771,7 +10416,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.7
     },
     "nbaId": 1642274,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642274.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642274.png",
+    "salary": "$3,512,760",
+    "salaryShort": "$3.5M",
+    "salaryNum": 3512760
   },
   {
     "id": "batumni01",
@@ -9816,7 +10464,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 201587,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201587.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201587.png",
+    "salary": "$5,881,680",
+    "salaryShort": "$5.9M",
+    "salaryNum": 5881680
   },
   {
     "id": "willizi02",
@@ -9853,7 +10504,7 @@ export const PLAYERS = [
       "three_point_share": 0.582,
       "ft_rate": 0.32,
       "pass_vs_shoot": 0.139,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.211,
       "perimeter_def_ratio": 0.75,
       "stocks": 2.7,
@@ -9861,7 +10512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630533,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630533.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630533.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "clarkjo01",
@@ -9883,7 +10537,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.451,
       "x3p_pct": 0.327,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.83
     },
     "radar": {
@@ -9906,7 +10560,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 203903,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "willija07",
@@ -9951,7 +10608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 1631119,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631119.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631119.png",
+    "salary": "$7,774,648",
+    "salaryShort": "$7.8M",
+    "salaryNum": 7774648
   },
   {
     "id": "porteke02",
@@ -9968,7 +10628,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.9,
       "trb": 5.7,
-      "ast": 8.0,
+      "ast": 8,
       "stl": 2.4,
       "blk": 0.5,
       "fg_pct": 0.465,
@@ -9996,7 +10656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1629645,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png",
+    "salary": "$5,390,700",
+    "salaryShort": "$5.4M",
+    "salaryNum": 5390700
   },
   {
     "id": "whiteco01",
@@ -10011,7 +10674,7 @@ export const PLAYERS = [
     "mp": 1249,
     "g": 50,
     "stats": {
-      "pts": 25.0,
+      "pts": 25,
       "trb": 4.9,
       "ast": 5.8,
       "stl": 0.7,
@@ -10037,11 +10700,14 @@ export const PLAYERS = [
       "orb_share": 0.102,
       "perimeter_def_ratio": 0.778,
       "stocks": 0.8,
-      "fga_per_36_min": 18.0,
+      "fga_per_36_min": 18,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1629632,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png",
+    "salary": "$22,839,506",
+    "salaryShort": "$22.8M",
+    "salaryNum": 22839506
   },
   {
     "id": "murraco01",
@@ -10056,7 +10722,7 @@ export const PLAYERS = [
     "mp": 1246,
     "g": 57,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 8.2,
       "ast": 3.1,
       "stl": 1.5,
@@ -10081,12 +10747,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.824,
       "orb_share": 0.463,
       "perimeter_def_ratio": 0.484,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.9,
       "trb_per_36_min": 8.2
     },
     "nbaId": 1642867,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642867.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642867.png",
+    "salary": "$6,649,560",
+    "salaryShort": "$6.6M",
+    "salaryNum": 6649560
   },
   {
     "id": "traorno01",
@@ -10126,12 +10795,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.676,
       "orb_share": 0.138,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 13.9,
       "trb_per_36_min": 2.9
     },
     "nbaId": 1642849,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642849.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642849.png",
+    "salary": "$4,002,000",
+    "salaryShort": "$4.0M",
+    "salaryNum": 4002000
   },
   {
     "id": "bonaad01",
@@ -10146,8 +10818,8 @@ export const PLAYERS = [
     "mp": 1234,
     "g": 71,
     "stats": {
-      "pts": 10.0,
-      "trb": 9.0,
+      "pts": 10,
+      "trb": 9,
       "ast": 0.9,
       "stl": 0.9,
       "blk": 2.4,
@@ -10173,10 +10845,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.265,
       "stocks": 3.3,
       "fga_per_36_min": 6.4,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1641737,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641737.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641737.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "drumman01",
@@ -10221,7 +10896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 15.6
     },
     "nbaId": 203083,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203083.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203083.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "spencpa01",
@@ -10266,7 +10944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1630311,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630311.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630311.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lavinza01",
@@ -10281,7 +10962,7 @@ export const PLAYERS = [
     "mp": 1224,
     "g": 39,
     "stats": {
-      "pts": 22.0,
+      "pts": 22,
       "trb": 3.2,
       "ast": 2.6,
       "stl": 0.8,
@@ -10311,7 +10992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.2
     },
     "nbaId": 203897,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203897.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203897.png",
+    "salary": "$48,967,380",
+    "salaryShort": "$49.0M",
+    "salaryNum": 48967380
   },
   {
     "id": "walshjo01",
@@ -10356,7 +11040,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1641775,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641775.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641775.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "hayesja02",
@@ -10377,7 +11064,7 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 1.6,
       "fg_pct": 0.756,
-      "x3p_pct": 1.0,
+      "x3p_pct": 1,
       "x3pa": 0.1,
       "ft_pct": 0.653
     },
@@ -10393,7 +11080,7 @@ export const PLAYERS = [
       "three_point_share": 0.013,
       "ft_rate": 0.577,
       "pass_vs_shoot": 0.231,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.37,
       "perimeter_def_ratio": 0.346,
       "stocks": 2.5,
@@ -10401,7 +11088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1629637,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "baglema01",
@@ -10417,7 +11107,7 @@ export const PLAYERS = [
     "g": 60,
     "stats": {
       "pts": 18.8,
-      "trb": 11.0,
+      "trb": 11,
       "ast": 2.5,
       "stl": 0.8,
       "blk": 1.3,
@@ -10443,10 +11133,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.364,
       "stocks": 2.1,
       "fga_per_36_min": 12.3,
-      "trb_per_36_min": 11.0
+      "trb_per_36_min": 11
     },
     "nbaId": 1628963,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "embiijo01",
@@ -10486,12 +11179,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.364,
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.286,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 20.9,
       "trb_per_36_min": 8.8
     },
     "nbaId": 203954,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png",
+    "salary": "$58,100,000",
+    "salaryShort": "$58.1M",
+    "salaryNum": 58100000
   },
   {
     "id": "aldamsa01",
@@ -10513,7 +11209,7 @@ export const PLAYERS = [
       "blk": 0.9,
       "fg_pct": 0.479,
       "x3p_pct": 0.35,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.667
     },
     "radar": {
@@ -10531,12 +11227,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.235,
       "orb_share": 0.233,
       "perimeter_def_ratio": 0.524,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 14.3,
       "trb_per_36_min": 8.6
     },
     "nbaId": 1630583,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630583.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630583.png",
+    "salary": "$17,007,043",
+    "salaryShort": "$17.0M",
+    "salaryNum": 17007043
   },
   {
     "id": "gaffoda01",
@@ -10557,8 +11256,8 @@ export const PLAYERS = [
       "stl": 1.3,
       "blk": 2.1,
       "fg_pct": 0.655,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.683
     },
     "radar": {
@@ -10570,7 +11269,7 @@ export const PLAYERS = [
       "perimeterDefense": 45
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.516,
       "pass_vs_shoot": 0.179,
       "ast_to_tov": 0.895,
@@ -10581,7 +11280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.4
     },
     "nbaId": 1629655,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629655.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629655.png",
+    "salary": "$17,263,584",
+    "salaryShort": "$17.3M",
+    "salaryNum": 17263584
   },
   {
     "id": "wolfda01",
@@ -10600,7 +11302,7 @@ export const PLAYERS = [
       "trb": 8.5,
       "ast": 3.9,
       "stl": 0.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.405,
       "x3p_pct": 0.322,
       "x3pa": 6.4,
@@ -10626,7 +11328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.5
     },
     "nbaId": 1642874,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642874.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642874.png",
+    "salary": "$2,941,440",
+    "salaryShort": "$2.9M",
+    "salaryNum": 2941440
   },
   {
     "id": "butleji01",
@@ -10671,7 +11376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 202710,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png",
+    "salary": "$56,832,773",
+    "salaryShort": "$56.8M",
+    "salaryNum": 56832773
   },
   {
     "id": "gueyemo02",
@@ -10693,7 +11401,7 @@ export const PLAYERS = [
       "blk": 1.2,
       "fg_pct": 0.452,
       "x3p_pct": 0.308,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.645
     },
     "radar": {
@@ -10716,7 +11424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1631243,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631243.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631243.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "jacksgg01",
@@ -10731,7 +11442,7 @@ export const PLAYERS = [
     "mp": 1178,
     "g": 55,
     "stats": {
-      "pts": 21.0,
+      "pts": 21,
       "trb": 7.2,
       "ast": 2.5,
       "stl": 0.9,
@@ -10761,7 +11472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1641713,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641713.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641713.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "hylanbo01",
@@ -10806,7 +11520,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1630538,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630538.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630538.png",
+    "salary": "$2,845,883",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2845883
   },
   {
     "id": "huntede01",
@@ -10851,7 +11568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1629631,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png",
+    "salary": "$24,910,714",
+    "salaryShort": "$24.9M",
+    "salaryNum": 24910714
   },
   {
     "id": "robinmi01",
@@ -10872,8 +11592,8 @@ export const PLAYERS = [
       "stl": 1.7,
       "blk": 2.1,
       "fg_pct": 0.723,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.408
     },
     "radar": {
@@ -10885,7 +11605,7 @@ export const PLAYERS = [
       "perimeterDefense": 70
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.508,
       "pass_vs_shoot": 0.254,
       "ast_to_tov": 1.231,
@@ -10896,7 +11616,10 @@ export const PLAYERS = [
       "trb_per_36_min": 16.1
     },
     "nbaId": 1629011,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png",
+    "salary": "$15,044,000",
+    "salaryShort": "$15.0M",
+    "salaryNum": 15044000
   },
   {
     "id": "fontesi01",
@@ -10941,7 +11664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1631323,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631323.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631323.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "nembhry01",
@@ -10982,11 +11708,14 @@ export const PLAYERS = [
       "orb_share": 0.098,
       "perimeter_def_ratio": 0.8,
       "stocks": 0.9,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 4.1
     },
     "nbaId": 1642948,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642948.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642948.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "shamela01",
@@ -11004,7 +11733,7 @@ export const PLAYERS = [
       "pts": 14.6,
       "trb": 2.8,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.437,
       "x3p_pct": 0.392,
@@ -11031,7 +11760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.8
     },
     "nbaId": 1629013,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png",
+    "salary": "$5,357,143",
+    "salaryShort": "$5.4M",
+    "salaryNum": 5357143
   },
   {
     "id": "mccaija01",
@@ -11053,7 +11785,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.425,
       "x3p_pct": 0.385,
-      "x3pa": 8.0,
+      "x3pa": 8,
       "ft_pct": 0.864
     },
     "radar": {
@@ -11076,7 +11808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1642272,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642272.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642272.png",
+    "salary": "$4,422,600",
+    "salaryShort": "$4.4M",
+    "salaryNum": 4422600
   },
   {
     "id": "sharpda01",
@@ -11117,11 +11852,14 @@ export const PLAYERS = [
       "orb_share": 0.414,
       "perimeter_def_ratio": 0.7,
       "stocks": 2.9,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 12.8
     },
     "nbaId": 1630549,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630549.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630549.png",
+    "salary": "$10,000,000",
+    "salaryShort": "$10.0M",
+    "salaryNum": 10000000
   },
   {
     "id": "postqu01",
@@ -11166,7 +11904,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1642366,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642366.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642366.png",
+    "salary": "$8,285,714",
+    "salaryShort": "$8.3M",
+    "salaryNum": 8285714
   },
   {
     "id": "mykhasv01",
@@ -11211,7 +11952,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1629004,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png",
+    "salary": "$3,850,000",
+    "salaryShort": "$3.9M",
+    "salaryNum": 3850000
   },
   {
     "id": "leverca01",
@@ -11228,7 +11972,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.8,
       "trb": 3.6,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.6,
       "blk": 1.3,
       "fg_pct": 0.417,
@@ -11256,7 +12000,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1627747,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png",
+    "salary": "$14,809,200",
+    "salaryShort": "$14.8M",
+    "salaryNum": 14809200
   },
   {
     "id": "poeltja01",
@@ -11275,10 +12022,10 @@ export const PLAYERS = [
       "trb": 10.1,
       "ast": 2.9,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.7,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.602
     },
     "radar": {
@@ -11290,7 +12037,7 @@ export const PLAYERS = [
       "perimeterDefense": 58
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.32,
       "pass_vs_shoot": 0.299,
       "ast_to_tov": 1.611,
@@ -11301,7 +12048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 1627751,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png",
+    "salary": "$19,500,000",
+    "salaryShort": "$19.5M",
+    "salaryNum": 19500000
   },
   {
     "id": "portecr01",
@@ -11341,12 +12091,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.368,
       "orb_share": 0.391,
       "perimeter_def_ratio": 0.581,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 8.1,
       "trb_per_36_min": 6.9
     },
     "nbaId": 1641854,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641854.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641854.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "paytoga02",
@@ -11368,7 +12121,7 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.583,
       "x3p_pct": 0.291,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.65
     },
     "radar": {
@@ -11391,7 +12144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1627780,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627780.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627780.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "smithdr01",
@@ -11436,7 +12192,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1630696,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630696.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630696.png",
+    "salary": "$2,584,539",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2584539
   },
   {
     "id": "harteis01",
@@ -11452,12 +12211,12 @@ export const PLAYERS = [
     "g": 47,
     "stats": {
       "pts": 13.7,
-      "trb": 14.0,
+      "trb": 14,
       "ast": 5.3,
       "stl": 1.5,
       "blk": 1.1,
       "fg_pct": 0.622,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.61
     },
@@ -11478,10 +12237,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.556,
       "stocks": 2.6,
       "fga_per_36_min": 9.4,
-      "trb_per_36_min": 14.0
+      "trb_per_36_min": 14
     },
     "nbaId": 1628392,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png",
+    "salary": "$23,148,148",
+    "salaryShort": "$23.1M",
+    "salaryNum": 23148148
   },
   {
     "id": "georgpa01",
@@ -11499,7 +12261,7 @@ export const PLAYERS = [
       "pts": 20.3,
       "trb": 6.2,
       "ast": 4.2,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.5,
       "fg_pct": 0.439,
       "x3p_pct": 0.392,
@@ -11526,7 +12288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 202331,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202331.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202331.png",
+    "salary": "$54,126,380",
+    "salaryShort": "$54.1M",
+    "salaryNum": 54126380
   },
   {
     "id": "vandeja01",
@@ -11571,7 +12336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 1629020,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png",
+    "salary": "$12,428,571",
+    "salaryShort": "$12.4M",
+    "salaryNum": 12428571
   },
   {
     "id": "meltode01",
@@ -11588,7 +12356,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 19.3,
       "trb": 5.1,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 2.5,
       "blk": 0.6,
       "fg_pct": 0.407,
@@ -11616,7 +12384,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1629001,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png",
+    "salary": "$5,477,000",
+    "salaryShort": "$5.5M",
+    "salaryNum": 5477000
   },
   {
     "id": "garzalu01",
@@ -11632,7 +12403,7 @@ export const PLAYERS = [
     "g": 69,
     "stats": {
       "pts": 17.9,
-      "trb": 9.0,
+      "trb": 9,
       "ast": 2.1,
       "stl": 0.9,
       "blk": 0.9,
@@ -11658,10 +12429,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.474,
       "stocks": 1.8,
       "fga_per_36_min": 11.5,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1630568,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630568.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630568.png",
+    "salary": "$2,801,346",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2801346
   },
   {
     "id": "hendrta01",
@@ -11680,7 +12454,7 @@ export const PLAYERS = [
       "trb": 7.1,
       "ast": 1.8,
       "stl": 1.6,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.459,
       "x3p_pct": 0.342,
       "x3pa": 5.9,
@@ -11706,7 +12480,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1641707,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641707.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641707.png",
+    "salary": "$7,805,900",
+    "salaryShort": "$7.8M",
+    "salaryNum": 7805900
   },
   {
     "id": "konchjo01",
@@ -11721,7 +12498,7 @@ export const PLAYERS = [
     "mp": 1115,
     "g": 56,
     "stats": {
-      "pts": 8.0,
+      "pts": 8,
       "trb": 7.7,
       "ast": 3.8,
       "stl": 2.7,
@@ -11751,7 +12528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.7
     },
     "nbaId": 1629723,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png",
+    "salary": "$2,055,000",
+    "salaryShort": "$2.1M",
+    "salaryNum": 2055000
   },
   {
     "id": "diengou01",
@@ -11792,11 +12572,14 @@ export const PLAYERS = [
       "orb_share": 0.153,
       "perimeter_def_ratio": 0.533,
       "stocks": 1.4,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 5.9
     },
     "nbaId": 1631172,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631172.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631172.png",
+    "salary": "$5,750,000",
+    "salaryShort": "$5.8M",
+    "salaryNum": 5750000
   },
   {
     "id": "smithja04",
@@ -11841,7 +12624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.7
     },
     "nbaId": 1630188,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png",
+    "salary": "$9,428,571",
+    "salaryShort": "$9.4M",
+    "salaryNum": 9428571
   },
   {
     "id": "caldwke01",
@@ -11886,7 +12672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 203484,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203484.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203484.png",
+    "salary": "$20,194,392",
+    "salaryShort": "$20.2M",
+    "salaryNum": 20194392
   },
   {
     "id": "gonzahu01",
@@ -11923,7 +12712,7 @@ export const PLAYERS = [
       "three_point_share": 0.476,
       "ft_rate": 0.11,
       "pass_vs_shoot": 0.159,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.256,
       "perimeter_def_ratio": 0.636,
       "stocks": 2.1,
@@ -11931,7 +12720,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1642864,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642864.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642864.png",
+    "salary": "$2,923,560",
+    "salaryShort": "$2.9M",
+    "salaryNum": 2923560
   },
   {
     "id": "nurkiju01",
@@ -11976,7 +12768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.1
     },
     "nbaId": 203994,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png",
+    "salary": "$10,576,923",
+    "salaryShort": "$10.6M",
+    "salaryNum": 10576923
   },
   {
     "id": "kispeco01",
@@ -12021,7 +12816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630557,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630557.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630557.png",
+    "salary": "$13,975,000",
+    "salaryShort": "$14.0M",
+    "salaryNum": 13975000
   },
   {
     "id": "mcbrimi01",
@@ -12043,7 +12841,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.423,
       "x3p_pct": 0.413,
-      "x3pa": 9.0,
+      "x3pa": 9,
       "ft_pct": 0.787
     },
     "radar": {
@@ -12066,7 +12864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1630540,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630540.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630540.png",
+    "salary": "$3,956,523",
+    "salaryShort": "$4.0M",
+    "salaryNum": 3956523
   },
   {
     "id": "ruperra01",
@@ -12111,7 +12912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1641712,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641712.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641712.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dickgr01",
@@ -12127,7 +12931,7 @@ export const PLAYERS = [
     "g": 76,
     "stats": {
       "pts": 15.4,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 1.7,
       "stl": 1.5,
       "blk": 0.2,
@@ -12152,11 +12956,14 @@ export const PLAYERS = [
       "orb_share": 0.28,
       "perimeter_def_ratio": 0.833,
       "stocks": 1.7,
-      "fga_per_36_min": 13.0,
-      "trb_per_36_min": 5.0
+      "fga_per_36_min": 13,
+      "trb_per_36_min": 5
     },
     "nbaId": 1641711,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641711.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641711.png",
+    "salary": "$7,131,511",
+    "salaryShort": "$7.1M",
+    "salaryNum": 7131511
   },
   {
     "id": "antetgi01",
@@ -12196,12 +13003,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.7,
       "orb_share": 0.279,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 20.7,
       "trb_per_36_min": 12.2
     },
     "nbaId": 203507,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png",
+    "salary": "$58,456,566",
+    "salaryShort": "$58.5M",
+    "salaryNum": 58456566
   },
   {
     "id": "herroty01",
@@ -12246,7 +13056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1629639,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png",
+    "salary": "$33,000,000",
+    "salaryShort": "$33.0M",
+    "salaryNum": 33000000
   },
   {
     "id": "watkija01",
@@ -12291,7 +13104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1642364,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642364.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642364.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "carusal01",
@@ -12336,7 +13152,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1627936,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png",
+    "salary": "$19,550,160",
+    "salaryShort": "$19.6M",
+    "salaryNum": 19550160
   },
   {
     "id": "wagnefr01",
@@ -12353,7 +13172,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 24.7,
       "trb": 6.3,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 1.1,
       "blk": 0.4,
       "fg_pct": 0.481,
@@ -12373,7 +13192,7 @@ export const PLAYERS = [
       "three_point_share": 0.274,
       "ft_rate": 0.391,
       "pass_vs_shoot": 0.223,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.238,
       "perimeter_def_ratio": 0.688,
       "stocks": 1.5,
@@ -12381,7 +13200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1630532,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png",
+    "salary": "$41,754,690",
+    "salaryShort": "$41.8M",
+    "salaryNum": 41754690
   },
   {
     "id": "loveca01",
@@ -12399,7 +13221,7 @@ export const PLAYERS = [
       "pts": 18.1,
       "trb": 4.1,
       "ast": 4.4,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.1,
       "fg_pct": 0.388,
       "x3p_pct": 0.318,
@@ -12418,7 +13240,7 @@ export const PLAYERS = [
       "three_point_share": 0.598,
       "ft_rate": 0.098,
       "pass_vs_shoot": 0.253,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.22,
       "perimeter_def_ratio": 0.833,
       "stocks": 1.1,
@@ -12426,7 +13248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1631126,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631126.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631126.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "williro04",
@@ -12471,7 +13296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.8
     },
     "nbaId": 1629057,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png",
+    "salary": "$13,968,254",
+    "salaryShort": "$14.0M",
+    "salaryNum": 13968254
   },
   {
     "id": "yabusgu01",
@@ -12493,7 +13321,7 @@ export const PLAYERS = [
       "blk": 0.6,
       "fg_pct": 0.401,
       "x3p_pct": 0.352,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.75
     },
     "radar": {
@@ -12516,7 +13344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1627824,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627824.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627824.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gordoaa01",
@@ -12561,7 +13392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.5
     },
     "nbaId": 203932,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png",
+    "salary": "$33,658,037",
+    "salaryShort": "$33.7M",
+    "salaryNum": 33658037
   },
   {
     "id": "tomlina01",
@@ -12606,7 +13440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 1641772,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641772.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641772.png",
+    "salary": "$2,411,090",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2411090
   },
   {
     "id": "conlemi01",
@@ -12628,7 +13465,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.335,
       "x3p_pct": 0.337,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.9
     },
     "radar": {
@@ -12651,7 +13488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 201144,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "prospol01",
@@ -12691,12 +13531,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.118,
       "orb_share": 0.324,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.8,
       "trb_per_36_min": 6.8
     },
     "nbaId": 1641765,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641765.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641765.png",
+    "salary": "$3,500,172",
+    "salaryShort": "$3.5M",
+    "salaryNum": 3500172
   },
   {
     "id": "jonesty01",
@@ -12718,7 +13561,7 @@ export const PLAYERS = [
       "blk": 0.1,
       "fg_pct": 0.349,
       "x3p_pct": 0.292,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.778
     },
     "radar": {
@@ -12737,11 +13580,14 @@ export const PLAYERS = [
       "orb_share": 0.143,
       "perimeter_def_ratio": 0.875,
       "stocks": 1.5,
-      "fga_per_36_min": 8.0,
+      "fga_per_36_min": 8,
       "trb_per_36_min": 2.8
     },
     "nbaId": 1626145,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626145.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626145.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "edwarju01",
@@ -12759,7 +13605,7 @@ export const PLAYERS = [
       "pts": 14.2,
       "trb": 3.5,
       "ast": 2.9,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.4,
       "fg_pct": 0.447,
       "x3p_pct": 0.372,
@@ -12786,7 +13632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1642348,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642348.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642348.png",
+    "salary": "$2,411,090",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2411090
   },
   {
     "id": "agbajoc01",
@@ -12831,7 +13680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1630534,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630534.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630534.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bitadgo01",
@@ -12876,7 +13728,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.9
     },
     "nbaId": 1629048,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png",
+    "salary": "$7,608,696",
+    "salaryShort": "$7.6M",
+    "salaryNum": 7608696
   },
   {
     "id": "dilliro01",
@@ -12921,7 +13776,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1642265,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642265.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642265.png",
+    "salary": "$6,889,320",
+    "salaryShort": "$6.9M",
+    "salaryNum": 6889320
   },
   {
     "id": "horfoal01",
@@ -12961,12 +13819,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.687,
       "orb_share": 0.198,
       "perimeter_def_ratio": 0.355,
-      "stocks": 3.0,
-      "fga_per_36_min": 12.0,
+      "stocks": 3,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 8.1
     },
     "nbaId": 201143,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201143.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201143.png",
+    "salary": "$6,822,000",
+    "salaryShort": "$6.8M",
+    "salaryNum": 6822000
   },
   {
     "id": "brownko01",
@@ -12983,7 +13844,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.2,
       "trb": 6.9,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.9,
       "blk": 0.4,
       "fg_pct": 0.469,
@@ -13011,7 +13872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1641738,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641738.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641738.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mccontj01",
@@ -13056,7 +13920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 204456,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204456.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204456.png",
+    "salary": "$11,000,000",
+    "salaryShort": "$11.0M",
+    "salaryNum": 11000000
   },
   {
     "id": "gillan01",
@@ -13072,7 +13939,7 @@ export const PLAYERS = [
     "g": 55,
     "stats": {
       "pts": 12.2,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 2.6,
       "stl": 1.2,
       "blk": 0.8,
@@ -13096,12 +13963,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.857,
       "orb_share": 0.367,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 8.1,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1630264,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "jakucka01",
@@ -13146,7 +14016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1642857,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642857.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642857.png",
+    "salary": "$3,841,680",
+    "salaryShort": "$3.8M",
+    "salaryNum": 3841680
   },
   {
     "id": "willija06",
@@ -13163,12 +14036,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 21.7,
       "trb": 5.8,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 1.5,
       "blk": 0.3,
       "fg_pct": 0.484,
       "x3p_pct": 0.299,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.837
     },
     "radar": {
@@ -13191,7 +14064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1631114,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631114.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631114.png",
+    "salary": "$41,500,000",
+    "salaryShort": "$41.5M",
+    "salaryNum": 41500000
   },
   {
     "id": "poolejo01",
@@ -13207,7 +14083,7 @@ export const PLAYERS = [
     "g": 39,
     "stats": {
       "pts": 20.2,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 4.6,
       "stl": 0.8,
       "blk": 0.6,
@@ -13233,10 +14109,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.533,
       "stocks": 1.4,
       "fga_per_36_min": 17.1,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 1629673,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png",
+    "salary": "$34,044,642",
+    "salaryShort": "$34.0M",
+    "salaryNum": 34044642
   },
   {
     "id": "capelca01",
@@ -13251,7 +14130,7 @@ export const PLAYERS = [
     "mp": 926,
     "g": 75,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 13.4,
       "ast": 1.9,
       "stl": 1.4,
@@ -13281,7 +14160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.4
     },
     "nbaId": 203991,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203991.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203991.png",
+    "salary": "$7,035,000",
+    "salaryShort": "$7.0M",
+    "salaryNum": 7035000
   },
   {
     "id": "sarafbe01",
@@ -13296,7 +14178,7 @@ export const PLAYERS = [
     "mp": 916,
     "g": 44,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 3.6,
       "ast": 5.7,
       "stl": 1.5,
@@ -13326,7 +14208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1642879,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642879.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642879.png",
+    "salary": "$3,028,560",
+    "salaryShort": "$3.0M",
+    "salaryNum": 3028560
   },
   {
     "id": "peavymi01",
@@ -13363,7 +14248,7 @@ export const PLAYERS = [
       "three_point_share": 0.398,
       "ft_rate": 0.102,
       "pass_vs_shoot": 0.222,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.391,
       "perimeter_def_ratio": 0.773,
       "stocks": 2.1,
@@ -13371,7 +14256,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1642877,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642877.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642877.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "matkoka01",
@@ -13387,9 +14275,9 @@ export const PLAYERS = [
     "g": 62,
     "stats": {
       "pts": 13.9,
-      "trb": 9.0,
-      "ast": 2.0,
-      "stl": 1.0,
+      "trb": 9,
+      "ast": 2,
+      "stl": 1,
       "blk": 2.1,
       "fg_pct": 0.604,
       "x3p_pct": 0.422,
@@ -13413,10 +14301,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.312,
       "stocks": 3.1,
       "fga_per_36_min": 9.3,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1631255,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631255.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631255.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "greenjo02",
@@ -13432,7 +14323,7 @@ export const PLAYERS = [
     "g": 58,
     "stats": {
       "pts": 9.9,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 1.9,
       "stl": 1.4,
       "blk": 0.2,
@@ -13458,10 +14349,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.824,
       "stocks": 1.6,
       "fga_per_36_min": 7.2,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 1630182,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png",
+    "salary": "$14,679,012",
+    "salaryShort": "$14.7M",
+    "salaryNum": 14679012
   },
   {
     "id": "jacksis01",
@@ -13482,7 +14376,7 @@ export const PLAYERS = [
       "stl": 1.4,
       "blk": 1.9,
       "fg_pct": 0.637,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.648
     },
@@ -13506,7 +14400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.5
     },
     "nbaId": 1630543,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630543.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630543.png",
+    "salary": "$7,000,000",
+    "salaryShort": "$7.0M",
+    "salaryNum": 7000000
   },
   {
     "id": "pottemi01",
@@ -13551,7 +14448,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.2
     },
     "nbaId": 1630695,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630695.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630695.png",
+    "salary": "$2,801,346",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2801346
   },
   {
     "id": "cardwdy01",
@@ -13596,7 +14496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.2
     },
     "nbaId": 1642928,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642928.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642928.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "poweldw01",
@@ -13637,11 +14540,14 @@ export const PLAYERS = [
       "orb_share": 0.373,
       "perimeter_def_ratio": 0.609,
       "stocks": 2.2,
-      "fga_per_36_min": 4.0,
+      "fga_per_36_min": 4,
       "trb_per_36_min": 10.2
     },
     "nbaId": 203939,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reedpa01",
@@ -13686,7 +14592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.7
     },
     "nbaId": 1630194,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png",
+    "salary": "$5,602,689",
+    "salaryShort": "$5.6M",
+    "salaryNum": 5602689
   },
   {
     "id": "hardyja02",
@@ -13701,7 +14610,7 @@ export const PLAYERS = [
     "mp": 898,
     "g": 57,
     "stats": {
-      "pts": 21.0,
+      "pts": 21,
       "trb": 3.4,
       "ast": 2.3,
       "stl": 0.6,
@@ -13731,7 +14640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1630702,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630702.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630702.png",
+    "salary": "$6,000,000",
+    "salaryShort": "$6.0M",
+    "salaryNum": 6000000
   },
   {
     "id": "jacksqu01",
@@ -13746,7 +14658,7 @@ export const PLAYERS = [
     "mp": 897,
     "g": 49,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 4.6,
       "ast": 5.6,
       "stl": 1.2,
@@ -13776,7 +14688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1631245,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631245.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631245.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "clarkja02",
@@ -13821,7 +14736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1641740,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641740.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641740.png",
+    "salary": "$3,086,420",
+    "salaryShort": "$3.1M",
+    "salaryNum": 3086420
   },
   {
     "id": "thomaca02",
@@ -13866,7 +14784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 1630560,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630560.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630560.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcgowbr01",
@@ -13911,7 +14832,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1631121,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631121.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631121.png",
+    "salary": "$2,584,539",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2584539
   },
   {
     "id": "vincega01",
@@ -13921,7 +14845,7 @@ export const PLAYERS = [
     "age": 29,
     "season": 2026,
     "clusterId": 3,
-    "pcaX": -3.0,
+    "pcaX": -3,
     "pcaY": 0.47,
     "mp": 879,
     "g": 53,
@@ -13956,7 +14880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.2
     },
     "nbaId": 1629216,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "valanjo01",
@@ -14001,7 +14928,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.6
     },
     "nbaId": 202685,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "carteje01",
@@ -14046,7 +14976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1628975,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "watfotr01",
@@ -14091,7 +15024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 1630570,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630570.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630570.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "strawju01",
@@ -14109,7 +15045,7 @@ export const PLAYERS = [
       "pts": 17.3,
       "trb": 4.8,
       "ast": 2.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.467,
       "x3p_pct": 0.387,
@@ -14136,7 +15072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1631124,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631124.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631124.png",
+    "salary": "$4,826,931",
+    "salaryShort": "$4.8M",
+    "salaryNum": 4826931
   },
   {
     "id": "wilsoja03",
@@ -14176,12 +15115,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.312,
       "orb_share": 0.146,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 11.7,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1630592,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630592.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630592.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martica02",
@@ -14197,7 +15139,7 @@ export const PLAYERS = [
     "g": 58,
     "stats": {
       "pts": 9.5,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 3.4,
       "stl": 1.7,
       "blk": 0.6,
@@ -14218,15 +15160,18 @@ export const PLAYERS = [
       "three_point_share": 0.304,
       "ft_rate": 0.329,
       "pass_vs_shoot": 0.43,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.708,
       "stocks": 2.3,
       "fga_per_36_min": 7.9,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1628997,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png",
+    "salary": "$10,001,493",
+    "salaryShort": "$10.0M",
+    "salaryNum": 10001493
   },
   {
     "id": "willike04",
@@ -14271,7 +15216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1629026,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png",
+    "salary": "$5,000,000",
+    "salaryShort": "$5.0M",
+    "salaryNum": 5000000
   },
   {
     "id": "anderky01",
@@ -14311,12 +15259,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.312,
       "orb_share": 0.286,
       "perimeter_def_ratio": 0.613,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 8.5,
       "trb_per_36_min": 6.3
     },
     "nbaId": 203937,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "plowdda01",
@@ -14334,7 +15285,7 @@ export const PLAYERS = [
       "pts": 14.7,
       "trb": 4.1,
       "ast": 1.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.43,
       "x3p_pct": 0.333,
@@ -14361,7 +15312,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1631342,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631342.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631342.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "minotjo01",
@@ -14378,9 +15332,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 15.7,
       "trb": 6.8,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.5,
       "x3p_pct": 0.418,
       "x3pa": 6.6,
@@ -14406,7 +15360,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1631169,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631169.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631169.png",
+    "salary": "$4,500,000",
+    "salaryShort": "$4.5M",
+    "salaryNum": 4500000
   },
   {
     "id": "kuminjo01",
@@ -14421,10 +15378,10 @@ export const PLAYERS = [
     "mp": 830,
     "g": 36,
     "stats": {
-      "pts": 19.0,
+      "pts": 19,
       "trb": 8.8,
       "ast": 3.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.463,
       "x3p_pct": 0.333,
@@ -14451,7 +15408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 1630228,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630228.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630228.png",
+    "salary": "$6,064,000",
+    "salaryShort": "$6.1M",
+    "salaryNum": 6064000
   },
   {
     "id": "smallja01",
@@ -14496,7 +15456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1642914,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642914.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642914.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "greenja05",
@@ -14512,8 +15475,8 @@ export const PLAYERS = [
     "g": 32,
     "stats": {
       "pts": 24.7,
-      "trb": 5.0,
-      "ast": 4.0,
+      "trb": 5,
+      "ast": 4,
       "stl": 1.5,
       "blk": 0.3,
       "fg_pct": 0.422,
@@ -14538,10 +15501,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.789,
       "stocks": 1.8,
       "fga_per_36_min": 22.3,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1630224,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630224.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630224.png",
+    "salary": "$36,251,166",
+    "salaryShort": "$36.3M",
+    "salaryNum": 36251166
   },
   {
     "id": "willivi01",
@@ -14581,12 +15547,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.355,
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.8,
       "trb_per_36_min": 6.8
     },
     "nbaId": 1631246,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631246.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631246.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hieldbu01",
@@ -14631,7 +15600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1627741,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627741.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627741.png",
+    "salary": "$9,658,536",
+    "salaryShort": "$9.7M",
+    "salaryNum": 9658536
   },
   {
     "id": "bryanca01",
@@ -14650,7 +15622,7 @@ export const PLAYERS = [
       "trb": 7.8,
       "ast": 2.1,
       "stl": 0.7,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.408,
       "x3p_pct": 0.335,
       "x3pa": 6.8,
@@ -14676,7 +15648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 1642868,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642868.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642868.png",
+    "salary": "$5,145,360",
+    "salaryShort": "$5.1M",
+    "salaryNum": 5145360
   },
   {
     "id": "jovicni01",
@@ -14716,12 +15691,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.552,
       "orb_share": 0.162,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
-      "fga_per_36_min": 14.0,
+      "stocks": 2,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 6.8
     },
     "nbaId": 1631107,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631107.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631107.png",
+    "salary": "$16,200,000",
+    "salaryShort": "$16.2M",
+    "salaryNum": 16200000
   },
   {
     "id": "pickeja02",
@@ -14766,7 +15744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1629618,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629618.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629618.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "murrake02",
@@ -14782,7 +15763,7 @@ export const PLAYERS = [
     "g": 23,
     "stats": {
       "pts": 14.6,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 1.7,
       "stl": 1.1,
       "blk": 1.6,
@@ -14808,10 +15789,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.393,
       "stocks": 2.7,
       "fga_per_36_min": 13.6,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1631099,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631099.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631099.png",
+    "salary": "$24,137,936",
+    "salaryShort": "$24.1M",
+    "salaryNum": 24137936
   },
   {
     "id": "holidaa01",
@@ -14856,7 +15840,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.7
     },
     "nbaId": 1628988,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martity01",
@@ -14901,7 +15888,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1631213,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631213.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631213.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "porzikr01",
@@ -14916,7 +15906,7 @@ export const PLAYERS = [
     "mp": 769,
     "g": 32,
     "stats": {
-      "pts": 25.0,
+      "pts": 25,
       "trb": 7.8,
       "ast": 3.8,
       "stl": 0.8,
@@ -14938,7 +15928,7 @@ export const PLAYERS = [
       "three_point_share": 0.412,
       "ft_rate": 0.407,
       "pass_vs_shoot": 0.209,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.244,
       "perimeter_def_ratio": 0.296,
       "stocks": 2.6,
@@ -14946,7 +15936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 204001,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png",
+    "salary": "$19,512,195",
+    "salaryShort": "$19.5M",
+    "salaryNum": 19512195
   },
   {
     "id": "walkeja01",
@@ -14961,7 +15954,7 @@ export const PLAYERS = [
     "mp": 762,
     "g": 64,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 9.1,
       "ast": 1.6,
       "stl": 1.1,
@@ -14991,7 +15984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1631133,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631133.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631133.png",
+    "salary": "$2,584,539",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2584539
   },
   {
     "id": "pendano01",
@@ -15036,7 +16032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.9
     },
     "nbaId": 1642869,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642869.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642869.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "hendesc01",
@@ -15081,7 +16080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1630703,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630703.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630703.png",
+    "salary": "$13,585,523",
+    "salaryShort": "$13.6M",
+    "salaryNum": 13585523
   },
   {
     "id": "nancepe01",
@@ -15126,7 +16128,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1631250,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631250.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631250.png",
+    "salary": "$2,537,526",
+    "salaryShort": "$2.5M",
+    "salaryNum": 2537526
   },
   {
     "id": "bryanth01",
@@ -15171,7 +16176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 1628418,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "adamsst01",
@@ -15190,10 +16198,10 @@ export const PLAYERS = [
       "trb": 13.6,
       "ast": 2.4,
       "stl": 1.1,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.504,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.58
     },
     "radar": {
@@ -15205,7 +16213,7 @@ export const PLAYERS = [
       "perimeterDefense": 45
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.58,
       "pass_vs_shoot": 0.348,
       "ast_to_tov": 1.412,
@@ -15216,7 +16224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.6
     },
     "nbaId": 203500,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203500.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203500.png",
+    "salary": "$13,000,000",
+    "salaryShort": "$13.0M",
+    "salaryNum": 13000000
   },
   {
     "id": "balllo01",
@@ -15261,7 +16272,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1628366,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kolekty01",
@@ -15306,7 +16320,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1642278,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642278.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642278.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "millele01",
@@ -15323,12 +16340,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 18.1,
       "trb": 9.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.9,
       "blk": 0.8,
       "fg_pct": 0.553,
       "x3p_pct": 0.323,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.736
     },
     "radar": {
@@ -15351,7 +16368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1631159,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631159.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631159.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "willigr01",
@@ -15396,7 +16416,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1629684,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png",
+    "salary": "$14,265,750",
+    "salaryShort": "$14.3M",
+    "salaryNum": 14265750
   },
   {
     "id": "richani01",
@@ -15441,7 +16464,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.5
     },
     "nbaId": 1630208,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "cartede02",
@@ -15482,11 +16508,14 @@ export const PLAYERS = [
       "orb_share": 0.297,
       "perimeter_def_ratio": 0.739,
       "stocks": 2.2,
-      "fga_per_36_min": 15.0,
+      "fga_per_36_min": 15,
       "trb_per_36_min": 6.4
     },
     "nbaId": 1642269,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642269.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642269.png",
+    "salary": "$5,158,080",
+    "salaryShort": "$5.2M",
+    "salaryNum": 5158080
   },
   {
     "id": "coopesh01",
@@ -15531,7 +16560,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630536,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630536.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630536.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "howarje01",
@@ -15572,11 +16604,14 @@ export const PLAYERS = [
       "orb_share": 0.267,
       "perimeter_def_ratio": 0.417,
       "stocks": 1.1,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 4.5
     },
     "nbaId": 1641724,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641724.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641724.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hawkijo01",
@@ -15598,7 +16633,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.366,
       "x3p_pct": 0.348,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.852
     },
     "radar": {
@@ -15621,7 +16656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1641722,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641722.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641722.png",
+    "salary": "$7,021,895",
+    "salaryShort": "$7.0M",
+    "salaryNum": 7021895
   },
   {
     "id": "flemira01",
@@ -15643,7 +16681,7 @@ export const PLAYERS = [
       "blk": 1.1,
       "fg_pct": 0.405,
       "x3p_pct": 0.346,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.559
     },
     "radar": {
@@ -15666,7 +16704,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1642853,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642853.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642853.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "mashaja01",
@@ -15684,11 +16725,11 @@ export const PLAYERS = [
       "pts": 10.3,
       "trb": 4.3,
       "ast": 3.7,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.7,
       "fg_pct": 0.395,
       "x3p_pct": 0.253,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.543
     },
     "radar": {
@@ -15711,7 +16752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1642942,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642942.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642942.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "vukcetr01",
@@ -15728,7 +16772,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 23.7,
       "trb": 7.9,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.2,
       "blk": 1.8,
       "fg_pct": 0.479,
@@ -15751,12 +16795,15 @@ export const PLAYERS = [
       "ast_to_tov": 0.909,
       "orb_share": 0.215,
       "perimeter_def_ratio": 0.387,
-      "stocks": 3.0,
-      "fga_per_36_min": 17.0,
+      "stocks": 3,
+      "fga_per_36_min": 17,
       "trb_per_36_min": 7.9
     },
     "nbaId": 1641774,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641774.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641774.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "iveyja01",
@@ -15771,7 +16818,7 @@ export const PLAYERS = [
     "mp": 670,
     "g": 37,
     "stats": {
-      "pts": 17.0,
+      "pts": 17,
       "trb": 4.9,
       "ast": 3.7,
       "stl": 1.2,
@@ -15796,12 +16843,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.682,
       "orb_share": 0.265,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 13.8,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1631093,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631093.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631093.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "manntr01",
@@ -15817,7 +16867,7 @@ export const PLAYERS = [
     "g": 53,
     "stats": {
       "pts": 15.7,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 4.6,
       "stl": 1.3,
       "blk": 0.3,
@@ -15843,10 +16893,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.765,
       "stocks": 1.6,
       "fga_per_36_min": 16.3,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1630544,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630544.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630544.png",
+    "salary": "$8,000,000",
+    "salaryShort": "$8.0M",
+    "salaryNum": 8000000
   },
   {
     "id": "harriga01",
@@ -15861,7 +16914,7 @@ export const PLAYERS = [
     "mp": 661,
     "g": 48,
     "stats": {
-      "pts": 7.0,
+      "pts": 7,
       "trb": 3.3,
       "ast": 2.8,
       "stl": 1.5,
@@ -15886,12 +16939,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.8,
       "orb_share": 0.273,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 5.7,
       "trb_per_36_min": 3.3
     },
     "nbaId": 203914,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203914.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203914.png",
+    "salary": "$3,815,861",
+    "salaryShort": "$3.8M",
+    "salaryNum": 3815861
   },
   {
     "id": "thompet01",
@@ -15936,7 +16992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630679,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630679.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630679.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bouyeja01",
@@ -15981,7 +17040,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1631123,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631123.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631123.png",
+    "salary": "$2,584,539",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2584539
   },
   {
     "id": "furphjo01",
@@ -16003,7 +17065,7 @@ export const PLAYERS = [
       "blk": 0.4,
       "fg_pct": 0.47,
       "x3p_pct": 0.324,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.486
     },
     "radar": {
@@ -16026,7 +17088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 1642277,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642277.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642277.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "diawamo01",
@@ -16041,10 +17106,10 @@ export const PLAYERS = [
     "mp": 634,
     "g": 69,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 5.3,
-      "ast": 3.0,
-      "stl": 1.0,
+      "ast": 3,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.423,
       "x3p_pct": 0.369,
@@ -16071,7 +17136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1642885,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642885.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642885.png",
+    "salary": "$2,232,143",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2232143
   },
   {
     "id": "davisan02",
@@ -16116,7 +17184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.7
     },
     "nbaId": 203076,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png",
+    "salary": "$58,456,566",
+    "salaryShort": "$58.5M",
+    "salaryNum": 58456566
   },
   {
     "id": "nnajize01",
@@ -16134,7 +17205,7 @@ export const PLAYERS = [
       "pts": 10.9,
       "trb": 7.8,
       "ast": 1.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.4,
       "fg_pct": 0.47,
       "x3p_pct": 0.259,
@@ -16161,7 +17232,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 1630192,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png",
+    "salary": "$7,466,667",
+    "salaryShort": "$7.5M",
+    "salaryNum": 7466667
   },
   {
     "id": "finnedo01",
@@ -16206,7 +17280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1627827,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627827.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627827.png",
+    "salary": "$13,335,000",
+    "salaryShort": "$13.3M",
+    "salaryNum": 13335000
   },
   {
     "id": "joneska03",
@@ -16223,9 +17300,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.5,
       "trb": 3.5,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 1.1,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.402,
       "x3p_pct": 0.293,
       "x3pa": 4.4,
@@ -16251,7 +17328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1642880,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642880.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642880.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "loveke01",
@@ -16296,7 +17376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 201567,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "princta02",
@@ -16319,7 +17402,7 @@ export const PLAYERS = [
       "fg_pct": 0.45,
       "x3p_pct": 0.436,
       "x3pa": 8.2,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 59,
@@ -16341,7 +17424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1627752,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png",
+    "salary": "$3,815,861",
+    "salaryShort": "$3.8M",
+    "salaryNum": 3815861
   },
   {
     "id": "richaja02",
@@ -16386,7 +17472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1642859,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642859.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642859.png",
+    "salary": "$3,132,360",
+    "salaryShort": "$3.1M",
+    "salaryNum": 3132360
   },
   {
     "id": "salauti01",
@@ -16404,7 +17493,7 @@ export const PLAYERS = [
       "pts": 13.9,
       "trb": 9.3,
       "ast": 1.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.503,
       "x3p_pct": 0.434,
@@ -16427,11 +17516,14 @@ export const PLAYERS = [
       "orb_share": 0.172,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.4,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 9.3
     },
     "nbaId": 1642275,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642275.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642275.png",
+    "salary": "$8,237,880",
+    "salaryShort": "$8.2M",
+    "salaryNum": 8237880
   },
   {
     "id": "moranja01",
@@ -16476,7 +17568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1629630,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png",
+    "salary": "$42,166,510",
+    "salaryShort": "$42.2M",
+    "salaryNum": 42166510
   },
   {
     "id": "sabondo01",
@@ -16493,7 +17588,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 19.2,
       "trb": 13.8,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.1,
       "blk": 0.3,
       "fg_pct": 0.543,
@@ -16521,7 +17616,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.8
     },
     "nbaId": 1627734,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627734.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627734.png",
+    "salary": "$45,472,000",
+    "salaryShort": "$45.5M",
+    "salaryNum": 45472000
   },
   {
     "id": "knechda01",
@@ -16566,7 +17664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1642261,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642261.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642261.png",
+    "salary": "$4,201,080",
+    "salaryShort": "$4.2M",
+    "salaryNum": 4201080
   },
   {
     "id": "eubandr01",
@@ -16584,7 +17685,7 @@ export const PLAYERS = [
       "pts": 14.3,
       "trb": 8.3,
       "ast": 1.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.7,
       "fg_pct": 0.596,
       "x3p_pct": 0.143,
@@ -16611,7 +17712,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.3
     },
     "nbaId": 1629234,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "terryda01",
@@ -16630,7 +17734,7 @@ export const PLAYERS = [
       "trb": 5.6,
       "ast": 4.3,
       "stl": 1.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.439,
       "x3p_pct": 0.364,
       "x3pa": 4.3,
@@ -16656,7 +17760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1631207,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631207.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631207.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harklej01",
@@ -16673,8 +17780,8 @@ export const PLAYERS = [
     "stats": {
       "pts": 11.8,
       "trb": 3.5,
-      "ast": 5.0,
-      "stl": 2.0,
+      "ast": 5,
+      "stl": 2,
       "blk": 0.4,
       "fg_pct": 0.335,
       "x3p_pct": 0.239,
@@ -16701,7 +17808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1641989,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641989.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641989.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "proctty01",
@@ -16716,11 +17826,11 @@ export const PLAYERS = [
     "mp": 545,
     "g": 50,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 4.2,
       "ast": 4.9,
       "stl": 1.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.413,
       "x3p_pct": 0.351,
       "x3pa": 8.7,
@@ -16746,7 +17856,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1642878,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642878.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642878.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "shannte01",
@@ -16786,12 +17899,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.562,
       "orb_share": 0.212,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 11.4,
       "trb_per_36_min": 3.3
     },
     "nbaId": 1630545,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630545.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630545.png",
+    "salary": "$2,801,640",
+    "salaryShort": "$2.8M",
+    "salaryNum": 2801640
   },
   {
     "id": "wallake01",
@@ -16836,7 +17952,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630811,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630811.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630811.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cissemo01",
@@ -16857,8 +17976,8 @@ export const PLAYERS = [
       "stl": 1.3,
       "blk": 3.1,
       "fg_pct": 0.574,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.469
     },
     "radar": {
@@ -16870,7 +17989,7 @@ export const PLAYERS = [
       "perimeterDefense": 40
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.705,
       "pass_vs_shoot": 0.077,
       "ast_to_tov": 0.3,
@@ -16881,7 +18000,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.7
     },
     "nbaId": 1630619,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630619.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630619.png",
+    "salary": "$2,185,116",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2185116
   },
   {
     "id": "anthoco01",
@@ -16896,7 +18018,7 @@ export const PLAYERS = [
     "mp": 527,
     "g": 35,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 5.9,
       "ast": 8.3,
       "stl": 1.4,
@@ -16926,7 +18048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1630175,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png",
+    "salary": "$3,700,000",
+    "salaryShort": "$3.7M",
+    "salaryNum": 3700000
   },
   {
     "id": "tatumja01",
@@ -16941,8 +18066,8 @@ export const PLAYERS = [
     "mp": 522,
     "g": 16,
     "stats": {
-      "pts": 24.0,
-      "trb": 11.0,
+      "pts": 24,
+      "trb": 11,
       "ast": 5.9,
       "stl": 1.5,
       "blk": 0.2,
@@ -16968,10 +18093,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.833,
       "stocks": 1.7,
       "fga_per_36_min": 19.8,
-      "trb_per_36_min": 11.0
+      "trb_per_36_min": 11
     },
     "nbaId": 1628369,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png",
+    "salary": "$58,456,566",
+    "salaryShort": "$58.5M",
+    "salaryNum": 58456566
   },
   {
     "id": "isaacjo01",
@@ -17016,7 +18144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1628371,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png",
+    "salary": "$10,449,421",
+    "salaryShort": "$10.4M",
+    "salaryNum": 10449421
   },
   {
     "id": "battlja01",
@@ -17061,7 +18192,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1642419,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642419.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642419.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "newelas01",
@@ -17106,7 +18240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1642854,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642854.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642854.png",
+    "salary": "$3,399,480",
+    "salaryShort": "$3.4M",
+    "salaryNum": 3399480
   },
   {
     "id": "hukpoar01",
@@ -17151,7 +18288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.5
     },
     "nbaId": 1630574,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630574.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630574.png",
+    "salary": "$3,400,000",
+    "salaryShort": "$3.4M",
+    "salaryNum": 3400000
   },
   {
     "id": "jackstr02",
@@ -17172,7 +18312,7 @@ export const PLAYERS = [
       "stl": 1.2,
       "blk": 1.7,
       "fg_pct": 0.573,
-      "x3p_pct": 1.0,
+      "x3p_pct": 1,
       "x3pa": 0.1,
       "ft_pct": 0.514
     },
@@ -17192,11 +18332,14 @@ export const PLAYERS = [
       "orb_share": 0.457,
       "perimeter_def_ratio": 0.4,
       "stocks": 2.9,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 10.5
     },
     "nbaId": 1631218,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631218.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631218.png",
+    "salary": "$2,406,205",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2406205
   },
   {
     "id": "russeda01",
@@ -17236,12 +18379,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.111,
       "orb_share": 0.136,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 16.9,
       "trb_per_36_min": 4.4
     },
     "nbaId": 1626156,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png",
+    "salary": "$5,969,250",
+    "salaryShort": "$6.0M",
+    "salaryNum": 5969250
   },
   {
     "id": "mbengbe01",
@@ -17286,7 +18432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1643016,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643016.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643016.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "peterta01",
@@ -17331,7 +18480,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1643007,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643007.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643007.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "coffeam01",
@@ -17348,7 +18500,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.9,
       "trb": 4.2,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.7,
       "blk": 0.4,
       "fg_pct": 0.487,
@@ -17376,7 +18528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1629599,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "carlsbr01",
@@ -17395,7 +18550,7 @@ export const PLAYERS = [
       "trb": 9.1,
       "ast": 2.1,
       "stl": 0.6,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.527,
       "x3p_pct": 0.36,
       "x3pa": 6.3,
@@ -17421,7 +18576,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1642382,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642382.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642382.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "cainja01",
@@ -17466,7 +18624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1631288,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631288.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631288.png",
+    "salary": "$2,584,539",
+    "salaryShort": "$2.6M",
+    "salaryNum": 2584539
   },
   {
     "id": "chrisca02",
@@ -17511,7 +18672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1642353,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642353.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642353.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thybuma01",
@@ -17528,12 +18692,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.1,
       "trb": 4.4,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 4.5,
       "blk": 1.2,
       "fg_pct": 0.433,
       "x3p_pct": 0.398,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.84
     },
     "radar": {
@@ -17552,11 +18716,14 @@ export const PLAYERS = [
       "orb_share": 0.295,
       "perimeter_def_ratio": 0.776,
       "stocks": 5.7,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 4.4
     },
     "nbaId": 1629680,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629680.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629680.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "sochaje01",
@@ -17601,7 +18768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1631110,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631110.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631110.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "klebima01",
@@ -17623,7 +18793,7 @@ export const PLAYERS = [
       "blk": 0.9,
       "fg_pct": 0.452,
       "x3p_pct": 0.231,
-      "x3pa": 2.0,
+      "x3pa": 2,
       "ft_pct": 0.538
     },
     "radar": {
@@ -17646,7 +18816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1628467,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628467.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628467.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sassema01",
@@ -17691,7 +18864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.1
     },
     "nbaId": 1631204,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631204.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631204.png",
+    "salary": "$5,198,983",
+    "salaryShort": "$5.2M",
+    "salaryNum": 5198983
   },
   {
     "id": "johnsaj01",
@@ -17732,11 +18908,14 @@ export const PLAYERS = [
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 4.4
     },
     "nbaId": 1642358,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642358.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642358.png",
+    "salary": "$3,237,120",
+    "salaryShort": "$3.2M",
+    "salaryNum": 3237120
   },
   {
     "id": "bogdabo01",
@@ -17776,12 +18955,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.864,
       "orb_share": 0.106,
       "perimeter_def_ratio": 0.727,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 12.1,
       "trb_per_36_min": 4.7
     },
     "nbaId": 203992,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203992.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203992.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "bradlto01",
@@ -17796,7 +18978,7 @@ export const PLAYERS = [
     "mp": 450,
     "g": 41,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 9.3,
       "ast": 1.8,
       "stl": 0.5,
@@ -17826,7 +19008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 1628396,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nancela02",
@@ -17871,7 +19056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.5
     },
     "nbaId": 1626204,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626204.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626204.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "tshieos01",
@@ -17886,14 +19074,14 @@ export const PLAYERS = [
     "mp": 448,
     "g": 27,
     "stats": {
-      "pts": 17.0,
+      "pts": 17,
       "trb": 14.4,
       "ast": 2.6,
       "stl": 1.3,
       "blk": 0.4,
       "fg_pct": 0.634,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.551
     },
     "radar": {
@@ -17905,7 +19093,7 @@ export const PLAYERS = [
       "perimeterDefense": 71
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.333,
       "pass_vs_shoot": 0.222,
       "ast_to_tov": 1.529,
@@ -17916,7 +19104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.4
     },
     "nbaId": 1631131,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631131.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631131.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcderdo01",
@@ -17932,7 +19123,7 @@ export const PLAYERS = [
     "g": 29,
     "stats": {
       "pts": 13.4,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 1.8,
       "stl": 0.5,
       "blk": 0.3,
@@ -17958,10 +19149,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.556,
       "stocks": 0.8,
       "fga_per_36_min": 11.4,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 203926,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203926.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203926.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "blackle01",
@@ -18006,7 +19200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1641778,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641778.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641778.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "phillju01",
@@ -18051,7 +19248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1641763,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641763.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641763.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wagnemo01",
@@ -18096,7 +19296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.7
     },
     "nbaId": 1629021,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629021.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629021.png",
+    "salary": "$9,268,293",
+    "salaryShort": "$9.3M",
+    "salaryNum": 9268293
   },
   {
     "id": "konanya01",
@@ -18113,7 +19316,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.9,
       "trb": 9.9,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 0.4,
       "blk": 2.5,
       "fg_pct": 0.64,
@@ -18141,7 +19344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.9
     },
     "nbaId": 1642949,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642949.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642949.png",
+    "salary": "$2,880,960",
+    "salaryShort": "$2.9M",
+    "salaryNum": 2880960
   },
   {
     "id": "toppiob01",
@@ -18157,9 +19363,9 @@ export const PLAYERS = [
     "g": 24,
     "stats": {
       "pts": 23.7,
-      "trb": 9.0,
+      "trb": 9,
       "ast": 4.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.1,
       "fg_pct": 0.503,
       "x3p_pct": 0.352,
@@ -18183,10 +19389,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.833,
       "stocks": 1.1,
       "fga_per_36_min": 16.9,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1630167,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png",
+    "salary": "$15,000,000",
+    "salaryShort": "$15.0M",
+    "salaryNum": 15000000
   },
   {
     "id": "gardnmy01",
@@ -18231,7 +19440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.7
     },
     "nbaId": 1642066,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642066.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642066.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "maluakh01",
@@ -18276,7 +19488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.6
     },
     "nbaId": 1642863,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642863.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642863.png",
+    "salary": "$6,316,680",
+    "salaryShort": "$6.3M",
+    "salaryNum": 6316680
   },
   {
     "id": "jacksan01",
@@ -18291,7 +19506,7 @@ export const PLAYERS = [
     "mp": 408,
     "g": 48,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 6.4,
       "ast": 3.8,
       "stl": 1.7,
@@ -18321,7 +19536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1641748,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641748.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641748.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hayeski01",
@@ -18366,7 +19584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1630165,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tateja01",
@@ -18411,7 +19632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1630256,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630256.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630256.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "reeseju01",
@@ -18432,8 +19656,8 @@ export const PLAYERS = [
       "stl": 1.6,
       "blk": 0.7,
       "fg_pct": 0.529,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.636
     },
     "radar": {
@@ -18445,7 +19669,7 @@ export const PLAYERS = [
       "perimeterDefense": 79
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.364,
       "pass_vs_shoot": 0.196,
       "ast_to_tov": 0.724,
@@ -18456,7 +19680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.3
     },
     "nbaId": 1642882,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642882.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642882.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "murrade01",
@@ -18501,7 +19728,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1627749,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png",
+    "salary": "$32,785,071",
+    "salaryShort": "$32.8M",
+    "salaryNum": 32785071
   },
   {
     "id": "youngtr01",
@@ -18546,7 +19776,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.8
     },
     "nbaId": 1629027,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png",
+    "salary": "$49,488,300",
+    "salaryShort": "$49.5M",
+    "salaryNum": 49488300
   },
   {
     "id": "etienty01",
@@ -18564,8 +19797,8 @@ export const PLAYERS = [
       "pts": 17.9,
       "trb": 2.6,
       "ast": 3.8,
-      "stl": 1.0,
-      "blk": 0.0,
+      "stl": 1,
+      "blk": 0,
       "fg_pct": 0.4,
       "x3p_pct": 0.398,
       "x3pa": 10.2,
@@ -18586,12 +19819,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.533,
       "orb_share": 0.192,
       "perimeter_def_ratio": 0.909,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 13.7,
       "trb_per_36_min": 2.6
     },
     "nbaId": 1630623,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630623.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630623.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jamesbr02",
@@ -18632,11 +19868,14 @@ export const PLAYERS = [
       "orb_share": 0.227,
       "perimeter_def_ratio": 0.783,
       "stocks": 2.2,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 2.2
     },
     "nbaId": 1642355,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642355.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642355.png",
+    "salary": "$2,296,271",
+    "salaryShort": "$2.3M",
+    "salaryNum": 2296271
   },
   {
     "id": "smithni01",
@@ -18653,7 +19892,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 17.8,
       "trb": 2.2,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.9,
       "blk": 0.2,
       "fg_pct": 0.435,
@@ -18681,7 +19920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.2
     },
     "nbaId": 1641733,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641733.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641733.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "payneca01",
@@ -18721,12 +19963,15 @@ export const PLAYERS = [
       "ast_to_tov": 5.091,
       "orb_share": 0.071,
       "perimeter_def_ratio": 0.742,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 14.3,
       "trb_per_36_min": 4.2
     },
     "nbaId": 1626166,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcneeli01",
@@ -18771,7 +20016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1642862,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642862.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642862.png",
+    "salary": "$2,902,080",
+    "salaryShort": "$2.9M",
+    "salaryNum": 2902080
   },
   {
     "id": "robinje02",
@@ -18811,12 +20059,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.25,
       "orb_share": 0.35,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
-      "fga_per_36_min": 10.0,
+      "stocks": 1,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 10.3
     },
     "nbaId": 1630526,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630526.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630526.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "weslebl01",
@@ -18853,7 +20104,7 @@ export const PLAYERS = [
       "three_point_share": 0.29,
       "ft_rate": 0.379,
       "pass_vs_shoot": 0.5,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.205,
       "perimeter_def_ratio": 0.727,
       "stocks": 2.1,
@@ -18861,7 +20112,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1631104,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631104.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631104.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "olynyke01",
@@ -18906,7 +20160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.6
     },
     "nbaId": 203482,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smithma02",
@@ -18929,7 +20186,7 @@ export const PLAYERS = [
       "fg_pct": 0.485,
       "x3p_pct": 0.435,
       "x3pa": 4.6,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 46,
@@ -18951,7 +20208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1641869,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641869.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641869.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kolokch01",
@@ -18996,7 +20256,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1631132,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631132.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631132.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chandke01",
@@ -19041,7 +20304,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1631113,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631113.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631113.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "whitmca01",
@@ -19086,7 +20352,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1641715,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641715.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641715.png",
+    "salary": "$1,819,437",
+    "salaryShort": "$1.8M",
+    "salaryNum": 1819437
   },
   {
     "id": "liddeej01",
@@ -19105,7 +20374,7 @@ export const PLAYERS = [
       "trb": 7.1,
       "ast": 2.5,
       "stl": 0.6,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.486,
       "x3p_pct": 0.346,
       "x3pa": 5.4,
@@ -19131,7 +20400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1630604,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630604.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630604.png",
+    "salary": "$706,898",
+    "salaryShort": "$707K",
+    "salaryNum": 706898
   },
   {
     "id": "barnhbr01",
@@ -19146,7 +20418,7 @@ export const PLAYERS = [
     "mp": 348,
     "g": 40,
     "stats": {
-      "pts": 7.0,
+      "pts": 7,
       "trb": 8.1,
       "ast": 2.3,
       "stl": 1.1,
@@ -19176,7 +20448,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1642964,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642964.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642964.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsch06",
@@ -19221,7 +20496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.2
     },
     "nbaId": 1643052,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643052.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643052.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "liveris01",
@@ -19266,7 +20544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1630587,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630587.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630587.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "olbrila01",
@@ -19288,7 +20569,7 @@ export const PLAYERS = [
       "blk": 0.8,
       "fg_pct": 0.468,
       "x3p_pct": 0.105,
-      "x3pa": 2.0,
+      "x3pa": 2,
       "ft_pct": 0.375
     },
     "radar": {
@@ -19311,7 +20592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.7
     },
     "nbaId": 1642950,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642950.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642950.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jeromty01",
@@ -19328,7 +20612,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 31.3,
       "trb": 4.5,
-      "ast": 9.0,
+      "ast": 9,
       "stl": 1.7,
       "blk": 0.4,
       "fg_pct": 0.474,
@@ -19356,7 +20640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629660,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png",
+    "salary": "$9,220,050",
+    "salaryShort": "$9.2M",
+    "salaryNum": 9220050
   },
   {
     "id": "harpero02",
@@ -19375,7 +20662,7 @@ export const PLAYERS = [
       "trb": 5.4,
       "ast": 2.5,
       "stl": 1.1,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.418,
       "x3p_pct": 0.35,
       "x3pa": 9.1,
@@ -19401,7 +20688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1631199,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631199.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631199.png",
+    "salary": "$3,150,752",
+    "salaryShort": "$3.2M",
+    "salaryNum": 3150752
   },
   {
     "id": "berinjo01",
@@ -19420,10 +20710,10 @@ export const PLAYERS = [
       "trb": 10.5,
       "ast": 1.4,
       "stl": 0.8,
-      "blk": 3.0,
+      "blk": 3,
       "fg_pct": 0.663,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.703
     },
     "radar": {
@@ -19435,7 +20725,7 @@ export const PLAYERS = [
       "perimeterDefense": 25
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.375,
       "pass_vs_shoot": 0.125,
       "ast_to_tov": 1.077,
@@ -19446,7 +20736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.5
     },
     "nbaId": 1642866,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642866.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642866.png",
+    "salary": "$4,411,200",
+    "salaryShort": "$4.4M",
+    "salaryNum": 4411200
   },
   {
     "id": "slawsja01",
@@ -19461,7 +20754,7 @@ export const PLAYERS = [
     "mp": 311,
     "g": 13,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 6.6,
       "ast": 4.2,
       "stl": 2.3,
@@ -19491,7 +20784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1641771,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641771.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641771.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "looneke01",
@@ -19508,7 +20804,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 6.9,
       "trb": 13.8,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 1.1,
       "blk": 1.2,
       "fg_pct": 0.417,
@@ -19532,11 +20828,14 @@ export const PLAYERS = [
       "orb_share": 0.406,
       "perimeter_def_ratio": 0.458,
       "stocks": 2.3,
-      "fga_per_36_min": 7.0,
+      "fga_per_36_min": 7,
       "trb_per_36_min": 13.8
     },
     "nbaId": 1626172,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "burtoty01",
@@ -19581,7 +20880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1631174,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631174.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631174.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "yangha01",
@@ -19603,7 +20905,7 @@ export const PLAYERS = [
       "blk": 1.2,
       "fg_pct": 0.31,
       "x3p_pct": 0.119,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.824
     },
     "radar": {
@@ -19622,11 +20924,14 @@ export const PLAYERS = [
       "orb_share": 0.304,
       "perimeter_def_ratio": 0.235,
       "stocks": 1.6,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 7.9
     },
     "nbaId": 1642905,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642905.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642905.png",
+    "salary": "$4,643,520",
+    "salaryShort": "$4.6M",
+    "salaryNum": 4643520
   },
   {
     "id": "connapa01",
@@ -19671,7 +20976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.4
     },
     "nbaId": 1626192,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png",
+    "salary": "$3,815,861",
+    "salaryShort": "$3.8M",
+    "salaryNum": 3815861
   },
   {
     "id": "cryerlj01",
@@ -19690,7 +20998,7 @@ export const PLAYERS = [
       "trb": 3.5,
       "ast": 2.2,
       "stl": 0.4,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.402,
       "x3p_pct": 0.394,
       "x3pa": 11.6,
@@ -19716,7 +21024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1643018,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643018.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643018.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "strusma01",
@@ -19733,9 +21044,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.7,
       "trb": 8.1,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.4,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.443,
       "x3p_pct": 0.402,
       "x3pa": 10.2,
@@ -19761,7 +21072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1629622,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png",
+    "salary": "$16,660,836",
+    "salaryShort": "$16.7M",
+    "salaryNum": 16660836
   },
   {
     "id": "hinsobl01",
@@ -19778,12 +21092,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 21.1,
       "trb": 4.2,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.6,
       "blk": 0.3,
       "fg_pct": 0.513,
       "x3p_pct": 0.468,
-      "x3pa": 10.0,
+      "x3pa": 10,
       "ft_pct": 0.75
     },
     "radar": {
@@ -19806,7 +21120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1642396,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642396.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642396.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "waterli01",
@@ -19821,14 +21138,14 @@ export const PLAYERS = [
     "mp": 285,
     "g": 40,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 3.7,
       "ast": 2.4,
       "stl": 0.8,
       "blk": 0.1,
       "fg_pct": 0.375,
       "x3p_pct": 0.342,
-      "x3pa": 10.0,
+      "x3pa": 10,
       "ft_pct": 0.667
     },
     "radar": {
@@ -19851,7 +21168,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1630322,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630322.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630322.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "edeyza01",
@@ -19866,7 +21186,7 @@ export const PLAYERS = [
     "mp": 284,
     "g": 11,
     "stats": {
-      "pts": 19.0,
+      "pts": 19,
       "trb": 15.5,
       "ast": 1.5,
       "stl": 0.9,
@@ -19896,7 +21216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 15.5
     },
     "nbaId": 1641744,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641744.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641744.png",
+    "salary": "$6,332,760",
+    "salaryShort": "$6.3M",
+    "salaryNum": 6332760
   },
   {
     "id": "mclaujo01",
@@ -19941,7 +21264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1629162,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "johnske10",
@@ -19957,10 +21283,10 @@ export const PLAYERS = [
     "g": 32,
     "stats": {
       "pts": 17.5,
-      "trb": 8.0,
-      "ast": 1.0,
+      "trb": 8,
+      "ast": 1,
       "stl": 1.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.49,
       "x3p_pct": 0.295,
       "x3pa": 5.7,
@@ -19983,10 +21309,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.633,
       "stocks": 2.9,
       "fga_per_36_min": 13.4,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1642352,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642352.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642352.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leonsma01",
@@ -20003,7 +21332,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.8,
       "trb": 6.9,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.8,
       "blk": 1.2,
       "fg_pct": 0.444,
@@ -20026,12 +21355,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.765,
       "orb_share": 0.565,
       "perimeter_def_ratio": 0.581,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.4,
       "trb_per_36_min": 6.9
     },
     "nbaId": 1642502,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642502.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642502.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "branhma01",
@@ -20048,7 +21380,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.8,
       "trb": 5.8,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.3,
       "blk": 0.4,
       "fg_pct": 0.473,
@@ -20076,7 +21408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1631103,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631103.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631103.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ryanco01",
@@ -20121,7 +21456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1642504,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642504.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642504.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "laniech01",
@@ -20136,11 +21474,11 @@ export const PLAYERS = [
     "mp": 262,
     "g": 34,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 3.2,
       "ast": 2.3,
-      "stl": 1.0,
-      "blk": 0.0,
+      "stl": 1,
+      "blk": 0,
       "fg_pct": 0.315,
       "x3p_pct": 0.284,
       "x3pa": 9.2,
@@ -20161,12 +21499,15 @@ export const PLAYERS = [
       "ast_to_tov": 5.75,
       "orb_share": 0.344,
       "perimeter_def_ratio": 0.909,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 12.2,
       "trb_per_36_min": 3.2
     },
     "nbaId": 1642404,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642404.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642404.png",
+    "salary": "$2,150,917",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2150917
   },
   {
     "id": "reathdu01",
@@ -20211,7 +21552,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1641871,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641871.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641871.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "simpskj01",
@@ -20228,9 +21572,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 12.7,
       "trb": 5.2,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 2.2,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.343,
       "x3p_pct": 0.3,
       "x3pa": 5.6,
@@ -20256,7 +21600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1642354,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642354.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642354.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "poulajo01",
@@ -20274,11 +21621,11 @@ export const PLAYERS = [
       "pts": 16.4,
       "trb": 4.3,
       "ast": 1.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.429,
       "x3p_pct": 0.403,
-      "x3pa": 11.0,
+      "x3pa": 11,
       "ft_pct": 0.857
     },
     "radar": {
@@ -20301,7 +21648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1642967,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642967.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642967.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mogbojo01",
@@ -20322,7 +21672,7 @@ export const PLAYERS = [
       "stl": 1.6,
       "blk": 1.2,
       "fg_pct": 0.591,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.643
     },
@@ -20346,7 +21696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.8
     },
     "nbaId": 1642367,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642367.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642367.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "balad01",
@@ -20391,7 +21744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": null,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willije02",
@@ -20410,7 +21766,7 @@ export const PLAYERS = [
       "trb": 4.5,
       "ast": 2.1,
       "stl": 0.8,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.489,
       "x3p_pct": 0.433,
       "x3pa": 4.5,
@@ -20436,7 +21792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1631466,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631466.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631466.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "timmedr01",
@@ -20455,7 +21814,7 @@ export const PLAYERS = [
       "trb": 5.1,
       "ast": 3.5,
       "stl": 0.9,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.576,
       "x3p_pct": 0.44,
       "x3pa": 3.8,
@@ -20481,7 +21840,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1631166,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631166.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631166.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jarrede01",
@@ -20526,7 +21888,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1630610,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630610.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630610.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "paulch01",
@@ -20545,7 +21910,7 @@ export const PLAYERS = [
       "trb": 4.4,
       "ast": 8.4,
       "stl": 1.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.321,
       "x3p_pct": 0.333,
       "x3pa": 4.7,
@@ -20571,7 +21936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 101108,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101108.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101108.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lawsoaj01",
@@ -20616,7 +21984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1630639,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630639.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630639.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willilu01",
@@ -20639,7 +22010,7 @@ export const PLAYERS = [
       "fg_pct": 0.333,
       "x3p_pct": 0.283,
       "x3pa": 8.5,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 50,
@@ -20656,12 +22027,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.812,
       "orb_share": 0.295,
       "perimeter_def_ratio": 0.857,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.1,
       "trb_per_36_min": 6.1
     },
     "nbaId": 1631351,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631351.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631351.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "davisjd01",
@@ -20679,8 +22053,8 @@ export const PLAYERS = [
       "pts": 11.4,
       "trb": 5.6,
       "ast": 5.8,
-      "stl": 1.0,
-      "blk": 1.0,
+      "stl": 1,
+      "blk": 1,
       "fg_pct": 0.375,
       "x3p_pct": 0.25,
       "x3pa": 5.3,
@@ -20701,12 +22075,15 @@ export const PLAYERS = [
       "ast_to_tov": 4.833,
       "orb_share": 0.089,
       "perimeter_def_ratio": 0.476,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 10.6,
       "trb_per_36_min": 5.6
     },
     "nbaId": 1631120,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631120.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631120.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "okanito01",
@@ -20721,9 +22098,9 @@ export const PLAYERS = [
     "mp": 217,
     "g": 6,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 3.5,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 0.7,
       "blk": 0.5,
       "fg_pct": 0.357,
@@ -20743,7 +22120,7 @@ export const PLAYERS = [
       "three_point_share": 0.44,
       "ft_rate": 0.112,
       "pass_vs_shoot": 0.086,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.429,
       "perimeter_def_ratio": 0.538,
       "stocks": 1.2,
@@ -20751,7 +22128,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1643253,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643253.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643253.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hallpj01",
@@ -20796,7 +22176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 1641790,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641790.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641790.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pippesc02",
@@ -20813,7 +22196,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 19.4,
       "trb": 3.7,
-      "ast": 8.0,
+      "ast": 8,
       "stl": 3.2,
       "blk": 0.7,
       "fg_pct": 0.448,
@@ -20841,7 +22224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1630590,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630590.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630590.png",
+    "salary": "$2,461,462",
+    "salaryShort": "$2.5M",
+    "salaryNum": 2461462
   },
   {
     "id": "holmeda01",
@@ -20857,10 +22243,10 @@ export const PLAYERS = [
     "g": 25,
     "stats": {
       "pts": 15.9,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 2.7,
       "stl": 0.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.508,
       "x3p_pct": 0.444,
       "x3pa": 7.7,
@@ -20883,10 +22269,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.154,
       "stocks": 1.2,
       "fga_per_36_min": 10.5,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1641747,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641747.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641747.png",
+    "salary": "$3,372,120",
+    "salaryShort": "$3.4M",
+    "salaryNum": 3372120
   },
   {
     "id": "kawamyu01",
@@ -20905,7 +22294,7 @@ export const PLAYERS = [
       "trb": 5.7,
       "ast": 8.1,
       "stl": 1.6,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.327,
       "x3p_pct": 0.297,
       "x3pa": 6.4,
@@ -20927,11 +22316,14 @@ export const PLAYERS = [
       "orb_share": 0.211,
       "perimeter_def_ratio": 0.941,
       "stocks": 1.6,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 5.7
     },
     "nbaId": 1642530,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642530.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642530.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dennira01",
@@ -20976,7 +22368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1642484,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642484.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642484.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jordade01",
@@ -20993,12 +22388,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.6,
       "trb": 13.7,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.7,
       "blk": 1.8,
       "fg_pct": 0.656,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.647
     },
     "radar": {
@@ -21010,7 +22405,7 @@ export const PLAYERS = [
       "perimeterDefense": 25
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.534,
       "pass_vs_shoot": 0.345,
       "ast_to_tov": 1.25,
@@ -21021,7 +22416,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.7
     },
     "nbaId": 201599,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201599.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201599.png",
+    "salary": "$3,876,529",
+    "salaryShort": "$3.9M",
+    "salaryNum": 3876529
   },
   {
     "id": "beaucma01",
@@ -21062,11 +22460,14 @@ export const PLAYERS = [
       "orb_share": 0.22,
       "perimeter_def_ratio": 0.68,
       "stocks": 2.4,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 5.9
     },
     "nbaId": 1630699,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630699.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630699.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mathega01",
@@ -21103,7 +22504,7 @@ export const PLAYERS = [
       "three_point_share": 0.875,
       "ft_rate": 0.438,
       "pass_vs_shoot": 0.188,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.129,
       "perimeter_def_ratio": 0.611,
       "stocks": 1.7,
@@ -21111,7 +22512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.1
     },
     "nbaId": 1629726,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hayesni01",
@@ -21133,7 +22537,7 @@ export const PLAYERS = [
       "blk": 0.4,
       "fg_pct": 0.326,
       "x3p_pct": 0.125,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.5
     },
     "radar": {
@@ -21156,7 +22560,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1628502,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628502.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628502.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "youngch01",
@@ -21201,7 +22608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1642959,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642959.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642959.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "colliza01",
@@ -21216,8 +22626,8 @@ export const PLAYERS = [
     "mp": 184,
     "g": 10,
     "stats": {
-      "pts": 19.0,
-      "trb": 11.0,
+      "pts": 19,
+      "trb": 11,
       "ast": 2.9,
       "stl": 0.4,
       "blk": 0.8,
@@ -21243,10 +22653,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.308,
       "stocks": 1.2,
       "fga_per_36_min": 12.5,
-      "trb_per_36_min": 11.0
+      "trb_per_36_min": 11
     },
     "nbaId": 1628380,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png",
+    "salary": "$8,292,683",
+    "salaryShort": "$8.3M",
+    "salaryNum": 8292683
   },
   {
     "id": "tillmxa01",
@@ -21265,7 +22678,7 @@ export const PLAYERS = [
       "trb": 8.5,
       "ast": 2.6,
       "stl": 1.8,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.435,
       "x3p_pct": 0.167,
       "x3pa": 3.5,
@@ -21287,11 +22700,14 @@ export const PLAYERS = [
       "orb_share": 0.435,
       "perimeter_def_ratio": 0.621,
       "stocks": 2.8,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 8.5
     },
     "nbaId": 1630214,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "whiteda01",
@@ -21310,7 +22726,7 @@ export const PLAYERS = [
       "trb": 4.7,
       "ast": 1.8,
       "stl": 0.8,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.398,
       "x3p_pct": 0.317,
       "x3pa": 11.8,
@@ -21336,7 +22752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1641727,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641727.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641727.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "scotttr01",
@@ -21353,9 +22772,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.5,
       "trb": 6.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.6,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.38,
       "x3p_pct": 0.316,
       "x3pa": 3.8,
@@ -21381,7 +22800,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": null,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "greenje02",
@@ -21404,7 +22826,7 @@ export const PLAYERS = [
       "fg_pct": 0.368,
       "x3p_pct": 0.273,
       "x3pa": 9.1,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 67,
@@ -21418,15 +22840,18 @@ export const PLAYERS = [
       "three_point_share": 0.65,
       "ft_rate": 0.071,
       "pass_vs_shoot": 0.114,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.275,
       "perimeter_def_ratio": 0.444,
       "stocks": 0.8,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 5.1
     },
     "nbaId": 201145,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201145.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201145.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "plumlma01",
@@ -21445,10 +22870,10 @@ export const PLAYERS = [
       "trb": 11.1,
       "ast": 4.2,
       "stl": 2.1,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.786,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.643
     },
     "radar": {
@@ -21460,8 +22885,8 @@ export const PLAYERS = [
       "perimeterDefense": 93
     },
     "features": {
-      "three_point_share": 0.0,
-      "ft_rate": 1.0,
+      "three_point_share": 0,
+      "ft_rate": 1,
       "pass_vs_shoot": 1.448,
       "ast_to_tov": 1.68,
       "orb_share": 0.324,
@@ -21471,7 +22896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.1
     },
     "nbaId": 203486,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "garcian01",
@@ -21488,7 +22916,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 5.5,
       "trb": 8.9,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.7,
       "blk": 0.9,
       "fg_pct": 0.31,
@@ -21508,7 +22936,7 @@ export const PLAYERS = [
       "three_point_share": 0.452,
       "ft_rate": 0.306,
       "pass_vs_shoot": 0.484,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.404,
       "perimeter_def_ratio": 0.63,
       "stocks": 2.6,
@@ -21516,7 +22944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.9
     },
     "nbaId": 1643158,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643158.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1643158.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smithty02",
@@ -21535,7 +22966,7 @@ export const PLAYERS = [
       "trb": 7.2,
       "ast": 1.1,
       "stl": 1.3,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.42,
       "x3p_pct": 0.286,
       "x3pa": 7.6,
@@ -21561,7 +22992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1641890,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641890.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641890.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tysonhu01",
@@ -21577,7 +23011,7 @@ export const PLAYERS = [
     "g": 21,
     "stats": {
       "pts": 10.2,
-      "trb": 8.0,
+      "trb": 8,
       "ast": 3.8,
       "stl": 0.4,
       "blk": 0.2,
@@ -21603,10 +23037,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.571,
       "stocks": 0.6,
       "fga_per_36_min": 11.6,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1641816,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641816.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641816.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "topicni01",
@@ -21625,7 +23062,7 @@ export const PLAYERS = [
       "trb": 4.3,
       "ast": 9.9,
       "stl": 1.1,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.431,
       "x3p_pct": 0.4,
       "x3pa": 3.4,
@@ -21651,7 +23088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1642260,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642260.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642260.png",
+    "salary": "$5,429,760",
+    "salaryShort": "$5.4M",
+    "salaryNum": 5429760
   },
   {
     "id": "mcculke01",
@@ -21670,7 +23110,7 @@ export const PLAYERS = [
       "trb": 6.5,
       "ast": 4.6,
       "stl": 2.1,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.426,
       "x3p_pct": 0.333,
       "x3pa": 5.6,
@@ -21696,7 +23136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1641755,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641755.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641755.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kesslwa01",
@@ -21741,7 +23184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 1631117,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631117.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631117.png",
+    "salary": "$30,232,558",
+    "salaryShort": "$30.2M",
+    "salaryNum": 30232558
   },
   {
     "id": "bassech01",
@@ -21762,8 +23208,8 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 2.6,
       "fg_pct": 0.66,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.7
     },
     "radar": {
@@ -21775,7 +23221,7 @@ export const PLAYERS = [
       "perimeterDefense": 27
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.423,
       "pass_vs_shoot": 0.144,
       "ast_to_tov": 1.143,
@@ -21786,7 +23232,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.4
     },
     "nbaId": 1629646,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629646.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629646.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "inglejo01",
@@ -21803,13 +23252,13 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.6,
       "trb": 4.5,
-      "ast": 8.0,
+      "ast": 8,
       "stl": 2.1,
       "blk": 0.5,
       "fg_pct": 0.593,
       "x3p_pct": 0.438,
       "x3pa": 3.8,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 27,
@@ -21824,14 +23273,17 @@ export const PLAYERS = [
       "ft_rate": 0.078,
       "pass_vs_shoot": 1.25,
       "ast_to_tov": 2.424,
-      "orb_share": 0.0,
+      "orb_share": 0,
       "perimeter_def_ratio": 0.778,
       "stocks": 2.6,
       "fga_per_36_min": 6.4,
       "trb_per_36_min": 4.5
     },
     "nbaId": 204060,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204060.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204060.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "halibty01",
@@ -21846,7 +23298,7 @@ export const PLAYERS = [
     "mp": 2451,
     "g": 73,
     "stats": {
-      "pts": 20.0,
+      "pts": 20,
       "trb": 3.8,
       "ast": 9.9,
       "stl": 1.5,
@@ -21876,7 +23328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630169,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png",
+    "salary": "$48,924,624",
+    "salaryShort": "$48.9M",
+    "salaryNum": 48924624
   },
   {
     "id": "beaslma01",
@@ -21921,7 +23376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1627736,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627736.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627736.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dinwisp01",
@@ -21966,7 +23424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 203915,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "vanvlfr01",
@@ -22006,12 +23467,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.8,
       "orb_share": 0.132,
       "perimeter_def_ratio": 0.762,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.9,
       "trb_per_36_min": 3.8
     },
     "nbaId": 1627832,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png",
+    "salary": "$25,000,000",
+    "salaryShort": "$25.0M",
+    "salaryNum": 25000000
   },
   {
     "id": "lillada01",
@@ -22033,7 +23497,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.448,
       "x3p_pct": 0.376,
-      "x3pa": 9.0,
+      "x3pa": 9,
       "ft_pct": 0.921
     },
     "radar": {
@@ -22056,7 +23520,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 203081,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png",
+    "salary": "$35,915,403",
+    "salaryShort": "$35.9M",
+    "salaryNum": 35915403
   },
   {
     "id": "johnske07",
@@ -22101,7 +23568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1630553,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630553.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630553.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "highsha01",
@@ -22117,7 +23587,7 @@ export const PLAYERS = [
     "g": 74,
     "stats": {
       "pts": 9.5,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 2.2,
       "stl": 1.3,
       "blk": 0.7,
@@ -22138,15 +23608,18 @@ export const PLAYERS = [
       "three_point_share": 0.597,
       "ft_rate": 0.117,
       "pass_vs_shoot": 0.286,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.28,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 7.7,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1629312,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629312.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629312.png",
+    "salary": "$1,000,000",
+    "salaryShort": "$1.0M",
+    "salaryNum": 1000000
   },
   {
     "id": "irvinky01",
@@ -22191,7 +23664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 202681,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png",
+    "salary": "$39,491,282",
+    "salaryShort": "$39.5M",
+    "salaryNum": 39491282
   },
   {
     "id": "bealbr01",
@@ -22236,7 +23712,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 203078,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png",
+    "salary": "$25,807,810",
+    "salaryShort": "$25.8M",
+    "salaryNum": 25807810
   },
   {
     "id": "niangge01",
@@ -22281,7 +23760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1627777,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627777.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627777.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "roziete01",
@@ -22326,7 +23808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1626179,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626179.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626179.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lylestr01",
@@ -22341,7 +23826,7 @@ export const PLAYERS = [
     "mp": 1349,
     "g": 69,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 8.4,
       "ast": 2.2,
       "stl": 1.1,
@@ -22367,11 +23852,14 @@ export const PLAYERS = [
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.611,
       "stocks": 1.7,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 8.4
     },
     "nbaId": 1626168,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "juzanjo01",
@@ -22416,7 +23904,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1630548,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630548.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630548.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "councri01",
@@ -22461,7 +23952,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1641741,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641741.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641741.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "clarkbr01",
@@ -22478,7 +23972,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 15.9,
       "trb": 9.7,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.6,
       "blk": 1.1,
       "fg_pct": 0.621,
@@ -22506,7 +24000,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.7
     },
     "nbaId": 1629634,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629634.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629634.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martico01",
@@ -22521,11 +24018,11 @@ export const PLAYERS = [
     "mp": 1173,
     "g": 53,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 6.9,
       "ast": 3.2,
       "stl": 1.7,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.418,
       "x3p_pct": 0.285,
       "x3pa": 4.6,
@@ -22543,15 +24040,18 @@ export const PLAYERS = [
       "three_point_share": 0.46,
       "ft_rate": 0.19,
       "pass_vs_shoot": 0.32,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.232,
       "perimeter_def_ratio": 0.607,
       "stocks": 2.7,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 6.9
     },
     "nbaId": 1628998,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bantoda01",
@@ -22566,7 +24066,7 @@ export const PLAYERS = [
     "mp": 1120,
     "g": 67,
     "stats": {
-      "pts": 18.0,
+      "pts": 18,
       "trb": 4.3,
       "ast": 5.1,
       "stl": 1.4,
@@ -22596,7 +24096,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1630625,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630625.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630625.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "simmobe01",
@@ -22617,8 +24120,8 @@ export const PLAYERS = [
       "stl": 1.2,
       "blk": 0.7,
       "fg_pct": 0.52,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.727
     },
     "radar": {
@@ -22630,7 +24133,7 @@ export const PLAYERS = [
       "perimeterDefense": 58
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.153,
       "pass_vs_shoot": 1.278,
       "ast_to_tov": 2.788,
@@ -22641,7 +24144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.7
     },
     "nbaId": 1627732,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627732.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627732.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "jeffrda01",
@@ -22686,7 +24192,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629610,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "curryse01",
@@ -22703,7 +24212,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 15.1,
       "trb": 3.8,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.9,
       "blk": 0.2,
       "fg_pct": 0.478,
@@ -22731,7 +24240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 203552,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203552.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203552.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "butleja02",
@@ -22776,7 +24288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630215,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630215.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630215.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bostobr01",
@@ -22821,7 +24336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1630527,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630527.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630527.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martike04",
@@ -22866,7 +24384,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1630231,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630231.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630231.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "burksal01",
@@ -22911,7 +24432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 202692,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bouchch01",
@@ -22926,11 +24450,11 @@ export const PLAYERS = [
     "mp": 862,
     "g": 50,
     "stats": {
-      "pts": 21.0,
+      "pts": 21,
       "trb": 9.4,
       "ast": 1.4,
-      "stl": 1.0,
-      "blk": 1.0,
+      "stl": 1,
+      "blk": 1,
       "fg_pct": 0.492,
       "x3p_pct": 0.363,
       "x3pa": 8.1,
@@ -22951,12 +24475,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.167,
       "orb_share": 0.309,
       "perimeter_def_ratio": 0.476,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 15.5,
       "trb_per_36_min": 9.4
     },
     "nbaId": 1628449,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628449.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628449.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "miltosh01",
@@ -22967,7 +24494,7 @@ export const PLAYERS = [
     "season": 2025,
     "clusterId": 1,
     "pcaX": -1.24,
-    "pcaY": 1.0,
+    "pcaY": 1,
     "mp": 837,
     "g": 57,
     "stats": {
@@ -23001,7 +24528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629003,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "livelde01",
@@ -23022,8 +24552,8 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 2.4,
       "fg_pct": 0.702,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.63
     },
     "radar": {
@@ -23035,7 +24565,7 @@ export const PLAYERS = [
       "perimeterDefense": 28
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.386,
       "pass_vs_shoot": 0.446,
       "ast_to_tov": 2.056,
@@ -23046,7 +24576,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.7
     },
     "nbaId": 1641726,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641726.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641726.png",
+    "salary": "$7,239,131",
+    "salaryShort": "$7.2M",
+    "salaryNum": 7239131
   },
   {
     "id": "houstca01",
@@ -23064,7 +24597,7 @@ export const PLAYERS = [
       "pts": 10.9,
       "trb": 3.4,
       "ast": 1.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.421,
       "x3p_pct": 0.4,
@@ -23091,7 +24624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1631216,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631216.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631216.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "micicva01",
@@ -23110,7 +24646,7 @@ export const PLAYERS = [
       "trb": 4.1,
       "ast": 5.9,
       "stl": 0.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.348,
       "x3p_pct": 0.36,
       "x3pa": 5.7,
@@ -23136,7 +24672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 203995,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203995.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203995.png",
+    "salary": "$666,667",
+    "salaryShort": "$667K",
+    "salaryNum": 666667
   },
   {
     "id": "robinor01",
@@ -23181,7 +24720,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.3
     },
     "nbaId": 1631115,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631115.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631115.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gordoer01",
@@ -23198,7 +24740,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 12.5,
       "trb": 2.2,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.2,
       "blk": 0.6,
       "fg_pct": 0.426,
@@ -23226,7 +24768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.2
     },
     "nbaId": 201569,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hortota01",
@@ -23242,9 +24787,9 @@ export const PLAYERS = [
     "g": 58,
     "stats": {
       "pts": 18.8,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 4.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.457,
       "x3p_pct": 0.336,
@@ -23268,10 +24813,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.625,
       "stocks": 1.5,
       "fga_per_36_min": 14.5,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1629659,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "evbuoto01",
@@ -23288,7 +24836,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.5,
       "trb": 6.5,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.3,
       "blk": 0.5,
       "fg_pct": 0.427,
@@ -23316,7 +24864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1641787,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641787.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641787.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reevean01",
@@ -23338,7 +24889,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.456,
       "x3p_pct": 0.395,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.8
     },
     "radar": {
@@ -23361,7 +24912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1641810,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641810.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641810.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lowryky01",
@@ -23406,7 +24960,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 200768,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200768.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200768.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wrighde01",
@@ -23424,7 +24981,7 @@ export const PLAYERS = [
       "pts": 7.1,
       "trb": 3.7,
       "ast": 4.4,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.7,
       "fg_pct": 0.344,
       "x3p_pct": 0.274,
@@ -23451,7 +25008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1626153,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626153.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626153.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dowtije01",
@@ -23488,7 +25048,7 @@ export const PLAYERS = [
       "three_point_share": 0.308,
       "ft_rate": 0.195,
       "pass_vs_shoot": 0.338,
-      "ast_to_tov": 5.0,
+      "ast_to_tov": 5,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.636,
       "stocks": 2.1,
@@ -23496,7 +25056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1630288,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630288.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630288.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "theisda01",
@@ -23514,7 +25077,7 @@ export const PLAYERS = [
       "pts": 9.4,
       "trb": 9.5,
       "ast": 3.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.2,
       "fg_pct": 0.473,
       "x3p_pct": 0.243,
@@ -23541,7 +25104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.5
     },
     "nbaId": 1628464,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628464.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628464.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "josepco01",
@@ -23586,7 +25152,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 202709,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "edwarke02",
@@ -23627,11 +25196,14 @@ export const PLAYERS = [
       "orb_share": 0.191,
       "perimeter_def_ratio": 0.458,
       "stocks": 2.3,
-      "fga_per_36_min": 8.0,
+      "fga_per_36_min": 8,
       "trb_per_36_min": 6.8
     },
     "nbaId": 1630556,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630556.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630556.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reddica01",
@@ -23647,9 +25219,9 @@ export const PLAYERS = [
     "g": 33,
     "stats": {
       "pts": 6.4,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 1.3,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.6,
       "fg_pct": 0.404,
       "x3p_pct": 0.277,
@@ -23673,10 +25245,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.741,
       "stocks": 2.6,
       "fga_per_36_min": 5.7,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 1629629,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629629.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629629.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "morrimo01",
@@ -23686,7 +25261,7 @@ export const PLAYERS = [
     "age": 29,
     "season": 2025,
     "clusterId": 1,
-    "pcaX": -2.0,
+    "pcaX": -2,
     "pcaY": 1.05,
     "mp": 571,
     "g": 45,
@@ -23721,7 +25296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1628420,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628420.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628420.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brogdma01",
@@ -23766,7 +25344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1627763,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627763.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627763.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesdi01",
@@ -23784,7 +25365,7 @@ export const PLAYERS = [
       "pts": 8.8,
       "trb": 7.9,
       "ast": 3.8,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.383,
       "x3p_pct": 0.254,
@@ -23811,7 +25392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1641794,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641794.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641794.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "holmeri01",
@@ -23832,7 +25416,7 @@ export const PLAYERS = [
       "stl": 0.6,
       "blk": 1.6,
       "fg_pct": 0.647,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.833
     },
@@ -23848,7 +25432,7 @@ export const PLAYERS = [
       "three_point_share": 0.021,
       "ft_rate": 0.426,
       "pass_vs_shoot": 0.298,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.353,
       "perimeter_def_ratio": 0.261,
       "stocks": 2.2,
@@ -23856,7 +25440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.9
     },
     "nbaId": 1626158,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626158.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626158.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "biyombi01",
@@ -23877,8 +25464,8 @@ export const PLAYERS = [
       "stl": 1.1,
       "blk": 1.6,
       "fg_pct": 0.588,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.4
     },
     "radar": {
@@ -23890,7 +25477,7 @@ export const PLAYERS = [
       "perimeterDefense": 38
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.218,
       "pass_vs_shoot": 0.269,
       "ast_to_tov": 1.167,
@@ -23901,7 +25488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.8
     },
     "nbaId": 202687,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202687.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202687.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesco02",
@@ -23916,7 +25506,7 @@ export const PLAYERS = [
     "mp": 515,
     "g": 39,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 6.1,
       "ast": 3.1,
       "stl": 1.8,
@@ -23942,11 +25532,14 @@ export const PLAYERS = [
       "orb_share": 0.246,
       "perimeter_def_ratio": 0.643,
       "stocks": 2.7,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 6.1
     },
     "nbaId": 1641732,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641732.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641732.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "paytoel01",
@@ -23961,7 +25554,7 @@ export const PLAYERS = [
     "mp": 511,
     "g": 24,
     "stats": {
-      "pts": 6.0,
+      "pts": 6,
       "trb": 5.6,
       "ast": 11.7,
       "stl": 1.7,
@@ -23991,7 +25584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 203901,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "moorewe01",
@@ -24008,12 +25604,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.8,
       "trb": 6.9,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.4,
       "blk": 0.4,
       "fg_pct": 0.468,
       "x3p_pct": 0.341,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.818
     },
     "radar": {
@@ -24036,7 +25632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1631111,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631111.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631111.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "walkelo01",
@@ -24073,15 +25672,18 @@ export const PLAYERS = [
       "three_point_share": 0.6,
       "ft_rate": 0.144,
       "pass_vs_shoot": 0.237,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.104,
       "perimeter_def_ratio": 0.615,
       "stocks": 1.2,
-      "fga_per_36_min": 16.0,
+      "fga_per_36_min": 16,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1629022,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "beekmre01",
@@ -24097,7 +25699,7 @@ export const PLAYERS = [
     "g": 36,
     "stats": {
       "pts": 7.1,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 4.8,
       "stl": 2.5,
       "blk": 0.2,
@@ -24118,15 +25720,18 @@ export const PLAYERS = [
       "three_point_share": 0.378,
       "ft_rate": 0.195,
       "pass_vs_shoot": 0.585,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.333,
       "perimeter_def_ratio": 0.893,
       "stocks": 2.7,
       "fga_per_36_min": 8.2,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 1641736,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641736.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641736.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "joneska01",
@@ -24166,12 +25771,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.357,
       "orb_share": 0.323,
       "perimeter_def_ratio": 0.387,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 8.4,
       "trb_per_36_min": 9.6
     },
     "nbaId": 1630539,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630539.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630539.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bolbo01",
@@ -24190,7 +25798,7 @@ export const PLAYERS = [
       "trb": 8.4,
       "ast": 1.8,
       "stl": 0.7,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.525,
       "x3p_pct": 0.344,
       "x3pa": 7.5,
@@ -24216,7 +25824,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1629626,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "castlco01",
@@ -24261,7 +25872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1630658,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630658.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630658.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "queentr01",
@@ -24306,7 +25920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1630243,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630243.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630243.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bambamo01",
@@ -24321,7 +25938,7 @@ export const PLAYERS = [
     "mp": 413,
     "g": 32,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 12.6,
       "ast": 1.6,
       "stl": 0.8,
@@ -24351,7 +25968,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 1628964,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png",
+    "salary": "$3,286,399",
+    "salaryShort": "$3.3M",
+    "salaryNum": 3286399
   },
   {
     "id": "roddyda01",
@@ -24391,12 +26011,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.632,
       "orb_share": 0.149,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
-      "fga_per_36_min": 11.0,
+      "stocks": 2,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 7.4
     },
     "nbaId": 1631223,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631223.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631223.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gibsota01",
@@ -24441,7 +26064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.6
     },
     "nbaId": 201959,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png",
+    "salary": "$148,828",
+    "salaryShort": "$149K",
+    "salaryNum": 148828
   },
   {
     "id": "jemistr01",
@@ -24462,8 +26088,8 @@ export const PLAYERS = [
       "stl": 0.8,
       "blk": 1.4,
       "fg_pct": 0.554,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.394
     },
     "radar": {
@@ -24475,7 +26101,7 @@ export const PLAYERS = [
       "perimeterDefense": 28
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.441,
       "pass_vs_shoot": 0.221,
       "ast_to_tov": 0.682,
@@ -24486,7 +26112,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.6
     },
     "nbaId": 1641998,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641998.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641998.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jacksre01",
@@ -24531,7 +26160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 202704,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lenal01",
@@ -24546,11 +26178,11 @@ export const PLAYERS = [
     "mp": 380,
     "g": 46,
     "stats": {
-      "pts": 7.0,
-      "trb": 9.0,
+      "pts": 7,
+      "trb": 9,
       "ast": 3.6,
       "stl": 0.9,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.508,
       "x3p_pct": 0.222,
       "x3pa": 0.9,
@@ -24572,11 +26204,14 @@ export const PLAYERS = [
       "orb_share": 0.4,
       "perimeter_def_ratio": 0.3,
       "stocks": 2.9,
-      "fga_per_36_min": 6.0,
-      "trb_per_36_min": 9.0
+      "fga_per_36_min": 6,
+      "trb_per_36_min": 9
     },
     "nbaId": 203458,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "exumda01",
@@ -24617,11 +26252,14 @@ export const PLAYERS = [
       "orb_share": 0.125,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.5,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 3.2
     },
     "nbaId": 203957,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "baughda01",
@@ -24666,7 +26304,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 1641878,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641878.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641878.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sprinja01",
@@ -24711,7 +26352,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1630531,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630531.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630531.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brookke02",
@@ -24721,7 +26365,7 @@ export const PLAYERS = [
     "age": 24,
     "season": 2025,
     "clusterId": 3,
-    "pcaX": 1.0,
+    "pcaX": 1,
     "pcaY": -1.1,
     "mp": 332,
     "g": 14,
@@ -24756,7 +26400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1631232,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631232.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631232.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomptr01",
@@ -24777,7 +26424,7 @@ export const PLAYERS = [
       "stl": 0.2,
       "blk": 1.2,
       "fg_pct": 0.437,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.3,
       "ft_pct": 0.233
     },
@@ -24801,7 +26448,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.7
     },
     "nbaId": 202684,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202684.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202684.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lewisma05",
@@ -24819,7 +26469,7 @@ export const PLAYERS = [
       "pts": 12.8,
       "trb": 6.1,
       "ast": 2.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.8,
       "fg_pct": 0.417,
       "x3p_pct": 0.38,
@@ -24846,7 +26496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1641721,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641721.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641721.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "millspa02",
@@ -24891,7 +26544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.5
     },
     "nbaId": 201988,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201988.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201988.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hoodsja01",
@@ -24928,7 +26584,7 @@ export const PLAYERS = [
       "three_point_share": 0.473,
       "ft_rate": 0.214,
       "pass_vs_shoot": 0.375,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.097,
       "perimeter_def_ratio": 0.4,
       "stocks": 1.4,
@@ -24936,7 +26592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.1
     },
     "nbaId": 1641720,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641720.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641720.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "craigto01",
@@ -24981,7 +26640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 1628470,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesis01",
@@ -25026,7 +26688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1642403,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642403.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642403.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wongis01",
@@ -25045,7 +26710,7 @@ export const PLAYERS = [
       "trb": 4.3,
       "ast": 3.8,
       "stl": 1.5,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.39,
       "x3p_pct": 0.394,
       "x3pa": 4.5,
@@ -25071,7 +26736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1631209,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631209.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631209.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "baglema02",
@@ -25087,7 +26755,7 @@ export const PLAYERS = [
     "g": 10,
     "stats": {
       "pts": 9.5,
-      "trb": 10.0,
+      "trb": 10,
       "ast": 1.4,
       "stl": 1.3,
       "blk": 1.7,
@@ -25111,12 +26779,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.4,
       "orb_share": 0.33,
       "perimeter_def_ratio": 0.419,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.8,
-      "trb_per_36_min": 10.0
+      "trb_per_36_min": 10
     },
     "nbaId": 1630542,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630542.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630542.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thorjt01",
@@ -25138,7 +26809,7 @@ export const PLAYERS = [
       "blk": 1.3,
       "fg_pct": 0.424,
       "x3p_pct": 0.286,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.682
     },
     "radar": {
@@ -25161,7 +26832,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.9
     },
     "nbaId": 1630550,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630550.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630550.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "davisjo06",
@@ -25206,7 +26880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1631098,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631098.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631098.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martija02",
@@ -25225,7 +26902,7 @@ export const PLAYERS = [
       "trb": 6.6,
       "ast": 2.6,
       "stl": 1.4,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.419,
       "x3p_pct": 0.304,
       "x3pa": 3.5,
@@ -25251,7 +26928,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1641798,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641798.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641798.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rhodeja01",
@@ -25296,7 +26976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 1631197,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631197.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631197.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "templga01",
@@ -25336,12 +27019,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.062,
       "orb_share": 0.304,
       "perimeter_def_ratio": 0.871,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.5,
       "trb_per_36_min": 4.6
     },
     "nbaId": 202066,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reeseal01",
@@ -25382,11 +27068,14 @@ export const PLAYERS = [
       "orb_share": 0.192,
       "perimeter_def_ratio": 0.486,
       "stocks": 3.4,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 7.8
     },
     "nbaId": 1642024,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642024.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642024.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "saricda01",
@@ -25431,7 +27120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 203967,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "flaglad01",
@@ -25468,15 +27160,18 @@ export const PLAYERS = [
       "three_point_share": 0.753,
       "ft_rate": 0.024,
       "pass_vs_shoot": 0.124,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.7,
       "stocks": 1.9,
-      "fga_per_36_min": 17.0,
+      "fga_per_36_min": 17,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1641745,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641745.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641745.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "okekech01",
@@ -25521,7 +27216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 1629643,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "peterdr01",
@@ -25539,7 +27237,7 @@ export const PLAYERS = [
       "pts": 10.5,
       "trb": 7.7,
       "ast": 2.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.415,
       "x3p_pct": 0.394,
@@ -25566,7 +27264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.7
     },
     "nbaId": 1641809,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641809.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641809.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fultzma01",
@@ -25584,12 +27285,12 @@ export const PLAYERS = [
       "pts": 11.9,
       "trb": 3.9,
       "ast": 5.3,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.4,
       "fg_pct": 0.418,
       "x3p_pct": 0.5,
       "x3pa": 1.6,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 54,
@@ -25611,7 +27312,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1628365,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "quinole01",
@@ -25651,12 +27355,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.679,
       "orb_share": 0.216,
       "perimeter_def_ratio": 0.545,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 15.3,
       "trb_per_36_min": 3.7
     },
     "nbaId": 1631311,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631311.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631311.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "freemen01",
@@ -25672,13 +27379,13 @@ export const PLAYERS = [
     "g": 22,
     "stats": {
       "pts": 9.1,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 1.8,
       "stl": 0.6,
       "blk": 0.6,
       "fg_pct": 0.432,
       "x3p_pct": 0.1,
-      "x3pa": 2.0,
+      "x3pa": 2,
       "ft_pct": 0.684
     },
     "radar": {
@@ -25698,10 +27405,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.462,
       "stocks": 1.2,
       "fga_per_36_min": 7.4,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1642402,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642402.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1642402.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "swideco01",
@@ -25711,7 +27421,7 @@ export const PLAYERS = [
     "age": 25,
     "season": 2025,
     "clusterId": 3,
-    "pcaX": -1.0,
+    "pcaX": -1,
     "pcaY": -2.94,
     "mp": 169,
     "g": 10,
@@ -25723,8 +27433,8 @@ export const PLAYERS = [
       "blk": 0.4,
       "fg_pct": 0.349,
       "x3p_pct": 0.319,
-      "x3pa": 10.0,
-      "ft_pct": 0.0
+      "x3pa": 10,
+      "ft_pct": 0
     },
     "radar": {
       "scoring": 59,
@@ -25746,7 +27456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1631306,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631306.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631306.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nowelja01",
@@ -25791,7 +27504,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1629669,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "morrima02",
@@ -25807,7 +27523,7 @@ export const PLAYERS = [
     "g": 15,
     "stats": {
       "pts": 12.2,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 4.6,
       "stl": 0.4,
       "blk": 0.7,
@@ -25833,10 +27549,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.333,
       "stocks": 1.1,
       "fga_per_36_min": 15.3,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 202693,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "stevela01",
@@ -25881,7 +27600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 1630205,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "richajo01",
@@ -25904,7 +27626,7 @@ export const PLAYERS = [
       "fg_pct": 0.289,
       "x3p_pct": 0.273,
       "x3pa": 5.3,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 27,
@@ -25926,7 +27648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 1626196,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bogdabo02",
@@ -25971,7 +27696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 202711,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202711.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202711.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "beverpa01",
@@ -26016,7 +27744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 201976,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201976.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201976.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "osmande01",
@@ -26034,7 +27765,7 @@ export const PLAYERS = [
       "pts": 13.9,
       "trb": 5.1,
       "ast": 3.4,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.479,
       "x3p_pct": 0.389,
@@ -26061,7 +27792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1626224,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "haywago01",
@@ -26106,7 +27840,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 202330,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202330.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202330.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "crowdja01",
@@ -26122,7 +27859,7 @@ export const PLAYERS = [
     "g": 50,
     "stats": {
       "pts": 9.7,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 2.1,
       "stl": 1.2,
       "blk": 0.3,
@@ -26143,15 +27880,18 @@ export const PLAYERS = [
       "three_point_share": 0.619,
       "ft_rate": 0.131,
       "pass_vs_shoot": 0.25,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.5,
       "fga_per_36_min": 8.4,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 203109,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wisemja01",
@@ -26172,7 +27912,7 @@ export const PLAYERS = [
       "stl": 0.4,
       "blk": 1.3,
       "fg_pct": 0.613,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.706
     },
@@ -26196,7 +27936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.1
     },
     "nbaId": 1630164,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630164.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630164.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "smithde03",
@@ -26233,7 +27976,7 @@ export const PLAYERS = [
       "three_point_share": 0.322,
       "ft_rate": 0.174,
       "pass_vs_shoot": 0.6,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.304,
       "perimeter_def_ratio": 0.821,
       "stocks": 2.7,
@@ -26241,7 +27984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1628372,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628372.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628372.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "flynnma01",
@@ -26286,7 +28032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 1630201,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "woodch01",
@@ -26303,7 +28052,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.3,
       "trb": 10.5,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.7,
       "blk": 1.4,
       "fg_pct": 0.466,
@@ -26331,7 +28080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.5
     },
     "nbaId": 1626174,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626174.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626174.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "holidju01",
@@ -26347,7 +28099,7 @@ export const PLAYERS = [
     "g": 58,
     "stats": {
       "pts": 9.8,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 2.8,
       "stl": 1.5,
       "blk": 0.4,
@@ -26373,10 +28125,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.75,
       "stocks": 1.9,
       "fga_per_36_min": 8.1,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 203200,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203200.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203200.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "metuch01",
@@ -26421,7 +28176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1629002,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629002.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629002.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "browntr01",
@@ -26439,7 +28197,7 @@ export const PLAYERS = [
       "pts": 10.8,
       "trb": 6.3,
       "ast": 2.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.1,
       "fg_pct": 0.372,
       "x3p_pct": 0.333,
@@ -26458,7 +28216,7 @@ export const PLAYERS = [
       "three_point_share": 0.622,
       "ft_rate": 0.163,
       "pass_vs_shoot": 0.265,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.175,
       "perimeter_def_ratio": 0.833,
       "stocks": 1.1,
@@ -26466,7 +28224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1628972,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628972.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628972.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "morrima03",
@@ -26511,7 +28272,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 202694,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202694.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202694.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smithis01",
@@ -26528,7 +28292,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 6.8,
       "trb": 3.7,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 0.8,
       "blk": 0.2,
       "fg_pct": 0.418,
@@ -26551,12 +28315,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.043,
       "orb_share": 0.135,
       "perimeter_def_ratio": 0.727,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 7.7,
       "trb_per_36_min": 3.7
     },
     "nbaId": 202397,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202397.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202397.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "duartch01",
@@ -26601,7 +28368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1630537,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630537.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630537.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nworajo01",
@@ -26641,12 +28411,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.148,
       "orb_share": 0.187,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 15.1,
       "trb_per_36_min": 7.5
     },
     "nbaId": 1629670,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629670.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629670.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gilyaja01",
@@ -26669,7 +28442,7 @@ export const PLAYERS = [
       "fg_pct": 0.4,
       "x3p_pct": 0.405,
       "x3pa": 6.5,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 28,
@@ -26686,12 +28459,15 @@ export const PLAYERS = [
       "ast_to_tov": 4.733,
       "orb_share": 0.208,
       "perimeter_def_ratio": 0.81,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 7.7,
       "trb_per_36_min": 2.4
     },
     "nbaId": 1631367,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631367.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631367.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fernabr01",
@@ -26712,7 +28488,7 @@ export const PLAYERS = [
       "stl": 1.3,
       "blk": 1.5,
       "fg_pct": 0.583,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.667
     },
@@ -26736,7 +28512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.2
     },
     "nbaId": 1628981,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bertada01",
@@ -26776,12 +28555,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.9,
       "orb_share": 0.152,
       "perimeter_def_ratio": 0.667,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 12.5,
       "trb_per_36_min": 3.3
     },
     "nbaId": 202722,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202722.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202722.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bateske01",
@@ -26797,7 +28579,7 @@ export const PLAYERS = [
     "g": 53,
     "stats": {
       "pts": 10.7,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 2.1,
       "stl": 1.4,
       "blk": 1.2,
@@ -26822,11 +28604,14 @@ export const PLAYERS = [
       "orb_share": 0.283,
       "perimeter_def_ratio": 0.519,
       "stocks": 2.6,
-      "fga_per_36_min": 9.0,
-      "trb_per_36_min": 6.0
+      "fga_per_36_min": 9,
+      "trb_per_36_min": 6
     },
     "nbaId": 1628966,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628966.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628966.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brissos01",
@@ -26871,7 +28656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1629052,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629052.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629052.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gallida01",
@@ -26886,7 +28674,7 @@ export const PLAYERS = [
     "mp": 630,
     "g": 49,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 6.2,
       "ast": 3.1,
       "stl": 0.8,
@@ -26916,7 +28704,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 201568,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201568.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201568.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "muscami01",
@@ -26961,7 +28752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.5
     },
     "nbaId": 203488,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203488.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203488.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fournev01",
@@ -26978,7 +28772,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.7,
       "trb": 3.6,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.8,
       "blk": 0.4,
       "fg_pct": 0.357,
@@ -27006,7 +28800,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 203095,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203095.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203095.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "knoxke01",
@@ -27028,7 +28825,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.462,
       "x3p_pct": 0.33,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.909
     },
     "radar": {
@@ -27047,11 +28844,14 @@ export const PLAYERS = [
       "orb_share": 0.25,
       "perimeter_def_ratio": 0.571,
       "stocks": 1.3,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1628995,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628995.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628995.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "yurtsom01",
@@ -27096,7 +28896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.7
     },
     "nbaId": 1630209,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630209.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630209.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcdanja01",
@@ -27141,7 +28944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1629667,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "vezenal01",
@@ -27186,7 +28992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1628426,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628426.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628426.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "houseda01",
@@ -27203,7 +29012,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.2,
       "trb": 4.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.1,
       "blk": 0.4,
       "fg_pct": 0.448,
@@ -27231,7 +29040,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1627863,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627863.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627863.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "baldwpa01",
@@ -27247,7 +29059,7 @@ export const PLAYERS = [
     "g": 38,
     "stats": {
       "pts": 12.3,
-      "trb": 9.0,
+      "trb": 9,
       "ast": 2.1,
       "stl": 1.3,
       "blk": 1.1,
@@ -27273,10 +29085,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.52,
       "stocks": 2.4,
       "fga_per_36_min": 11.3,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1631116,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631116.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631116.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "covinro01",
@@ -27321,7 +29136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 203496,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203496.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203496.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tuckepj01",
@@ -27344,7 +29162,7 @@ export const PLAYERS = [
       "fg_pct": 0.36,
       "x3p_pct": 0.371,
       "x3pa": 2.6,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 20,
@@ -27358,7 +29176,7 @@ export const PLAYERS = [
       "three_point_share": 0.703,
       "ft_rate": 0.054,
       "pass_vs_shoot": 0.324,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.333,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.7,
@@ -27366,7 +29184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 200782,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200782.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200782.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "watanyu01",
@@ -27407,11 +29228,14 @@ export const PLAYERS = [
       "orb_share": 0.214,
       "perimeter_def_ratio": 0.6,
       "stocks": 1.4,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 4.2
     },
     "nbaId": 1629139,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629139.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629139.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "littlna01",
@@ -27456,7 +29280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1629642,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629642.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629642.png",
+    "salary": "$3,107,143",
+    "salaryShort": "$3.1M",
+    "salaryNum": 3107143
   },
   {
     "id": "youngth01",
@@ -27501,7 +29328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.4
     },
     "nbaId": 201152,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201152.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201152.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mayssk01",
@@ -27541,12 +29371,15 @@ export const PLAYERS = [
       "ast_to_tov": 4.176,
       "orb_share": 0.222,
       "perimeter_def_ratio": 0.81,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 13.2,
       "trb_per_36_min": 3.6
     },
     "nbaId": 1630219,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630219.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630219.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bullore01",
@@ -27564,12 +29397,12 @@ export const PLAYERS = [
       "pts": 8.3,
       "trb": 6.3,
       "ast": 1.3,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.415,
       "x3p_pct": 0.403,
       "x3pa": 5.8,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 25,
@@ -27591,7 +29424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 203493,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203493.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203493.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "forretr01",
@@ -27608,8 +29444,8 @@ export const PLAYERS = [
     "stats": {
       "pts": 7.2,
       "trb": 4.4,
-      "ast": 8.0,
-      "stl": 1.0,
+      "ast": 8,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.378,
       "x3p_pct": 0.2,
@@ -27636,7 +29472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630235,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630235.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630235.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "matthwe02",
@@ -27653,12 +29492,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.6,
       "trb": 4.6,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.4,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.351,
       "x3p_pct": 0.348,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.75
     },
     "radar": {
@@ -27681,7 +29520,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 202083,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202083.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202083.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pokusal01",
@@ -27696,7 +29538,7 @@ export const PLAYERS = [
     "mp": 405,
     "g": 28,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 7.9,
       "ast": 3.1,
       "stl": 1.3,
@@ -27726,7 +29568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1630197,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630197.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630197.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "samanlu01",
@@ -27766,12 +29611,15 @@ export const PLAYERS = [
       "ast_to_tov": 0.68,
       "orb_share": 0.22,
       "perimeter_def_ratio": 0.364,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 14.1,
       "trb_per_36_min": 9.1
     },
     "nbaId": 1629677,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629677.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629677.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "freemja01",
@@ -27816,7 +29664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1631241,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631241.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631241.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rosede01",
@@ -27833,7 +29684,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 17.2,
       "trb": 4.1,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 0.7,
       "blk": 0.2,
       "fg_pct": 0.461,
@@ -27861,7 +29712,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 201565,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201565.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201565.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "omorueu01",
@@ -27876,7 +29730,7 @@ export const PLAYERS = [
     "mp": 393,
     "g": 43,
     "stats": {
-      "pts": 19.0,
+      "pts": 19,
       "trb": 7.8,
       "ast": 3.2,
       "stl": 2.5,
@@ -27901,12 +29755,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.684,
       "orb_share": 0.41,
       "perimeter_def_ratio": 0.806,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 15.3,
       "trb_per_36_min": 7.8
     },
     "nbaId": 1630647,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630647.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630647.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ryanma01",
@@ -27921,7 +29778,7 @@ export const PLAYERS = [
     "mp": 390,
     "g": 28,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 3.7,
       "ast": 1.7,
       "stl": 0.6,
@@ -27951,7 +29808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1630346,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630346.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630346.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "minayju01",
@@ -27968,7 +29828,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 5.8,
       "trb": 5.3,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.9,
       "blk": 0.9,
       "fg_pct": 0.297,
@@ -27992,11 +29852,14 @@ export const PLAYERS = [
       "orb_share": 0.528,
       "perimeter_def_ratio": 0.474,
       "stocks": 1.8,
-      "fga_per_36_min": 7.0,
+      "fga_per_36_min": 7,
       "trb_per_36_min": 5.3
     },
     "nbaId": 1631303,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631303.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631303.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "portejo01",
@@ -28013,12 +29876,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 11.5,
       "trb": 8.2,
-      "ast": 6.0,
-      "stl": 2.0,
-      "blk": 2.0,
+      "ast": 6,
+      "stl": 2,
+      "blk": 2,
       "fg_pct": 0.385,
       "x3p_pct": 0.333,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.833
     },
     "radar": {
@@ -28036,12 +29899,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.857,
       "orb_share": 0.317,
       "perimeter_def_ratio": 0.488,
-      "stocks": 4.0,
+      "stocks": 4,
       "fga_per_36_min": 10.4,
       "trb_per_36_min": 8.2
     },
     "nbaId": 1629007,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629007.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629007.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcgeeja01",
@@ -28082,11 +29948,14 @@ export const PLAYERS = [
       "orb_share": 0.336,
       "perimeter_def_ratio": 0.405,
       "stocks": 3.6,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 13.4
     },
     "nbaId": 201580,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201580.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201580.png",
+    "salary": "$2,208,856",
+    "salaryShort": "$2.2M",
+    "salaryNum": 2208856
   },
   {
     "id": "zelleco01",
@@ -28104,7 +29973,7 @@ export const PLAYERS = [
       "pts": 8.6,
       "trb": 12.6,
       "ast": 4.4,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.419,
       "x3p_pct": 0.333,
@@ -28127,11 +29996,14 @@ export const PLAYERS = [
       "orb_share": 0.429,
       "perimeter_def_ratio": 0.588,
       "stocks": 1.6,
-      "fga_per_36_min": 7.0,
+      "fga_per_36_min": 7,
       "trb_per_36_min": 12.6
     },
     "nbaId": 203469,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203469.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203469.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "haganas01",
@@ -28150,7 +30022,7 @@ export const PLAYERS = [
       "trb": 5.1,
       "ast": 6.2,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.408,
       "x3p_pct": 0.32,
       "x3pa": 2.8,
@@ -28176,7 +30048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1630204,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630204.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630204.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "grahade01",
@@ -28194,7 +30069,7 @@ export const PLAYERS = [
       "pts": 13.1,
       "trb": 4.1,
       "ast": 5.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.2,
       "fg_pct": 0.352,
       "x3p_pct": 0.301,
@@ -28221,7 +30096,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1628984,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628984.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628984.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mensana01",
@@ -28242,8 +30120,8 @@ export const PLAYERS = [
       "stl": 0.7,
       "blk": 1.6,
       "fg_pct": 0.429,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.75
     },
     "radar": {
@@ -28255,7 +30133,7 @@ export const PLAYERS = [
       "perimeterDefense": 25
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.424,
       "pass_vs_shoot": 0.333,
       "ast_to_tov": 0.688,
@@ -28266,7 +30144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.6
     },
     "nbaId": 1641877,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641877.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641877.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "umudest01",
@@ -28282,7 +30163,7 @@ export const PLAYERS = [
     "g": 24,
     "stats": {
       "pts": 14.9,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 1.3,
       "stl": 0.9,
       "blk": 0.8,
@@ -28308,10 +30189,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.5,
       "stocks": 1.7,
       "fga_per_36_min": 9.9,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1630649,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630649.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630649.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "korkmfu01",
@@ -28328,7 +30212,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.6,
       "trb": 3.6,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.7,
       "blk": 0.4,
       "fg_pct": 0.395,
@@ -28356,7 +30240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1627788,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627788.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627788.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesda03",
@@ -28373,7 +30260,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.3,
       "trb": 8.3,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.9,
       "blk": 1.7,
       "fg_pct": 0.597,
@@ -28401,7 +30288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.3
     },
     "nbaId": 1627745,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627745.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627745.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bitimon01",
@@ -28446,7 +30336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1641931,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641931.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641931.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lewiski01",
@@ -28463,7 +30356,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 12.1,
       "trb": 3.5,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.2,
       "blk": 0.3,
       "fg_pct": 0.37,
@@ -28491,7 +30384,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1630184,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630184.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630184.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "badjiib01",
@@ -28512,8 +30408,8 @@ export const PLAYERS = [
       "stl": 0.5,
       "blk": 3.2,
       "fg_pct": 0.636,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.5
     },
     "radar": {
@@ -28525,7 +30421,7 @@ export const PLAYERS = [
       "perimeterDefense": 22
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.543,
       "pass_vs_shoot": 0.6,
       "ast_to_tov": 0.875,
@@ -28536,7 +30432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1630641,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630641.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630641.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "maledth01",
@@ -28551,11 +30450,11 @@ export const PLAYERS = [
     "mp": 213,
     "g": 17,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 4.1,
       "ast": 4.7,
       "stl": 1.2,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.286,
       "x3p_pct": 0.167,
       "x3pa": 5.1,
@@ -28581,7 +30480,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1630177,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630177.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630177.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brownmo01",
@@ -28602,8 +30504,8 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 1.3,
       "fg_pct": 0.508,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.29
     },
     "radar": {
@@ -28615,7 +30517,7 @@ export const PLAYERS = [
       "perimeterDefense": 32
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.479,
       "pass_vs_shoot": 0.111,
       "ast_to_tov": 0.65,
@@ -28626,7 +30528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 15.5
     },
     "nbaId": 1629650,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "loftoke01",
@@ -28643,7 +30548,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 17.4,
       "trb": 6.9,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 1.1,
       "blk": 0.9,
       "fg_pct": 0.462,
@@ -28666,12 +30571,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.4,
       "orb_share": 0.319,
       "perimeter_def_ratio": 0.524,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 14.1,
       "trb_per_36_min": 6.9
     },
     "nbaId": 1631254,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631254.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631254.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bufkiko01",
@@ -28688,7 +30596,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.9,
       "trb": 6.1,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.3,
       "blk": 0.9,
       "fg_pct": 0.37,
@@ -28716,7 +30624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1641723,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641723.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641723.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "taylote01",
@@ -28734,7 +30645,7 @@ export const PLAYERS = [
       "pts": 8.8,
       "trb": 7.1,
       "ast": 1.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.513,
       "x3p_pct": 0.222,
@@ -28761,7 +30672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1630678,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630678.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630678.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leesa01",
@@ -28777,7 +30691,7 @@ export const PLAYERS = [
     "g": 24,
     "stats": {
       "pts": 13.8,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 5.8,
       "stl": 1.4,
       "blk": 0.6,
@@ -28801,12 +30715,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.625,
       "orb_share": 0.3,
       "perimeter_def_ratio": 0.667,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 10.7,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1630240,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630240.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630240.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "porteot01",
@@ -28822,14 +30739,14 @@ export const PLAYERS = [
     "g": 15,
     "stats": {
       "pts": 8.1,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 1.7,
-      "stl": 1.0,
-      "blk": 1.0,
+      "stl": 1,
+      "blk": 1,
       "fg_pct": 0.424,
       "x3p_pct": 0.348,
       "x3pa": 4.8,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 25,
@@ -28846,12 +30763,15 @@ export const PLAYERS = [
       "ast_to_tov": 4.25,
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.476,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 6.8,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 203490,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203490.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203490.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "griffaj01",
@@ -28874,7 +30794,7 @@ export const PLAYERS = [
       "fg_pct": 0.29,
       "x3p_pct": 0.256,
       "x3pa": 8.2,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 45,
@@ -28896,7 +30816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1631100,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631100.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631100.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harrijo01",
@@ -28936,12 +30859,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.625,
       "orb_share": 0.214,
       "perimeter_def_ratio": 0.545,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 8.3,
       "trb_per_36_min": 2.8
     },
     "nbaId": 203925,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203925.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203925.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "simpsza01",
@@ -28986,7 +30912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1630285,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630285.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630285.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "antetth01",
@@ -29002,14 +30931,14 @@ export const PLAYERS = [
     "g": 34,
     "stats": {
       "pts": 7.4,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 3.9,
       "stl": 1.6,
       "blk": 0.9,
       "fg_pct": 0.533,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
-      "ft_pct": 0.0
+      "ft_pct": 0
     },
     "radar": {
       "scoring": 24,
@@ -29027,11 +30956,14 @@ export const PLAYERS = [
       "orb_share": 0.533,
       "perimeter_def_ratio": 0.615,
       "stocks": 2.5,
-      "fga_per_36_min": 7.0,
-      "trb_per_36_min": 3.0
+      "fga_per_36_min": 7,
+      "trb_per_36_min": 3
     },
     "nbaId": 203648,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bazleda01",
@@ -29076,7 +31008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1629647,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629647.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629647.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leeda03",
@@ -29121,7 +31056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1627814,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627814.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627814.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rosste01",
@@ -29143,7 +31081,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.43,
       "x3p_pct": 0.368,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.794
     },
     "radar": {
@@ -29166,7 +31104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 203082,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203082.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203082.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lamban01",
@@ -29188,7 +31129,7 @@ export const PLAYERS = [
       "blk": 0.6,
       "fg_pct": 0.471,
       "x3p_pct": 0.367,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.767
     },
     "radar": {
@@ -29211,7 +31152,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1630237,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630237.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630237.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "oladivi01",
@@ -29256,7 +31200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 203506,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203506.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203506.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gabriwe01",
@@ -29301,7 +31248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 1629117,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629117.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629117.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "riverau01",
@@ -29316,10 +31266,10 @@ export const PLAYERS = [
     "mp": 1016,
     "g": 52,
     "stats": {
-      "pts": 9.0,
+      "pts": 9,
       "trb": 2.9,
       "ast": 2.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.1,
       "fg_pct": 0.435,
       "x3p_pct": 0.35,
@@ -29346,7 +31296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 203085,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203085.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203085.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "diallha01",
@@ -29362,8 +31315,8 @@ export const PLAYERS = [
     "g": 56,
     "stats": {
       "pts": 18.9,
-      "trb": 7.0,
-      "ast": 2.0,
+      "trb": 7,
+      "ast": 2,
       "stl": 1.9,
       "blk": 0.6,
       "fg_pct": 0.573,
@@ -29388,10 +31341,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.731,
       "stocks": 2.5,
       "fga_per_36_min": 13.6,
-      "trb_per_36_min": 7.0
+      "trb_per_36_min": 7
     },
     "nbaId": 1628977,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628977.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628977.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bartowi01",
@@ -29407,9 +31363,9 @@ export const PLAYERS = [
     "g": 56,
     "stats": {
       "pts": 13.7,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 4.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.379,
       "x3p_pct": 0.367,
@@ -29433,10 +31389,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.625,
       "stocks": 1.5,
       "fga_per_36_min": 13.2,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 203115,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203115.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203115.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "garubus01",
@@ -29481,7 +31440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.4
     },
     "nbaId": 1630586,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630586.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630586.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nunnke01",
@@ -29499,7 +31461,7 @@ export const PLAYERS = [
       "pts": 18.5,
       "trb": 4.1,
       "ast": 3.4,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.424,
       "x3p_pct": 0.354,
@@ -29526,7 +31488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 1629134,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629134.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629134.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wainris01",
@@ -29571,7 +31536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1630688,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630688.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630688.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nixda01",
@@ -29616,7 +31584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1630227,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630227.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630227.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cancavl01",
@@ -29631,7 +31602,7 @@ export const PLAYERS = [
     "mp": 889,
     "g": 60,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 5.2,
       "ast": 3.2,
       "stl": 0.9,
@@ -29661,7 +31632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1628427,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dragigo01",
@@ -29683,7 +31657,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.421,
       "x3p_pct": 0.359,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.689
     },
     "radar": {
@@ -29706,7 +31680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 201609,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "langfro01",
@@ -29724,7 +31701,7 @@ export const PLAYERS = [
       "pts": 12.7,
       "trb": 4.9,
       "ast": 2.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.467,
       "x3p_pct": 0.262,
@@ -29747,11 +31724,14 @@ export const PLAYERS = [
       "orb_share": 0.49,
       "perimeter_def_ratio": 0.588,
       "stocks": 1.6,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1629641,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629641.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629641.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "daviste02",
@@ -29767,7 +31747,7 @@ export const PLAYERS = [
     "g": 64,
     "stats": {
       "pts": 18.4,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 2.9,
       "stl": 1.8,
       "blk": 0.5,
@@ -29793,10 +31773,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.75,
       "stocks": 2.3,
       "fga_per_36_min": 15.6,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1629056,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629056.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629056.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hillge01",
@@ -29811,7 +31794,7 @@ export const PLAYERS = [
     "mp": 834,
     "g": 46,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 3.7,
       "ast": 4.7,
       "stl": 1.1,
@@ -29841,7 +31824,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 201588,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201588.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201588.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gayru01",
@@ -29886,7 +31872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 200752,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200752.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200752.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "greenja01",
@@ -29905,10 +31894,10 @@ export const PLAYERS = [
       "trb": 9.3,
       "ast": 2.3,
       "stl": 1.1,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.54,
       "x3p_pct": 0.378,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.776
     },
     "radar": {
@@ -29923,7 +31912,7 @@ export const PLAYERS = [
       "three_point_share": 0.439,
       "ft_rate": 0.263,
       "pass_vs_shoot": 0.202,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.355,
       "perimeter_def_ratio": 0.5,
       "stocks": 2.1,
@@ -29931,7 +31920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 203210,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203210.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203210.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chrisjo01",
@@ -29946,7 +31938,7 @@ export const PLAYERS = [
     "mp": 786,
     "g": 64,
     "stats": {
-      "pts": 17.0,
+      "pts": 17,
       "trb": 3.3,
       "ast": 3.3,
       "stl": 1.5,
@@ -29976,7 +31968,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1630528,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630528.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630528.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "winslju01",
@@ -30021,7 +32016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 1626159,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626159.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626159.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "walljo01",
@@ -30066,7 +32064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 202322,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202322.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202322.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hamptrj01",
@@ -30111,7 +32112,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1630181,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630181.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630181.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sumneed01",
@@ -30151,12 +32155,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.375,
       "orb_share": 0.154,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 13.2,
       "trb_per_36_min": 3.9
     },
     "nbaId": 1628410,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628410.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628410.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "toscaju01",
@@ -30171,7 +32178,7 @@ export const PLAYERS = [
     "mp": 700,
     "g": 52,
     "stats": {
-      "pts": 8.0,
+      "pts": 8,
       "trb": 6.4,
       "ast": 3.3,
       "stl": 0.8,
@@ -30201,7 +32208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1629308,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629308.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629308.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "warretj01",
@@ -30246,7 +32256,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 203933,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203933.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203933.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harremo01",
@@ -30267,7 +32280,7 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 1.3,
       "fg_pct": 0.598,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.3,
       "ft_pct": 0.693
     },
@@ -30287,11 +32300,14 @@ export const PLAYERS = [
       "orb_share": 0.417,
       "perimeter_def_ratio": 0.391,
       "stocks": 2.2,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 8.4
     },
     "nbaId": 1626149,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626149.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626149.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hernaju01",
@@ -30336,7 +32352,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1627823,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627823.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627823.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ntilila01",
@@ -30351,14 +32370,14 @@ export const PLAYERS = [
     "mp": 607,
     "g": 47,
     "stats": {
-      "pts": 8.0,
+      "pts": 8,
       "trb": 3.7,
       "ast": 3.4,
       "stl": 0.9,
       "blk": 0.4,
       "fg_pct": 0.364,
       "x3p_pct": 0.254,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.667
     },
     "radar": {
@@ -30373,7 +32392,7 @@ export const PLAYERS = [
       "three_point_share": 0.513,
       "ft_rate": 0.256,
       "pass_vs_shoot": 0.436,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.108,
       "perimeter_def_ratio": 0.643,
       "stocks": 1.3,
@@ -30381,7 +32400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1628373,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628373.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628373.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "griffbl01",
@@ -30426,7 +32448,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.8
     },
     "nbaId": 201933,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201933.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201933.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rubiori01",
@@ -30471,7 +32496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 201937,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201937.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201937.png",
+    "salary": "$424,672",
+    "salaryShort": "$425K",
+    "salaryNum": 424672
   },
   {
     "id": "mcgruro01",
@@ -30516,7 +32544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 203585,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203585.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203585.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bouknja01",
@@ -30532,9 +32563,9 @@ export const PLAYERS = [
     "g": 34,
     "stats": {
       "pts": 13.4,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 2.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.358,
       "x3p_pct": 0.303,
@@ -30558,10 +32589,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.714,
       "stocks": 1.3,
       "fga_per_36_min": 13.5,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1630547,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630547.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630547.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "netora01",
@@ -30583,7 +32617,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.518,
       "x3p_pct": 0.286,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.912
     },
     "radar": {
@@ -30606,7 +32640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 203526,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203526.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203526.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "robyis01",
@@ -30651,7 +32688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1629676,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629676.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629676.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsst04",
@@ -30696,7 +32736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 1626169,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626169.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626169.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hernawi01",
@@ -30715,7 +32758,7 @@ export const PLAYERS = [
       "trb": 14.1,
       "ast": 2.6,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.527,
       "x3p_pct": 0.273,
       "x3pa": 0.9,
@@ -30741,7 +32784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 14.1
     },
     "nbaId": 1626195,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626195.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626195.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harrike01",
@@ -30786,7 +32832,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1630284,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630284.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630284.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "schofad01",
@@ -30826,12 +32875,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.923,
       "orb_share": 0.367,
       "perimeter_def_ratio": 0.545,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 9.7,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1629678,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629678.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629678.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "washity02",
@@ -30876,7 +32928,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1631102,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631102.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631102.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dedmode01",
@@ -30921,7 +32976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.3
     },
     "nbaId": 203473,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203473.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203473.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "washidu02",
@@ -30966,7 +33024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1630613,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630613.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630613.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "azubuud01",
@@ -30987,8 +33048,8 @@ export const PLAYERS = [
       "stl": 0.6,
       "blk": 1.5,
       "fg_pct": 0.819,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.35
     },
     "radar": {
@@ -31000,7 +33061,7 @@ export const PLAYERS = [
       "perimeterDefense": 24
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.278,
       "pass_vs_shoot": 0.153,
       "ast_to_tov": 0.611,
@@ -31011,7 +33072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.9
     },
     "nbaId": 1628962,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628962.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628962.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dienggo01",
@@ -31056,7 +33120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.8
     },
     "nbaId": 203476,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203476.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203476.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reedda01",
@@ -31096,12 +33163,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.143,
       "orb_share": 0.177,
       "perimeter_def_ratio": 0.762,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 8.8,
       "trb_per_36_min": 6.2
     },
     "nbaId": 1628432,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628432.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628432.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wrighmc01",
@@ -31123,7 +33193,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.469,
       "x3p_pct": 0.321,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.684
     },
     "radar": {
@@ -31146,7 +33216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1630593,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630593.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630593.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pinsoth01",
@@ -31162,7 +33235,7 @@ export const PLAYERS = [
     "g": 40,
     "stats": {
       "pts": 10.6,
-      "trb": 7.0,
+      "trb": 7,
       "ast": 5.1,
       "stl": 0.7,
       "blk": 0.1,
@@ -31188,10 +33261,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.778,
       "stocks": 0.8,
       "fga_per_36_min": 9.7,
-      "trb_per_36_min": 7.0
+      "trb_per_36_min": 7
     },
     "nbaId": 1629033,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629033.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629033.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lopezro01",
@@ -31210,7 +33286,7 @@ export const PLAYERS = [
       "trb": 6.1,
       "ast": 2.3,
       "stl": 0.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.64,
       "x3p_pct": 0.5,
       "x3pa": 0.5,
@@ -31232,11 +33308,14 @@ export const PLAYERS = [
       "orb_share": 0.459,
       "perimeter_def_ratio": 0.154,
       "stocks": 1.2,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 6.1
     },
     "nbaId": 201577,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201577.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201577.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "knighna01",
@@ -31277,11 +33356,14 @@ export const PLAYERS = [
       "orb_share": 0.391,
       "perimeter_def_ratio": 0.6,
       "stocks": 1.9,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 6.9
     },
     "nbaId": 1630233,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630233.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630233.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "forbebr01",
@@ -31296,15 +33378,15 @@ export const PLAYERS = [
     "mp": 268,
     "g": 25,
     "stats": {
-      "pts": 12.0,
-      "trb": 2.0,
+      "pts": 12,
+      "trb": 2,
       "ast": 2.3,
       "stl": 0.9,
       "blk": 0.3,
       "fg_pct": 0.361,
       "x3p_pct": 0.304,
       "x3pa": 6.2,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 48,
@@ -31323,10 +33405,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.692,
       "stocks": 1.2,
       "fga_per_36_min": 11.1,
-      "trb_per_36_min": 2.0
+      "trb_per_36_min": 2
     },
     "nbaId": 1627854,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627854.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627854.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "okpalkz01",
@@ -31344,11 +33429,11 @@ export const PLAYERS = [
       "pts": 6.7,
       "trb": 4.9,
       "ast": 1.9,
-      "stl": 1.0,
-      "blk": 1.0,
+      "stl": 1,
+      "blk": 1,
       "fg_pct": 0.421,
       "x3p_pct": 0.333,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.875
     },
     "radar": {
@@ -31366,12 +33451,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.9,
       "orb_share": 0.204,
       "perimeter_def_ratio": 0.476,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 5.5,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1629644,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629644.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629644.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kaminfr01",
@@ -31387,7 +33475,7 @@ export const PLAYERS = [
     "g": 36,
     "stats": {
       "pts": 13.6,
-      "trb": 8.0,
+      "trb": 8,
       "ast": 4.9,
       "stl": 0.9,
       "blk": 0.6,
@@ -31413,10 +33501,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.562,
       "stocks": 1.5,
       "fga_per_36_min": 9.7,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1626163,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626163.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626163.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dukeda01",
@@ -31461,7 +33552,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1630561,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630561.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630561.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "butlejo01",
@@ -31498,7 +33592,7 @@ export const PLAYERS = [
       "three_point_share": 0.663,
       "ft_rate": 0.081,
       "pass_vs_shoot": 0.209,
-      "ast_to_tov": 9.0,
+      "ast_to_tov": 9,
       "orb_share": 0.179,
       "perimeter_def_ratio": 0.407,
       "stocks": 2.6,
@@ -31506,7 +33600,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.8
     },
     "nbaId": 1631219,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631219.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631219.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dellama01",
@@ -31525,7 +33622,7 @@ export const PLAYERS = [
       "trb": 2.2,
       "ast": 6.9,
       "stl": 1.2,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.34,
       "x3p_pct": 0.333,
       "x3pa": 4.6,
@@ -31551,7 +33648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.2
     },
     "nbaId": 203521,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203521.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203521.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "noelne01",
@@ -31569,7 +33669,7 @@ export const PLAYERS = [
       "pts": 6.5,
       "trb": 8.5,
       "ast": 1.8,
-      "stl": 3.0,
+      "stl": 3,
       "blk": 1.8,
       "fg_pct": 0.361,
       "x3p_pct": 0.5,
@@ -31596,7 +33696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.5
     },
     "nbaId": 203457,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203457.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203457.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ibakase01",
@@ -31641,7 +33744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 201586,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201586.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201586.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "diakima01",
@@ -31664,7 +33770,7 @@ export const PLAYERS = [
       "fg_pct": 0.48,
       "x3p_pct": 0.333,
       "x3pa": 4.3,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 44,
@@ -31686,7 +33792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 1629603,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629603.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629603.png",
+    "salary": "$464,050",
+    "salaryShort": "$464K",
+    "salaryNum": 464050
   },
   {
     "id": "arcidry01",
@@ -31704,8 +33813,8 @@ export const PLAYERS = [
       "pts": 5.4,
       "trb": 3.1,
       "ast": 4.8,
-      "stl": 1.0,
-      "blk": 0.0,
+      "stl": 1,
+      "blk": 0,
       "fg_pct": 0.243,
       "x3p_pct": 0.348,
       "x3pa": 4.8,
@@ -31721,17 +33830,20 @@ export const PLAYERS = [
     },
     "features": {
       "three_point_share": 0.623,
-      "ft_rate": 0.0,
+      "ft_rate": 0,
       "pass_vs_shoot": 0.623,
       "ast_to_tov": 3.2,
-      "orb_share": 0.0,
+      "orb_share": 0,
       "perimeter_def_ratio": 0.909,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 7.7,
       "trb_per_36_min": 3.1
     },
     "nbaId": 1627853,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627853.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627853.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "marjabo01",
@@ -31752,7 +33864,7 @@ export const PLAYERS = [
       "stl": 1.1,
       "blk": 0.4,
       "fg_pct": 0.683,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.741
     },
@@ -31776,7 +33888,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 1626246,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626246.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626246.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "vonleno01",
@@ -31799,7 +33914,7 @@ export const PLAYERS = [
       "fg_pct": 0.458,
       "x3p_pct": 0.25,
       "x3pa": 0.8,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 21,
@@ -31821,7 +33936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 203943,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203943.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203943.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "birchkh01",
@@ -31866,7 +33984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 203920,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203920.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203920.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsja01",
@@ -31911,7 +34032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 201949,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "anthoca01",
@@ -31930,10 +34054,10 @@ export const PLAYERS = [
       "trb": 5.8,
       "ast": 1.4,
       "stl": 0.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.441,
       "x3p_pct": 0.375,
-      "x3pa": 8.0,
+      "x3pa": 8,
       "ft_pct": 0.83
     },
     "radar": {
@@ -31956,7 +34080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 2546,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2546.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2546.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bradlav01",
@@ -31997,11 +34124,14 @@ export const PLAYERS = [
       "orb_share": 0.229,
       "perimeter_def_ratio": 0.824,
       "stocks": 1.6,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 3.5
     },
     "nbaId": 202340,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202340.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202340.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bledser01",
@@ -32018,7 +34148,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.1,
       "trb": 4.8,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 1.8,
       "blk": 0.5,
       "fg_pct": 0.421,
@@ -32046,7 +34176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 202339,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202339.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202339.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "greenda02",
@@ -32065,7 +34198,7 @@ export const PLAYERS = [
       "trb": 4.2,
       "ast": 1.7,
       "stl": 1.6,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.394,
       "x3p_pct": 0.38,
       "x3pa": 7.2,
@@ -32091,7 +34224,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 201980,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201980.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201980.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mclembe01",
@@ -32136,7 +34272,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 203463,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203463.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203463.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "campafa01",
@@ -32177,11 +34316,14 @@ export const PLAYERS = [
       "orb_share": 0.194,
       "perimeter_def_ratio": 0.704,
       "stocks": 2.6,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 3.6
     },
     "nbaId": 1630267,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630267.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630267.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ellebcj01",
@@ -32197,7 +34339,7 @@ export const PLAYERS = [
     "g": 58,
     "stats": {
       "pts": 10.4,
-      "trb": 7.0,
+      "trb": 7,
       "ast": 2.7,
       "stl": 1.1,
       "blk": 0.6,
@@ -32223,10 +34365,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.611,
       "stocks": 1.7,
       "fga_per_36_min": 9.4,
-      "trb_per_36_min": 7.0
+      "trb_per_36_min": 7
     },
     "nbaId": 1629604,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629604.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629604.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jacksfr01",
@@ -32271,7 +34416,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.7
     },
     "nbaId": 1628402,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628402.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628402.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "whiteha01",
@@ -32292,8 +34440,8 @@ export const PLAYERS = [
       "stl": 0.7,
       "blk": 3.2,
       "fg_pct": 0.652,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.623
     },
     "radar": {
@@ -32305,7 +34453,7 @@ export const PLAYERS = [
       "perimeterDefense": 24
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.51,
       "pass_vs_shoot": 0.078,
       "ast_to_tov": 0.5,
@@ -32316,7 +34464,10 @@ export const PLAYERS = [
       "trb_per_36_min": 15.3
     },
     "nbaId": 202355,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202355.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202355.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bjeline01",
@@ -32333,7 +34484,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 13.6,
       "trb": 9.3,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.3,
       "blk": 0.8,
       "fg_pct": 0.468,
@@ -32361,7 +34512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 202357,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "aldrila01",
@@ -32406,7 +34560,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 200746,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200746.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200746.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bembrde01",
@@ -32421,7 +34578,7 @@ export const PLAYERS = [
     "mp": 1026,
     "g": 56,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 5.7,
       "ast": 2.3,
       "stl": 1.7,
@@ -32451,7 +34608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1627761,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627761.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627761.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "howardw01",
@@ -32496,7 +34656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.2
     },
     "nbaId": 2730,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2730.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2730.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "primojo01",
@@ -32513,7 +34676,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.7,
       "trb": 4.2,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.7,
       "blk": 0.9,
       "fg_pct": 0.374,
@@ -32541,7 +34704,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1630563,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630563.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630563.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "walkeke02",
@@ -32558,8 +34724,8 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.4,
       "trb": 4.2,
-      "ast": 5.0,
-      "stl": 1.0,
+      "ast": 5,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.403,
       "x3p_pct": 0.367,
@@ -32586,7 +34752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 202689,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202689.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202689.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lambje01",
@@ -32626,12 +34795,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.214,
       "orb_share": 0.169,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 13.4,
       "trb_per_36_min": 5.9
     },
     "nbaId": 203087,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203087.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203087.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "satorto01",
@@ -32647,7 +34819,7 @@ export const PLAYERS = [
     "g": 55,
     "stats": {
       "pts": 7.9,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 7.3,
       "stl": 1.2,
       "blk": 0.2,
@@ -32673,10 +34845,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.8,
       "stocks": 1.4,
       "fga_per_36_min": 7.6,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 203107,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203107.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203107.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "augusdj01",
@@ -32691,11 +34866,11 @@ export const PLAYERS = [
     "mp": 883,
     "g": 55,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 2.8,
       "ast": 4.4,
       "stl": 0.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.423,
       "x3p_pct": 0.415,
       "x3pa": 6.7,
@@ -32721,7 +34896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.8
     },
     "nbaId": 201571,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201571.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201571.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harklma01",
@@ -32738,9 +34916,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.1,
       "trb": 4.7,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 1.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.459,
       "x3p_pct": 0.307,
       "x3pa": 4.2,
@@ -32766,7 +34944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.7
     },
     "nbaId": 203090,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203090.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203090.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brookar01",
@@ -32811,7 +34992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1629717,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629717.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629717.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jacksjo02",
@@ -32830,7 +35014,7 @@ export const PLAYERS = [
       "trb": 6.1,
       "ast": 2.3,
       "stl": 1.1,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.4,
       "x3p_pct": 0.254,
       "x3pa": 5.6,
@@ -32852,11 +35036,14 @@ export const PLAYERS = [
       "orb_share": 0.148,
       "perimeter_def_ratio": 0.5,
       "stocks": 2.1,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 6.1
     },
     "nbaId": 1628367,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628367.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628367.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "snellto01",
@@ -32879,7 +35066,7 @@ export const PLAYERS = [
       "fg_pct": 0.404,
       "x3p_pct": 0.352,
       "x3pa": 5.6,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 26,
@@ -32901,7 +35088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 203503,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203503.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203503.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "stephla01",
@@ -32916,14 +35106,14 @@ export const PLAYERS = [
     "mp": 814,
     "g": 46,
     "stats": {
-      "pts": 17.0,
+      "pts": 17,
       "trb": 5.6,
       "ast": 7.3,
       "stl": 1.1,
       "blk": 0.2,
       "fg_pct": 0.455,
       "x3p_pct": 0.3,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.788
     },
     "radar": {
@@ -32946,7 +35136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 202362,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202362.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202362.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ellinwa01",
@@ -32964,7 +35157,7 @@ export const PLAYERS = [
       "pts": 12.8,
       "trb": 3.4,
       "ast": 1.3,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.2,
       "fg_pct": 0.414,
       "x3p_pct": 0.389,
@@ -32991,7 +35184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 201961,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201961.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201961.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willilo02",
@@ -33036,7 +35232,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 101150,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101150.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101150.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pascher01",
@@ -33081,7 +35280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1629672,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629672.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629672.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "couside01",
@@ -33126,7 +35328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.5
     },
     "nbaId": 202326,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202326.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202326.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hoodro01",
@@ -33167,11 +35372,14 @@ export const PLAYERS = [
       "orb_share": 0.205,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.1,
-      "fga_per_36_min": 8.0,
+      "fga_per_36_min": 8,
       "trb_per_36_min": 3.9
     },
     "nbaId": 203918,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203918.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203918.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rondora01",
@@ -33216,7 +35424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 200765,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200765.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200765.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "luwawti01",
@@ -33261,7 +35472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1627789,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627789.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627789.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "favorde01",
@@ -33302,11 +35516,14 @@ export const PLAYERS = [
       "orb_share": 0.317,
       "perimeter_def_ratio": 0.529,
       "stocks": 1.6,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 10.1
     },
     "nbaId": 202324,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202324.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202324.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "browngr01",
@@ -33316,14 +35533,14 @@ export const PLAYERS = [
     "age": 20,
     "season": 2022,
     "clusterId": 2,
-    "pcaX": 2.0,
+    "pcaX": 2,
     "pcaY": -0.27,
     "mp": 640,
     "g": 48,
     "stats": {
       "pts": 12.7,
       "trb": 7.6,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.5,
       "blk": 1.4,
       "fg_pct": 0.426,
@@ -33343,7 +35560,7 @@ export const PLAYERS = [
       "three_point_share": 0.318,
       "ft_rate": 0.346,
       "pass_vs_shoot": 0.187,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.276,
       "perimeter_def_ratio": 0.5,
       "stocks": 2.9,
@@ -33351,7 +35568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.6
     },
     "nbaId": 1630535,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630535.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630535.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brownst02",
@@ -33396,7 +35616,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.5
     },
     "nbaId": 1628425,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628425.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628425.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nwabada01",
@@ -33441,7 +35664,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.9
     },
     "nbaId": 1628021,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628021.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628021.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "iguodan01",
@@ -33457,7 +35683,7 @@ export const PLAYERS = [
     "g": 31,
     "stats": {
       "pts": 7.4,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 6.8,
       "stl": 1.6,
       "blk": 1.3,
@@ -33478,15 +35704,18 @@ export const PLAYERS = [
       "three_point_share": 0.611,
       "ft_rate": 0.167,
       "pass_vs_shoot": 0.944,
-      "ast_to_tov": 4.0,
+      "ast_to_tov": 4,
       "orb_share": 0.217,
       "perimeter_def_ratio": 0.533,
       "stocks": 2.9,
       "fga_per_36_min": 7.2,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 2738,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2738.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2738.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sykeske01",
@@ -33531,7 +35760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 1626208,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626208.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626208.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bazemke01",
@@ -33576,7 +35808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 203145,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203145.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203145.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brazdig01",
@@ -33621,7 +35856,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1629649,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629649.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629649.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "goodwbr01",
@@ -33662,11 +35900,14 @@ export const PLAYERS = [
       "orb_share": 0.208,
       "perimeter_def_ratio": 0.9,
       "stocks": 1.9,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1629164,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629164.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629164.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "arizatr01",
@@ -33684,7 +35925,7 @@ export const PLAYERS = [
       "pts": 7.5,
       "trb": 6.4,
       "ast": 2.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.333,
       "x3p_pct": 0.27,
@@ -33711,7 +35952,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 2772,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2772.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2772.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tilliki02",
@@ -33751,12 +35995,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.7,
       "orb_share": 0.34,
       "perimeter_def_ratio": 0.581,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 9.9,
       "trb_per_36_min": 4.7
     },
     "nbaId": 1629681,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629681.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629681.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomama02",
@@ -33801,7 +36048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1629744,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629744.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629744.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "windldy01",
@@ -33817,7 +36067,7 @@ export const PLAYERS = [
     "g": 50,
     "stats": {
       "pts": 8.6,
-      "trb": 7.0,
+      "trb": 7,
       "ast": 2.7,
       "stl": 1.1,
       "blk": 0.2,
@@ -33843,10 +36093,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.786,
       "stocks": 1.3,
       "fga_per_36_min": 7.7,
-      "trb_per_36_min": 7.0
+      "trb_per_36_min": 7
     },
     "nbaId": 1629685,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629685.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629685.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martike03",
@@ -33864,11 +36117,11 @@ export const PLAYERS = [
       "pts": 13.7,
       "trb": 4.4,
       "ast": 1.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.7,
       "fg_pct": 0.409,
       "x3p_pct": 0.293,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.692
     },
     "radar": {
@@ -33891,7 +36144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1629103,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629103.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629103.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "burketr01",
@@ -33909,8 +36165,8 @@ export const PLAYERS = [
       "pts": 17.5,
       "trb": 2.7,
       "ast": 4.7,
-      "stl": 1.0,
-      "blk": 0.0,
+      "stl": 1,
+      "blk": 0,
       "fg_pct": 0.391,
       "x3p_pct": 0.317,
       "x3pa": 6.7,
@@ -33931,12 +36187,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.238,
       "orb_share": 0.111,
       "perimeter_def_ratio": 0.909,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 17.6,
       "trb_per_36_min": 2.7
     },
     "nbaId": 203504,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203504.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203504.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hugheel01",
@@ -33981,7 +36240,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1630190,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630190.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630190.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sarrol01",
@@ -33997,7 +36259,7 @@ export const PLAYERS = [
     "g": 22,
     "stats": {
       "pts": 13.1,
-      "trb": 8.0,
+      "trb": 8,
       "ast": 1.6,
       "stl": 0.5,
       "blk": 1.3,
@@ -34023,10 +36285,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.263,
       "stocks": 1.8,
       "fga_per_36_min": 8.6,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1630846,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630846.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630846.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kanteen01",
@@ -34042,7 +36307,7 @@ export const PLAYERS = [
     "g": 35,
     "stats": {
       "pts": 11.2,
-      "trb": 14.0,
+      "trb": 14,
       "ast": 0.7,
       "stl": 0.4,
       "blk": 1.2,
@@ -34068,10 +36333,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.235,
       "stocks": 1.6,
       "fga_per_36_min": 8.5,
-      "trb_per_36_min": 14.0
+      "trb_per_36_min": 14
     },
     "nbaId": 202683,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202683.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202683.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ojelese01",
@@ -34108,7 +36376,7 @@ export const PLAYERS = [
       "three_point_share": 0.5,
       "ft_rate": 0.295,
       "pass_vs_shoot": 0.091,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.364,
       "perimeter_def_ratio": 0.5,
       "stocks": 1.1,
@@ -34116,7 +36384,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.6
     },
     "nbaId": 1628400,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628400.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628400.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "clarkga01",
@@ -34161,7 +36432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 1629109,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629109.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629109.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "millspa01",
@@ -34176,10 +36450,10 @@ export const PLAYERS = [
     "mp": 376,
     "g": 33,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 10.9,
       "ast": 2.8,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.2,
       "fg_pct": 0.391,
       "x3p_pct": 0.229,
@@ -34202,11 +36476,14 @@ export const PLAYERS = [
       "orb_share": 0.358,
       "perimeter_def_ratio": 0.435,
       "stocks": 2.2,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 10.9
     },
     "nbaId": 200794,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200794.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200794.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chiozch01",
@@ -34216,7 +36493,7 @@ export const PLAYERS = [
     "age": 26,
     "season": 2022,
     "clusterId": 1,
-    "pcaX": -3.0,
+    "pcaX": -3,
     "pcaY": 2.19,
     "mp": 372,
     "g": 34,
@@ -34225,7 +36502,7 @@ export const PLAYERS = [
       "trb": 3.5,
       "ast": 6.3,
       "stl": 1.3,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.296,
       "x3p_pct": 0.321,
       "x3pa": 5.1,
@@ -34251,7 +36528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629185,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629185.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629185.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "blevike01",
@@ -34268,7 +36548,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.8,
       "trb": 4.6,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.3,
       "blk": 0.1,
       "fg_pct": 0.306,
@@ -34296,7 +36576,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1629833,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629833.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629833.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chrisma01",
@@ -34311,7 +36594,7 @@ export const PLAYERS = [
     "mp": 346,
     "g": 34,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 10.7,
       "ast": 1.8,
       "stl": 1.4,
@@ -34333,7 +36616,7 @@ export const PLAYERS = [
       "three_point_share": 0.187,
       "ft_rate": 0.245,
       "pass_vs_shoot": 0.129,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.318,
       "perimeter_def_ratio": 0.519,
       "stocks": 2.6,
@@ -34341,7 +36624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.7
     },
     "nbaId": 1627737,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627737.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627737.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "doziepj01",
@@ -34386,7 +36672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 1628408,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628408.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628408.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "culveja01",
@@ -34408,7 +36697,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.378,
       "x3p_pct": 0.255,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.471
     },
     "radar": {
@@ -34431,7 +36720,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1629633,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629633.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629633.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomais02",
@@ -34453,7 +36745,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.401,
       "x3p_pct": 0.337,
-      "x3pa": 9.0,
+      "x3pa": 9,
       "ft_pct": 0.846
     },
     "radar": {
@@ -34476,7 +36768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.1
     },
     "nbaId": 202738,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202738.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202738.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wanambr01",
@@ -34521,7 +36816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 202954,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202954.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202954.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "anderju01",
@@ -34566,7 +36864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1626147,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626147.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626147.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "robinju01",
@@ -34607,11 +36908,14 @@ export const PLAYERS = [
       "orb_share": 0.2,
       "perimeter_def_ratio": 0.846,
       "stocks": 1.2,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 2.5
     },
     "nbaId": 1629620,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629620.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629620.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bolmale01",
@@ -34630,7 +36934,7 @@ export const PLAYERS = [
       "trb": 6.4,
       "ast": 3.1,
       "stl": 0.9,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.315,
       "x3p_pct": 0.278,
       "x3pa": 2.7,
@@ -34656,7 +36960,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1630195,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630195.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630195.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hoardja01",
@@ -34701,7 +37008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.6
     },
     "nbaId": 1629658,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629658.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629658.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "muldemy01",
@@ -34724,7 +37034,7 @@ export const PLAYERS = [
       "fg_pct": 0.312,
       "x3p_pct": 0.315,
       "x3pa": 8.1,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 42,
@@ -34746,7 +37056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1628539,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628539.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628539.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "laymaja01",
@@ -34791,7 +37104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.6
     },
     "nbaId": 1627774,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627774.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627774.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "valende01",
@@ -34810,7 +37126,7 @@ export const PLAYERS = [
       "trb": 6.8,
       "ast": 1.8,
       "stl": 1.3,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.379,
       "x3p_pct": 0.404,
       "x3pa": 7.6,
@@ -34826,7 +37142,7 @@ export const PLAYERS = [
     },
     "features": {
       "three_point_share": 0.71,
-      "ft_rate": 0.0,
+      "ft_rate": 0,
       "pass_vs_shoot": 0.168,
       "ast_to_tov": 0.947,
       "orb_share": 0.221,
@@ -34836,7 +37152,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1627756,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627756.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627756.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kalaige01",
@@ -34853,7 +37172,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.5,
       "trb": 3.5,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.9,
       "blk": 0.3,
       "fg_pct": 0.463,
@@ -34881,7 +37200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1630686,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630686.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630686.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hillma01",
@@ -34926,7 +37248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1630792,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630792.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630792.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fraziti01",
@@ -34971,7 +37296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 204025,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204025.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204025.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mckinal01",
@@ -35016,7 +37344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1628035,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628035.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628035.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wieskjo01",
@@ -35027,7 +37358,7 @@ export const PLAYERS = [
     "season": 2022,
     "clusterId": 3,
     "pcaX": -2.08,
-    "pcaY": 0.0,
+    "pcaY": 0,
     "mp": 205,
     "g": 29,
     "stats": {
@@ -35053,7 +37384,7 @@ export const PLAYERS = [
       "three_point_share": 0.776,
       "ft_rate": 0.235,
       "pass_vs_shoot": 0.163,
-      "ast_to_tov": 4.0,
+      "ast_to_tov": 4,
       "orb_share": 0.28,
       "perimeter_def_ratio": 0.538,
       "stocks": 1.2,
@@ -35061,7 +37392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.5
     },
     "nbaId": 1630580,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630580.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630580.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "davised01",
@@ -35076,14 +37410,14 @@ export const PLAYERS = [
     "mp": 201,
     "g": 31,
     "stats": {
-      "pts": 5.0,
+      "pts": 5,
       "trb": 11.5,
       "ast": 1.3,
       "stl": 0.5,
       "blk": 1.6,
       "fg_pct": 0.688,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.429
     },
     "radar": {
@@ -35095,7 +37429,7 @@ export const PLAYERS = [
       "perimeterDefense": 23
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.862,
       "pass_vs_shoot": 0.448,
       "ast_to_tov": 1.444,
@@ -35106,7 +37440,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.5
     },
     "nbaId": 202334,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202334.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202334.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cookty01",
@@ -35127,8 +37464,8 @@ export const PLAYERS = [
       "stl": 0.7,
       "blk": 0.7,
       "fg_pct": 0.605,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.656
     },
     "radar": {
@@ -35140,7 +37477,7 @@ export const PLAYERS = [
       "perimeterDefense": 30
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.853,
       "pass_vs_shoot": 0.074,
       "ast_to_tov": 0.385,
@@ -35151,7 +37488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.5
     },
     "nbaId": 1629076,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629076.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629076.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smartja01",
@@ -35196,7 +37536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1630606,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630606.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630606.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wiggili01",
@@ -35237,11 +37580,14 @@ export const PLAYERS = [
       "orb_share": 0.111,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629623,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629623.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629623.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "keybr01",
@@ -35258,9 +37604,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.4,
       "trb": 9.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.8,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.458,
       "x3p_pct": 0.286,
       "x3pa": 3.8,
@@ -35278,7 +37624,7 @@ export const PLAYERS = [
       "three_point_share": 0.288,
       "ft_rate": 0.182,
       "pass_vs_shoot": 0.152,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.264,
       "perimeter_def_ratio": 0.462,
       "stocks": 3.8,
@@ -35286,7 +37632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1630296,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630296.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630296.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "monrogr01",
@@ -35301,14 +37650,14 @@ export const PLAYERS = [
     "mp": 195,
     "g": 14,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 11.8,
       "ast": 4.1,
       "stl": 1.5,
       "blk": 1.8,
       "fg_pct": 0.561,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.522
     },
     "radar": {
@@ -35320,7 +37669,7 @@ export const PLAYERS = [
       "perimeterDefense": 61
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.4,
       "pass_vs_shoot": 0.39,
       "ast_to_tov": 1.864,
@@ -35331,7 +37680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.8
     },
     "nbaId": 202328,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202328.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202328.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "perryre01",
@@ -35347,7 +37699,7 @@ export const PLAYERS = [
     "g": 10,
     "stats": {
       "pts": 17.7,
-      "trb": 9.0,
+      "trb": 9,
       "ast": 2.3,
       "stl": 1.7,
       "blk": 1.2,
@@ -35373,10 +37725,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.567,
       "stocks": 2.9,
       "fga_per_36_min": 15.2,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1629617,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629617.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629617.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "guyky01",
@@ -35421,7 +37776,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1629657,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629657.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629657.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "caulewi01",
@@ -35438,7 +37796,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 6.7,
       "trb": 7.9,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.2,
       "blk": 0.6,
       "fg_pct": 0.457,
@@ -35466,7 +37824,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.9
     },
     "nbaId": 1626161,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626161.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626161.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brownch02",
@@ -35484,7 +37845,7 @@ export const PLAYERS = [
       "pts": 6.1,
       "trb": 6.5,
       "ast": 1.2,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.8,
       "fg_pct": 0.256,
       "x3p_pct": 0.083,
@@ -35511,7 +37872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.5
     },
     "nbaId": 1629718,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629718.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629718.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "howarma02",
@@ -35530,7 +37894,7 @@ export const PLAYERS = [
       "trb": 2.5,
       "ast": 1.4,
       "stl": 1.8,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.386,
       "x3p_pct": 0.4,
       "x3pa": 14.3,
@@ -35548,7 +37912,7 @@ export const PLAYERS = [
       "three_point_share": 0.691,
       "ft_rate": 0.227,
       "pass_vs_shoot": 0.068,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.16,
       "perimeter_def_ratio": 0.947,
       "stocks": 1.8,
@@ -35556,7 +37920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.5
     },
     "nbaId": 1630210,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630210.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630210.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pickeja01",
@@ -35574,11 +37941,11 @@ export const PLAYERS = [
       "pts": 10.2,
       "trb": 6.5,
       "ast": 1.4,
-      "stl": 0.0,
+      "stl": 0,
       "blk": 1.4,
       "fg_pct": 0.36,
       "x3p_pct": 0.333,
-      "x3pa": 8.0,
+      "x3pa": 8,
       "ft_pct": 0.5
     },
     "radar": {
@@ -35595,13 +37962,16 @@ export const PLAYERS = [
       "pass_vs_shoot": 0.137,
       "ast_to_tov": 1.4,
       "orb_share": 0.185,
-      "perimeter_def_ratio": 0.0,
+      "perimeter_def_ratio": 0,
       "stocks": 1.4,
       "fga_per_36_min": 10.2,
       "trb_per_36_min": 6.5
     },
     "nbaId": 1630691,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630691.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630691.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "graveha01",
@@ -35642,11 +38012,14 @@ export const PLAYERS = [
       "orb_share": 0.045,
       "perimeter_def_ratio": 0.786,
       "stocks": 1.3,
-      "fga_per_36_min": 8.0,
+      "fga_per_36_min": 8,
       "trb_per_36_min": 4.4
     },
     "nbaId": 1629755,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629755.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629755.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsal02",
@@ -35665,9 +38038,9 @@ export const PLAYERS = [
       "trb": 13.1,
       "ast": 1.9,
       "stl": 1.1,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.436,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.9,
       "ft_pct": 0.583
     },
@@ -35691,7 +38064,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.1
     },
     "nbaId": 1628993,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628993.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628993.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pangoke01",
@@ -35710,7 +38086,7 @@ export const PLAYERS = [
       "trb": 2.4,
       "ast": 6.5,
       "stl": 0.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.326,
       "x3p_pct": 0.231,
       "x3pa": 5.6,
@@ -35732,11 +38108,14 @@ export const PLAYERS = [
       "orb_share": 0.167,
       "perimeter_def_ratio": 0.875,
       "stocks": 0.7,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 2.4
     },
     "nbaId": 1630698,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630698.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630698.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "watsopa01",
@@ -35758,7 +38137,7 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.343,
       "x3p_pct": 0.231,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.5
     },
     "radar": {
@@ -35773,7 +38152,7 @@ export const PLAYERS = [
       "three_point_share": 0.741,
       "ft_rate": 0.062,
       "pass_vs_shoot": 0.222,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.113,
       "perimeter_def_ratio": 0.467,
       "stocks": 1.4,
@@ -35781,7 +38160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.2
     },
     "nbaId": 1628778,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628778.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628778.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "stanlca01",
@@ -35804,7 +38186,7 @@ export const PLAYERS = [
       "fg_pct": 0.413,
       "x3p_pct": 0.235,
       "x3pa": 3.9,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 47,
@@ -35826,7 +38208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1630199,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630199.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630199.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bacondw01",
@@ -35848,7 +38233,7 @@ export const PLAYERS = [
       "blk": 0.1,
       "fg_pct": 0.402,
       "x3p_pct": 0.285,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.824
     },
     "radar": {
@@ -35863,15 +38248,18 @@ export const PLAYERS = [
       "three_point_share": 0.284,
       "ft_rate": 0.241,
       "pass_vs_shoot": 0.128,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.136,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 14.1,
       "trb_per_36_min": 4.4
     },
     "nbaId": 1628407,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628407.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628407.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hillso01",
@@ -35893,7 +38281,7 @@ export const PLAYERS = [
       "blk": 0.3,
       "fg_pct": 0.359,
       "x3p_pct": 0.321,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.761
     },
     "radar": {
@@ -35916,7 +38304,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 203524,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203524.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203524.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gasolma01",
@@ -35933,7 +38324,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.5,
       "trb": 7.8,
-      "ast": 4.0,
+      "ast": 4,
       "stl": 0.9,
       "blk": 2.1,
       "fg_pct": 0.454,
@@ -35956,12 +38347,15 @@ export const PLAYERS = [
       "ast_to_tov": 2.105,
       "orb_share": 0.179,
       "perimeter_def_ratio": 0.29,
-      "stocks": 3.0,
-      "fga_per_36_min": 7.0,
+      "stocks": 3,
+      "fga_per_36_min": 7,
       "trb_per_36_min": 7.8
     },
     "nbaId": 201188,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201188.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201188.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ennisja01",
@@ -35971,7 +38365,7 @@ export const PLAYERS = [
     "age": 30,
     "season": 2021,
     "clusterId": 3,
-    "pcaX": 0.0,
+    "pcaX": 0,
     "pcaY": 0.35,
     "mp": 986,
     "g": 41,
@@ -36006,7 +38400,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.1
     },
     "nbaId": 203516,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203516.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203516.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "baynear01",
@@ -36022,7 +38419,7 @@ export const PLAYERS = [
     "g": 53,
     "stats": {
       "pts": 11.9,
-      "trb": 10.0,
+      "trb": 10,
       "ast": 1.7,
       "stl": 0.6,
       "blk": 0.8,
@@ -36043,15 +38440,18 @@ export const PLAYERS = [
       "three_point_share": 0.339,
       "ft_rate": 0.134,
       "pass_vs_shoot": 0.152,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.32,
       "perimeter_def_ratio": 0.4,
       "stocks": 1.4,
       "fga_per_36_min": 11.2,
-      "trb_per_36_min": 10.0
+      "trb_per_36_min": 10
     },
     "nbaId": 203382,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203382.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203382.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "teaguje01",
@@ -36068,7 +38468,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 14.1,
       "trb": 3.3,
-      "ast": 5.0,
+      "ast": 5,
       "stl": 1.3,
       "blk": 0.5,
       "fg_pct": 0.433,
@@ -36096,7 +38496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 201952,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dotsoda01",
@@ -36141,7 +38544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1628422,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628422.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628422.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "doumbse01",
@@ -36159,7 +38565,7 @@ export const PLAYERS = [
       "pts": 11.8,
       "trb": 5.9,
       "ast": 1.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.379,
       "x3p_pct": 0.226,
@@ -36186,7 +38592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1629635,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629635.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629635.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "scottmi01",
@@ -36201,10 +38610,10 @@ export const PLAYERS = [
     "mp": 852,
     "g": 51,
     "stats": {
-      "pts": 9.0,
+      "pts": 9,
       "trb": 5.1,
       "ast": 1.7,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.36,
       "x3p_pct": 0.342,
@@ -36231,7 +38640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 203118,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203118.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203118.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "randlch01",
@@ -36276,7 +38688,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1626184,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626184.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626184.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cartemi01",
@@ -36321,7 +38736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 203487,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203487.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203487.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "redicjj01",
@@ -36366,7 +38784,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.2
     },
     "nbaId": 200755,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200755.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200755.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsty01",
@@ -36385,7 +38806,7 @@ export const PLAYERS = [
       "trb": 4.1,
       "ast": 2.5,
       "stl": 0.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.393,
       "x3p_pct": 0.364,
       "x3pa": 6.9,
@@ -36411,7 +38832,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.1
     },
     "nbaId": 204020,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204020.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204020.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pattepa01",
@@ -36456,7 +38880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 202335,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202335.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202335.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jacksju01",
@@ -36496,12 +38923,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.6,
       "orb_share": 0.208,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 13.8,
       "trb_per_36_min": 4.8
     },
     "nbaId": 1628382,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628382.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628382.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mellini01",
@@ -36542,11 +38972,14 @@ export const PLAYERS = [
       "orb_share": 0.231,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 7.8
     },
     "nbaId": 1629740,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629740.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629740.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "iwundwe01",
@@ -36562,9 +38995,9 @@ export const PLAYERS = [
     "g": 41,
     "stats": {
       "pts": 6.6,
-      "trb": 6.0,
+      "trb": 6,
       "ast": 1.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.333,
       "x3p_pct": 0.122,
@@ -36588,10 +39021,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.714,
       "stocks": 1.3,
       "fga_per_36_min": 6.8,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 1628411,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628411.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628411.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "onimi01",
@@ -36636,7 +39072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1629671,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629671.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629671.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gallola01",
@@ -36655,10 +39094,10 @@ export const PLAYERS = [
       "trb": 3.5,
       "ast": 2.1,
       "stl": 0.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.449,
       "x3p_pct": 0.424,
-      "x3pa": 7.0,
+      "x3pa": 7,
       "ft_pct": 0.957
     },
     "radar": {
@@ -36681,7 +39120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 204038,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204038.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204038.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "aminual01",
@@ -36726,7 +39168,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 202329,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202329.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202329.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wilsodj01",
@@ -36767,11 +39212,14 @@ export const PLAYERS = [
       "orb_share": 0.183,
       "perimeter_def_ratio": 0.391,
       "stocks": 2.2,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 9.3
     },
     "nbaId": 1628391,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628391.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628391.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bongais01",
@@ -36816,7 +39264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 1629067,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629067.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629067.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomabr01",
@@ -36861,7 +39312,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1630271,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630271.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630271.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gillefr01",
@@ -36882,8 +39336,8 @@ export const PLAYERS = [
       "stl": 1.2,
       "blk": 1.8,
       "fg_pct": 0.524,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.697
     },
     "radar": {
@@ -36895,18 +39349,21 @@ export const PLAYERS = [
       "perimeterDefense": 42
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.39,
       "pass_vs_shoot": 0.104,
       "ast_to_tov": 0.727,
       "orb_share": 0.438,
       "perimeter_def_ratio": 0.387,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 7.7,
       "trb_per_36_min": 8.9
     },
     "nbaId": 1630273,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630273.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630273.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mooreet01",
@@ -36951,7 +39408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 202734,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202734.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202734.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "robingl02",
@@ -36968,7 +39428,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 11.8,
       "trb": 4.4,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.4,
       "blk": 0.3,
       "fg_pct": 0.424,
@@ -36996,7 +39456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 203922,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203922.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203922.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mannini01",
@@ -37041,7 +39504,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1630185,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630185.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630185.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "naderab01",
@@ -37059,7 +39525,7 @@ export const PLAYERS = [
       "pts": 16.2,
       "trb": 6.3,
       "ast": 1.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.9,
       "fg_pct": 0.491,
       "x3p_pct": 0.419,
@@ -37078,7 +39544,7 @@ export const PLAYERS = [
       "three_point_share": 0.373,
       "ft_rate": 0.322,
       "pass_vs_shoot": 0.161,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.111,
       "perimeter_def_ratio": 0.5,
       "stocks": 1.9,
@@ -37086,7 +39552,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1627846,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627846.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627846.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gilesha01",
@@ -37103,7 +39572,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 11.2,
       "trb": 13.8,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.8,
       "blk": 1.3,
       "fg_pct": 0.433,
@@ -37127,11 +39596,14 @@ export const PLAYERS = [
       "orb_share": 0.232,
       "perimeter_def_ratio": 0.364,
       "stocks": 2.1,
-      "fga_per_36_min": 10.0,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 13.8
     },
     "nbaId": 1628385,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628385.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628385.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "okafoja01",
@@ -37146,7 +39618,7 @@ export const PLAYERS = [
     "mp": 347,
     "g": 27,
     "stats": {
-      "pts": 15.0,
+      "pts": 15,
       "trb": 6.8,
       "ast": 1.3,
       "stl": 0.6,
@@ -37176,7 +39648,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1626143,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hutchch01",
@@ -37221,7 +39696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 1628990,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628990.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628990.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "halljo01",
@@ -37238,12 +39716,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.2,
       "trb": 6.3,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 0.4,
       "blk": 0.1,
       "fg_pct": 0.303,
       "x3p_pct": 0.108,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.5
     },
     "radar": {
@@ -37266,7 +39744,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.3
     },
     "nbaId": 1630221,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630221.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630221.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesma05",
@@ -37311,7 +39792,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.9
     },
     "nbaId": 1630222,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harrish01",
@@ -37356,7 +39840,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.2
     },
     "nbaId": 1627885,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627885.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627885.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sampsja02",
@@ -37401,7 +39888,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 203960,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203960.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203960.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jamesju01",
@@ -37446,7 +39936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629713,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629713.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629713.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "robinje01",
@@ -37463,12 +39956,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.8,
       "trb": 4.5,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.4,
       "blk": 0.7,
       "fg_pct": 0.295,
       "x3p_pct": 0.262,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.8
     },
     "radar": {
@@ -37491,7 +39984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629010,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629010.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629010.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kabenmf01",
@@ -37509,7 +40005,7 @@ export const PLAYERS = [
       "pts": 12.2,
       "trb": 7.7,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.7,
       "fg_pct": 0.371,
       "x3p_pct": 0.26,
@@ -37536,7 +40032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.7
     },
     "nbaId": 1629662,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629662.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629662.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "edwarca01",
@@ -37551,7 +40050,7 @@ export const PLAYERS = [
     "mp": 276,
     "g": 31,
     "stats": {
-      "pts": 16.0,
+      "pts": 16,
       "trb": 3.4,
       "ast": 1.8,
       "stl": 0.9,
@@ -37573,15 +40072,18 @@ export const PLAYERS = [
       "three_point_share": 0.566,
       "ft_rate": 0.117,
       "pass_vs_shoot": 0.124,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.118,
       "perimeter_def_ratio": 0.818,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 14.5,
       "trb_per_36_min": 3.4
     },
     "nbaId": 1629035,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629035.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629035.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pattoju01",
@@ -37598,12 +40100,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 10.2,
       "trb": 7.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.7,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.414,
       "x3p_pct": 0.265,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.75
     },
     "radar": {
@@ -37626,7 +40128,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.1
     },
     "nbaId": 1628383,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628383.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628383.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "watertr01",
@@ -37641,7 +40146,7 @@ export const PLAYERS = [
     "mp": 238,
     "g": 26,
     "stats": {
-      "pts": 15.0,
+      "pts": 15,
       "trb": 3.2,
       "ast": 9.4,
       "stl": 2.3,
@@ -37671,7 +40176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.2
     },
     "nbaId": 1629682,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629682.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629682.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jamesmi02",
@@ -37712,11 +40220,14 @@ export const PLAYERS = [
       "orb_share": 0.102,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 4.9
     },
     "nbaId": 1628455,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628455.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628455.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thornsi01",
@@ -37732,7 +40243,7 @@ export const PLAYERS = [
     "g": 21,
     "stats": {
       "pts": 6.8,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 3.5,
       "stl": 2.2,
       "blk": 0.3,
@@ -37758,10 +40269,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.846,
       "stocks": 2.5,
       "fga_per_36_min": 7.6,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 1628414,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628414.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628414.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "deckga01",
@@ -37780,7 +40294,7 @@ export const PLAYERS = [
       "trb": 6.8,
       "ast": 4.1,
       "stl": 1.4,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.478,
       "x3p_pct": 0.133,
       "x3pa": 2.5,
@@ -37806,7 +40320,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1630466,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630466.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630466.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "milleda01",
@@ -37829,7 +40346,7 @@ export const PLAYERS = [
       "fg_pct": 0.458,
       "x3p_pct": 0.405,
       "x3pa": 7.7,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 47,
@@ -37851,7 +40368,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 203121,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203121.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203121.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bonejo01",
@@ -37870,7 +40390,7 @@ export const PLAYERS = [
       "trb": 4.4,
       "ast": 3.3,
       "stl": 0.4,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.426,
       "x3p_pct": 0.313,
       "x3pa": 5.9,
@@ -37886,7 +40406,7 @@ export const PLAYERS = [
     },
     "features": {
       "three_point_share": 0.596,
-      "ft_rate": 0.0,
+      "ft_rate": 0,
       "pass_vs_shoot": 0.333,
       "ast_to_tov": 5.5,
       "orb_share": 0.159,
@@ -37896,7 +40416,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1629648,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629648.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629648.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "halldo01",
@@ -37914,11 +40437,11 @@ export const PLAYERS = [
       "pts": 14.7,
       "trb": 12.5,
       "ast": 2.2,
-      "stl": 1.0,
-      "blk": 2.0,
+      "stl": 1,
+      "blk": 2,
       "fg_pct": 0.714,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.676
     },
     "radar": {
@@ -37930,18 +40453,21 @@ export const PLAYERS = [
       "perimeterDefense": 32
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.971,
       "pass_vs_shoot": 0.314,
       "ast_to_tov": 1.375,
       "orb_share": 0.384,
       "perimeter_def_ratio": 0.323,
-      "stocks": 3.0,
-      "fga_per_36_min": 7.0,
+      "stocks": 3,
+      "fga_per_36_min": 7,
       "trb_per_36_min": 12.5
     },
     "nbaId": 1629743,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629743.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629743.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harrija01",
@@ -37960,7 +40486,7 @@ export const PLAYERS = [
       "trb": 3.8,
       "ast": 3.6,
       "stl": 1.7,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.5,
       "x3p_pct": 0.472,
       "x3pa": 7.5,
@@ -37986,7 +40512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1630223,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630223.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630223.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "parkeja01",
@@ -38027,11 +40556,14 @@ export const PLAYERS = [
       "orb_share": 0.239,
       "perimeter_def_ratio": 0.143,
       "stocks": 1.3,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 9.2
     },
     "nbaId": 203953,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203953.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203953.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "oturuda01",
@@ -38076,7 +40608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.7
     },
     "nbaId": 1630187,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630187.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630187.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcderse01",
@@ -38098,8 +40633,8 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.394,
       "x3p_pct": 0.227,
-      "x3pa": 5.0,
-      "ft_pct": 1.0
+      "x3pa": 5,
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 27,
@@ -38113,7 +40648,7 @@ export const PLAYERS = [
       "three_point_share": 0.667,
       "ft_rate": 0.24,
       "pass_vs_shoot": 0.12,
-      "ast_to_tov": 1.0,
+      "ast_to_tov": 1,
       "orb_share": 0.326,
       "perimeter_def_ratio": 0.385,
       "stocks": 1.2,
@@ -38121,7 +40656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 1630253,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630253.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630253.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cookqu01",
@@ -38143,7 +40681,7 @@ export const PLAYERS = [
       "blk": 0.2,
       "fg_pct": 0.426,
       "x3p_pct": 0.423,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.875
     },
     "radar": {
@@ -38166,7 +40704,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1626188,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626188.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626188.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomakh01",
@@ -38189,7 +40730,7 @@ export const PLAYERS = [
       "fg_pct": 0.485,
       "x3p_pct": 0.333,
       "x3pa": 6.4,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 85,
@@ -38211,7 +40752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 1629017,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629017.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629017.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "napiesh01",
@@ -38228,7 +40772,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 15.5,
       "trb": 4.2,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 1.8,
       "blk": 0.3,
       "fg_pct": 0.412,
@@ -38256,7 +40800,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 203894,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203894.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203894.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fergute01",
@@ -38301,7 +40848,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.1
     },
     "nbaId": 1628390,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628390.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628390.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willima02",
@@ -38320,10 +40870,10 @@ export const PLAYERS = [
       "trb": 5.8,
       "ast": 1.9,
       "stl": 1.1,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.446,
       "x3p_pct": 0.359,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.86
     },
     "radar": {
@@ -38346,7 +40896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 101107,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101107.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101107.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "holliro01",
@@ -38391,7 +40944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.1
     },
     "nbaId": 1626178,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626178.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626178.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leoname01",
@@ -38431,12 +40987,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.357,
       "orb_share": 0.11,
       "perimeter_def_ratio": 0.455,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 8.1,
       "trb_per_36_min": 9.1
     },
     "nbaId": 203086,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203086.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203086.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bowmaky01",
@@ -38476,12 +41035,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.84,
       "orb_share": 0.209,
       "perimeter_def_ratio": 0.762,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 11.4,
       "trb_per_36_min": 4.3
     },
     "nbaId": 1629065,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629065.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629065.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ilyaser01",
@@ -38497,13 +41059,13 @@ export const PLAYERS = [
     "g": 63,
     "stats": {
       "pts": 15.1,
-      "trb": 11.0,
+      "trb": 11,
       "ast": 1.8,
       "stl": 0.9,
       "blk": 0.6,
       "fg_pct": 0.466,
       "x3p_pct": 0.365,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.828
     },
     "radar": {
@@ -38523,10 +41085,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.562,
       "stocks": 1.5,
       "fga_per_36_min": 11.4,
-      "trb_per_36_min": 11.0
+      "trb_per_36_min": 11
     },
     "nbaId": 101141,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101141.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101141.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "korveky01",
@@ -38544,7 +41109,7 @@ export const PLAYERS = [
       "pts": 14.5,
       "trb": 4.6,
       "ast": 2.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.43,
       "x3p_pct": 0.418,
@@ -38567,11 +41132,14 @@ export const PLAYERS = [
       "orb_share": 0.13,
       "perimeter_def_ratio": 0.625,
       "stocks": 1.5,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 4.6
     },
     "nbaId": 2594,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2594.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2594.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "grahatr01",
@@ -38616,7 +41184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1626203,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626203.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626203.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mccawpa01",
@@ -38661,7 +41232,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 1627775,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627775.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627775.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "spellom01",
@@ -38676,11 +41250,11 @@ export const PLAYERS = [
     "mp": 886,
     "g": 49,
     "stats": {
-      "pts": 15.0,
+      "pts": 15,
       "trb": 8.9,
       "ast": 1.9,
       "stl": 1.3,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.431,
       "x3p_pct": 0.391,
       "x3pa": 4.5,
@@ -38702,11 +41276,14 @@ export const PLAYERS = [
       "orb_share": 0.348,
       "perimeter_def_ratio": 0.542,
       "stocks": 2.3,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 8.9
     },
     "nbaId": 1629016,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629016.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629016.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "belinma01",
@@ -38722,10 +41299,10 @@ export const PLAYERS = [
     "g": 57,
     "stats": {
       "pts": 14.7,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 2.8,
       "stl": 0.5,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.392,
       "x3p_pct": 0.376,
       "x3pa": 7.3,
@@ -38748,10 +41325,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.833,
       "stocks": 0.5,
       "fga_per_36_min": 12.8,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 201158,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201158.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201158.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cartevi01",
@@ -38768,9 +41348,9 @@ export const PLAYERS = [
     "stats": {
       "pts": 12.2,
       "trb": 5.1,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 0.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.352,
       "x3p_pct": 0.302,
       "x3pa": 8.3,
@@ -38796,7 +41376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 1713,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1713.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1713.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tollian01",
@@ -38818,7 +41401,7 @@ export const PLAYERS = [
       "blk": 0.5,
       "fg_pct": 0.357,
       "x3p_pct": 0.338,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.724
     },
     "radar": {
@@ -38841,7 +41424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 201229,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201229.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201229.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hezonma01",
@@ -38882,11 +41468,14 @@ export const PLAYERS = [
       "orb_share": 0.158,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.9,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 7.6
     },
     "nbaId": 1626209,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626209.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626209.png",
+    "salary": "$2,449,421",
+    "salaryShort": "$2.4M",
+    "salaryNum": 2449421
   },
   {
     "id": "mudiaem01",
@@ -38904,7 +41493,7 @@ export const PLAYERS = [
       "pts": 16.7,
       "trb": 5.3,
       "ast": 4.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.462,
       "x3p_pct": 0.345,
@@ -38931,7 +41520,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 1626144,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626144.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626144.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mahinia01",
@@ -38950,7 +41542,7 @@ export const PLAYERS = [
       "trb": 9.7,
       "ast": 2.2,
       "stl": 1.4,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.495,
       "x3p_pct": 0.192,
       "x3pa": 1.2,
@@ -38976,7 +41568,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.7
     },
     "nbaId": 101133,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101133.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101133.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mcraejo01",
@@ -38994,7 +41589,7 @@ export const PLAYERS = [
       "pts": 19.6,
       "trb": 5.7,
       "ast": 4.3,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.7,
       "fg_pct": 0.407,
       "x3p_pct": 0.357,
@@ -39021,7 +41616,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 203895,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203895.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203895.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "makerth01",
@@ -39036,14 +41634,14 @@ export const PLAYERS = [
     "mp": 776,
     "g": 60,
     "stats": {
-      "pts": 13.0,
+      "pts": 13,
       "trb": 7.7,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.2,
       "blk": 1.8,
       "fg_pct": 0.482,
       "x3p_pct": 0.344,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.664
     },
     "radar": {
@@ -39061,12 +41659,15 @@ export const PLAYERS = [
       "ast_to_tov": 0.952,
       "orb_share": 0.325,
       "perimeter_def_ratio": 0.387,
-      "stocks": 3.0,
-      "fga_per_36_min": 9.0,
+      "stocks": 3,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 7.7
     },
     "nbaId": 1627748,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627748.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627748.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chandwi01",
@@ -39107,11 +41708,14 @@ export const PLAYERS = [
       "orb_share": 0.07,
       "perimeter_def_ratio": 0.533,
       "stocks": 1.4,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 7.1
     },
     "nbaId": 201163,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201163.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201163.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "okoboel01",
@@ -39126,7 +41730,7 @@ export const PLAYERS = [
     "mp": 719,
     "g": 55,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 4.5,
       "ast": 5.8,
       "stl": 1.2,
@@ -39156,7 +41760,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629059,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629059.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629059.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kurucro01",
@@ -39201,7 +41808,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.2
     },
     "nbaId": 1629066,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629066.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629066.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "crabbal01",
@@ -39238,15 +41848,18 @@ export const PLAYERS = [
       "three_point_share": 0.673,
       "ft_rate": 0.082,
       "pass_vs_shoot": 0.184,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.143,
       "perimeter_def_ratio": 0.727,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 9.8,
       "trb_per_36_min": 4.2
     },
     "nbaId": 203459,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203459.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203459.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hensojo01",
@@ -39291,7 +41904,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.7
     },
     "nbaId": 203089,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203089.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203089.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "labissk01",
@@ -39310,7 +41926,7 @@ export const PLAYERS = [
       "trb": 10.7,
       "ast": 2.7,
       "stl": 0.4,
-      "blk": 2.0,
+      "blk": 2,
       "fg_pct": 0.551,
       "x3p_pct": 0.231,
       "x3pa": 0.8,
@@ -39336,7 +41952,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.7
     },
     "nbaId": 1627746,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627746.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627746.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "danietr01",
@@ -39381,7 +42000,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 203584,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203584.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203584.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ferreyo01",
@@ -39426,7 +42048,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 1627812,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627812.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627812.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "musadz01",
@@ -39471,7 +42096,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.4
     },
     "nbaId": 1629058,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629058.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629058.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gudurma01",
@@ -39516,7 +42144,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 1629741,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629741.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629741.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "diallch01",
@@ -39561,7 +42192,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.8
     },
     "nbaId": 1627767,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627767.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627767.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "knighbr03",
@@ -39601,12 +42235,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.8,
       "orb_share": 0.094,
       "perimeter_def_ratio": 0.727,
-      "stocks": 1.0,
-      "fga_per_36_min": 13.0,
+      "stocks": 1,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 3.2
     },
     "nbaId": 202688,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202688.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202688.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bareajo01",
@@ -39623,7 +42260,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 17.8,
       "trb": 4.2,
-      "ast": 9.0,
+      "ast": 9,
       "stl": 0.4,
       "blk": 0.2,
       "fg_pct": 0.411,
@@ -39643,7 +42280,7 @@ export const PLAYERS = [
       "three_point_share": 0.41,
       "ft_rate": 0.108,
       "pass_vs_shoot": 0.542,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.19,
       "perimeter_def_ratio": 0.571,
       "stocks": 0.6,
@@ -39651,7 +42288,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 200826,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200826.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200826.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pasecan01",
@@ -39670,9 +42310,9 @@ export const PLAYERS = [
       "trb": 8.8,
       "ast": 1.5,
       "stl": 0.7,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.526,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.586
     },
@@ -39696,7 +42336,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.8
     },
     "nbaId": 1628394,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628394.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628394.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sefolth01",
@@ -39714,8 +42357,8 @@ export const PLAYERS = [
       "pts": 7.6,
       "trb": 7.7,
       "ast": 2.1,
-      "stl": 2.0,
-      "blk": 1.0,
+      "stl": 2,
+      "blk": 1,
       "fg_pct": 0.407,
       "x3p_pct": 0.278,
       "x3pa": 4.5,
@@ -39736,12 +42379,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.75,
       "orb_share": 0.221,
       "perimeter_def_ratio": 0.645,
-      "stocks": 3.0,
+      "stocks": 3,
       "fga_per_36_min": 7.5,
       "trb_per_36_min": 7.7
     },
     "nbaId": 200757,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200757.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/200757.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "evansja02",
@@ -39756,11 +42402,11 @@ export const PLAYERS = [
     "mp": 418,
     "g": 29,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 3.5,
       "ast": 2.7,
       "stl": 0.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.336,
       "x3p_pct": 0.333,
       "x3pa": 3.4,
@@ -39786,7 +42432,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1628980,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628980.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628980.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "feliccr01",
@@ -39801,13 +42450,13 @@ export const PLAYERS = [
     "mp": 386,
     "g": 22,
     "stats": {
-      "pts": 8.0,
+      "pts": 8,
       "trb": 9.5,
       "ast": 1.5,
       "stl": 0.9,
       "blk": 0.2,
       "fg_pct": 0.63,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.783
     },
@@ -39827,11 +42476,14 @@ export const PLAYERS = [
       "orb_share": 0.537,
       "perimeter_def_ratio": 0.75,
       "stocks": 1.1,
-      "fga_per_36_min": 5.0,
+      "fga_per_36_min": 5,
       "trb_per_36_min": 9.5
     },
     "nbaId": 1626245,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626245.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626245.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dudleja01",
@@ -39854,7 +42506,7 @@ export const PLAYERS = [
       "fg_pct": 0.4,
       "x3p_pct": 0.429,
       "x3pa": 4.2,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 21,
@@ -39876,7 +42528,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 201162,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201162.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201162.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "burtode02",
@@ -39895,7 +42550,7 @@ export const PLAYERS = [
       "trb": 5.8,
       "ast": 1.7,
       "stl": 0.7,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.344,
       "x3p_pct": 0.189,
       "x3pa": 5.4,
@@ -39921,7 +42576,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1629126,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629126.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629126.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "silvach01",
@@ -39942,7 +42600,7 @@ export const PLAYERS = [
       "stl": 0.9,
       "blk": 2.2,
       "fg_pct": 0.615,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.3,
       "ft_pct": 0.673
     },
@@ -39966,7 +42624,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.1
     },
     "nbaId": 1629735,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629735.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629735.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leeco01",
@@ -40011,7 +42672,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 201584,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201584.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201584.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "oquinky01",
@@ -40056,7 +42720,10 @@ export const PLAYERS = [
       "trb_per_36_min": 13.3
     },
     "nbaId": 203124,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203124.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203124.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "clemoch01",
@@ -40101,7 +42768,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.7
     },
     "nbaId": 1629598,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629598.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629598.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "trieral01",
@@ -40146,7 +42816,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1629019,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629019.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629019.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "carrode01",
@@ -40164,7 +42837,7 @@ export const PLAYERS = [
       "pts": 10.8,
       "trb": 6.8,
       "ast": 3.1,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.6,
       "fg_pct": 0.379,
       "x3p_pct": 0.242,
@@ -40191,7 +42864,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 201960,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201960.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201960.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "swanica01",
@@ -40212,7 +42888,7 @@ export const PLAYERS = [
       "stl": 0.4,
       "blk": 0.9,
       "fg_pct": 0.596,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.529
     },
@@ -40236,7 +42912,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.5
     },
     "nbaId": 1628403,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628403.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628403.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bendedr01",
@@ -40281,7 +42960,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.2
     },
     "nbaId": 1627733,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627733.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627733.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "kiddgmi01",
@@ -40326,7 +43008,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 203077,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203077.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203077.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "belljo01",
@@ -40371,7 +43056,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.4
     },
     "nbaId": 1628395,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628395.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628395.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "turneev01",
@@ -40392,7 +43080,7 @@ export const PLAYERS = [
       "stl": 1.3,
       "blk": 1.1,
       "fg_pct": 0.373,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.7,
       "ft_pct": 0.857
     },
@@ -40416,7 +43104,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 202323,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202323.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202323.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "waltode01",
@@ -40434,8 +43125,8 @@ export const PLAYERS = [
       "pts": 7.7,
       "trb": 2.3,
       "ast": 3.9,
-      "stl": 1.0,
-      "blk": 0.0,
+      "stl": 1,
+      "blk": 0,
       "fg_pct": 0.462,
       "x3p_pct": 0.417,
       "x3pa": 3.5,
@@ -40456,12 +43147,15 @@ export const PLAYERS = [
       "ast_to_tov": 5.571,
       "orb_share": 0.13,
       "perimeter_def_ratio": 0.909,
-      "stocks": 1.0,
+      "stocks": 1,
       "fga_per_36_min": 5.7,
       "trb_per_36_min": 2.3
     },
     "nbaId": 1628476,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628476.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628476.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cabocbr01",
@@ -40506,7 +43200,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.9
     },
     "nbaId": 203998,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203998.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203998.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "shumpim01",
@@ -40551,7 +43248,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 202697,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202697.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202697.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pelleno01",
@@ -40572,7 +43272,7 @@ export const PLAYERS = [
       "stl": 0.5,
       "blk": 4.8,
       "fg_pct": 0.521,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.5
     },
@@ -40596,7 +43296,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.2
     },
     "nbaId": 203658,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203658.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203658.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leaftj01",
@@ -40641,7 +43344,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.5
     },
     "nbaId": 1628388,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628388.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628388.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "zizican01",
@@ -40658,12 +43364,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 15.6,
       "trb": 10.8,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 1.1,
       "blk": 0.8,
       "fg_pct": 0.569,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.737
     },
     "radar": {
@@ -40675,7 +43381,7 @@ export const PLAYERS = [
       "perimeterDefense": 48
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.265,
       "pass_vs_shoot": 0.085,
       "ast_to_tov": 0.625,
@@ -40686,7 +43392,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.8
     },
     "nbaId": 1627790,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627790.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627790.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "chandty01",
@@ -40703,12 +43412,12 @@ export const PLAYERS = [
     "stats": {
       "pts": 5.6,
       "trb": 10.8,
-      "ast": 1.0,
-      "stl": 1.0,
+      "ast": 1,
+      "stl": 1,
       "blk": 1.3,
       "fg_pct": 0.778,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.462
     },
     "radar": {
@@ -40720,18 +43429,21 @@ export const PLAYERS = [
       "perimeterDefense": 36
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.7,
       "pass_vs_shoot": 0.333,
       "ast_to_tov": 0.769,
       "orb_share": 0.38,
       "perimeter_def_ratio": 0.417,
       "stocks": 2.3,
-      "fga_per_36_min": 3.0,
+      "fga_per_36_min": 3,
       "trb_per_36_min": 10.8
     },
     "nbaId": 2199,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2199.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2199.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "waitedi01",
@@ -40750,7 +43462,7 @@ export const PLAYERS = [
       "trb": 4.2,
       "ast": 3.5,
       "stl": 0.7,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.414,
       "x3p_pct": 0.319,
       "x3pa": 8.2,
@@ -40776,7 +43488,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 203079,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203079.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203079.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "broekry01",
@@ -40794,7 +43509,7 @@ export const PLAYERS = [
       "pts": 14.2,
       "trb": 8.6,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.8,
       "fg_pct": 0.373,
       "x3p_pct": 0.392,
@@ -40821,7 +43536,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.6
     },
     "nbaId": 1629151,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629151.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629151.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willijo04",
@@ -40836,13 +43554,13 @@ export const PLAYERS = [
     "mp": 180,
     "g": 15,
     "stats": {
-      "pts": 9.0,
+      "pts": 9,
       "trb": 12.8,
       "ast": 1.6,
       "stl": 0.2,
       "blk": 1.6,
       "fg_pct": 0.559,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.4,
       "ft_pct": 0.538
     },
@@ -40866,7 +43584,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.8
     },
     "nbaId": 1629140,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629140.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629140.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "millema01",
@@ -40911,7 +43632,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.6
     },
     "nbaId": 1626259,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626259.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626259.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "milescj01",
@@ -40948,7 +43672,7 @@ export const PLAYERS = [
       "three_point_share": 0.591,
       "ft_rate": 0.341,
       "pass_vs_shoot": 0.205,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.333,
       "perimeter_def_ratio": 0.688,
       "stocks": 3.1,
@@ -40956,7 +43680,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.7
     },
     "nbaId": 101139,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101139.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101139.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "tuckera01",
@@ -41001,7 +43728,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1629730,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629730.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629730.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wallaty01",
@@ -41016,8 +43746,8 @@ export const PLAYERS = [
     "mp": 160,
     "g": 14,
     "stats": {
-      "pts": 9.0,
-      "trb": 5.0,
+      "pts": 9,
+      "trb": 5,
       "ast": 2.9,
       "stl": 1.6,
       "blk": 0.2,
@@ -41043,10 +43773,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.842,
       "stocks": 1.8,
       "fga_per_36_min": 9.9,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1627820,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627820.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627820.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "collida01",
@@ -41086,12 +43819,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.667,
       "orb_share": 0.154,
       "perimeter_def_ratio": 0.857,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 11.1,
       "trb_per_36_min": 3.9
     },
     "nbaId": 201954,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201954.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201954.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "wadedw01",
@@ -41113,7 +43849,7 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.433,
       "x3p_pct": 0.33,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.708
     },
     "radar": {
@@ -41136,7 +43872,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 2548,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2548.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2548.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "greenge01",
@@ -41153,7 +43892,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.5,
       "trb": 4.4,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 0.8,
       "blk": 0.7,
       "fg_pct": 0.4,
@@ -41181,7 +43920,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 101123,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101123.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101123.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "seldewa01",
@@ -41226,7 +43968,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 1627782,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627782.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627782.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "linje01",
@@ -41271,7 +44016,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.5
     },
     "nbaId": 202391,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202391.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202391.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "evansty01",
@@ -41311,12 +44059,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.433,
       "orb_share": 0.154,
       "perimeter_def_ratio": 0.714,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 16.9,
       "trb_per_36_min": 5.2
     },
     "nbaId": 201936,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201936.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201936.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "macksh01",
@@ -41332,7 +44083,7 @@ export const PLAYERS = [
     "g": 57,
     "stats": {
       "pts": 12.4,
-      "trb": 3.0,
+      "trb": 3,
       "ast": 5.3,
       "stl": 1.4,
       "blk": 0.1,
@@ -41358,10 +44109,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.875,
       "stocks": 1.5,
       "fga_per_36_min": 11.6,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 202714,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202714.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202714.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mirotni01",
@@ -41380,7 +44134,7 @@ export const PLAYERS = [
       "trb": 9.8,
       "ast": 1.6,
       "stl": 0.9,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.439,
       "x3p_pct": 0.365,
       "x3pa": 9.2,
@@ -41406,7 +44160,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.8
     },
     "nbaId": 202703,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202703.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202703.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jerebjo01",
@@ -41451,7 +44208,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.5
     },
     "nbaId": 201973,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201973.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201973.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "crawfja01",
@@ -41469,11 +44229,11 @@ export const PLAYERS = [
       "pts": 15.1,
       "trb": 2.5,
       "ast": 6.8,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.397,
       "x3p_pct": 0.332,
-      "x3pa": 6.0,
+      "x3pa": 6,
       "ft_pct": 0.845
     },
     "radar": {
@@ -41492,11 +44252,14 @@ export const PLAYERS = [
       "orb_share": 0.08,
       "perimeter_def_ratio": 0.667,
       "stocks": 1.4,
-      "fga_per_36_min": 13.0,
+      "fga_per_36_min": 13,
       "trb_per_36_min": 2.5
     },
     "nbaId": 2037,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2037.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2037.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harride01",
@@ -41541,7 +44304,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 2734,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2734.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2734.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "simmojo02",
@@ -41559,7 +44325,7 @@ export const PLAYERS = [
       "pts": 12.4,
       "trb": 4.3,
       "ast": 4.3,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.38,
       "x3p_pct": 0.269,
@@ -41586,7 +44352,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": 203613,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203613.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203613.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "stausni01",
@@ -41627,11 +44396,14 @@ export const PLAYERS = [
       "orb_share": 0.133,
       "perimeter_def_ratio": 0.7,
       "stocks": 0.9,
-      "fga_per_36_min": 12.0,
+      "fga_per_36_min": 12,
       "trb_per_36_min": 4.5
     },
     "nbaId": 203917,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203917.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203917.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "parketo01",
@@ -41646,8 +44418,8 @@ export const PLAYERS = [
     "mp": 1003,
     "g": 56,
     "stats": {
-      "pts": 19.0,
-      "trb": 3.0,
+      "pts": 19,
+      "trb": 3,
       "ast": 7.4,
       "stl": 0.8,
       "blk": 0.3,
@@ -41673,10 +44445,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.667,
       "stocks": 1.1,
       "fga_per_36_min": 16.6,
-      "trb_per_36_min": 3.0
+      "trb_per_36_min": 3
     },
     "nbaId": 2225,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2225.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2225.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "clarkia01",
@@ -41721,7 +44496,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 203546,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203546.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203546.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "livinsh01",
@@ -41740,9 +44518,9 @@ export const PLAYERS = [
       "trb": 4.4,
       "ast": 4.2,
       "stl": 1.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.519,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.784
     },
@@ -41758,7 +44536,7 @@ export const PLAYERS = [
       "three_point_share": 0.013,
       "ft_rate": 0.244,
       "pass_vs_shoot": 0.538,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.364,
       "perimeter_def_ratio": 0.522,
       "stocks": 2.2,
@@ -41766,7 +44544,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 2733,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2733.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2733.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "grantje02",
@@ -41783,7 +44564,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 9.6,
       "trb": 3.8,
-      "ast": 6.0,
+      "ast": 6,
       "stl": 1.7,
       "blk": 0.2,
       "fg_pct": 0.418,
@@ -41803,7 +44584,7 @@ export const PLAYERS = [
       "three_point_share": 0.5,
       "ft_rate": 0.179,
       "pass_vs_shoot": 0.714,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.184,
       "perimeter_def_ratio": 0.85,
       "stocks": 1.9,
@@ -41811,7 +44592,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1626170,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626170.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626170.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "cunnida01",
@@ -41829,7 +44613,7 @@ export const PLAYERS = [
       "pts": 7.5,
       "trb": 7.3,
       "ast": 1.9,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.5,
       "fg_pct": 0.475,
       "x3p_pct": 0.462,
@@ -41856,7 +44640,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.3
     },
     "nbaId": 201967,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201967.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201967.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pachuza01",
@@ -41877,7 +44664,7 @@ export const PLAYERS = [
       "stl": 1.3,
       "blk": 0.7,
       "fg_pct": 0.44,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.782
     },
@@ -41896,12 +44683,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.609,
       "orb_share": 0.376,
       "perimeter_def_ratio": 0.619,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 7.9,
       "trb_per_36_min": 10.9
     },
     "nbaId": 2585,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2585.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2585.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "blakean01",
@@ -41923,7 +44713,7 @@ export const PLAYERS = [
       "blk": 0.4,
       "fg_pct": 0.419,
       "x3p_pct": 0.396,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.658
     },
     "radar": {
@@ -41946,7 +44736,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.6
     },
     "nbaId": 1628469,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628469.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628469.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "nowitdi01",
@@ -41983,15 +44776,18 @@ export const PLAYERS = [
       "three_point_share": 0.547,
       "ft_rate": 0.135,
       "pass_vs_shoot": 0.094,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.028,
       "perimeter_def_ratio": 0.308,
       "stocks": 1.2,
-      "fga_per_36_min": 17.0,
+      "fga_per_36_min": 17,
       "trb_per_36_min": 7.2
     },
     "nbaId": 1717,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1717.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1717.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dekkesa01",
@@ -42031,12 +44827,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.909,
       "orb_share": 0.353,
       "perimeter_def_ratio": 0.81,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 11.7,
       "trb_per_36_min": 6.8
     },
     "nbaId": 1626155,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626155.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626155.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "thomala01",
@@ -42081,7 +44880,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.4
     },
     "nbaId": 202498,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202498.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202498.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gortama01",
@@ -42102,8 +44904,8 @@ export const PLAYERS = [
       "stl": 0.3,
       "blk": 1.2,
       "fg_pct": 0.532,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.729
     },
     "radar": {
@@ -42115,7 +44917,7 @@ export const PLAYERS = [
       "perimeterDefense": 21
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.258,
       "pass_vs_shoot": 0.348,
       "ast_to_tov": 1.292,
@@ -42126,7 +44928,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.5
     },
     "nbaId": 101162,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101162.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101162.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "farieke01",
@@ -42141,9 +44946,9 @@ export const PLAYERS = [
     "mp": 728,
     "g": 37,
     "stats": {
-      "pts": 19.0,
+      "pts": 19,
       "trb": 12.4,
-      "ast": 1.0,
+      "ast": 1,
       "stl": 0.8,
       "blk": 1.1,
       "fg_pct": 0.589,
@@ -42171,7 +44976,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.4
     },
     "nbaId": 202702,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202702.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202702.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "rabbiv01",
@@ -42216,7 +45024,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.3
     },
     "nbaId": 1628397,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628397.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628397.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "dorsety01",
@@ -42261,7 +45072,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1628416,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628416.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628416.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "noahjo01",
@@ -42279,10 +45093,10 @@ export const PLAYERS = [
       "pts": 15.5,
       "trb": 12.4,
       "ast": 4.6,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 1.6,
       "fg_pct": 0.516,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.1,
       "ft_pct": 0.716
     },
@@ -42306,7 +45120,10 @@ export const PLAYERS = [
       "trb_per_36_min": 12.4
     },
     "nbaId": 201149,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201149.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201149.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bayleje01",
@@ -42324,7 +45141,7 @@ export const PLAYERS = [
       "pts": 11.5,
       "trb": 3.4,
       "ast": 6.5,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.1,
       "fg_pct": 0.357,
       "x3p_pct": 0.296,
@@ -42351,7 +45168,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 201573,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201573.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201573.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "boldejo01",
@@ -42369,7 +45189,7 @@ export const PLAYERS = [
       "pts": 11.7,
       "trb": 9.3,
       "ast": 2.3,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 2.2,
       "fg_pct": 0.494,
       "x3p_pct": 0.354,
@@ -42396,7 +45216,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.3
     },
     "nbaId": 1628413,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628413.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628413.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "caldejo01",
@@ -42441,7 +45264,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.4
     },
     "nbaId": 101181,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101181.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101181.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "canaais01",
@@ -42486,7 +45312,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.3
     },
     "nbaId": 203477,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203477.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203477.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "abrinal01",
@@ -42504,7 +45333,7 @@ export const PLAYERS = [
       "pts": 10.1,
       "trb": 2.9,
       "ast": 1.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.4,
       "fg_pct": 0.357,
       "x3p_pct": 0.323,
@@ -42531,7 +45360,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.9
     },
     "nbaId": 203518,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203518.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203518.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "briscis01",
@@ -42576,7 +45408,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.8
     },
     "nbaId": 1628515,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628515.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628515.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hilarne01",
@@ -42591,13 +45426,13 @@ export const PLAYERS = [
     "mp": 546,
     "g": 42,
     "stats": {
-      "pts": 10.0,
+      "pts": 10,
       "trb": 8.1,
       "ast": 1.7,
       "stl": 1.2,
-      "blk": 1.0,
+      "blk": 1,
       "fg_pct": 0.517,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.2,
       "ft_pct": 0.66
     },
@@ -42621,7 +45456,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.1
     },
     "nbaId": 2403,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2403.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2403.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnswe01",
@@ -42666,7 +45504,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.9
     },
     "nbaId": 202325,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202325.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202325.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "johnsam01",
@@ -42682,7 +45523,7 @@ export const PLAYERS = [
     "g": 51,
     "stats": {
       "pts": 13.7,
-      "trb": 10.0,
+      "trb": 10,
       "ast": 4.1,
       "stl": 1.1,
       "blk": 0.9,
@@ -42706,12 +45547,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.323,
       "orb_share": 0.32,
       "perimeter_def_ratio": 0.524,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 10.7,
-      "trb_per_36_min": 10.0
+      "trb_per_36_min": 10
     },
     "nbaId": 101161,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101161.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101161.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "casspom01",
@@ -42727,13 +45571,13 @@ export const PLAYERS = [
     "g": 36,
     "stats": {
       "pts": 15.6,
-      "trb": 8.0,
+      "trb": 8,
       "ast": 1.8,
       "stl": 1.4,
       "blk": 0.6,
       "fg_pct": 0.534,
       "x3p_pct": 0.349,
-      "x3pa": 3.0,
+      "x3pa": 3,
       "ft_pct": 0.672
     },
     "radar": {
@@ -42751,12 +45595,15 @@ export const PLAYERS = [
       "ast_to_tov": 1.125,
       "orb_share": 0.15,
       "perimeter_def_ratio": 0.667,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 11.1,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 201956,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201956.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201956.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "koufoko01",
@@ -42777,8 +45624,8 @@ export const PLAYERS = [
       "stl": 1.1,
       "blk": 1.3,
       "fg_pct": 0.477,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.417
     },
     "radar": {
@@ -42790,18 +45637,21 @@ export const PLAYERS = [
       "perimeterDefense": 42
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.155,
       "pass_vs_shoot": 0.236,
       "ast_to_tov": 1.368,
       "orb_share": 0.291,
       "perimeter_def_ratio": 0.44,
       "stocks": 2.4,
-      "fga_per_36_min": 11.0,
+      "fga_per_36_min": 11,
       "trb_per_36_min": 12.7
     },
     "nbaId": 201585,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201585.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201585.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "parsoch01",
@@ -42846,7 +45696,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.1
     },
     "nbaId": 202718,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202718.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202718.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "breweco01",
@@ -42861,7 +45714,7 @@ export const PLAYERS = [
     "mp": 492,
     "g": 31,
     "stats": {
-      "pts": 11.0,
+      "pts": 11,
       "trb": 5.6,
       "ast": 2.9,
       "stl": 2.3,
@@ -42887,11 +45740,14 @@ export const PLAYERS = [
       "orb_share": 0.339,
       "perimeter_def_ratio": 0.793,
       "stocks": 2.8,
-      "fga_per_36_min": 9.0,
+      "fga_per_36_min": 9,
       "trb_per_36_min": 5.6
     },
     "nbaId": 201147,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201147.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201147.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "blossja01",
@@ -42907,7 +45763,7 @@ export const PLAYERS = [
     "g": 27,
     "stats": {
       "pts": 9.3,
-      "trb": 8.0,
+      "trb": 8,
       "ast": 1.1,
       "stl": 0.6,
       "blk": 0.7,
@@ -42933,10 +45789,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.429,
       "stocks": 1.3,
       "fga_per_36_min": 8.7,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1628417,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628417.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628417.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "masonfr01",
@@ -42953,7 +45812,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 16.1,
       "trb": 3.6,
-      "ast": 7.0,
+      "ast": 7,
       "stl": 1.3,
       "blk": 0.3,
       "fg_pct": 0.42,
@@ -42977,11 +45836,14 @@ export const PLAYERS = [
       "orb_share": 0.139,
       "perimeter_def_ratio": 0.765,
       "stocks": 1.6,
-      "fga_per_36_min": 14.0,
+      "fga_per_36_min": 14,
       "trb_per_36_min": 3.6
     },
     "nbaId": 1628412,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628412.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628412.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "adamsja01",
@@ -42997,7 +45859,7 @@ export const PLAYERS = [
     "g": 34,
     "stats": {
       "pts": 9.1,
-      "trb": 5.0,
+      "trb": 5,
       "ast": 5.5,
       "stl": 1.2,
       "blk": 0.4,
@@ -43023,10 +45885,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.706,
       "stocks": 1.6,
       "fga_per_36_min": 9.3,
-      "trb_per_36_min": 5.0
+      "trb_per_36_min": 5
     },
     "nbaId": 1629121,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629121.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629121.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "allenka01",
@@ -43071,7 +45936,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.4
     },
     "nbaId": 1628443,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628443.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628443.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "leuerjo01",
@@ -43086,14 +45954,14 @@ export const PLAYERS = [
     "mp": 402,
     "g": 41,
     "stats": {
-      "pts": 14.0,
+      "pts": 14,
       "trb": 8.7,
       "ast": 1.3,
       "stl": 1.1,
       "blk": 0.4,
       "fg_pct": 0.584,
       "x3p_pct": 0.091,
-      "x3pa": 1.0,
+      "x3pa": 1,
       "ft_pct": 0.742
     },
     "radar": {
@@ -43116,7 +45984,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.7
     },
     "nbaId": 202720,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202720.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202720.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "mejrisa01",
@@ -43161,7 +46032,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.8
     },
     "nbaId": 1626257,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626257.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626257.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "denglu01",
@@ -43183,7 +46057,7 @@ export const PLAYERS = [
       "blk": 0.7,
       "fg_pct": 0.5,
       "x3p_pct": 0.318,
-      "x3pa": 4.0,
+      "x3pa": 4,
       "ft_pct": 0.714
     },
     "radar": {
@@ -43206,7 +46080,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.7
     },
     "nbaId": 2736,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2736.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2736.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brookma01",
@@ -43228,7 +46105,7 @@ export const PLAYERS = [
       "blk": 0.4,
       "fg_pct": 0.45,
       "x3p_pct": 0.278,
-      "x3pa": 5.0,
+      "x3pa": 5,
       "ft_pct": 0.697
     },
     "radar": {
@@ -43251,7 +46128,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.2
     },
     "nbaId": 202705,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202705.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202705.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "feltora01",
@@ -43296,7 +46176,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.2
     },
     "nbaId": 101109,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101109.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101109.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "gasolpa01",
@@ -43336,12 +46219,15 @@ export const PLAYERS = [
       "ast_to_tov": 3.25,
       "orb_share": 0.161,
       "perimeter_def_ratio": 0.238,
-      "stocks": 2.0,
+      "stocks": 2,
       "fga_per_36_min": 9.4,
       "trb_per_36_min": 13.7
     },
     "nbaId": 2200,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2200.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2200.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "fryech01",
@@ -43386,7 +46272,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.5
     },
     "nbaId": 101112,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101112.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101112.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jenkijo01",
@@ -43402,9 +46291,9 @@ export const PLAYERS = [
     "g": 26,
     "stats": {
       "pts": 13.1,
-      "trb": 4.0,
+      "trb": 4,
       "ast": 2.4,
-      "stl": 0.0,
+      "stl": 0,
       "blk": 0.2,
       "fg_pct": 0.4,
       "x3p_pct": 0.379,
@@ -43425,13 +46314,16 @@ export const PLAYERS = [
       "pass_vs_shoot": 0.211,
       "ast_to_tov": 2.4,
       "orb_share": 0.15,
-      "perimeter_def_ratio": 0.0,
+      "perimeter_def_ratio": 0,
       "stocks": 0.2,
       "fga_per_36_min": 11.4,
-      "trb_per_36_min": 4.0
+      "trb_per_36_min": 4
     },
     "nbaId": 203098,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203098.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203098.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "martija01",
@@ -43447,8 +46339,8 @@ export const PLAYERS = [
     "g": 42,
     "stats": {
       "pts": 12.6,
-      "trb": 8.0,
-      "ast": 2.0,
+      "trb": 8,
+      "ast": 2,
       "stl": 0.3,
       "blk": 0.9,
       "fg_pct": 0.413,
@@ -43473,10 +46365,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.231,
       "stocks": 1.2,
       "fga_per_36_min": 11.4,
-      "trb_per_36_min": 8.0
+      "trb_per_36_min": 8
     },
     "nbaId": 1626185,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626185.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626185.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "anderry01",
@@ -43491,8 +46386,8 @@ export const PLAYERS = [
     "mp": 322,
     "g": 25,
     "stats": {
-      "pts": 7.0,
-      "trb": 6.0,
+      "pts": 7,
+      "trb": 6,
       "ast": 2.1,
       "stl": 0.4,
       "blk": 0.1,
@@ -43518,10 +46413,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.667,
       "stocks": 0.5,
       "fga_per_36_min": 7.7,
-      "trb_per_36_min": 6.0
+      "trb_per_36_min": 6
     },
     "nbaId": 201583,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201583.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201583.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "udohek01",
@@ -43542,8 +46440,8 @@ export const PLAYERS = [
       "stl": 1.1,
       "blk": 3.5,
       "fg_pct": 0.694,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.633
     },
     "radar": {
@@ -43555,7 +46453,7 @@ export const PLAYERS = [
       "perimeterDefense": 31
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.42,
       "pass_vs_shoot": 0.395,
       "ast_to_tov": 2.133,
@@ -43566,7 +46464,10 @@ export const PLAYERS = [
       "trb_per_36_min": 10.1
     },
     "nbaId": 202327,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202327.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202327.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "willitr02",
@@ -43611,7 +46512,10 @@ export const PLAYERS = [
       "trb_per_36_min": 6.8
     },
     "nbaId": 1627786,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627786.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627786.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "poythal01",
@@ -43627,8 +46531,8 @@ export const PLAYERS = [
     "g": 21,
     "stats": {
       "pts": 12.6,
-      "trb": 9.0,
-      "ast": 2.0,
+      "trb": 9,
+      "ast": 2,
       "stl": 0.5,
       "blk": 1.2,
       "fg_pct": 0.494,
@@ -43653,10 +46557,13 @@ export const PLAYERS = [
       "perimeter_def_ratio": 0.278,
       "stocks": 1.7,
       "fga_per_36_min": 9.6,
-      "trb_per_36_min": 9.0
+      "trb_per_36_min": 9
     },
     "nbaId": 1627816,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627816.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627816.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "pondequ01",
@@ -43673,7 +46580,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 12.1,
       "trb": 5.7,
-      "ast": 3.0,
+      "ast": 3,
       "stl": 1.4,
       "blk": 0.1,
       "fg_pct": 0.5,
@@ -43701,7 +46608,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 202347,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202347.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202347.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "beaslmi01",
@@ -43746,7 +46656,10 @@ export const PLAYERS = [
       "trb_per_36_min": 7.8
     },
     "nbaId": 201563,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201563.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201563.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "ellenhe01",
@@ -43764,7 +46677,7 @@ export const PLAYERS = [
       "pts": 15.8,
       "trb": 9.2,
       "ast": 2.2,
-      "stl": 1.0,
+      "stl": 1,
       "blk": 0.3,
       "fg_pct": 0.411,
       "x3p_pct": 0.447,
@@ -43791,7 +46704,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.2
     },
     "nbaId": 1627740,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627740.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627740.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "reynoca01",
@@ -43836,7 +46752,10 @@ export const PLAYERS = [
       "trb_per_36_min": 4.3
     },
     "nbaId": null,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "washbju01",
@@ -43853,7 +46772,7 @@ export const PLAYERS = [
     "stats": {
       "pts": 5.7,
       "trb": 5.8,
-      "ast": 2.0,
+      "ast": 2,
       "stl": 1.8,
       "blk": 0.3,
       "fg_pct": 0.333,
@@ -43873,7 +46792,7 @@ export const PLAYERS = [
       "three_point_share": 0.5,
       "ft_rate": 0.088,
       "pass_vs_shoot": 0.294,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.19,
       "perimeter_def_ratio": 0.818,
       "stocks": 2.1,
@@ -43881,7 +46800,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1627395,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627395.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627395.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smithjr01",
@@ -43896,7 +46818,7 @@ export const PLAYERS = [
     "mp": 222,
     "g": 11,
     "stats": {
-      "pts": 12.0,
+      "pts": 12,
       "trb": 2.9,
       "ast": 3.4,
       "stl": 1.8,
@@ -43919,14 +46841,17 @@ export const PLAYERS = [
       "ft_rate": 0.125,
       "pass_vs_shoot": 0.266,
       "ast_to_tov": 1.889,
-      "orb_share": 0.0,
+      "orb_share": 0,
       "perimeter_def_ratio": 0.75,
       "stocks": 2.3,
       "fga_per_36_min": 12.8,
       "trb_per_36_min": 2.9
     },
     "nbaId": 2747,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2747.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2747.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "jonesja04",
@@ -43971,7 +46896,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.7
     },
     "nbaId": 1627883,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627883.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627883.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "sampsbr01",
@@ -44016,7 +46944,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.7
     },
     "nbaId": 1629102,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629102.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629102.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "brownlo01",
@@ -44034,12 +46965,12 @@ export const PLAYERS = [
       "pts": 9.3,
       "trb": 5.3,
       "ast": 4.8,
-      "stl": 2.0,
+      "stl": 2,
       "blk": 0.8,
       "fg_pct": 0.324,
       "x3p_pct": 0.214,
       "x3pa": 4.8,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 39,
@@ -44061,7 +46992,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.3
     },
     "nbaId": 203485,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203485.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203485.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "hamilda02",
@@ -44106,7 +47040,10 @@ export const PLAYERS = [
       "trb_per_36_min": 8.3
     },
     "nbaId": 1627772,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627772.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627772.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "adelde01",
@@ -44129,7 +47066,7 @@ export const PLAYERS = [
       "fg_pct": 0.306,
       "x3p_pct": 0.261,
       "x3pa": 4.3,
-      "ft_pct": 1.0
+      "ft_pct": 1
     },
     "radar": {
       "scoring": 21,
@@ -44151,7 +47088,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.5
     },
     "nbaId": 1629061,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629061.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629061.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "smithja02",
@@ -44196,7 +47136,10 @@ export const PLAYERS = [
       "trb_per_36_min": 9.9
     },
     "nbaId": 201160,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201160.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201160.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "harrian01",
@@ -44233,7 +47176,7 @@ export const PLAYERS = [
       "three_point_share": 0.471,
       "ft_rate": 0.343,
       "pass_vs_shoot": 0.451,
-      "ast_to_tov": 2.0,
+      "ast_to_tov": 2,
       "orb_share": 0.308,
       "perimeter_def_ratio": 0.615,
       "stocks": 1.2,
@@ -44241,7 +47184,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.9
     },
     "nbaId": 1626150,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626150.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626150.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "plumlmi01",
@@ -44262,8 +47208,8 @@ export const PLAYERS = [
       "stl": 1.2,
       "blk": 0.8,
       "fg_pct": 0.667,
-      "x3p_pct": 0.0,
-      "x3pa": 0.0,
+      "x3p_pct": 0,
+      "x3pa": 0,
       "ft_pct": 0.533
     },
     "radar": {
@@ -44275,18 +47221,21 @@ export const PLAYERS = [
       "perimeterDefense": 55
     },
     "features": {
-      "three_point_share": 0.0,
+      "three_point_share": 0,
       "ft_rate": 0.62,
       "pass_vs_shoot": 0.35,
       "ast_to_tov": 1.667,
       "orb_share": 0.407,
       "perimeter_def_ratio": 0.571,
-      "stocks": 2.0,
-      "fga_per_36_min": 10.0,
+      "stocks": 2,
+      "fga_per_36_min": 10,
       "trb_per_36_min": 8.1
     },
     "nbaId": 203101,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203101.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203101.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bertada02",
@@ -44305,7 +47254,7 @@ export const PLAYERS = [
       "trb": 1.9,
       "ast": 2.2,
       "stl": 0.2,
-      "blk": 0.0,
+      "blk": 0,
       "fg_pct": 0.255,
       "x3p_pct": 0.294,
       "x3pa": 7.3,
@@ -44321,7 +47270,7 @@ export const PLAYERS = [
     },
     "features": {
       "three_point_share": 0.723,
-      "ft_rate": 0.0,
+      "ft_rate": 0,
       "pass_vs_shoot": 0.218,
       "ast_to_tov": 5.5,
       "orb_share": 0.211,
@@ -44331,7 +47280,10 @@ export const PLAYERS = [
       "trb_per_36_min": 1.9
     },
     "nbaId": 1629541,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629541.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629541.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "lemonwa01",
@@ -44376,7 +47328,10 @@ export const PLAYERS = [
       "trb_per_36_min": 5.8
     },
     "nbaId": 1627215,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627215.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627215.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "motlejo01",
@@ -44397,7 +47352,7 @@ export const PLAYERS = [
       "stl": 1.2,
       "blk": 0.7,
       "fg_pct": 0.534,
-      "x3p_pct": 0.0,
+      "x3p_pct": 0,
       "x3pa": 0.7,
       "ft_pct": 0.6
     },
@@ -44421,7 +47376,10 @@ export const PLAYERS = [
       "trb_per_36_min": 11.8
     },
     "nbaId": 1628405,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628405.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628405.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "bakerro01",
@@ -44458,7 +47416,7 @@ export const PLAYERS = [
       "three_point_share": 0.66,
       "ft_rate": 0.298,
       "pass_vs_shoot": 0.766,
-      "ast_to_tov": 3.0,
+      "ast_to_tov": 3,
       "orb_share": 0.077,
       "perimeter_def_ratio": 0.824,
       "stocks": 1.6,
@@ -44466,7 +47424,10 @@ export const PLAYERS = [
       "trb_per_36_min": 2.6
     },
     "nbaId": 1627758,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627758.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627758.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   },
   {
     "id": "teodomi01",
@@ -44511,7 +47472,10 @@ export const PLAYERS = [
       "trb_per_36_min": 3.8
     },
     "nbaId": 1628462,
-    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628462.png"
+    "imgUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628462.png",
+    "salary": "Two-Way / 미계약",
+    "salaryShort": "-",
+    "salaryNum": 0
   }
 ];
 

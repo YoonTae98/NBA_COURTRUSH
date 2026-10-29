@@ -205,12 +205,17 @@ export default function TeamRosterView({
                   />
                 </div>
 
-                {/* 선수명 */}
+                {/* 선수명 및 연봉 */}
                 <div className="player-name-block">
                   <h3 className="player-name-text">{player.name}</h3>
-                  <span className="cluster-name-sub" style={{ color: cluster.color }}>
-                    {cluster.name}
-                  </span>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', marginTop: '2px' }}>
+                    <span className="cluster-name-sub" style={{ color: cluster.color }}>
+                      {cluster.name}
+                    </span>
+                    <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#059669', background: '#ecfdf5', border: '1px solid #a7f3d0', padding: '1px 5px', borderRadius: '4px' }}>
+                      {player.salaryShort && player.salaryShort !== '-' ? `💰 ${player.salaryShort}` : 'Two-Way'}
+                    </span>
+                  </div>
                 </div>
 
                 {/* 36분 환산 핵심 스탯 */}

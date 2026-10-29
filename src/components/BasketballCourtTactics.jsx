@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
   Users,
   Sparkles,
@@ -12,7 +12,9 @@ import {
   Info,
   Globe,
   Filter,
-  AlertTriangle
+  AlertTriangle,
+  DollarSign,
+  ArrowUpDown
 } from 'lucide-react';
 import { calculateSimilarity, calculateKNNDistance } from '../data/mockPlayers';
 
@@ -35,6 +37,9 @@ export default function BasketballCourtTactics({
   
   // 토글 상태: true = 같은 팀 내 대체 자원, false = 타 팀 영입 후보 (리그 전체)
   const [sameTeamOnly, setSameTeamOnly] = useState(false);
+
+  // 후보 목록 정렬: 'tactical' (전술 적합도순/기본) | 'salary_desc' (연봉 높은순) | 'salary_asc' (연봉 낮은순/가성비)
+  const [sortBy, setSortBy] = useState('tactical');
 
   // 코트 각 포지션별 현재 투입된 선수 상태 객체
   // { PG: playerObj, SG: playerObj, SF: playerObj, PF: playerObj, C: playerObj }
@@ -168,6 +173,62 @@ export default function BasketballCourtTactics({
     scored.sort((a, b) => a.tacticalDistance - b.tacticalDistance);
     return scored.slice(0, 25);
   }, [activePos, targetPlayer, recommendations, allPlayers, sameTeamOnly, courtLineup, activeSlotMeta]);
+
+  // 후보 리스트 스크롤 컨테이너 참조
+  const candidateListRef = useRef(null);
+
+  // 연봉순 / 전술순 정렬이 적용된 최종 후보 리스트
+  const sortedCandidates = useMemo(() => {
+    const list = [...availableCandidates];
+    if (sortBy === 'salary_desc') {
+      list.sort((a, b) => (b.salaryNum || 0) - (a.salaryNum || 0));
+    } else if (sortBy === 'salary_asc') {
+      list.sort((a, b) => {
+        const salA = (a.salaryNum && a.salaryNum > 0) ? a.salaryNum : Infinity;
+        const salB = (b.salaryNum && b.salaryNum > 0) ? b.salaryNum : Infinity;
+        return salA - salB;
+      });
+    }
+    return list;
+  }, [availableCandidates, sortBy]);
+
+  // 기존 결장 선수와 연봉이 가장 가까운 후보 선수 ID 탐색
+  const closestCandidateId = useMemo(() => {
+    const targetSal = targetPlayer?.salaryNum || 0;
+    if (!targetSal || sortedCandidates.length === 0) return null;
+    let minDiff = Infinity;
+    let closestId = null;
+    for (const c of sortedCandidates) {
+      if (c.salaryNum && c.salaryNum > 0) {
+        const diff = Math.abs(c.salaryNum - targetSal);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestId = c.id;
+        }
+      }
+    }
+    return closestId;
+  }, [targetPlayer?.salaryNum, sortedCandidates]);
+
+  // 연봉 높은순 전환 시 기존 선수와 연봉이 가장 가까운 위치로 자동 스크롤
+  useEffect(() => {
+    if (sortBy === 'salary_desc' && closestCandidateId && candidateListRef.current) {
+      const timer = setTimeout(() => {
+        const container = candidateListRef.current;
+        const el = document.getElementById(`cand-item-${closestCandidateId}`);
+        if (container && el) {
+          const containerRect = container.getBoundingClientRect();
+          const elRect = el.getBoundingClientRect();
+          const targetTop = container.scrollTop + (elRect.top - containerRect.top) - (container.clientHeight / 2) + (elRect.height / 2);
+          container.scrollTo({
+            top: Math.max(0, targetTop),
+            behavior: 'smooth'
+          });
+        }
+      }, 120);
+      return () => clearTimeout(timer);
+    }
+  }, [sortBy, closestCandidateId]);
 
   // 코트 내 동일 선수가 복수 포지션에 중복 기용되었는지 실시간 감지
   // { [posKey]: { otherPoses: ['PF'], playerName: 'Mobley' } }
@@ -445,17 +506,72 @@ export default function BasketballCourtTactics({
                 <span className="source-count-pill">{sameTeamCandidatesCount}명</span>
               </button>
             </div>
+
+            {/* 우측: 연봉순 정렬 토글 */}
+            <div className="tactics-sort-toggle-group">
+              <button
+                type="button"
+                className={`sort-toggle-pill ${sortBy === 'tactical' ? 'active' : ''}`}
+                onClick={() => setSortBy('tactical')}
+                title="기본 전술 적합도(거리) 기준 추천순 정렬"
+              >
+                전술순
+              </button>
+              <button
+                type="button"
+                className={`sort-toggle-pill salary-pill ${sortBy.startsWith('salary') ? 'active' : ''}`}
+                onClick={() => {
+                  if (sortBy === 'salary_desc') {
+                    setSortBy('salary_asc');
+                  } else {
+                    setSortBy('salary_desc');
+                  }
+                }}
+                title={
+                  sortBy === 'salary_desc'
+                    ? "현재 연봉 높은순 정렬 중 (클릭 시 연봉 낮은순/가성비 정렬로 변경)"
+                    : sortBy === 'salary_asc'
+                    ? "현재 연봉 낮은순(가성비) 정렬 중 (클릭 시 연봉 높은순 정렬로 변경)"
+                    : "클릭 시 연봉순으로 정렬"
+                }
+              >
+                <DollarSign size={13} />
+                <span>
+                  {sortBy === 'salary_desc' ? '연봉 높은순 ↓' : sortBy === 'salary_asc' ? '연봉 낮은순 ↑' : '연봉순'}
+                </span>
+              </button>
+            </div>
           </div>
 
-          {/* 1:1 비교 안내 미니 팁 바 */}
-          <div className="cand-compare-hint-bar">
-            <Sparkles size={12} className="hint-icon" />
-            <span>선수 <strong>사진 또는 이름</strong>을 클릭하면 결장 선수와 <strong>1:1 스탯 비교 모달</strong>이 열립니다.</span>
+          {/* 1:1 비교 안내 및 기준 결장 선수 연봉 바 */}
+          <div className="cand-compare-hint-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.4rem' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+              <Sparkles size={12} className="hint-icon" />
+              <span>선수 <strong>사진 또는 이름</strong>을 클릭하면 결장 선수와 <strong>1:1 스탯 비교</strong>가 열립니다.</span>
+            </div>
+            {targetPlayer && (
+              <div style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.35rem',
+                fontSize: '0.73rem',
+                fontWeight: 700,
+                color: '#0369a1',
+                background: '#e0f2fe',
+                padding: '2px 8px',
+                borderRadius: '4px',
+                border: '1px solid #bae6fd'
+              }}>
+                <span>기준 결장 선수: <strong>{targetPlayer.name}</strong></span>
+                <span style={{ color: '#94a3b8' }}>·</span>
+                <span style={{ color: '#059669', fontWeight: 800 }}>💰 기준 연봉: {targetPlayer.salary || targetPlayer.salaryShort || 'Two-Way'}</span>
+              </div>
+            )}
           </div>
 
           {/* 후보 선수 리스트 스크롤 영역 */}
-          <div className="tactics-candidate-list">
-            {availableCandidates.length === 0 ? (
+          <div className="tactics-candidate-list" ref={candidateListRef}>
+            {sortedCandidates.length === 0 ? (
               <div className="tactics-empty-state">
                 <Users size={32} className="empty-icon" />
                 <h5 className="empty-title">팀 내 가용 대체 선수가 없습니다</h5>
@@ -471,15 +587,29 @@ export default function BasketballCourtTactics({
                 </button>
               </div>
             ) : (
-              availableCandidates.map((cand, idx) => {
+              sortedCandidates.map((cand, idx) => {
                 const isCurrentlyOnCourt = courtLineup[activePos]?.id === cand.id;
                 const candCluster = clusters ? clusters[cand.clusterId] : null;
                 const stocks = ((cand.stats?.stl || 0) + (cand.stats?.blk || 0)).toFixed(1);
 
+                const targetSal = targetPlayer?.salaryNum || 0;
+                const candSal = cand.salaryNum || 0;
+                const salDiff = (targetSal > 0 && candSal > 0) ? (candSal - targetSal) : null;
+                const absDiff = salDiff !== null ? Math.abs(salDiff) : null;
+                // 연봉 차이가 심한 기준 (1500만 달러 이상 혹은 800만 달러 이상이면서 40% 이상 차이)
+                const isSevereDiff = absDiff !== null && (absDiff >= 15000000 || (targetSal > 0 && absDiff >= 8000000 && absDiff / targetSal >= 0.4));
+                const isClosest = closestCandidateId === cand.id && sortBy.startsWith('salary');
+
                 return (
                   <div
                     key={cand.id}
-                    className={`candidate-tactics-item ${isCurrentlyOnCourt ? 'is-active-on-court' : ''}`}
+                    id={`cand-item-${cand.id}`}
+                    className={`candidate-tactics-item ${isCurrentlyOnCourt ? 'is-active-on-court' : ''} ${isClosest ? 'is-closest-salary-match' : ''}`}
+                    style={{
+                      outline: isClosest ? '2px solid #0284c7' : undefined,
+                      backgroundColor: isClosest ? '#f0f9ff' : undefined,
+                      transition: 'all 0.3s ease'
+                    }}
                   >
                     <div className="cand-rank-num">#{idx + 1}</div>
 
@@ -512,6 +642,50 @@ export default function BasketballCourtTactics({
                         </span>
                         <span className="cand-team-pill">{cand.team}</span>
                         <span className="cand-pos-pill">{cand.pos}</span>
+                        {cand.salaryShort && (
+                          <span
+                            className={`cand-salary-pill ${isSevereDiff ? 'severe-diff' : ''}`}
+                            style={{
+                              fontSize: '0.72rem',
+                              fontWeight: 700,
+                              color: isSevereDiff ? '#e11d48' : '#059669',
+                              background: isSevereDiff ? '#fff1f2' : '#ecfdf5',
+                              border: `1px solid ${isSevereDiff ? '#fecdd3' : '#a7f3d0'}`,
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '3px'
+                            }}
+                            title={`2026-27 연봉: ${cand.salary || '미계약'}${absDiff !== null ? ` (기존 대비 ${salDiff > 0 ? '+' : '-'}$${(absDiff / 1000000).toFixed(1)}M ${isSevereDiff ? '⚠️ 연봉 격차 심함' : ''})` : ''}`}
+                          >
+                            💰 {cand.salaryShort !== '-' ? cand.salaryShort : 'Two-Way'}
+                            {absDiff !== null && (
+                              <span style={{ fontSize: '0.65rem', fontWeight: 800 }}>
+                                ({salDiff > 0 ? `+${(absDiff / 1000000).toFixed(1)}M` : `-${(absDiff / 1000000).toFixed(1)}M`})
+                              </span>
+                            )}
+                          </span>
+                        )}
+                        {isClosest && (
+                          <span
+                            style={{
+                              fontSize: '0.68rem',
+                              fontWeight: 800,
+                              color: '#0284c7',
+                              background: '#e0f2fe',
+                              border: '1px solid #bae6fd',
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              whiteSpace: 'nowrap'
+                            }}
+                            title={`기존 결장 선수(${targetPlayer?.name})와 연봉 차이가 가장 적음 ($${(absDiff / 1000000).toFixed(1)}M 차이)`}
+                          >
+                            🎯 연봉 최단차
+                          </span>
+                        )}
                         {candCluster && (
                           <span
                             className="cand-cluster-badge"

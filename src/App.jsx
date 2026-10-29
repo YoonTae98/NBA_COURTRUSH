@@ -212,6 +212,17 @@ export default function App() {
                           <span className="tag-pill">{targetPlayer.pos} 포지션</span>
                           <span className="tag-pill">만 {targetPlayer.age}세</span>
                           <span className="tag-pill">36분당 {targetPlayer.stats.pts}득점</span>
+                          <span className="tag-pill salary" style={{
+                            background: '#ecfdf5',
+                            color: '#059669',
+                            border: '1px solid #a7f3d0',
+                            fontWeight: 800,
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '3px'
+                          }}>
+                            💰 2026 연봉: {targetPlayer.salary || targetPlayer.salaryShort || 'Two-Way / 미계약'}
+                          </span>
                         </div>
                       </div>
                     </div>

@@ -38,6 +38,17 @@ export default function PlayerCard({
               <span className="badge-pos">{player.pos}</span>
               <span className="badge-team">{player.team}</span>
               <span className="badge-age">나이: {player.age}세</span>
+              <span className="badge-salary" style={{ 
+                background: '#ecfdf5', 
+                color: '#059669', 
+                border: '1px solid #a7f3d0', 
+                fontWeight: 700, 
+                padding: '1px 6px', 
+                borderRadius: '4px', 
+                fontSize: '0.72rem' 
+              }}>
+                {player.salaryShort && player.salaryShort !== '-' ? `💰 ${player.salaryShort}` : 'Two-Way'}
+              </span>
             </div>
           </div>
         </div>

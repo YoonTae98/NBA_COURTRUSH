@@ -388,6 +388,9 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
               <span className="versus-cluster" style={{ borderColor: targetCluster.color, color: targetCluster.color }}>
                 {targetCluster.name}
               </span>
+              <div style={{ marginTop: '6px', fontSize: '0.8rem', fontWeight: 800, color: '#047857', background: '#ecfdf5', padding: '2px 8px', borderRadius: '6px', border: '1px solid #a7f3d0' }}>
+                연봉: {target.salary || 'Two-Way / 미계약'}
+              </div>
             </div>
 
             {/* 중앙 VS 및 KNN 전술 거리 배지 */}
@@ -395,6 +398,9 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
               <span style={{ fontSize: '1.1rem', fontWeight: 900 }}>VS</span>
               {(() => {
                 const knnRes = calculateKNNDistance(target, activeCandidate);
+                const salDiff = (target.salaryNum && activeCandidate.salaryNum) 
+                  ? target.salaryNum - activeCandidate.salaryNum 
+                  : null;
                 return (
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 4, gap: 2 }}>
                     <span style={{
@@ -414,6 +420,23 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                     <span style={{ fontSize: '0.62rem', color: '#94a3b8' }}>
                       ({knnRes.tier.split(' ')[0]})
                     </span>
+                    {salDiff !== null && (
+                      <span style={{
+                        marginTop: '4px',
+                        fontSize: '0.65rem',
+                        fontWeight: 800,
+                        padding: '2px 6px',
+                        borderRadius: '4px',
+                        background: salDiff > 0 ? '#ecfdf5' : '#fef2f2',
+                        color: salDiff > 0 ? '#059669' : '#dc2626',
+                        border: `1px solid ${salDiff > 0 ? '#a7f3d0' : '#fecaca'}`,
+                        whiteSpace: 'nowrap'
+                      }}>
+                        {salDiff > 0 
+                          ? `절감 -$${(salDiff / 1000000).toFixed(1)}M` 
+                          : `추가 +$${(Math.abs(salDiff) / 1000000).toFixed(1)}M`}
+                      </span>
+                    )}
                   </div>
                 );
               })()}
@@ -439,6 +462,9 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
               <span className="versus-cluster" style={{ borderColor: candidateCluster.color, color: candidateCluster.color }}>
                 {candidateCluster.name}
               </span>
+              <div style={{ marginTop: '6px', fontSize: '0.8rem', fontWeight: 800, color: '#047857', background: '#ecfdf5', padding: '2px 8px', borderRadius: '6px', border: '1px solid #a7f3d0' }}>
+                연봉: {activeCandidate.salary || 'Two-Way / 미계약'}
+              </div>
             </div>
           </div>
 
