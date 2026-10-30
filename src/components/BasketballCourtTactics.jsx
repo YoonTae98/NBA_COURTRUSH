@@ -2,7 +2,6 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
   Users,
   Sparkles,
-  ArrowRightLeft,
   RotateCcw,
   CheckCircle2,
   ShieldAlert,
@@ -11,12 +10,110 @@ import {
   Zap,
   Info,
   Globe,
+  ChevronDown,
   Filter,
   AlertTriangle,
   DollarSign,
   ArrowUpDown
 } from 'lucide-react';
-import { calculateSimilarity, calculateKNNDistance } from '../data/mockPlayers';
+import { calculateSimilarity, calculateKNNDistance, getSalaryDisplay, getPhysicalFitAnalysis, getHeightDisplay } from '../data/mockPlayers';
+
+const POSITION_SLOTS = [
+  {
+    pos: 'PG',
+    name: '포인트 가드 (Point Guard)',
+    roleClusterId: 1,
+    desc: '공격을 운반하고 팀 플레이를 조율하는 가드'
+  },
+  {
+    pos: 'SG',
+    name: '슈팅 가드 (Shooting Guard)',
+    roleClusterId: 0,
+    desc: '외곽 득점과 볼 핸들링을 맡는 가드'
+  },
+  {
+    pos: 'SF',
+    name: '스몰 포워드 (Small Forward)',
+    roleClusterId: 3,
+    desc: '윙에서 공간을 만들고 공격을 마무리하는 포워드'
+  },
+  {
+    pos: 'PF',
+    name: '파워 포워드 (Power Forward)',
+    roleClusterId: 0,
+    desc: '스크린·득점·리바운드를 맡는 포워드'
+  },
+  {
+    pos: 'C',
+    name: '센터 (Center)',
+    roleClusterId: 2,
+    desc: '골밑 수비와 리바운드를 맡는 센터'
+  }
+];
+
+const TACTIC_LAYOUTS = {
+  balanced: {
+    key: 'balanced',
+    label: '밸런스 배치',
+    positions: { PG: [50, 24], SG: [18, 42], SF: [82, 42], PF: [35, 78], C: [65, 78] }
+  },
+  spacing: {
+    key: 'spacing',
+    label: '5-out 스페이싱',
+    positions: { PG: [50, 24], SG: [17, 40], SF: [83, 40], PF: [28, 78], C: [72, 78] }
+  },
+  pickAndRoll: {
+    key: 'pick-and-roll',
+    label: '픽앤롤',
+    positions: { PG: [50, 42], SG: [18, 42], SF: [82, 42], PF: [29, 78], C: [71, 72] }
+  },
+  inside: {
+    key: 'inside',
+    label: '골밑 중심',
+    positions: { PG: [50, 24], SG: [18, 40], SF: [82, 40], PF: [39, 78], C: [61, 80] }
+  }
+};
+const TACTIC_LAYOUT_OPTIONS = Object.values(TACTIC_LAYOUTS);
+
+function getThreePointShare(player) {
+  const value = Number(player?.features?.three_point_share ?? player?.stats?.three_point_share);
+  return Number.isFinite(value) ? value : 0;
+}
+
+function isPerimeterShooter(player) {
+  const stats = player?.stats || {};
+  return getThreePointShare(player) >= 0.3 && Number(stats.x3pa || 0) >= 2.5;
+}
+
+function inferTacticLayout(lineup) {
+  const players = Object.values(lineup || {}).filter(Boolean);
+  if (players.length < 3) return TACTIC_LAYOUTS.balanced;
+
+  const perimeterShooters = players.filter(isPerimeterShooter).length;
+  const shootingBigs = [lineup.PF, lineup.C].filter(isPerimeterShooter).length;
+  if (perimeterShooters >= 5 || (perimeterShooters >= 4 && shootingBigs === 2)) {
+    return TACTIC_LAYOUTS.spacing;
+  }
+
+  const bigs = [lineup.PF, lineup.C].filter(Boolean);
+  const bigsAverageRebounds = bigs.length
+    ? bigs.reduce((sum, player) => sum + Number(player.stats?.trb || 0), 0) / bigs.length
+    : 0;
+  const bigsAverageShootingShare = bigs.length
+    ? bigs.reduce((sum, player) => sum + getThreePointShare(player), 0) / bigs.length
+    : 1;
+  if (bigs.length === 2 && bigsAverageRebounds >= 8 && bigsAverageShootingShare < 0.25) {
+    return TACTIC_LAYOUTS.inside;
+  }
+
+  const pointGuardAssists = Number(lineup.PG?.stats?.ast || 0);
+  const centerStats = lineup.C?.stats || {};
+  const centerIsInterior = getThreePointShare(lineup.C) < 0.27
+    && (Number(centerStats.trb || 0) >= 5 || Number(centerStats.blk || 0) >= 0.8);
+  if (pointGuardAssists >= 4 && centerIsInterior) return TACTIC_LAYOUTS.pickAndRoll;
+
+  return TACTIC_LAYOUTS.balanced;
+}
 
 /**
  * 2D 인터랙티브 농구 경기장 전술판 (Basketball Court Tactics Board)
@@ -30,7 +127,8 @@ export default function BasketballCourtTactics({
   recommendations,
   clusters,
   allPlayers,
-  onCompare
+  onCompare,
+  onAnalyzeMatchup
 }) {
   // 현재 코트에서 클릭하여 선택한 포지션 (기본값: 결장 타깃 선수의 포지션)
   const [activePos, setActivePos] = useState(targetPlayer?.pos || 'PG');
@@ -38,7 +136,7 @@ export default function BasketballCourtTactics({
   // 토글 상태: true = 같은 팀 내 대체 자원, false = 타 팀 영입 후보 (리그 전체)
   const [sameTeamOnly, setSameTeamOnly] = useState(false);
 
-  // 후보 목록 정렬: 'tactical' (전술 적합도순/기본) | 'salary_desc' (연봉 높은순) | 'salary_asc' (연봉 낮은순/가성비)
+  // 후보 목록 정렬: 전술 적합도순 또는 기준 선수와 연봉 차이가 작은 순
   const [sortBy, setSortBy] = useState('tactical');
 
   // 코트 각 포지션별 현재 투입된 선수 상태 객체
@@ -49,6 +147,9 @@ export default function BasketballCourtTactics({
 
   // 결장 선수가 교체 투입된 이력 추적 { [pos]: replacedPlayerObj }
   const [replacedSlots, setReplacedSlots] = useState({});
+  const [manualTacticKey, setManualTacticKey] = useState(null);
+  const [isTacticMenuOpen, setIsTacticMenuOpen] = useState(false);
+  const tacticSelectorRef = useRef(null);
 
   // 타깃 선수가 바뀌었을 때 초기 라인업 재설정
   React.useEffect(() => {
@@ -56,51 +157,35 @@ export default function BasketballCourtTactics({
     setCourtLineup(initializeLineup(targetPlayer, allPlayers));
     setReplacedSlots({});
     setSameTeamOnly(false);
+    setManualTacticKey(null);
+    setIsTacticMenuOpen(false);
   }, [targetPlayer?.id]);
 
-  // 포지션별 기본 코트 좌표 (2D 하프코트 기준 백분율) - 4대 전술 롤 매핑
-  const positionSlots = [
-    {
-      pos: 'PG',
-      name: '포인트 가드 (Point Guard)',
-      roleClusterId: 1, // 메인 플레이메이커
-      x: 50,
-      y: 22,
-      desc: '탑(Top of Key) 메인 볼핸들러 & 플레이메이커'
-    },
-    {
-      pos: 'SG',
-      name: '슈팅 가드 (Shooting Guard)',
-      roleClusterId: 0, // 득점 전담 에이스
-      x: 20,
-      y: 38,
-      desc: '좌측 윙(Left Wing) 득점 창출 전담 에이스'
-    },
-    {
-      pos: 'SF',
-      name: '스몰 포워드 (Small Forward)',
-      roleClusterId: 3, // 외곽 3점 슈터
-      x: 80,
-      y: 38,
-      desc: '우측 윙(Right Wing) 외곽 3점 전문 슈터'
-    },
-    {
-      pos: 'PF',
-      name: '파워 포워드 (Power Forward)',
-      roleClusterId: 0, // 득점 전담 에이스 / 하이브리드 포워드
-      x: 32,
-      y: 68,
-      desc: '하이/미드 포스트 기동력 & 득점/리바운드 밸런스'
-    },
-    {
-      pos: 'C',
-      name: '센터 (Center)',
-      roleClusterId: 2, // 골밑 수호 빅맨
-      x: 68,
-      y: 68,
-      desc: '페인트존 골밑 장악 수호 빅맨'
-    }
-  ];
+  // 5인 라인업의 기록에 맞춰 공격 배치 프리셋을 추정합니다.
+  const inferredTacticLayout = useMemo(() => inferTacticLayout(courtLineup), [courtLineup]);
+  const tacticLayout = manualTacticKey
+    ? TACTIC_LAYOUT_OPTIONS.find((layout) => layout.key === manualTacticKey) || inferredTacticLayout
+    : inferredTacticLayout;
+  const positionSlots = POSITION_SLOTS.map((slot) => {
+    const [x, y] = tacticLayout.positions[slot.pos];
+    return { ...slot, x, y };
+  });
+
+  useEffect(() => {
+    if (!isTacticMenuOpen) return undefined;
+    const closeWhenOutside = (event) => {
+      if (!tacticSelectorRef.current?.contains(event.target)) setIsTacticMenuOpen(false);
+    };
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setIsTacticMenuOpen(false);
+    };
+    document.addEventListener('pointerdown', closeWhenOutside);
+    document.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.removeEventListener('pointerdown', closeWhenOutside);
+      document.removeEventListener('keydown', closeOnEscape);
+    };
+  }, [isTacticMenuOpen]);
 
   // 현재 활성화된 포지션에 해당하는 군집 정보
   const activeSlotMeta = positionSlots.find((s) => s.pos === activePos) || positionSlots[0];
@@ -177,29 +262,45 @@ export default function BasketballCourtTactics({
   // 후보 리스트 스크롤 컨테이너 참조
   const candidateListRef = useRef(null);
 
-  // 연봉순 / 전술순 정렬이 적용된 최종 후보 리스트
+  // 전술순 또는 연봉 근접순 / 신장 근접순으로 정렬
   const sortedCandidates = useMemo(() => {
     const list = [...availableCandidates];
-    if (sortBy === 'salary_desc') {
-      list.sort((a, b) => (b.salaryNum || 0) - (a.salaryNum || 0));
-    } else if (sortBy === 'salary_asc') {
+    const compareBase = targetPlayer || courtLineup[activePos];
+    const targetHeight = compareBase?.height_cm || 0;
+
+    if (sortBy === 'salary_closest') {
+      const targetSalary = targetPlayer?.salaryNum || 0;
+      const targetYear = targetPlayer?.salaryYear;
+      const salaryDifference = (player) => (
+        targetSalary > 0 && targetYear && player.salaryNum > 0 && player.salaryYear === targetYear
+          ? Math.abs(player.salaryNum - targetSalary)
+          : Infinity
+      );
       list.sort((a, b) => {
-        const salA = (a.salaryNum && a.salaryNum > 0) ? a.salaryNum : Infinity;
-        const salB = (b.salaryNum && b.salaryNum > 0) ? b.salaryNum : Infinity;
-        return salA - salB;
+        const difference = salaryDifference(a) - salaryDifference(b);
+        return Number.isNaN(difference) || difference === 0
+          ? (a.tacticalDistance ?? Infinity) - (b.tacticalDistance ?? Infinity)
+          : difference;
+      });
+    } else if (sortBy === 'height_closest') {
+      list.sort((a, b) => {
+        const diffA = Math.abs((a.height_cm || 0) - targetHeight);
+        const diffB = Math.abs((b.height_cm || 0) - targetHeight);
+        if (diffA !== diffB) return diffA - diffB;
+        return (a.tacticalDistance ?? Infinity) - (b.tacticalDistance ?? Infinity);
       });
     }
     return list;
-  }, [availableCandidates, sortBy]);
+  }, [availableCandidates, sortBy, targetPlayer?.salaryNum, targetPlayer?.salaryYear, targetPlayer?.height_cm, courtLineup, activePos]);
 
   // 기존 결장 선수와 연봉이 가장 가까운 후보 선수 ID 탐색
   const closestCandidateId = useMemo(() => {
     const targetSal = targetPlayer?.salaryNum || 0;
-    if (!targetSal || sortedCandidates.length === 0) return null;
+    if (!targetSal || !targetPlayer?.salaryYear || sortedCandidates.length === 0) return null;
     let minDiff = Infinity;
     let closestId = null;
     for (const c of sortedCandidates) {
-      if (c.salaryNum && c.salaryNum > 0) {
+      if (c.salaryNum && c.salaryNum > 0 && c.salaryYear === targetPlayer.salaryYear) {
         const diff = Math.abs(c.salaryNum - targetSal);
         if (diff < minDiff) {
           minDiff = diff;
@@ -208,14 +309,33 @@ export default function BasketballCourtTactics({
       }
     }
     return closestId;
-  }, [targetPlayer?.salaryNum, sortedCandidates]);
+  }, [targetPlayer?.salaryNum, targetPlayer?.salaryYear, sortedCandidates]);
 
-  // 연봉 높은순 전환 시 기존 선수와 연봉이 가장 가까운 위치로 자동 스크롤
+  // 기존 결장 선수와 신장(Height)이 가장 가까운 후보 선수 ID 탐색
+  const closestHeightCandidateId = useMemo(() => {
+    const targetH = targetPlayer?.height_cm || courtLineup[activePos]?.height_cm;
+    if (!targetH || sortedCandidates.length === 0) return null;
+    let minDiff = Infinity;
+    let closestId = null;
+    for (const c of sortedCandidates) {
+      if (c.height_cm) {
+        const diff = Math.abs(c.height_cm - targetH);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestId = c.id;
+        }
+      }
+    }
+    return closestId;
+  }, [targetPlayer?.height_cm, courtLineup, activePos, sortedCandidates]);
+
+  // 연봉/신장 근접순 전환 시 가장 근접한 후보로 자동 스크롤
   useEffect(() => {
-    if (sortBy === 'salary_desc' && closestCandidateId && candidateListRef.current) {
+    const targetId = sortBy === 'salary_closest' ? closestCandidateId : sortBy === 'height_closest' ? closestHeightCandidateId : null;
+    if (targetId && candidateListRef.current) {
       const timer = setTimeout(() => {
         const container = candidateListRef.current;
-        const el = document.getElementById(`cand-item-${closestCandidateId}`);
+        const el = document.getElementById(`cand-item-${targetId}`);
         if (container && el) {
           const containerRect = container.getBoundingClientRect();
           const elRect = el.getBoundingClientRect();
@@ -228,7 +348,7 @@ export default function BasketballCourtTactics({
       }, 120);
       return () => clearTimeout(timer);
     }
-  }, [sortBy, closestCandidateId]);
+  }, [sortBy, closestCandidateId, closestHeightCandidateId]);
 
   // 코트 내 동일 선수가 복수 포지션에 중복 기용되었는지 실시간 감지
   // { [posKey]: { otherPoses: ['PF'], playerName: 'Mobley' } }
@@ -272,18 +392,23 @@ export default function BasketballCourtTactics({
   const handleResetLineup = () => {
     setCourtLineup(initializeLineup(targetPlayer, allPlayers));
     setReplacedSlots({});
+    setManualTacticKey(null);
+    setIsTacticMenuOpen(false);
   };
 
-  // 현재 코트 5인 라인업의 종합 평균 스탯 산출
-  const courtStats = useMemo(() => {
-    const activePlayers = Object.values(courtLineup).filter(Boolean);
-    if (activePlayers.length === 0) return { pts: 0, reb: 0, ast: 0, x3p: 0 };
-    const pts = (activePlayers.reduce((s, p) => s + (p.stats?.pts || 0), 0) / activePlayers.length).toFixed(1);
-    const reb = (activePlayers.reduce((s, p) => s + (p.stats?.trb || 0), 0) / activePlayers.length).toFixed(1);
-    const ast = (activePlayers.reduce((s, p) => s + (p.stats?.ast || 0), 0) / activePlayers.length).toFixed(1);
-    const x3p = ((activePlayers.reduce((s, p) => s + (p.stats?.x3p_pct || 0), 0) / activePlayers.length) * 100).toFixed(1);
-    return { pts, reb, ast, x3p };
-  }, [courtLineup]);
+  // 교체 전 최초 라인업과 현재 라인업의 평균 스탯을 같은 기준으로 비교
+  const originalCourtStats = useMemo(
+    () => calculateLineupStats(initializeLineup(targetPlayer, allPlayers)),
+    [targetPlayer?.id, allPlayers]
+  );
+  const courtStats = useMemo(() => calculateLineupStats(courtLineup), [courtLineup]);
+  const lineupChartMetrics = [
+    { key: 'pts', label: '득점 PTS', unit: 'PTS', max: 35 },
+    { key: 'reb', label: '리바운드', unit: 'TRB', max: 16 },
+    { key: 'ast', label: '어시스트', unit: 'AST', max: 12 },
+    { key: 'x3p', label: '3점 성공률', unit: '%', max: 50 },
+    { key: 'height', label: '평균 신장', unit: 'cm', max: 220 }
+  ];
 
   return (
     <div className="court-tactics-container">
@@ -292,7 +417,7 @@ export default function BasketballCourtTactics({
         <div className="court-title-group">
           <div className="tactics-badge">
             <Zap size={14} />
-            <span>2D Interactive Court Tactics Simulator</span>
+            <span>2D 전술 시뮬레이터</span>
           </div>
           <h3 className="court-main-title">
             2D 농구 경기장 포지션 배치 & 실시간 대체 선수 투입 전술판
@@ -300,9 +425,71 @@ export default function BasketballCourtTactics({
           <p className="court-subtitle">
             코트 위의 포지션을 클릭하면 해당 군집의 최적 영입 자원 리스트가 열리며, 선수를 클릭하면 즉시 경기장으로 투입되어 5인 라인업 시너지를 시뮬레이션합니다.
           </p>
+          <div className="tactic-selector-wrap" ref={tacticSelectorRef}>
+            <button
+              type="button"
+              className={`tactic-estimate-pill tactic-${tacticLayout.key} ${manualTacticKey ? 'is-manual' : ''}`}
+              title="전술 배치 유형 선택"
+              aria-label={`현재 ${manualTacticKey ? '직접 선택' : '기록 추정'} 전술: ${tacticLayout.label}. 눌러 전술 변경`}
+              aria-haspopup="menu"
+              aria-expanded={isTacticMenuOpen}
+              onClick={() => setIsTacticMenuOpen((open) => !open)}
+            >
+              <span className="tactic-estimate-type">{manualTacticKey ? '직접 선택' : '추정 전술'} · {tacticLayout.label}</span>
+              <span className="tactic-estimate-caption">{manualTacticKey ? '눌러 전술 변경' : '선수 기록 기반 · 눌러 변경'}</span>
+              <ChevronDown size={14} className={`tactic-estimate-chevron ${isTacticMenuOpen ? 'is-open' : ''}`} />
+            </button>
+            {isTacticMenuOpen && (
+              <div className="tactic-selector-menu" role="menu" aria-label="전술 배치 선택">
+                <button
+                  type="button"
+                  className={`tactic-selector-option ${manualTacticKey === null ? 'is-selected' : ''}`}
+                  role="menuitemradio"
+                  aria-checked={manualTacticKey === null}
+                  onClick={() => {
+                    setManualTacticKey(null);
+                    setIsTacticMenuOpen(false);
+                  }}
+                >
+                  <span><strong>선수 기록으로 자동 추정</strong><small>현재 5인 라인업 기록에 따라 선택</small></span>
+                  {manualTacticKey === null && <CheckCircle2 size={16} />}
+                </button>
+                <div className="tactic-selector-divider" />
+                {TACTIC_LAYOUT_OPTIONS.map((layout) => {
+                  const isSelected = manualTacticKey === layout.key;
+                  return (
+                    <button
+                      type="button"
+                      key={layout.key}
+                      className={`tactic-selector-option ${isSelected ? 'is-selected' : ''}`}
+                      role="menuitemradio"
+                      aria-checked={isSelected}
+                      onClick={() => {
+                        setManualTacticKey(layout.key);
+                        setIsTacticMenuOpen(false);
+                      }}
+                    >
+                      <span><strong>{layout.label}</strong><small>{layout.key === 'balanced' ? '포지션 간격을 고르게 배치' : layout.key === 'spacing' ? '외곽 공간을 넓게 확보' : layout.key === 'pick-and-roll' ? '가드와 빅맨의 스크린 전개' : '인사이드 득점과 리바운드 공략'}</small></span>
+                      {isSelected && <CheckCircle2 size={16} />}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="court-header-actions">
+          {onAnalyzeMatchup && (
+            <button
+              type="button"
+              className="btn-analyze-matchup"
+              onClick={() => onAnalyzeMatchup({ lineup: courtLineup, replacedSlots, tacticLayout })}
+              title="현재 5인 라인업으로 두 팀 경기 전략 분석하기"
+            >
+              <Sparkles size={14} /> 이 라인업으로 경기 전략 분석
+            </button>
+          )}
           <button className="btn-reset-court" onClick={handleResetLineup} title="원래 선발 라인업으로 복원">
             <RotateCcw size={14} /> 라인업 초기화
           </button>
@@ -324,49 +511,48 @@ export default function BasketballCourtTactics({
             >
               {/* 코트 원목 바닥 배경 */}
               <defs>
-                <linearGradient id="hardwoodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#fbf3dd" />
-                  <stop offset="50%" stopColor="#f5e8c4" />
-                  <stop offset="100%" stopColor="#ebd8aa" />
+                <linearGradient id="hardwoodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#f8edcf" />
+                  <stop offset="52%" stopColor="#f2dfb4" />
+                  <stop offset="100%" stopColor="#ead19b" />
                 </linearGradient>
-                <pattern id="woodPlanks" width="600" height="24" patternUnits="userSpaceOnUse">
-                  <line x1="0" y1="24" x2="600" y2="24" stroke="#e0ce9f" strokeWidth="0.8" opacity="0.6" />
+                <pattern id="woodPlanks" width="600" height="30" patternUnits="userSpaceOnUse">
+                  <line x1="0" y1="30" x2="600" y2="30" stroke="#aa8050" strokeWidth="0.7" opacity="0.16" />
                 </pattern>
-                <filter id="courtDropShadow" x="-10%" y="-10%" width="120%" height="120%">
-                  <feDropShadow dx="0" dy="4" stdDeviation="6" floodOpacity="0.15" />
-                </filter>
               </defs>
 
               {/* 경기장 바닥 */}
               <rect x="15" y="15" width="570" height="450" rx="12" fill="url(#hardwoodGrad)" />
               <rect x="15" y="15" width="570" height="450" rx="12" fill="url(#woodPlanks)" />
-              <rect x="15" y="15" width="570" height="450" rx="12" fill="none" stroke="#ffffff" strokeWidth="4" />
+              <rect x="15" y="15" width="570" height="450" rx="12" fill="none" stroke="#93683f" strokeWidth="2.5" opacity="0.72" />
 
               {/* 하프코트 라인 (상단 중앙) */}
-              <line x1="15" y1="30" x2="585" y2="30" stroke="#ffffff" strokeWidth="2.5" />
-              <circle cx="300" cy="30" r="60" fill="none" stroke="#ffffff" strokeWidth="2.5" />
+              <line x1="15" y1="30" x2="585" y2="30" stroke="#93683f" strokeWidth="2" opacity="0.62" />
+              <circle cx="300" cy="30" r="60" fill="none" stroke="#93683f" strokeWidth="2" opacity="0.62" />
 
               {/* 3점 라인 (아크 + 양 사이드 코너) */}
               <path
                 d="M 65 465 L 65 375 C 65 210, 535 210, 535 375 L 535 465"
                 fill="none"
-                stroke="#ffffff"
-                strokeWidth="2.5"
+                stroke="#805d3b"
+                strokeWidth="2.4"
+                opacity="0.74"
               />
 
               {/* 페인트 존 (Key / Lane Area) */}
-              <rect x="220" y="315" width="160" height="150" fill="rgba(2, 132, 199, 0.08)" stroke="#ffffff" strokeWidth="2.5" />
-              
-              {/* 자유투 원 (Free Throw Circle) */}
-              <circle cx="300" cy="315" r="60" fill="none" stroke="#ffffff" strokeWidth="2.5" strokeDasharray="6 6" />
+              <rect x="209" y="285" width="182" height="180" fill="rgba(118, 87, 220, 0.08)" stroke="#805d3b" strokeWidth="2.2" opacity="0.86" />
+
+              {/* 자유투 원: 라인 위쪽은 실선, 페인트존 안쪽은 점선 */}
+              <path d="M 240 285 A 60 60 0 0 1 360 285" fill="none" stroke="#805d3b" strokeWidth="2.2" opacity="0.8" />
+              <path d="M 240 285 A 60 60 0 0 0 360 285" fill="none" stroke="#805d3b" strokeWidth="2" strokeDasharray="7 6" opacity="0.55" />
 
               {/* 골밑 제한구역 아크 (Restricted Area) */}
-              <path d="M 270 465 A 30 30 0 0 1 330 465" fill="none" stroke="#ffffff" strokeWidth="2" />
+              <path d="M 265 442 A 35 35 0 0 1 335 442" fill="none" stroke="#805d3b" strokeWidth="2" opacity="0.68" />
 
               {/* 백보드 & 림 (Basket Hoop) */}
-              <line x1="265" y1="452" x2="335" y2="452" stroke="#ffffff" strokeWidth="4" />
-              <circle cx="300" cy="442" r="10" fill="none" stroke="#ea580c" strokeWidth="2.5" />
-              <line x1="300" y1="452" x2="300" y2="442" stroke="#ea580c" strokeWidth="2" />
+              <line x1="265" y1="452" x2="335" y2="452" stroke="#6d4d31" strokeWidth="4" strokeLinecap="round" />
+              <circle cx="300" cy="442" r="10" fill="rgba(234, 88, 12, 0.08)" stroke="#df6b32" strokeWidth="3" />
+              <line x1="300" y1="452" x2="300" y2="442" stroke="#df6b32" strokeWidth="2.4" />
             </svg>
 
             {/* 5개 포지션 인터랙티브 노드 레이어 */}
@@ -406,15 +592,22 @@ export default function BasketballCourtTactics({
                     {/* 선수 아바타 프레임 */}
                     <div className={`node-avatar-frame ${isDuplicate ? 'node-avatar-duplicate' : ''}`}>
                       {currentPlayer ? (
+                        <>
                         <img
                           src={currentPlayer.imgUrl || 'https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png'}
                           alt={currentPlayer.name}
                           className="node-player-img"
                           onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = 'https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png';
+                            e.currentTarget.onerror = null;
+                            e.currentTarget.style.display = 'none';
+                            const fallback = e.currentTarget.parentElement.querySelector('.node-photo-fallback');
+                            if (fallback) fallback.hidden = false;
                           }}
                         />
+                        <span className="node-photo-fallback" hidden aria-hidden="true">
+                          {currentPlayer.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join('')}
+                        </span>
+                        </>
                       ) : (
                         <div className="node-empty-avatar">?</div>
                       )}
@@ -433,20 +626,28 @@ export default function BasketballCourtTactics({
                       )}
                     </div>
 
-                    {/* 선수 이름 및 소속 (중복 기용 시 주의 경고 안내 표시) */}
+                    {/* 선수 이름 및 소속/신장 (중복 기용 시 주의 경고 안내 표시) */}
                     <div className={`node-info-plate ${isDuplicate ? 'node-info-duplicate' : ''}`}>
-                      <span className="node-player-name" title={currentPlayer?.name || slot.name}>
-                        {currentPlayer ? currentPlayer.name.split(' ').pop() : slot.pos}
+                      <span
+                        className="node-player-name"
+                        title={currentPlayer
+                          ? `${currentPlayer.name} · ${currentPlayer.team} · ${currentPlayer.height_cm ? currentPlayer.height_cm + 'cm' : ''} · ${currentPlayer.stats?.pts || 0} PTS`
+                          : '공석'}
+                      >
+                        {currentPlayer ? currentPlayer.name.split(' ').pop() : '공석'}
                       </span>
-                      <span className="node-team-name">
-                        {isDuplicate ? (
-                          <span className="dup-sub-alert">⚠️ {dupInfo.otherPoses.join('/')} 중복 (보강 필요)</span>
-                        ) : currentPlayer ? (
-                          `${currentPlayer.team} · ${currentPlayer.stats?.pts || 0}P`
-                        ) : (
-                          '공석'
-                        )}
-                      </span>
+                      {currentPlayer?.height_cm && (
+                        <span style={{
+                          display: 'block',
+                          fontSize: '0.62rem',
+                          color: '#38bdf8',
+                          fontWeight: 700,
+                          lineHeight: 1,
+                          marginTop: '1px'
+                        }}>
+                          {currentPlayer.height_cm}cm
+                        </span>
+                      )}
                     </div>
                   </div>
                 );
@@ -454,7 +655,7 @@ export default function BasketballCourtTactics({
             </div>
           </div>
 
-          {/* 코트 하단 실시간 5인 라인업 전술 스탯 바 */}
+          {/* 코트 하단 실시간 5인 라인업 전술 스탯 비교 그래프 */}
           <div className="court-lineup-stats-bar">
             {Object.keys(duplicateSlotsMap).length > 0 && (
               <div className="court-duplicate-banner">
@@ -465,16 +666,93 @@ export default function BasketballCourtTactics({
               </div>
             )}
             <div className="court-lineup-stats-inner">
-              <div className="lineup-title">
-                <Shield size={16} />
-                <span>현재 코트 5인 라인업 평균 스탯:</span>
+              <div className="lineup-chart-heading">
+                <div className="lineup-title">
+                  <Shield size={16} />
+                  <span>라인업 평균 스탯 변화</span>
+                </div>
+                <div className="lineup-chart-legend" aria-label="그래프 범례">
+                  <span><i className="lineup-legend-swatch before" />기존 라인업</span>
+                  <span><i className="lineup-legend-swatch positive" />증가</span>
+                  <span><i className="lineup-legend-swatch negative" />감소</span>
+                </div>
               </div>
-              <div className="lineup-metrics">
-                <span className="metric-item">득점력: <strong>{courtStats.pts}</strong> PTS</span>
-                <span className="metric-item">리바운드: <strong>{courtStats.reb}</strong> TRB</span>
-                <span className="metric-item">어시스트: <strong>{courtStats.ast}</strong> AST</span>
-                <span className="metric-item">3점 성공률: <strong>{courtStats.x3p}%</strong></span>
+              <div className="lineup-chart" role="list" aria-label="교체 전후 라인업 평균 스탯">
+                {lineupChartMetrics.map((metric) => {
+                  const before = originalCourtStats[metric.key];
+                  const after = courtStats[metric.key];
+                  const delta = Number((after - before).toFixed(1));
+                  const beforeWidth = Math.min((before / metric.max) * 100, 100);
+                  const afterWidth = Math.min((after / metric.max) * 100, 100);
+                  const valueSuffix = metric.key === 'x3p' ? '%' : metric.key === 'height' ? 'cm' : '';
+                  const deltaLabel = `${delta > 0 ? '+' : ''}${delta.toFixed(1)}${metric.key === 'x3p' ? '%p' : metric.key === 'height' ? 'cm' : ''}`;
+
+                  return (
+                    <div className="lineup-chart-row" role="listitem" key={metric.key}>
+                      <span className="lineup-chart-label">{metric.label}</span>
+                      <div
+                        className="lineup-chart-track"
+                        role="img"
+                        aria-label={`${metric.label}: 기존 ${before.toFixed(1)}${valueSuffix}, 교체 후 ${after.toFixed(1)}${valueSuffix}`}
+                      >
+                        <span className="lineup-chart-bar before" style={{ width: `${beforeWidth}%` }} />
+                        <span
+                          className={`lineup-chart-bar after ${delta > 0 ? 'positive' : delta < 0 ? 'negative' : 'unchanged'}`}
+                          style={{ width: `${afterWidth}%` }}
+                        />
+                      </div>
+                      <span className={`lineup-chart-values ${delta > 0 ? 'positive' : delta < 0 ? 'negative' : ''}`}>
+                        <span className="before-value">{before.toFixed(1)}{valueSuffix}</span>
+                        <span className="lineup-chart-arrow" aria-hidden="true">→</span>
+                        <strong>{after.toFixed(1)}{valueSuffix}</strong>
+                      </span>
+                      <span className={`lineup-chart-change ${delta > 0 ? 'positive' : delta < 0 ? 'negative' : ''}`}>
+                        {deltaLabel}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
+
+              {(() => {
+                const heightDelta = Number(((courtStats.height || 0) - (originalCourtStats.height || 0)).toFixed(1));
+                if (Math.abs(heightDelta) < 0.5) return null;
+                const isSmallBall = heightDelta < 0;
+                return (
+                  <div style={{
+                    marginTop: '10px',
+                    padding: '6px 12px',
+                    borderRadius: '6px',
+                    fontSize: '0.74rem',
+                    lineHeight: 1.4,
+                    background: isSmallBall ? '#eff6ff' : '#f0fdf4',
+                    border: `1px solid ${isSmallBall ? '#bfdbfe' : '#bbf7d0'}`,
+                    color: isSmallBall ? '#1e40af' : '#166534',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px'
+                  }}>
+                    <Sparkles size={14} style={{ flexShrink: 0 }} />
+                    <span>
+                      <strong>{isSmallBall ? '⚡ 스몰볼 라인업 가속' : '🛡️ 빅 라인업 높이 보강'}:</strong>{' '}
+                      평균 신장이 <strong>{Math.abs(heightDelta)}cm</strong> {isSmallBall ? '감소하여 볼 전환 속도와 외곽 공간 창출이 유리해지나, 골밑 리바운드 박스아웃에 집중해야 합니다.' : '증가하여 림 프로텍션과 골밑 페인트존 장악력이 한층 강화됩니다.'}
+                    </span>
+                  </div>
+                );
+              })()}
+
+              {onAnalyzeMatchup && (
+                <div style={{ marginTop: '12px' }}>
+                  <button
+                    type="button"
+                    className="btn-matchup-cta-full"
+                    onClick={() => onAnalyzeMatchup({ lineup: courtLineup, replacedSlots, tacticLayout })}
+                  >
+                    <Sparkles size={16} />
+                    <span><strong>이 5인 라인업으로 경기 전략 분석</strong> (AI 맞대결 시뮬레이션)</span>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -499,51 +777,56 @@ export default function BasketballCourtTactics({
               <button
                 type="button"
                 className={`source-tab-btn ${sameTeamOnly ? 'active' : ''}`}
-                onClick={() => setSameTeamOnly(true)}
+                onClick={() => {
+                  setSameTeamOnly(true);
+                  setSortBy('tactical');
+                }}
               >
                 <Users size={13} />
-                <span>{targetPlayer?.team} 팀 내 대체 자원</span>
+                <span>팀 내 대체 자원</span>
                 <span className="source-count-pill">{sameTeamCandidatesCount}명</span>
               </button>
             </div>
 
-            {/* 우측: 연봉순 정렬 토글 */}
-            <div className="tactics-sort-toggle-group">
-              <button
-                type="button"
-                className={`sort-toggle-pill ${sortBy === 'tactical' ? 'active' : ''}`}
-                onClick={() => setSortBy('tactical')}
-                title="기본 전술 적합도(거리) 기준 추천순 정렬"
-              >
-                전술순
-              </button>
-              <button
-                type="button"
-                className={`sort-toggle-pill salary-pill ${sortBy.startsWith('salary') ? 'active' : ''}`}
-                onClick={() => {
-                  if (sortBy === 'salary_desc') {
-                    setSortBy('salary_asc');
-                  } else {
-                    setSortBy('salary_desc');
-                  }
-                }}
-                title={
-                  sortBy === 'salary_desc'
-                    ? "현재 연봉 높은순 정렬 중 (클릭 시 연봉 낮은순/가성비 정렬로 변경)"
-                    : sortBy === 'salary_asc'
-                    ? "현재 연봉 낮은순(가성비) 정렬 중 (클릭 시 연봉 높은순 정렬로 변경)"
-                    : "클릭 시 연봉순으로 정렬"
-                }
-              >
-                <DollarSign size={13} />
-                <span>
-                  {sortBy === 'salary_desc' ? '연봉 높은순 ↓' : sortBy === 'salary_asc' ? '연봉 낮은순 ↑' : '연봉순'}
-                </span>
-              </button>
-            </div>
+            {/* 우측: 전술 적합도순 / 기준 선수와 연봉 근접순 / 신장 근접순 정렬 */}
+            {!sameTeamOnly && (
+              <div className="tactics-sort-toggle-group">
+                <button
+                  type="button"
+                  className={`sort-toggle-pill ${sortBy === 'tactical' ? 'active' : ''}`}
+                  onClick={() => setSortBy('tactical')}
+                  title="기본 전술 적합도(거리) 기준 추천순 정렬"
+                >
+                  전술순
+                </button>
+                <button
+                  type="button"
+                  className={`sort-toggle-pill salary-pill ${sortBy === 'salary_closest' ? 'active' : ''}`}
+                  onClick={() => setSortBy(sortBy === 'salary_closest' ? 'tactical' : 'salary_closest')}
+                  title="기준 선수와 연봉 연도가 같은 후보를 연봉 차이가 작은 순서로 정렬합니다."
+                >
+                  <DollarSign size={13} />
+                  <span>연봉 근접순</span>
+                </button>
+                <button
+                  type="button"
+                  className={`sort-toggle-pill height-pill ${sortBy === 'height_closest' ? 'active' : ''}`}
+                  onClick={() => setSortBy(sortBy === 'height_closest' ? 'tactical' : 'height_closest')}
+                  title="포지션 높이 유지를 위해 기준 결장 선수와 신장 차이가 가장 작은 순서로 정렬합니다."
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '3px'
+                  }}
+                >
+                  <ArrowUpDown size={13} />
+                  <span>신장 근접순</span>
+                </button>
+              </div>
+            )}
           </div>
 
-          {/* 1:1 비교 안내 및 기준 결장 선수 연봉 바 */}
+          {/* 1:1 비교 안내 및 기준 결장 선수 연봉/신장 바 */}
           <div className="cand-compare-hint-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.4rem' }}>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
               <Sparkles size={12} className="hint-icon" />
@@ -564,7 +847,17 @@ export default function BasketballCourtTactics({
               }}>
                 <span>기준 결장 선수: <strong>{targetPlayer.name}</strong></span>
                 <span style={{ color: '#94a3b8' }}>·</span>
-                <span style={{ color: '#059669', fontWeight: 800 }}>💰 기준 연봉: {targetPlayer.salary || targetPlayer.salaryShort || 'Two-Way'}</span>
+                <span style={{ color: '#059669', fontWeight: 800 }} title={getSalaryDisplay(targetPlayer)}>
+                  💰 {getSalaryDisplay(targetPlayer, true)}
+                </span>
+                {targetPlayer.height_cm && (
+                  <>
+                    <span style={{ color: '#94a3b8' }}>·</span>
+                    <span style={{ color: '#0284c7', fontWeight: 800 }} title={`공식 신장: ${getHeightDisplay(targetPlayer)}`}>
+                      📏 {targetPlayer.height_cm}cm
+                    </span>
+                  </>
+                )}
               </div>
             )}
           </div>
@@ -594,22 +887,20 @@ export default function BasketballCourtTactics({
 
                 const targetSal = targetPlayer?.salaryNum || 0;
                 const candSal = cand.salaryNum || 0;
-                const salDiff = (targetSal > 0 && candSal > 0) ? (candSal - targetSal) : null;
+                const sameSalaryYear = targetPlayer?.salaryYear && targetPlayer.salaryYear === cand.salaryYear;
+                const salDiff = (sameSalaryYear && targetSal > 0 && candSal > 0) ? (candSal - targetSal) : null;
                 const absDiff = salDiff !== null ? Math.abs(salDiff) : null;
                 // 연봉 차이가 심한 기준 (1500만 달러 이상 혹은 800만 달러 이상이면서 40% 이상 차이)
                 const isSevereDiff = absDiff !== null && (absDiff >= 15000000 || (targetSal > 0 && absDiff >= 8000000 && absDiff / targetSal >= 0.4));
-                const isClosest = closestCandidateId === cand.id && sortBy.startsWith('salary');
+                const isClosest = closestCandidateId === cand.id && sortBy === 'salary_closest';
+                const isHeightClosest = closestHeightCandidateId === cand.id && sortBy === 'height_closest';
+                const fitAnalysis = getPhysicalFitAnalysis(targetPlayer, cand);
 
                 return (
                   <div
                     key={cand.id}
                     id={`cand-item-${cand.id}`}
                     className={`candidate-tactics-item ${isCurrentlyOnCourt ? 'is-active-on-court' : ''} ${isClosest ? 'is-closest-salary-match' : ''}`}
-                    style={{
-                      outline: isClosest ? '2px solid #0284c7' : undefined,
-                      backgroundColor: isClosest ? '#f0f9ff' : undefined,
-                      transition: 'all 0.3s ease'
-                    }}
                   >
                     <div className="cand-rank-num">#{idx + 1}</div>
 
@@ -623,10 +914,15 @@ export default function BasketballCourtTactics({
                         alt={cand.name}
                         className="cand-photo-img"
                         onError={(e) => {
-                          e.target.onerror = null;
-                          e.target.src = 'https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png';
+                          e.currentTarget.onerror = null;
+                          e.currentTarget.style.display = 'none';
+                          const fallback = e.currentTarget.parentElement.querySelector('.cand-photo-fallback');
+                          if (fallback) fallback.hidden = false;
                         }}
                       />
+                      <span className="cand-photo-fallback" hidden aria-hidden="true">
+                        {cand.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join('')}
+                      </span>
                       <span className="photo-vs-badge">VS</span>
                     </div>
 
@@ -648,9 +944,9 @@ export default function BasketballCourtTactics({
                             style={{
                               fontSize: '0.72rem',
                               fontWeight: 700,
-                              color: isSevereDiff ? '#e11d48' : '#059669',
-                              background: isSevereDiff ? '#fff1f2' : '#ecfdf5',
-                              border: `1px solid ${isSevereDiff ? '#fecdd3' : '#a7f3d0'}`,
+                              color: !candSal ? '#64748b' : isSevereDiff ? '#e11d48' : '#059669',
+                              background: !candSal ? '#f1f5f9' : isSevereDiff ? '#fff1f2' : '#ecfdf5',
+                              border: `1px solid ${!candSal ? '#cbd5e1' : isSevereDiff ? '#fecdd3' : '#a7f3d0'}`,
                               padding: '1px 6px',
                               borderRadius: '4px',
                               marginRight: '2px',
@@ -658,12 +954,38 @@ export default function BasketballCourtTactics({
                               alignItems: 'center',
                               gap: '3px'
                             }}
-                            title={`2026-27 연봉: ${cand.salary || '미계약'}${absDiff !== null ? ` (기존 대비 ${salDiff > 0 ? '+' : '-'}$${(absDiff / 1000000).toFixed(1)}M ${isSevereDiff ? '⚠️ 연봉 격차 심함' : ''})` : ''}`}
+                            title={`${getSalaryDisplay(cand)}${absDiff !== null ? ` (같은 연도 기준, 기존 대비 ${salDiff > 0 ? '+' : '-'}$${(absDiff / 1000000).toFixed(1)}M ${isSevereDiff ? '⚠️ 연봉 격차 심함' : ''})` : ''}`}
                           >
-                            💰 {cand.salaryShort !== '-' ? cand.salaryShort : 'Two-Way'}
+                            💰 {getSalaryDisplay(cand, true)}
                             {absDiff !== null && (
                               <span style={{ fontSize: '0.65rem', fontWeight: 800 }}>
                                 ({salDiff > 0 ? `+${(absDiff / 1000000).toFixed(1)}M` : `-${(absDiff / 1000000).toFixed(1)}M`})
+                              </span>
+                            )}
+                          </span>
+                        )}
+                        {cand.height_cm && (
+                          <span
+                            className="cand-height-pill"
+                            style={{
+                              fontSize: '0.72rem',
+                              fontWeight: 700,
+                              color: fitAnalysis.color,
+                              background: fitAnalysis.bgColor,
+                              border: `1px solid ${fitAnalysis.borderColor}`,
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '3px'
+                            }}
+                            title={`공식 신장: ${cand.height_cm}cm (${cand.height_ft_in || ''}) - ${fitAnalysis.desc}`}
+                          >
+                            📏 {cand.height_cm}cm
+                            {targetPlayer?.height_cm && (
+                              <span style={{ fontSize: '0.65rem', fontWeight: 800 }}>
+                                ({fitAnalysis.diffCm > 0 ? `+${fitAnalysis.diffCm}cm` : fitAnalysis.diffCm === 0 ? '일치' : `${fitAnalysis.diffCm}cm`})
                               </span>
                             )}
                           </span>
@@ -684,6 +1006,24 @@ export default function BasketballCourtTactics({
                             title={`기존 결장 선수(${targetPlayer?.name})와 연봉 차이가 가장 적음 ($${(absDiff / 1000000).toFixed(1)}M 차이)`}
                           >
                             🎯 연봉 최단차
+                          </span>
+                        )}
+                        {isHeightClosest && (
+                          <span
+                            style={{
+                              fontSize: '0.68rem',
+                              fontWeight: 800,
+                              color: '#0284c7',
+                              background: '#e0f2fe',
+                              border: '1px solid #bae6fd',
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              whiteSpace: 'nowrap'
+                            }}
+                            title={`기존 결장 선수(${targetPlayer?.name})와 신장 차이가 가장 적음 (${Math.abs(fitAnalysis.diffCm)}cm 차이)`}
+                          >
+                            🎯 신장 최단차
                           </span>
                         )}
                         {candCluster && (
@@ -788,13 +1128,28 @@ export default function BasketballCourtTactics({
   );
 }
 
+function calculateLineupStats(lineup) {
+  const players = Object.values(lineup || {}).filter(Boolean);
+  if (players.length === 0) return { pts: 0, reb: 0, ast: 0, x3p: 0, height: 0 };
+
+  return {
+    pts: players.reduce((sum, player) => sum + (player.stats?.pts || 0), 0) / players.length,
+    reb: players.reduce((sum, player) => sum + (player.stats?.trb || 0), 0) / players.length,
+    ast: players.reduce((sum, player) => sum + (player.stats?.ast || 0), 0) / players.length,
+    x3p: (players.reduce((sum, player) => sum + (player.stats?.x3p_pct || 0), 0) / players.length) * 100,
+    height: players.reduce((sum, player) => sum + (player.height_cm || 198), 0) / players.length
+  };
+}
+
 /**
  * 헬퍼 함수: 타깃 선수의 팀 소속 선수들을 기반으로 5개 포지션 선발 라인업 자동 초기화
  */
 function initializeLineup(targetPlayer, allPlayers) {
   if (!targetPlayer) return {};
   const team = targetPlayer.team;
-  const teammates = allPlayers.filter((p) => p.team === team && p.id !== targetPlayer.id);
+  const teammates = allPlayers
+    .filter((p) => p.team === team && p.id !== targetPlayer.id)
+    .sort((a, b) => (Number(b.mp) || 0) - (Number(a.mp) || 0));
 
   const lineup = {
     PG: null,

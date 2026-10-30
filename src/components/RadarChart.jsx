@@ -1,21 +1,20 @@
 import React from 'react';
 
 /**
- * 6각 레이더 차트 (Clean Light Presentation Theme)
- * 프로젝터 및 밝은 실내에서도 라인과 수치가 선명하게 보이도록 고대비 컬러 적용
+ * 6각 레이더 차트 (CourtScout 라이트 테마)
  */
 export default function RadarChart({ p1, p2, size = 320 }) {
   const categories = [
-    { key: 'scoring', label: '득점 볼륨 (PTS)' },
-    { key: 'shooting3p', label: '3점 외곽포 (3P)' },
-    { key: 'playmaking', label: '플레이메이킹 (AST)' },
-    { key: 'rebounding', label: '리바운드 (TRB)' },
-    { key: 'rimDefense', label: '골밑 수호 (BLK)' },
-    { key: 'perimeterDefense', label: '외곽 수비 (STL)' }
+    { key: 'scoring', label: '득점', fullLabel: '득점 볼륨 (PTS)' },
+    { key: 'shooting3p', label: '3점 슛', fullLabel: '3점 외곽포 (3P)' },
+    { key: 'playmaking', label: '패스·조율', fullLabel: '플레이메이킹 (AST)' },
+    { key: 'rebounding', label: '리바운드', fullLabel: '리바운드 (TRB)' },
+    { key: 'rimDefense', label: '골밑 수비', fullLabel: '골밑 수호 (BLK)' },
+    { key: 'perimeterDefense', label: '외곽 수비', fullLabel: '외곽 수비 (STL)' }
   ];
 
   const total = categories.length;
-  // 라벨 텍스트 잘림 방지를 위해 반경을 컴팩트하게 조정
+  // 짧은 축 라벨을 사용해 차트가 가능한 크게 보이도록 한다.
   const radius = size * 0.30;
   const center = size / 2;
 
@@ -46,13 +45,13 @@ export default function RadarChart({ p1, p2, size = 320 }) {
   const p2Points = p2 ? getPolygonPoints(p2) : null;
 
   return (
-    <div style={{ position: 'relative', width: size, height: size, margin: '0 auto' }}>
-      <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <div style={{ position: 'relative', width: '100%', maxWidth: size, aspectRatio: '1 / 1', margin: '0 auto' }}>
+      <svg width="100%" height="100%" viewBox={`0 0 ${size} ${size}`} preserveAspectRatio="xMidYMid meet">
         <defs>
-          {/* 타깃 선수 채우기 그라디언트 (고채도 오션 블루) */}
+          {/* 타깃 선수 채우기 그라디언트 */}
           <linearGradient id="p1GradLight" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#0284c7" stopOpacity="0.35" />
-            <stop offset="100%" stopColor="#0369a1" stopOpacity="0.12" />
+            <stop offset="0%" stopColor="#8b73e7" stopOpacity="0.35" />
+            <stop offset="100%" stopColor="#684bd3" stopOpacity="0.12" />
           </linearGradient>
           {/* 비교 선수 채우기 그라디언트 (고채도 포레스트 에메랄드) */}
           <linearGradient id="p2GradLight" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -102,7 +101,7 @@ export default function RadarChart({ p1, p2, size = 320 }) {
           const angle = (Math.PI * 2 / total) * i - Math.PI / 2;
           const cos = Math.cos(angle);
           const sin = Math.sin(angle);
-          const labelDist = radius + 18;
+          const labelDist = radius + 14;
           let x = center + labelDist * cos;
           let y = center + labelDist * sin;
 
@@ -126,8 +125,9 @@ export default function RadarChart({ p1, p2, size = 320 }) {
               fill="#1e293b"
               fontSize="10.5"
               fontWeight="700"
-              style={{ pointerEvents: 'none' }}
+              aria-label={cat.fullLabel}
             >
+              <title>{cat.fullLabel}</title>
               {cat.label}
             </text>
           );
@@ -149,7 +149,7 @@ export default function RadarChart({ p1, p2, size = 320 }) {
           <polygon
             points={p1Points}
             fill="url(#p1GradLight)"
-            stroke="#0284c7"
+            stroke="#7657dc"
             strokeWidth="2.5"
             strokeLinejoin="round"
           />
@@ -165,7 +165,7 @@ export default function RadarChart({ p1, p2, size = 320 }) {
               cx={x}
               cy={y}
               r="4.5"
-              fill="#0284c7"
+              fill="#7657dc"
               stroke="#ffffff"
               strokeWidth="2"
             />

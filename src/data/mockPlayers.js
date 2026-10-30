@@ -1,3 +1,6 @@
+import { SALARY_HISTORY } from './salaryHistory2025_26.js';
+import { getPlayerHeight, getHeightDisplay, getPhysicalFitAnalysis, POSITION_AVG_HEIGHT } from './playerHeights.js';
+
 // NBA 머신러닝 군집화 모델링(kdt_project3.ipynb) 최종 결과 데이터셋
 // K-Means (k=4) & 9대 도메인 핵심 전술 지표 기반 동기화 완료
 
@@ -12,7 +15,7 @@ export const CLUSTERS = [
     borderColor: "rgba(244, 63, 94, 0.4)",
     badgeColor: "rgba(244, 63, 94, 0.2)",
     textColor: "#fb7185",
-    desc: "야투 시도(FGA +1.21) 리그 1위. 직접 슛을 던져 팀 득점을 책임지는 핵심 공격 해결사"
+    desc: "야투 시도와 득점 비중이 높은 공격 중심 유형입니다. 직접 슛 기회를 만들고 마무리하는 경향이 있습니다."
   },
   {
     id: 1,
@@ -24,7 +27,7 @@ export const CLUSTERS = [
     borderColor: "rgba(14, 165, 233, 0.4)",
     badgeColor: "rgba(14, 165, 233, 0.2)",
     textColor: "#38bdf8",
-    desc: "패스 성향(AST/FGA +1.57) 및 볼 안정성(A/T +1.25) 리그 1위. 실책 없이 팀 공격을 지휘하는 코트 사령관"
+    desc: "패스 성향과 볼 관리가 두드러지는 플레이메이커 유형입니다. 동료의 기회를 만들고 공격을 조율합니다."
   },
   {
     id: 2,
@@ -36,7 +39,7 @@ export const CLUSTERS = [
     borderColor: "rgba(16, 185, 129, 0.4)",
     badgeColor: "rgba(16, 185, 129, 0.2)",
     textColor: "#34d399",
-    desc: "리바운드(TRB +1.20)와 종합 수비 활동량(Stocks +0.85) 리그 1위. 골밑을 든든하게 지켜내는 수호 빅맨"
+    desc: "리바운드와 스틸·블록 등 수비 활동이 두드러지는 인사이드 유형입니다. 골밑 수비와 리바운드에 강점을 보입니다."
   },
   {
     id: 3,
@@ -48,7 +51,7 @@ export const CLUSTERS = [
     borderColor: "rgba(245, 158, 11, 0.4)",
     badgeColor: "rgba(245, 158, 11, 0.2)",
     textColor: "#fbbf24",
-    desc: "3점슛 비중(3PAr +0.77) 리그 1위. 정밀한 외곽 3점슛으로 공격 공간을 넓혀주는 전문 슈터"
+    desc: "3점슛 시도 비중이 높은 외곽 공격 유형입니다. 슈팅으로 수비를 넓히고 팀 공격 공간을 만듭니다."
   }
 ];
 
@@ -47478,6 +47481,51 @@ export const PLAYERS = [
     "salaryNum": 0
   }
 ];
+
+// Salaries are keyed to the current 2026-27 season when available. If the current
+// export has no row, use a 2025-26 amount only when the prior-season source has it.
+for (const player of PLAYERS) {
+  if (player.salaryNum > 0) {
+    player.salaryYear = '2026-27';
+    continue;
+  }
+
+  const history = player.season === 2026 ? SALARY_HISTORY[player.id] : null;
+  const currentSalary = history?.salary2026_27;
+  const priorSalary = history?.salary2025_26;
+  const amount = currentSalary ?? priorSalary;
+
+  if (amount) {
+    player.salaryNum = amount;
+    player.salary = `$${amount.toLocaleString('en-US')}`;
+    player.salaryShort = amount >= 1000000
+      ? `$${(amount / 1000000).toFixed(1)}M`
+      : `$${Math.round(amount / 1000)}K`;
+    player.salaryYear = currentSalary ? '2026-27' : '2025-26';
+    player.salarySource = currentSalary ? 'salary-history-2026-27' : 'salary-history-2025-26';
+  } else {
+    player.salary = null;
+    player.salaryShort = '-';
+    player.salaryNum = 0;
+    player.salaryYear = null;
+    player.salarySource = null;
+  }
+}
+
+// 공식 NBA 신장(Height) 데이터 주입
+for (const player of PLAYERS) {
+  const heightInfo = getPlayerHeight(player.name, player.pos);
+  player.height_cm = heightInfo.cm;
+  player.height_ft_in = heightInfo.ft;
+}
+
+export { getHeightDisplay, getPhysicalFitAnalysis, POSITION_AVG_HEIGHT };
+
+export function getSalaryDisplay(player, compact = false) {
+  if (!player?.salaryNum || !player.salaryYear) return '연봉 정보 없음';
+  const amount = compact ? player.salaryShort : player.salary;
+  return `${player.salaryYear} ${amount}`;
+}
 
 // 9대 핵심 전술 피처 표준화 상수 (NBA 2019-2026 전체 모집단 기준)
 const FEATURE_MEANS = {
