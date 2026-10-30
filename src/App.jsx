@@ -364,9 +364,6 @@ export default function App() {
         <div>
           <strong>COURT RUSH</strong> — NBA Player Similarity & Replacement Recommendation System
         </div>
-        <div className="footer-sub">
-          K-Digital Training AI/Data Engineering Project 3 | Machine Learning Clustering & Analytics
-        </div>
       </footer>
     </div>
   );

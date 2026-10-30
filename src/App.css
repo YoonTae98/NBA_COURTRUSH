@@ -1321,12 +1321,6 @@
   color: var(--text-secondary);
 }
 
-.footer-sub {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 0.25rem;
-}
-
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
   .scout-hero-section {
@@ -2740,6 +2734,8 @@
   color: var(--text-secondary);
   margin: 0;
   line-height: 1.4;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 /* Roster Filter Bar */
@@ -5015,6 +5011,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   .banner-team-code { font-size: 1.7rem; }
   .banner-team-en { font-size: 0.83rem; }
   .banner-prompt-box { max-width: none; }
+  .prompt-desc { white-space: normal; word-break: keep-all; }
   .filter-group-wrap { width: 100%; }
   .roster-filters-bar { padding: 0.9rem; }
   .roster-interactive-card { padding: 0.8rem; gap: 0.6rem; }

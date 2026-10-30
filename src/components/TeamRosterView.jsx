@@ -102,7 +102,7 @@ export default function TeamRosterView({
             <Sparkles size={14} /> 스카우팅 타깃 선택
           </span>
           <p className="prompt-desc">
-            현재 결장 또는 이탈하여 <strong>대체 자원 발굴이 필요한 선수</strong>를 클릭하세요.
+            결장 선수를 클릭해 <strong>대체 선수</strong>를 찾아보세요.
           </p>
         </div>
       </section>
