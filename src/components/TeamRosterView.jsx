@@ -176,10 +176,15 @@ export default function TeamRosterView({
                 }}
                 onClick={() => onSelectPlayer(player.id)}
               >
-                {/* 상단 포지션 & 군집 */}
+                {/* 상단 포지션 & 군집 & 신장 */}
                 <div className="card-top-tags">
                   <span className="pos-badge">{player.pos}</span>
                   <span className="age-badge">만 {player.age}세</span>
+                  {player.height_cm && (
+                    <span className="age-badge" style={{ background: '#eff6ff', color: '#1d4ed8', border: '1px solid #bfdbfe', fontWeight: 600 }} title={`공식 신장: ${player.height_cm}cm (${player.height_ft_in || ''})`}>
+                      📏 {player.height_cm}cm
+                    </span>
+                  )}
                   <span
                     className="cluster-mini-badge"
                     style={{

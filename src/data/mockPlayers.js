@@ -1,4 +1,5 @@
 import { SALARY_HISTORY } from './salaryHistory2025_26.js';
+import { getPlayerHeight, getHeightDisplay, getPhysicalFitAnalysis, POSITION_AVG_HEIGHT } from './playerHeights.js';
 
 // NBA 머신러닝 군집화 모델링(kdt_project3.ipynb) 최종 결과 데이터셋
 // K-Means (k=4) & 9대 도메인 핵심 전술 지표 기반 동기화 완료
@@ -47510,6 +47511,15 @@ for (const player of PLAYERS) {
     player.salarySource = null;
   }
 }
+
+// 공식 NBA 신장(Height) 데이터 주입
+for (const player of PLAYERS) {
+  const heightInfo = getPlayerHeight(player.name, player.pos);
+  player.height_cm = heightInfo.cm;
+  player.height_ft_in = heightInfo.ft;
+}
+
+export { getHeightDisplay, getPhysicalFitAnalysis, POSITION_AVG_HEIGHT };
 
 export function getSalaryDisplay(player, compact = false) {
   if (!player?.salaryNum || !player.salaryYear) return '연봉 정보 없음';

@@ -67,6 +67,74 @@ export function summarizeTeam(teamId, players) {
   };
 }
 
+/**
+ * 사용자가 코트 전술판에서 구성/보강한 5인 맞춤 라인업을 기반으로 팀 요약 데이터 생성
+ */
+export function summarizeCustomLineup(customLineupData) {
+  if (!customLineupData || !customLineupData.lineup) return null;
+  const { team, lineup, replacedSlots, tacticLayout } = customLineupData;
+
+  const lineupPlayers = POSITIONS.map((pos) => lineup[pos]).filter(Boolean);
+  const average = (key) => lineupPlayers.length
+    ? lineupPlayers.reduce((total, player) => total + numeric(player.stats?.[key]), 0) / lineupPlayers.length
+    : 0;
+
+  const threePointAttempts = lineupPlayers.reduce(
+    (total, player) => total + numeric(player.stats?.x3pa),
+    0
+  ) / Math.max(lineupPlayers.length, 1);
+
+  const threePointMakes = lineupPlayers.reduce(
+    (total, player) => total + numeric(player.stats?.x3pa) * numeric(player.stats?.x3p_pct),
+    0
+  );
+
+  const threePointShareWeight = lineupPlayers.reduce(
+    (total, player) => total + numeric(player.features?.three_point_share ?? player.stats?.three_point_share),
+    0
+  );
+
+  const formattedLineup = POSITIONS.map((position) => ({
+    position,
+    player: lineup[position] || null,
+    isReplaced: Boolean(replacedSlots?.[position])
+  }));
+
+  const replacedPlayersList = Object.entries(replacedSlots || {})
+    .filter(([_, p]) => Boolean(p))
+    .map(([pos, p]) => ({
+      position: pos,
+      name: p.name,
+      clusterId: p.clusterId,
+      originalTeam: p.team
+    }));
+
+  return {
+    teamId: 'CUSTOM',
+    baseTeamId: team?.id || 'CUSTOM',
+    teamName: `${team?.nameKo || '팀'} (맞춤 5인 라인업)`,
+    isCustomLineup: true,
+    tacticLayout,
+    rotation: lineupPlayers,
+    lineup: formattedLineup,
+    replacedPlayers: replacedPlayersList,
+    playerCount: lineupPlayers.length,
+    stats: {
+      points: average('pts'),
+      assists: average('ast'),
+      rebounds: average('trb'),
+      blocks: average('blk'),
+      steals: average('stl'),
+      threePointAttempts,
+      threePointPct: threePointAttempts > 0 ? threePointMakes / (threePointAttempts * lineupPlayers.length) : 0,
+      threePointShare: lineupPlayers.length ? threePointShareWeight / lineupPlayers.length : 0
+    },
+    topScorer: [...lineupPlayers].sort((a, b) => numeric(b.stats?.pts) - numeric(a.stats?.pts))[0] || null,
+    topShooter: [...lineupPlayers].sort((a, b) => numeric(b.stats?.x3pa) - numeric(a.stats?.x3pa))[0] || null,
+    topRimDefender: [...lineupPlayers].sort((a, b) => numeric(b.stats?.blk) - numeric(a.stats?.blk))[0] || null
+  };
+}
+
 export function getLeagueBenchmarks(teamIds, players) {
   const summaries = teamIds.map((teamId) => summarizeTeam(teamId, players));
   const keys = ['assists', 'rebounds', 'blocks', 'steals', 'threePointAttempts', 'threePointPct', 'threePointShare'];
@@ -81,6 +149,14 @@ export function getLeagueBenchmarks(teamIds, players) {
 }
 
 export function inferTeamStyle(team, benchmarks) {
+  if (team.tacticLayout?.key) {
+    const key = team.tacticLayout.key;
+    if (key === 'spacing') return { key: 'spacing', label: '외곽 스페이싱' };
+    if (key === 'pick-and-roll') return { key: 'movement', label: '픽앤롤 & 볼 순환' };
+    if (key === 'inside') return { key: 'interior', label: '골밑 공략' };
+    if (key === 'balanced') return { key: 'balanced', label: '밸런스 공격' };
+  }
+
   const { stats } = team;
   if (stats.threePointAttempts >= benchmarks.threePointAttempts
       && stats.threePointShare >= benchmarks.threePointShare) {
@@ -99,6 +175,15 @@ export function buildMatchupPlan(team, opponent, benchmarks) {
   const style = inferTeamStyle(team, benchmarks);
   const offense = [];
   const defense = [];
+
+  if (team.isCustomLineup && team.replacedPlayers?.length > 0) {
+    const repNames = team.replacedPlayers.map((p) => p.name).join(', ');
+    offense.push({
+      title: '머신러닝 맞춤 라인업 시너지 극대화',
+      detail: `대체 영입된 선수(${repNames})를 주축으로 한 전술 배치입니다. 팀의 강점인 ${style.label}을 중심으로 상대 수비 약점을 공략합니다.`,
+      evidence: '영입 대체 선수 프로필'
+    });
+  }
 
   if (style.key === 'spacing') {
     offense.push({

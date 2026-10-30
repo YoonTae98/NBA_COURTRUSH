@@ -16,7 +16,7 @@ import {
   DollarSign,
   ArrowUpDown
 } from 'lucide-react';
-import { calculateSimilarity, calculateKNNDistance, getSalaryDisplay } from '../data/mockPlayers';
+import { calculateSimilarity, calculateKNNDistance, getSalaryDisplay, getPhysicalFitAnalysis, getHeightDisplay } from '../data/mockPlayers';
 
 const POSITION_SLOTS = [
   {
@@ -127,7 +127,8 @@ export default function BasketballCourtTactics({
   recommendations,
   clusters,
   allPlayers,
-  onCompare
+  onCompare,
+  onAnalyzeMatchup
 }) {
   // 현재 코트에서 클릭하여 선택한 포지션 (기본값: 결장 타깃 선수의 포지션)
   const [activePos, setActivePos] = useState(targetPlayer?.pos || 'PG');
@@ -261,9 +262,12 @@ export default function BasketballCourtTactics({
   // 후보 리스트 스크롤 컨테이너 참조
   const candidateListRef = useRef(null);
 
-  // 전술순 또는 같은 연봉 연도 안에서 기준 선수와 연봉 차이가 작은 순으로 정렬
+  // 전술순 또는 연봉 근접순 / 신장 근접순으로 정렬
   const sortedCandidates = useMemo(() => {
     const list = [...availableCandidates];
+    const compareBase = targetPlayer || courtLineup[activePos];
+    const targetHeight = compareBase?.height_cm || 0;
+
     if (sortBy === 'salary_closest') {
       const targetSalary = targetPlayer?.salaryNum || 0;
       const targetYear = targetPlayer?.salaryYear;
@@ -278,9 +282,16 @@ export default function BasketballCourtTactics({
           ? (a.tacticalDistance ?? Infinity) - (b.tacticalDistance ?? Infinity)
           : difference;
       });
+    } else if (sortBy === 'height_closest') {
+      list.sort((a, b) => {
+        const diffA = Math.abs((a.height_cm || 0) - targetHeight);
+        const diffB = Math.abs((b.height_cm || 0) - targetHeight);
+        if (diffA !== diffB) return diffA - diffB;
+        return (a.tacticalDistance ?? Infinity) - (b.tacticalDistance ?? Infinity);
+      });
     }
     return list;
-  }, [availableCandidates, sortBy, targetPlayer?.salaryNum, targetPlayer?.salaryYear]);
+  }, [availableCandidates, sortBy, targetPlayer?.salaryNum, targetPlayer?.salaryYear, targetPlayer?.height_cm, courtLineup, activePos]);
 
   // 기존 결장 선수와 연봉이 가장 가까운 후보 선수 ID 탐색
   const closestCandidateId = useMemo(() => {
@@ -300,12 +311,31 @@ export default function BasketballCourtTactics({
     return closestId;
   }, [targetPlayer?.salaryNum, targetPlayer?.salaryYear, sortedCandidates]);
 
-  // 연봉 근접순 전환 시 기준 선수와 연봉 차이가 가장 작은 후보로 자동 스크롤
+  // 기존 결장 선수와 신장(Height)이 가장 가까운 후보 선수 ID 탐색
+  const closestHeightCandidateId = useMemo(() => {
+    const targetH = targetPlayer?.height_cm || courtLineup[activePos]?.height_cm;
+    if (!targetH || sortedCandidates.length === 0) return null;
+    let minDiff = Infinity;
+    let closestId = null;
+    for (const c of sortedCandidates) {
+      if (c.height_cm) {
+        const diff = Math.abs(c.height_cm - targetH);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestId = c.id;
+        }
+      }
+    }
+    return closestId;
+  }, [targetPlayer?.height_cm, courtLineup, activePos, sortedCandidates]);
+
+  // 연봉/신장 근접순 전환 시 가장 근접한 후보로 자동 스크롤
   useEffect(() => {
-    if (sortBy === 'salary_closest' && closestCandidateId && candidateListRef.current) {
+    const targetId = sortBy === 'salary_closest' ? closestCandidateId : sortBy === 'height_closest' ? closestHeightCandidateId : null;
+    if (targetId && candidateListRef.current) {
       const timer = setTimeout(() => {
         const container = candidateListRef.current;
-        const el = document.getElementById(`cand-item-${closestCandidateId}`);
+        const el = document.getElementById(`cand-item-${targetId}`);
         if (container && el) {
           const containerRect = container.getBoundingClientRect();
           const elRect = el.getBoundingClientRect();
@@ -318,7 +348,7 @@ export default function BasketballCourtTactics({
       }, 120);
       return () => clearTimeout(timer);
     }
-  }, [sortBy, closestCandidateId]);
+  }, [sortBy, closestCandidateId, closestHeightCandidateId]);
 
   // 코트 내 동일 선수가 복수 포지션에 중복 기용되었는지 실시간 감지
   // { [posKey]: { otherPoses: ['PF'], playerName: 'Mobley' } }
@@ -376,7 +406,8 @@ export default function BasketballCourtTactics({
     { key: 'pts', label: '득점 PTS', unit: 'PTS', max: 35 },
     { key: 'reb', label: '리바운드', unit: 'TRB', max: 16 },
     { key: 'ast', label: '어시스트', unit: 'AST', max: 12 },
-    { key: 'x3p', label: '3점 성공률', unit: '%', max: 50 }
+    { key: 'x3p', label: '3점 성공률', unit: '%', max: 50 },
+    { key: 'height', label: '평균 신장', unit: 'cm', max: 220 }
   ];
 
   return (
@@ -449,6 +480,16 @@ export default function BasketballCourtTactics({
         </div>
 
         <div className="court-header-actions">
+          {onAnalyzeMatchup && (
+            <button
+              type="button"
+              className="btn-analyze-matchup"
+              onClick={() => onAnalyzeMatchup({ lineup: courtLineup, replacedSlots, tacticLayout })}
+              title="현재 5인 라인업으로 두 팀 경기 전략 분석하기"
+            >
+              <Sparkles size={14} /> 이 라인업으로 경기 전략 분석
+            </button>
+          )}
           <button className="btn-reset-court" onClick={handleResetLineup} title="원래 선발 라인업으로 복원">
             <RotateCcw size={14} /> 라인업 초기화
           </button>
@@ -585,16 +626,28 @@ export default function BasketballCourtTactics({
                       )}
                     </div>
 
-                    {/* 선수 이름 및 소속 (중복 기용 시 주의 경고 안내 표시) */}
+                    {/* 선수 이름 및 소속/신장 (중복 기용 시 주의 경고 안내 표시) */}
                     <div className={`node-info-plate ${isDuplicate ? 'node-info-duplicate' : ''}`}>
                       <span
                         className="node-player-name"
                         title={currentPlayer
-                          ? `${currentPlayer.name} · ${currentPlayer.team} · ${currentPlayer.stats?.pts || 0} PTS`
+                          ? `${currentPlayer.name} · ${currentPlayer.team} · ${currentPlayer.height_cm ? currentPlayer.height_cm + 'cm' : ''} · ${currentPlayer.stats?.pts || 0} PTS`
                           : '공석'}
                       >
                         {currentPlayer ? currentPlayer.name.split(' ').pop() : '공석'}
                       </span>
+                      {currentPlayer?.height_cm && (
+                        <span style={{
+                          display: 'block',
+                          fontSize: '0.62rem',
+                          color: '#38bdf8',
+                          fontWeight: 700,
+                          lineHeight: 1,
+                          marginTop: '1px'
+                        }}>
+                          {currentPlayer.height_cm}cm
+                        </span>
+                      )}
                     </div>
                   </div>
                 );
@@ -631,8 +684,8 @@ export default function BasketballCourtTactics({
                   const delta = Number((after - before).toFixed(1));
                   const beforeWidth = Math.min((before / metric.max) * 100, 100);
                   const afterWidth = Math.min((after / metric.max) * 100, 100);
-                  const valueSuffix = metric.key === 'x3p' ? '%' : '';
-                  const deltaLabel = `${delta > 0 ? '+' : ''}${delta.toFixed(1)}${metric.key === 'x3p' ? '%p' : ''}`;
+                  const valueSuffix = metric.key === 'x3p' ? '%' : metric.key === 'height' ? 'cm' : '';
+                  const deltaLabel = `${delta > 0 ? '+' : ''}${delta.toFixed(1)}${metric.key === 'x3p' ? '%p' : metric.key === 'height' ? 'cm' : ''}`;
 
                   return (
                     <div className="lineup-chart-row" role="listitem" key={metric.key}>
@@ -660,6 +713,46 @@ export default function BasketballCourtTactics({
                   );
                 })}
               </div>
+
+              {(() => {
+                const heightDelta = Number(((courtStats.height || 0) - (originalCourtStats.height || 0)).toFixed(1));
+                if (Math.abs(heightDelta) < 0.5) return null;
+                const isSmallBall = heightDelta < 0;
+                return (
+                  <div style={{
+                    marginTop: '10px',
+                    padding: '6px 12px',
+                    borderRadius: '6px',
+                    fontSize: '0.74rem',
+                    lineHeight: 1.4,
+                    background: isSmallBall ? '#eff6ff' : '#f0fdf4',
+                    border: `1px solid ${isSmallBall ? '#bfdbfe' : '#bbf7d0'}`,
+                    color: isSmallBall ? '#1e40af' : '#166534',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px'
+                  }}>
+                    <Sparkles size={14} style={{ flexShrink: 0 }} />
+                    <span>
+                      <strong>{isSmallBall ? '⚡ 스몰볼 라인업 가속' : '🛡️ 빅 라인업 높이 보강'}:</strong>{' '}
+                      평균 신장이 <strong>{Math.abs(heightDelta)}cm</strong> {isSmallBall ? '감소하여 볼 전환 속도와 외곽 공간 창출이 유리해지나, 골밑 리바운드 박스아웃에 집중해야 합니다.' : '증가하여 림 프로텍션과 골밑 페인트존 장악력이 한층 강화됩니다.'}
+                    </span>
+                  </div>
+                );
+              })()}
+
+              {onAnalyzeMatchup && (
+                <div style={{ marginTop: '12px' }}>
+                  <button
+                    type="button"
+                    className="btn-matchup-cta-full"
+                    onClick={() => onAnalyzeMatchup({ lineup: courtLineup, replacedSlots, tacticLayout })}
+                  >
+                    <Sparkles size={16} />
+                    <span><strong>이 5인 라인업으로 경기 전략 분석</strong> (AI 맞대결 시뮬레이션)</span>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -695,7 +788,7 @@ export default function BasketballCourtTactics({
               </button>
             </div>
 
-            {/* 우측: 전술 적합도순 / 기준 선수와 연봉 근접순 정렬 */}
+            {/* 우측: 전술 적합도순 / 기준 선수와 연봉 근접순 / 신장 근접순 정렬 */}
             {!sameTeamOnly && (
               <div className="tactics-sort-toggle-group">
                 <button
@@ -715,11 +808,25 @@ export default function BasketballCourtTactics({
                   <DollarSign size={13} />
                   <span>연봉 근접순</span>
                 </button>
+                <button
+                  type="button"
+                  className={`sort-toggle-pill height-pill ${sortBy === 'height_closest' ? 'active' : ''}`}
+                  onClick={() => setSortBy(sortBy === 'height_closest' ? 'tactical' : 'height_closest')}
+                  title="포지션 높이 유지를 위해 기준 결장 선수와 신장 차이가 가장 작은 순서로 정렬합니다."
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '3px'
+                  }}
+                >
+                  <ArrowUpDown size={13} />
+                  <span>신장 근접순</span>
+                </button>
               </div>
             )}
           </div>
 
-          {/* 1:1 비교 안내 및 기준 결장 선수 연봉 바 */}
+          {/* 1:1 비교 안내 및 기준 결장 선수 연봉/신장 바 */}
           <div className="cand-compare-hint-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.4rem' }}>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
               <Sparkles size={12} className="hint-icon" />
@@ -741,8 +848,16 @@ export default function BasketballCourtTactics({
                 <span>기준 결장 선수: <strong>{targetPlayer.name}</strong></span>
                 <span style={{ color: '#94a3b8' }}>·</span>
                 <span style={{ color: '#059669', fontWeight: 800 }} title={getSalaryDisplay(targetPlayer)}>
-                  💰 기준 연봉: {getSalaryDisplay(targetPlayer, true)}
+                  💰 {getSalaryDisplay(targetPlayer, true)}
                 </span>
+                {targetPlayer.height_cm && (
+                  <>
+                    <span style={{ color: '#94a3b8' }}>·</span>
+                    <span style={{ color: '#0284c7', fontWeight: 800 }} title={`공식 신장: ${getHeightDisplay(targetPlayer)}`}>
+                      📏 {targetPlayer.height_cm}cm
+                    </span>
+                  </>
+                )}
               </div>
             )}
           </div>
@@ -778,6 +893,8 @@ export default function BasketballCourtTactics({
                 // 연봉 차이가 심한 기준 (1500만 달러 이상 혹은 800만 달러 이상이면서 40% 이상 차이)
                 const isSevereDiff = absDiff !== null && (absDiff >= 15000000 || (targetSal > 0 && absDiff >= 8000000 && absDiff / targetSal >= 0.4));
                 const isClosest = closestCandidateId === cand.id && sortBy === 'salary_closest';
+                const isHeightClosest = closestHeightCandidateId === cand.id && sortBy === 'height_closest';
+                const fitAnalysis = getPhysicalFitAnalysis(targetPlayer, cand);
 
                 return (
                   <div
@@ -847,6 +964,32 @@ export default function BasketballCourtTactics({
                             )}
                           </span>
                         )}
+                        {cand.height_cm && (
+                          <span
+                            className="cand-height-pill"
+                            style={{
+                              fontSize: '0.72rem',
+                              fontWeight: 700,
+                              color: fitAnalysis.color,
+                              background: fitAnalysis.bgColor,
+                              border: `1px solid ${fitAnalysis.borderColor}`,
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '3px'
+                            }}
+                            title={`공식 신장: ${cand.height_cm}cm (${cand.height_ft_in || ''}) - ${fitAnalysis.desc}`}
+                          >
+                            📏 {cand.height_cm}cm
+                            {targetPlayer?.height_cm && (
+                              <span style={{ fontSize: '0.65rem', fontWeight: 800 }}>
+                                ({fitAnalysis.diffCm > 0 ? `+${fitAnalysis.diffCm}cm` : fitAnalysis.diffCm === 0 ? '일치' : `${fitAnalysis.diffCm}cm`})
+                              </span>
+                            )}
+                          </span>
+                        )}
                         {isClosest && (
                           <span
                             style={{
@@ -863,6 +1006,24 @@ export default function BasketballCourtTactics({
                             title={`기존 결장 선수(${targetPlayer?.name})와 연봉 차이가 가장 적음 ($${(absDiff / 1000000).toFixed(1)}M 차이)`}
                           >
                             🎯 연봉 최단차
+                          </span>
+                        )}
+                        {isHeightClosest && (
+                          <span
+                            style={{
+                              fontSize: '0.68rem',
+                              fontWeight: 800,
+                              color: '#0284c7',
+                              background: '#e0f2fe',
+                              border: '1px solid #bae6fd',
+                              padding: '1px 6px',
+                              borderRadius: '4px',
+                              marginRight: '2px',
+                              whiteSpace: 'nowrap'
+                            }}
+                            title={`기존 결장 선수(${targetPlayer?.name})와 신장 차이가 가장 적음 (${Math.abs(fitAnalysis.diffCm)}cm 차이)`}
+                          >
+                            🎯 신장 최단차
                           </span>
                         )}
                         {candCluster && (
@@ -969,13 +1130,14 @@ export default function BasketballCourtTactics({
 
 function calculateLineupStats(lineup) {
   const players = Object.values(lineup || {}).filter(Boolean);
-  if (players.length === 0) return { pts: 0, reb: 0, ast: 0, x3p: 0 };
+  if (players.length === 0) return { pts: 0, reb: 0, ast: 0, x3p: 0, height: 0 };
 
   return {
     pts: players.reduce((sum, player) => sum + (player.stats?.pts || 0), 0) / players.length,
     reb: players.reduce((sum, player) => sum + (player.stats?.trb || 0), 0) / players.length,
     ast: players.reduce((sum, player) => sum + (player.stats?.ast || 0), 0) / players.length,
-    x3p: (players.reduce((sum, player) => sum + (player.stats?.x3p_pct || 0), 0) / players.length) * 100
+    x3p: (players.reduce((sum, player) => sum + (player.stats?.x3p_pct || 0), 0) / players.length) * 100,
+    height: players.reduce((sum, player) => sum + (player.height_cm || 198), 0) / players.length
   };
 }
 

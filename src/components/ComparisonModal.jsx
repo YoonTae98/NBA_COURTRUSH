@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RadarChart from './RadarChart';
-import { CLUSTERS, calculateKNNDistance, getSalaryDisplay } from '../data/mockPlayers';
+import { CLUSTERS, calculateKNNDistance, getSalaryDisplay, getPhysicalFitAnalysis, getHeightDisplay } from '../data/mockPlayers';
 import { X, CheckCircle, AlertTriangle, TrendingUp, Sparkles, SlidersHorizontal, BarChart2, Cpu, ChevronDown } from 'lucide-react';
 
 export default function ComparisonModal({ target, candidate, allPlayers = [], onClose }) {
@@ -90,7 +90,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
   // AI 스카우터 코멘트 생성
   const generateScoutingReport = () => {
     const isSameCluster = target.clusterId === activeCandidate.clusterId;
-    
+
     // 파생변수 기반 전술적 격차 분석
     const t3p = getValue(target, 'three_point_share');
     const c3p = getValue(activeCandidate, 'three_point_share');
@@ -108,12 +108,20 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
     const cTrb = getValue(activeCandidate, 'trb_per_36_min');
     const diffTrb = cTrb - tTrb;
 
+    const heightDiff = (activeCandidate.height_cm || 0) - (target.height_cm || 0);
+    const heightFeedback = Math.abs(heightDiff) <= 2
+      ? `신장 완벽 일치 (${activeCandidate.height_cm}cm): 포지션 높이 손실 없음`
+      : heightDiff > 2
+      ? `사이즈 우위 (+${heightDiff}cm): 포지션 시야 및 수비 컨테스트 확장`
+      : `언더사이즈 주의 (${heightDiff}cm): 미스매치 수비 및 골밑 경합 리스크`;
+
     return {
       isSameCluster,
       clusterMatchText: isSameCluster
         ? `동일 롤 [${targetCluster.name}] 소속으로 핵심 전술적 성향(Role)이 완벽히 일치합니다.`
         : `⚠️ 이종 롤 대결: [${targetCluster.name}] vs [${candidateCluster.name}] — 군집화 모델이 두 선수를 완전히 다른 역할로 분류했습니다.`,
       strengths: [
+        heightFeedback,
         diff3p >= 0
           ? `3점 외곽 스페이싱 성향 우위 (+${diff3p.toFixed(1)}% 3PAr)`
           : `외곽 3점슛 비중 현저히 낮음 (${diff3p.toFixed(1)}% 3PAr)`,
@@ -384,7 +392,10 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                 />
               </div>
               <h3 className="versus-name" style={{ color: '#0284c7' }}>{target.name}</h3>
-              <p className="versus-sub">{target.team} · {target.pos} · {target.age}세</p>
+              <p className="versus-sub">
+                {target.team} · {target.pos} · {target.age}세
+                {target.height_cm && ` · 📏 ${target.height_cm}cm (${target.height_ft_in || ''})`}
+              </p>
               <span className="versus-cluster" style={{ borderColor: targetCluster.color, color: targetCluster.color }}>
                 {targetCluster.name}
               </span>
@@ -400,8 +411,10 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                 const knnRes = calculateKNNDistance(target, activeCandidate);
                 const sameSalaryYear = target.salaryYear && target.salaryYear === activeCandidate.salaryYear;
                 const salDiff = (sameSalaryYear && target.salaryNum && activeCandidate.salaryNum)
-                  ? target.salaryNum - activeCandidate.salaryNum 
+                  ? target.salaryNum - activeCandidate.salaryNum
                   : null;
+                const fit = getPhysicalFitAnalysis(target, activeCandidate);
+
                 return (
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 4, gap: 2 }}>
                     <span style={{
@@ -423,7 +436,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                     </span>
                     {salDiff !== null && (
                       <span style={{
-                        marginTop: '4px',
+                        marginTop: '2px',
                         fontSize: '0.65rem',
                         fontWeight: 800,
                         padding: '2px 6px',
@@ -433,11 +446,24 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                         border: `1px solid ${salDiff > 0 ? '#a7f3d0' : '#fecaca'}`,
                         whiteSpace: 'nowrap'
                       }}>
-                        {salDiff > 0 
-                          ? `절감 -$${(salDiff / 1000000).toFixed(1)}M` 
+                        {salDiff > 0
+                          ? `절감 -$${(salDiff / 1000000).toFixed(1)}M`
                           : `추가 +$${(Math.abs(salDiff) / 1000000).toFixed(1)}M`}
                       </span>
                     )}
+                    <span style={{
+                      marginTop: '2px',
+                      fontSize: '0.64rem',
+                      fontWeight: 800,
+                      padding: '2px 6px',
+                      borderRadius: '4px',
+                      background: fit.bgColor,
+                      color: fit.color,
+                      border: `1px solid ${fit.borderColor}`,
+                      whiteSpace: 'nowrap'
+                    }} title={fit.desc}>
+                      {fit.badge} ({fit.diffCm > 0 ? `+${fit.diffCm}` : fit.diffCm === 0 ? '일치' : `${fit.diffCm}cm`})
+                    </span>
                   </div>
                 );
               })()}
@@ -459,7 +485,10 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                 />
               </div>
               <h3 className="versus-name" style={{ color: '#059669' }}>{activeCandidate.name}</h3>
-              <p className="versus-sub">{activeCandidate.team} · {activeCandidate.pos} · {activeCandidate.age}세</p>
+              <p className="versus-sub">
+                {activeCandidate.team} · {activeCandidate.pos} · {activeCandidate.age}세
+                {activeCandidate.height_cm && ` · 📏 ${activeCandidate.height_cm}cm (${activeCandidate.height_ft_in || ''})`}
+              </p>
               <span className="versus-cluster" style={{ borderColor: candidateCluster.color, color: candidateCluster.color }}>
                 {candidateCluster.name}
               </span>
@@ -468,6 +497,129 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
               </div>
             </div>
           </div>
+
+          {/* 현실적 스카우팅 타당성 3대 핵심 지표 (전술 유사도 · 재정 타당성 · 피지컬 적합도) */}
+          {(() => {
+            const knnRes = calculateKNNDistance(target, activeCandidate);
+            const sameSalaryYear = target.salaryYear && target.salaryYear === activeCandidate.salaryYear;
+            const salDiff = (sameSalaryYear && target.salaryNum && activeCandidate.salaryNum)
+              ? target.salaryNum - activeCandidate.salaryNum
+              : null;
+            const fit = getPhysicalFitAnalysis(target, activeCandidate);
+            const tH = target.height_cm || 198;
+            const cH = activeCandidate.height_cm || 198;
+            const maxH = 225;
+
+            return (
+              <div style={{
+                margin: '0.9rem 0 1.1rem',
+                background: '#f8fafc',
+                border: '1px solid #e2e8f0',
+                borderRadius: '10px',
+                padding: '0.8rem 1rem'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.6rem', flexWrap: 'wrap', gap: '4px' }}>
+                  <span style={{ fontSize: '0.8rem', fontWeight: 800, color: '#334155', display: 'flex', alignItems: 'center', gap: '5px' }}>
+                    <Sparkles size={14} color="#0ea5e9" />
+                    현실적 스카우팅 3대 타당성 종합 진단 (Feasibility Check)
+                  </span>
+                  <span style={{ fontSize: '0.72rem', color: '#64748b' }}>
+                    플레이 스타일 유사도뿐만 아니라 연봉과 피지컬 높이의 현실적 트레이드오프를 평가합니다.
+                  </span>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '0.75rem' }}>
+                  {/* 지표 1: 전술 일치도 */}
+                  <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '0.65rem 0.85rem' }}>
+                    <div style={{ fontSize: '0.72rem', fontWeight: 700, color: '#64748b', marginBottom: '3px' }}>
+                      1. 전술/플레이스타일 일치도
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                      <span style={{ fontSize: '1.05rem', fontWeight: 900, color: isDifferentCluster ? '#d97706' : '#059669' }}>
+                        {knnRes.score}점
+                      </span>
+                      <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#475569', background: '#f1f5f9', padding: '2px 6px', borderRadius: '4px' }}>
+                        거리 {knnRes.distance} · {knnRes.tier.split(' ')[0]}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: '0.68rem', color: '#64748b', marginTop: '4px' }}>
+                      {isDifferentCluster ? '군집 분리로 인한 전술 변경 필요' : '팀 공격 시스템 변동 없이 즉시 투입 가능'}
+                    </div>
+                  </div>
+
+                  {/* 지표 2: 재정적 타당성 */}
+                  <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '0.65rem 0.85rem' }}>
+                    <div style={{ fontSize: '0.72rem', fontWeight: 700, color: '#64748b', marginBottom: '3px' }}>
+                      2. 재정적 타당성 (Salary Gap)
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                      <span style={{
+                        fontSize: '1.05rem',
+                        fontWeight: 900,
+                        color: salDiff === null ? '#64748b' : salDiff >= 0 ? '#059669' : '#e11d48'
+                      }}>
+                        {salDiff !== null
+                          ? (salDiff >= 0 ? `-$${(salDiff / 1000000).toFixed(1)}M 절감` : `+$${(Math.abs(salDiff) / 1000000).toFixed(1)}M 지출`)
+                          : '연봉 비교 불가'}
+                      </span>
+                      <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#475569', background: '#f1f5f9', padding: '2px 6px', borderRadius: '4px' }}>
+                        후보 {activeCandidate.salaryShort || '-'}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: '0.68rem', color: '#64748b', marginTop: '4px' }}>
+                      {salDiff !== null && salDiff >= 0
+                        ? '샐러리 캡 여유 확보로 재정적 가성비 우수'
+                        : salDiff !== null && Math.abs(salDiff) > 8000000
+                        ? '⚠️ 과도한 추가 연봉 지출로 캡 공간 부담 우려'
+                        : '적정 재정 범위 내 영입 가능'}
+                    </div>
+                  </div>
+
+                  {/* 지표 3: 피지컬 높이 적합도 */}
+                  <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '0.65rem 0.85rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                      <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#64748b' }}>
+                        3. 피지컬 높이 적합도 (Height Match)
+                      </span>
+                      <span style={{
+                        fontSize: '0.68rem',
+                        fontWeight: 800,
+                        color: fit.color,
+                        background: fit.bgColor,
+                        border: `1px solid ${fit.borderColor}`,
+                        padding: '1px 5px',
+                        borderRadius: '4px'
+                      }}>
+                        {fit.badge}
+                      </span>
+                    </div>
+
+                    {/* 신장 바 비교 시각화 */}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '3px', margin: '4px 0' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.68rem' }}>
+                        <span style={{ width: '45px', color: '#0284c7', fontWeight: 700 }}>{target.name.split(' ').pop()}</span>
+                        <div style={{ flex: 1, height: '7px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+                          <div style={{ width: `${Math.min(100, (tH / maxH) * 100)}%`, height: '100%', background: '#38bdf8' }} />
+                        </div>
+                        <span style={{ width: '38px', textAlign: 'right', fontWeight: 700, color: '#0284c7' }}>{tH}cm</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.68rem' }}>
+                        <span style={{ width: '45px', color: '#059669', fontWeight: 700 }}>{activeCandidate.name.split(' ').pop()}</span>
+                        <div style={{ flex: 1, height: '7px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+                          <div style={{ width: `${Math.min(100, (cH / maxH) * 100)}%`, height: '100%', background: fit.color }} />
+                        </div>
+                        <span style={{ width: '38px', textAlign: 'right', fontWeight: 700, color: '#059669' }}>{cH}cm</span>
+                      </div>
+                    </div>
+
+                    <div style={{ fontSize: '0.68rem', color: fit.color, marginTop: '4px', lineHeight: 1.3 }}>
+                      {fit.desc}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
 
           <div className="modal-grid">
             {/* 좌측: 레이더 차트 */}

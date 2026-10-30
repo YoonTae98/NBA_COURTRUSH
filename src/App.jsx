@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { PLAYERS, CLUSTERS, calculateKNNDistance, getSalaryDisplay } from './data/mockPlayers';
+import { PLAYERS, CLUSTERS, calculateKNNDistance, getSalaryDisplay, getHeightDisplay } from './data/mockPlayers';
 import { NBA_TEAMS_2026, getTeamStanding } from './data/teamStandings2026';
 import TeamListView from './components/TeamListView';
 import TeamRosterView from './components/TeamRosterView';
@@ -29,6 +29,9 @@ export default function App() {
   // 1:1 비교 모달 대상 선수
   const [comparingCandidate, setComparingCandidate] = useState(null);
 
+  // 코트 전술판에서 구성한 맞춤 5인 라인업 데이터
+  const [customLineupData, setCustomLineupData] = useState(null);
+
   // 1) 1단계 -> 2단계: 팀 선택 핸들러
   const handleSelectTeam = (teamId) => {
     setSelectedTeamId(teamId);
@@ -51,6 +54,24 @@ export default function App() {
 
   const handleOpenMatchupStrategy = () => {
     setCurrentStep('MATCHUP');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleAnalyzeMatchupFromCourt = (lineupInfo) => {
+    setCustomLineupData({
+      ...lineupInfo,
+      team: currentTeamObj
+    });
+    setCurrentStep('MATCHUP');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleBackFromMatchup = () => {
+    if (customLineupData && selectedTeamId) {
+      setCurrentStep('SCOUT');
+    } else {
+      setCurrentStep('TEAMS');
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -145,7 +166,11 @@ export default function App() {
         )}
 
         {currentStep === 'MATCHUP' && (
-          <MatchupStrategyView onBack={handleBackToTeams} />
+          <MatchupStrategyView
+            onBack={handleBackFromMatchup}
+            customLineupData={customLineupData}
+            onClearCustomLineup={() => setCustomLineupData(null)}
+          />
         )}
 
         {/* =========================================================
@@ -243,6 +268,17 @@ export default function App() {
                           }} title={getSalaryDisplay(targetPlayer)}>
                             💰 연봉: {getSalaryDisplay(targetPlayer, true)}
                           </span>
+                          <span className="tag-pill height" style={{
+                            background: '#eff6ff',
+                            color: '#1d4ed8',
+                            border: '1px solid #bfdbfe',
+                            fontWeight: 800,
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '3px'
+                          }} title={`공식 신장: ${getHeightDisplay(targetPlayer)}`}>
+                            📏 신장: {getHeightDisplay(targetPlayer)}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -314,6 +350,7 @@ export default function App() {
                   clusters={CLUSTERS}
                   allPlayers={PLAYERS}
                   onCompare={(cand) => setComparingCandidate(cand)}
+                  onAnalyzeMatchup={handleAnalyzeMatchupFromCourt}
                 />
               </div>
             </section>
