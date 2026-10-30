@@ -136,7 +136,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
           : `수비 활동량 격차 (${diffStocks.toFixed(2)} STL+BLK)`
       ],
       recommendation: isSameCluster
-        ? `현재 ${target.name}의 결장 공백을 메우기에 팀 전술 변경 없이 가장 직관적으로 녹아들 수 있는 1순위 대체 카드입니다.`
+        ? `현재 ${target.name}의 결장 공백을 메우기 위해 팀 전술 변경 없이 로테이션에 자연스럽게 녹아들 수 있는 대체 후보입니다.`
         : `[군집화 모델 검증 결과] 두 선수의 플레이스타일이 상극이거나 역할이 다르므로 단순 1:1 대체 시 전술 시스템 전면 재설계가 필요합니다.`
     };
   };
