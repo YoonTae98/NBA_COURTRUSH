@@ -1,13 +1,14 @@
 import React, { useState, useMemo } from 'react';
 import { NBA_TEAMS_2026 } from '../data/teamStandings2026';
-import { Trophy, Globe2, Compass, Flame, ArrowRight, Sparkles } from 'lucide-react';
+import basketballHero from '../assets/basketball-hero.png';
+import { Globe2, Compass, Flame, ArrowRight, Sparkles } from 'lucide-react';
 
 /**
  * 1단계: 2026 시즌 NBA 팀 순위 전용 뷰 (초기 첫 화면)
  * 30개 NBA 구단의 공식 순위, 로고, 3자리 알파벳 약칭을 크게 표시합니다.
  * 팀을 클릭하면 2단계(선수 로스터 뷰)로 전환됩니다.
  */
-export default function TeamListView({ onSelectTeam }) {
+export default function TeamListView({ onSelectTeam, onOpenMatchup }) {
   const [conferenceTab, setConferenceTab] = useState('OVERALL'); // 'OVERALL' | 'WEST' | 'EAST'
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -43,15 +44,44 @@ export default function TeamListView({ onSelectTeam }) {
         </div>
 
         <h1 className="team-hero-title">
-          <Trophy size={32} className="trophy-gold" />
-          2025-26 NBA 공식 팀 순위표
+          <span className="team-hero-season">2025–26 NBA</span>
+          <strong>팀 순위 한눈에.</strong>
         </h1>
         <p className="team-hero-desc">
-          NBA 30개 구단의 2026 시즌 공식 순위입니다. 구단을 선택하시면 해당 팀의 <strong>선수 로스터</strong>를 확인하고 결장 대체 분석을 시작할 수 있습니다.
+          30개 구단의 순위를 살펴보고, 팀을 선택해 선수 로스터와 대체 선수 추천까지 이어서 확인하세요.
         </p>
 
-        {/* 탭 및 컨트롤 */}
-        <div className="team-filter-controls">
+        <div className="league-snapshot" aria-label="리그 및 분석 요약">
+          <div className="snapshot-item">
+            <span className="snapshot-value">30</span>
+            <span className="snapshot-label">NBA 구단</span>
+          </div>
+          <div className="snapshot-item">
+            <span className="snapshot-value">02</span>
+            <span className="snapshot-label">컨퍼런스</span>
+          </div>
+          <div className="snapshot-item snapshot-method">
+            <span className="snapshot-value">K-means <i>→</i> KNN</span>
+            <span className="snapshot-label">군집 기반 대체 선수 탐색</span>
+          </div>
+        </div>
+
+        <button className="matchup-entry-button" onClick={onOpenMatchup}>
+          <span className="matchup-entry-icon"><Sparkles size={15} /></span>
+          <span className="matchup-entry-copy">
+            <strong>두 팀 경기 전략 분석</strong>
+            <small>공격·수비 기록 비교와 코트 배치 제안</small>
+          </span>
+          <ArrowRight size={17} />
+        </button>
+
+        <div className="hero-art" aria-hidden="true">
+          <img className="hero-action-photo" src={basketballHero} alt="" />
+        </div>
+      </section>
+
+      {/* 탭 및 검색 컨트롤 */}
+      <div className="team-filter-controls">
           <div className="conf-tab-group">
             <button
               className={`conf-pill-btn ${conferenceTab === 'OVERALL' ? 'active' : ''}`}
@@ -76,14 +106,14 @@ export default function TeamListView({ onSelectTeam }) {
           <div className="team-quick-search">
             <input
               type="text"
-              placeholder="3자리 코드(GSW, LAL...) 또는 스타 선수명 검색..."
+              placeholder="팀 코드(GSW) 또는 선수명 검색"
+              title="팀 코드(GSW, LAL 등) 또는 스타 선수 이름으로 검색"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="team-search-input"
             />
           </div>
-        </div>
-      </section>
+      </div>
 
       {/* 30개 구단 대형 그리드 */}
       <section className="teams-grid-container">

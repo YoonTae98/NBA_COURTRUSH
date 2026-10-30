@@ -1,5 +1,5 @@
 import React from 'react';
-import { CLUSTERS } from '../data/mockPlayers';
+import { CLUSTERS, getSalaryDisplay } from '../data/mockPlayers';
 import { ArrowRightLeft, UserCheck, Shield, Target } from 'lucide-react';
 
 export default function PlayerCard({
@@ -47,7 +47,7 @@ export default function PlayerCard({
                 borderRadius: '4px', 
                 fontSize: '0.72rem' 
               }}>
-                {player.salaryShort && player.salaryShort !== '-' ? `💰 ${player.salaryShort}` : 'Two-Way'}
+                💰 {getSalaryDisplay(player, true)}
               </span>
             </div>
           </div>

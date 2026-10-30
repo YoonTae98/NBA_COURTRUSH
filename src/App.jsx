@@ -1,16 +1,18 @@
 import React, { useState, useMemo } from 'react';
-import { PLAYERS, CLUSTERS, calculateKNNDistance } from './data/mockPlayers';
+import { PLAYERS, CLUSTERS, calculateKNNDistance, getSalaryDisplay } from './data/mockPlayers';
 import { NBA_TEAMS_2026, getTeamStanding } from './data/teamStandings2026';
 import TeamListView from './components/TeamListView';
 import TeamRosterView from './components/TeamRosterView';
 import RadarChart from './components/RadarChart';
 import BasketballCourtTactics from './components/BasketballCourtTactics';
+import MatchupStrategyView from './components/MatchupStrategyView';
 import ComparisonModal from './components/ComparisonModal';
 import {
   ArrowLeft,
   Home,
   Target,
-  ShieldCheck
+  ShieldCheck,
+  GitBranch
 } from 'lucide-react';
 import './App.css';
 
@@ -44,6 +46,11 @@ export default function App() {
   // 3) 뒤로가기 핸들러들
   const handleBackToTeams = () => {
     setCurrentStep('TEAMS');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleOpenMatchupStrategy = () => {
+    setCurrentStep('MATCHUP');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -103,22 +110,26 @@ export default function App() {
       <header className="navbar">
         <div className="nav-left">
           <div className="logo-badge" onClick={handleBackToTeams} style={{ cursor: 'pointer' }}>
-            <span className="logo-icon">🏀</span>
+            <span className="logo-icon" role="img" aria-label="COURT RUSH 농구공 로고">
+              <span aria-hidden="true">🏀</span>
+            </span>
             <div className="logo-text">
-              <span className="brand-name">CourtScout AI</span>
+              <span className="brand-name">COURT RUSH</span>
               <span className="brand-sub">NBA 머신러닝 군집화 기반 대체 선수 스카우팅</span>
             </div>
           </div>
-          <span className="kdt-tag">KDT Project 3</span>
         </div>
 
         <div className="nav-right">
           <a
-            href="file:///c:/Users/lgiht/OneDrive/문서/ML/kdt_project3.ipynb"
+            href="https://github.com/Youngchan0503/contest_NBA"
             className="btn-doc-link"
-            title="노트북 파일 확인"
+            title="GitHub 프로젝트 저장소 열기"
+            target="_blank"
+            rel="noreferrer"
           >
-            kdt_project3.ipynb
+            <GitBranch size={15} />
+            <span>프로젝트 저장소</span>
           </a>
         </div>
       </header>
@@ -130,7 +141,11 @@ export default function App() {
             팀 목록만 크고 깔끔하게 표시됨 (로고 & 3자리 알파벳 약칭)
             ========================================================= */}
         {currentStep === 'TEAMS' && (
-          <TeamListView onSelectTeam={handleSelectTeam} />
+          <TeamListView onSelectTeam={handleSelectTeam} onOpenMatchup={handleOpenMatchupStrategy} />
+        )}
+
+        {currentStep === 'MATCHUP' && (
+          <MatchupStrategyView onBack={handleBackToTeams} />
         )}
 
         {/* =========================================================
@@ -195,10 +210,15 @@ export default function App() {
                           alt={targetPlayer.name}
                           className="spotlight-headshot-img"
                           onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = 'https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png';
+                            e.currentTarget.onerror = null;
+                            e.currentTarget.style.display = 'none';
+                            const fallback = e.currentTarget.parentElement.querySelector('.spotlight-photo-fallback');
+                            if (fallback) fallback.hidden = false;
                           }}
                         />
+                        <span className="spotlight-photo-fallback" hidden aria-hidden="true">
+                          {targetPlayer.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join('')}
+                        </span>
                         <span className="spotlight-team-tag">{targetPlayer.team}</span>
                       </div>
 
@@ -220,8 +240,8 @@ export default function App() {
                             display: 'inline-flex',
                             alignItems: 'center',
                             gap: '3px'
-                          }}>
-                            💰 2026 연봉: {targetPlayer.salary || targetPlayer.salaryShort || 'Two-Way / 미계약'}
+                          }} title={getSalaryDisplay(targetPlayer)}>
+                            💰 연봉: {getSalaryDisplay(targetPlayer, true)}
                           </span>
                         </div>
                       </div>
@@ -233,7 +253,7 @@ export default function App() {
                     <div className="spotlight-radar-label">
                       <span>선수 고유 6대 지표 역량 방사형 차트</span>
                     </div>
-                    <RadarChart p1={targetPlayer} size={280} />
+                    <RadarChart p1={targetPlayer} size={360} />
                   </div>
 
                   {/* 3. 그 아래: 군집 뱃지 (군집 2 등) 및 설명 */}
@@ -252,7 +272,9 @@ export default function App() {
                     </div>
                   </div>
 
-                  <p className="cluster-description">{targetCluster.desc}</p>
+                  <div className="cluster-description">
+                    <p>{targetCluster.desc}</p>
+                  </div>
 
                   {/* 4. 주요 스탯 그리드 (3x2 컴팩트 레이아웃) */}
                   <div className="spotlight-stats-row">
@@ -312,7 +334,7 @@ export default function App() {
       {/* 푸터 */}
       <footer className="footer">
         <div>
-          <strong>CourtScout AI</strong> — NBA Player Similarity & Replacement Recommendation System
+          <strong>COURT RUSH</strong> — NBA Player Similarity & Replacement Recommendation System
         </div>
         <div className="footer-sub">
           K-Digital Training AI/Data Engineering Project 3 | Machine Learning Clustering & Analytics

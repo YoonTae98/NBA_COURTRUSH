@@ -9,6 +9,7 @@ import {
   Sparkles,
   Trophy
 } from 'lucide-react';
+import { getSalaryDisplay } from '../data/mockPlayers';
 
 /**
  * 2단계: 선택된 구단의 선수 로스터 뷰
@@ -199,10 +200,15 @@ export default function TeamRosterView({
                     className="player-photo-lg"
                     loading="lazy"
                     onError={(e) => {
-                      e.target.onerror = null;
-                      e.target.src = 'https://cdn.nba.com/headshots/nba/latest/260x190/fallback.png';
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.style.display = 'none';
+                      const fallback = e.currentTarget.parentElement.querySelector('.player-photo-fallback');
+                      if (fallback) fallback.hidden = false;
                     }}
                   />
+                  <div className="player-photo-fallback" hidden aria-hidden="true">
+                    {player.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join('')}
+                  </div>
                 </div>
 
                 {/* 선수명 및 연봉 */}
@@ -213,7 +219,7 @@ export default function TeamRosterView({
                       {cluster.name}
                     </span>
                     <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#059669', background: '#ecfdf5', border: '1px solid #a7f3d0', padding: '1px 5px', borderRadius: '4px' }}>
-                      {player.salaryShort && player.salaryShort !== '-' ? `💰 ${player.salaryShort}` : 'Two-Way'}
+                      💰 {getSalaryDisplay(player, true)}
                     </span>
                   </div>
                 </div>

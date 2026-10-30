@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RadarChart from './RadarChart';
-import { CLUSTERS, calculateKNNDistance } from '../data/mockPlayers';
+import { CLUSTERS, calculateKNNDistance, getSalaryDisplay } from '../data/mockPlayers';
 import { X, CheckCircle, AlertTriangle, TrendingUp, Sparkles, SlidersHorizontal, BarChart2, Cpu, ChevronDown } from 'lucide-react';
 
 export default function ComparisonModal({ target, candidate, allPlayers = [], onClose }) {
@@ -389,7 +389,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                 {targetCluster.name}
               </span>
               <div style={{ marginTop: '6px', fontSize: '0.8rem', fontWeight: 800, color: '#047857', background: '#ecfdf5', padding: '2px 8px', borderRadius: '6px', border: '1px solid #a7f3d0' }}>
-                연봉: {target.salary || 'Two-Way / 미계약'}
+                연봉: {getSalaryDisplay(target)}
               </div>
             </div>
 
@@ -398,7 +398,8 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
               <span style={{ fontSize: '1.1rem', fontWeight: 900 }}>VS</span>
               {(() => {
                 const knnRes = calculateKNNDistance(target, activeCandidate);
-                const salDiff = (target.salaryNum && activeCandidate.salaryNum) 
+                const sameSalaryYear = target.salaryYear && target.salaryYear === activeCandidate.salaryYear;
+                const salDiff = (sameSalaryYear && target.salaryNum && activeCandidate.salaryNum)
                   ? target.salaryNum - activeCandidate.salaryNum 
                   : null;
                 return (
@@ -463,7 +464,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
                 {candidateCluster.name}
               </span>
               <div style={{ marginTop: '6px', fontSize: '0.8rem', fontWeight: 800, color: '#047857', background: '#ecfdf5', padding: '2px 8px', borderRadius: '6px', border: '1px solid #a7f3d0' }}>
-                연봉: {activeCandidate.salary || 'Two-Way / 미계약'}
+                연봉: {getSalaryDisplay(activeCandidate)}
               </div>
             </div>
           </div>
@@ -610,7 +611,7 @@ export default function ComparisonModal({ target, candidate, allPlayers = [], on
           <div className="scouting-summary-box">
             <div className="scouting-summary-header">
               <Sparkles size={18} style={{ color: '#38bdf8' }} />
-              <strong>CourtScout AI 전술적 대체 평가 리포트</strong>
+              <strong>COURT RUSH 전술적 대체 평가 리포트</strong>
             </div>
             <p className="summary-match-reason">{report.clusterMatchText}</p>
             <div className="summary-tags">
